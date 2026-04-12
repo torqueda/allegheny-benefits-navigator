@@ -1,0 +1,103 @@
+{
+  "session_meta": {
+    "session_id": "uuid",
+    "run_id": "uuid",
+    "case_id": "optional-string",
+    "mode": "synthetic_test",
+    "created_at": "ISO-8601",
+    "app_version": "string",
+    "ruleset_version": "string",
+    "template_version": "string",
+    "program_scope": [
+      "SNAP",
+      "Medicaid/CHIP",
+      "LIHEAP",
+      "WIC",
+      "local_referral_pathway"
+    ],
+    "policy_snapshot_version": "string",
+    "llm_enabled": false,
+    "llm_model": null
+  },
+  "input": {
+    "raw_form_input": {},
+    "source": "ui_form"
+  },
+  "intake": {
+    "household_profile": {
+      "county": null,
+      "zip_code": null,
+      "num_adults": null,
+      "num_children": null,
+      "child_under_5": null,
+      "pregnant_household_member": null,
+      "elderly_or_disabled_member": null,
+      "employment_status": null,
+      "monthly_earned_income": null,
+      "monthly_unearned_income": null,
+      "household_income_total": null,
+      "housing_cost": null,
+      "utility_burden": null,
+      "heating_assistance_need": null,
+      "insurance_status": null,
+      "recent_job_loss": null,
+      "food_insecurity_signal": null,
+      "language_or_stress_notes": null
+    },
+    "missing_fields": [],
+    "contradictory_fields": [],
+    "validation_warnings": [],
+    "intake_status": "complete",
+    "clarification_questions": []
+  },
+  "eligibility_prioritization": {
+    "program_assessments": [
+      {
+        "program_name": "SNAP",
+        "status": "likely_applicable",
+        "matched_conditions": [],
+        "failed_conditions": [],
+        "missing_evidence": [],
+        "caveats": [],
+        "source_refs": []
+      }
+    ],
+    "uncertainty_flags": [],
+    "priority_order": [],
+    "priority_rationale": [],
+    "decision_status": "ready_for_explanation"
+  },
+  "checklist_explanation": {
+    "checklist_items_by_program": {},
+    "recommended_programs": [],
+    "next_steps": [],
+    "visible_caveats": [],
+    "referral_notes": [],
+    "user_explanation": "",
+    "final_status": "delivered"
+  },
+  "audit": {
+    "events": [
+      {
+        "component": "intake",
+        "event_type": "validation_complete",
+        "timestamp": "ISO-8601",
+        "details": {}
+      }
+    ],
+    "errors": [
+      {
+        "component": "eligibility_prioritization",
+        "error_type": "rule_conflict",
+        "message": "string",
+        "timestamp": "ISO-8601"
+      }
+    ],
+    "timings_ms": {
+      "intake": 0,
+      "eligibility_prioritization": 0,
+      "checklist_explanation": 0,
+      "total": 0
+    }
+  }
+}
