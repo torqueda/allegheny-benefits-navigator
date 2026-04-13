@@ -18,17 +18,19 @@ flowchart LR
     A["Structured Household Input"] --> B["Component 1: Intake"]
     B --> C{"Intake Status"}
     C -->|"complete"| D["Component 2: Eligibility + Prioritization"]
-    C -->|"needs clarification"| D
-    C -->|"insufficient data"| G["Bounded clarification or referral message"]
+    C -->|"needs clarification"| G["Clarification message / request for more information"]
+    G --> H["User provides missing or corrected information"]
+    H --> B
+    C -->|"insufficient data"| I["Bounded clarification or referral message"]
     D --> E{"Decision Status"}
     E -->|"ready_for_explanation"| F["Component 3: Checklist + Explanation"]
     E -->|"ambiguous"| F
-    E -->|"insufficient_data"| G
-    F --> H["User-facing next steps, caveats, and checklist"]
-    B -. writes .-> I["Session State"]
-    D -. reads/writes .-> I
-    F -. reads/writes .-> I
-    I -. audit logs / timings .-> J["Trace JSON per run"]
+    E -->|"insufficient_data"| I
+    F --> J["User-facing next steps, caveats, and checklist"]
+    B -. writes .-> S["Session State"]
+    D -. reads/writes .-> S
+    F -. reads/writes .-> S
+    S -. audit logs / timings .-> K["Trace JSON per run"]
 ```
 
 ## Role definitions
@@ -51,7 +53,9 @@ flowchart LR
 
 ## Coordination logic
 - The system always starts with Intake.
-- Intake hands off when the profile is complete or when the synthetic harness intentionally allows ambiguous cases through.
+- In the normal user flow, Intake hands off only when the profile is complete enough to continue.
+- If Intake returns `needs clarification`, the system should ask for more information and loop back through Intake rather than moving directly into eligibility reasoning.
+- In synthetic evaluation mode, we may intentionally allow some clarification-needing cases to continue so that ambiguity handling can still be tested in downstream components.
 - Eligibility + Prioritization always returns structured per-program assessments before any user-facing explanation is generated.
 - Checklist + Explanation can only use upstream structured outputs and cannot override decision state.
 - The process stops after a bounded user-facing output is generated or when the case is too incomplete for prescreening.
