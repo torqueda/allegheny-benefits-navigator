@@ -19,7 +19,7 @@ from src.models.session import (
 
 def create_initial_session_state(
     case_id: str | None = None,
-    raw_form_input: Dict[str, any] = None,
+    raw_form_input: Dict[str, Any] | None = None,
 ) -> SessionState:
     """Create initial session state for a new run."""
     if raw_form_input is None:

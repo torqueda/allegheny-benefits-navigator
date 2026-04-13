@@ -1,0 +1,16 @@
+﻿program_id,heuristic_id,field_name,operator,value,weight,reason_text,source_id
+snap,SNAP_H_01,food_insecurity_signal,==,clear,5,Clear food hardship should move SNAP higher in the recommendation order.,SNAP_SRC_01
+snap,SNAP_H_02,food_insecurity_signal,==,possible,3,"Possible food hardship supports recommending SNAP, but with slightly less urgency than a clear signal.",SNAP_SRC_01
+snap,SNAP_H_03,recent_job_loss,==,TRUE,3,Recent income disruption can increase urgency for food assistance.,SNAP_SRC_01
+snap,SNAP_H_04,num_children,>=,1,2,Households with children should be prioritized somewhat higher for food assistance support.,SNAP_SRC_01
+snap,SNAP_H_05,elderly_or_disabled_member,==,TRUE,2,Older-adult or disability-related needs can raise the practical importance of SNAP even when eligibility needs closer review.,SNAP_SRC_01
+medicaid,MED_H_01,insurance_status,==,uninsured,5,No health coverage is a strong signal to prioritize Medicaid screening.,MED_SRC_04
+medicaid,MED_H_02,insurance_status,==,underinsured,3,Underinsurance still indicates unmet healthcare risk and can justify a Medicaid recommendation.,MED_SRC_04
+medicaid,MED_H_03,pregnant_household_member,==,TRUE,5,Pregnancy should elevate Medicaid because coverage can begin during pregnancy and continue postpartum.,MED_SRC_03
+medicaid,MED_H_04,num_children,>=,1,3,Children in the household increase the value of screening for Medicaid/MA child coverage.,MED_SRC_03
+medicaid,MED_H_05,elderly_or_disabled_member,==,TRUE,3,An elderly or disabled household member raises the value of Medicaid review even when Phase 2 rules treat the case as partially ambiguous.,MED_SRC_02
+liheap,LIH_H_01,heating_assistance_need,==,TRUE,5,A household that needs help with heating bills should prioritize LIHEAP.,LIHEAP_SRC_01
+liheap,LIH_H_02,utility_burden,==,high,4,High utility burden is a strong signal for LIHEAP urgency and possible crisis follow-up.,LIHEAP_SRC_01
+liheap,LIH_H_03,recent_job_loss,==,TRUE,2,Recent job loss can make heating costs newly unaffordable and increases LIHEAP urgency.,LIHEAP_SRC_01
+liheap,LIH_H_04,elderly_or_disabled_member,==,TRUE,2,Households with elderly or disabled members may face higher risk from heating instability.,LIHEAP_SRC_01
+liheap,LIH_H_05,num_children,>=,1,1,Households with children may warrant slightly higher LIHEAP priority because heating instability affects the entire family.,LIHEAP_SRC_01

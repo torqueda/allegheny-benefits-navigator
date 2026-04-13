@@ -1,0 +1,11 @@
+﻿program_id,source_id,source_title,source_url,source_type,accessed_date,effective_date,source_scope
+snap,SNAP_SRC_01,Supplemental Nutrition Assistance Program (SNAP) | Department of Human Services | Commonwealth of Pennsylvania,https://www.pa.gov/agencies/dhs/resources/snap,webpage,4/13/26,,overview
+snap,SNAP_SRC_02,SNAP Income Limits | Department of Human Services | Commonwealth of Pennsylvania,https://www.pa.gov/agencies/dhs/resources/snap/snap-income-limits,webpage,4/13/26,10/1/25,income_limits
+snap,SNAP_SRC_03,Pennsylvania Application for the Supplemental Nutrition Assistance Program (SNAP),https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/assistance/documents/benefits-applications/PA%20600%20FS%20SG%20%E2%80%94%20SNAP.pdf,pdf,4/13/26,,application_docs
+medicaid,MED_SRC_01,Medicaid | Department of Human Services | Commonwealth of Pennsylvania,https://www.pa.gov/agencies/dhs/resources/medicaid,webpage,4/13/26,,overview
+medicaid,MED_SRC_02,Medicaid / Medical Assistance General Eligibility Requirements,https://www.pa.gov/agencies/dhs/resources/medicaid/medicaid-general-eligibility,webpage,4/13/26,,general_eligibility
+medicaid,MED_SRC_03,Pregnancy and Family Planning | Department of Human Services | Commonwealth of Pennsylvania,https://www.pa.gov/agencies/dhs/resources/medicaid/pregnancy-family-planning,webpage,4/13/26,,children_pregnancy_pathways
+medicaid,MED_SRC_04,Apply for Medicaid Benefits | Commonwealth of Pennsylvania,https://www.pa.gov/services/dhs/apply-for-medicaid-benefits,webpage,4/13/26,,application_overview
+medicaid,MED_SRC_05,Application for Health Care Coverage,https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/assistance/healthcare-and-medical-assistance/MA-HealthCare%20Coverage%20Application.pdf,pdf,4/13/26,,application_docs
+medicaid,MED_SRC_06,Federal Poverty Income Guidelines | Department of Human Services | Commonwealth of Pennsylvania,https://www.pa.gov/agencies/dhs/resources/data-reports/federal-poverty-income-guidelines,webpage,4/13/26,1/13/26,income_limits
+liheap,LIHEAP_SRC_01,Apply for the Low Income Home Energy Assistance Program (LIHEAP) | Commonwealth of Pennsylvania,https://www.pa.gov/services/dhs/apply-for-the-low-income-home-energy-assistance-program-liheap,webpage,4/13/26,2/1/26,overview_eligibility_docs_crisis

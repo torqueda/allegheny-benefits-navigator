@@ -2,7 +2,15 @@ from __future__ import annotations
 
 from typing import Dict, Any, List
 
-from src.models.common import IntakeStatus
+from src.loaders.rules import (
+    EligibilityRule,
+    PriorityHeuristic,
+    load_eligibility_rules,
+    load_priority_heuristics,
+)
+from src.models.common import DecisionStatus, IntakeStatus, ProgramStatus
+from src.models.eligibility import EligibilityPrioritizationOutput, ProgramAssessment
+from src.models.explanation import ChecklistExplanationOutput
 from src.models.intake import HouseholdProfile, IntakeOutput
 from src.models.session import SessionState
 
@@ -181,32 +189,56 @@ def eligibility_and_prioritization(
     session: SessionState,
 ) -> EligibilityPrioritizationOutput:
     """
-    Placeholder for eligibility and prioritization component.
+    Eligibility + Prioritization component.
 
-    TODO: Implement real deterministic rule evaluation, prioritization heuristics.
-    For now, returns minimal valid output.
+    Evaluates deterministic rules for SNAP, Medicaid/CHIP, LIHEAP.
+    Applies prioritization heuristics.
     """
-    # Placeholder assessments
-    assessments = [
-        ProgramAssessment(
-            program_name="SNAP",
-            status="likely_applicable",  # Placeholder
-            matched_conditions=[],  # TODO: matched rules
-            failed_conditions=[],  # TODO: failed rules
-            missing_evidence=[],  # TODO: missing evidence
-            caveats=[],  # TODO: caveats
-            source_refs=[],  # TODO: sources
-        )
-    ]
+    profile = session.intake.household_profile
+
+    # Load rules
+    rules = load_eligibility_rules("data/rules_source")
+    heuristics = load_priority_heuristics("data/rules_source")
+
+    # Derive household_size_total
+    household_size = (profile.num_adults or 0) + (profile.num_children or 0)
+
+    # Evaluate each program
+    programs = ["SNAP", "Medicaid/CHIP", "LIHEAP"]
+    assessments = []
+    uncertainty_flags = []
+    eligible_programs = []
+    inapplicable_programs = []
+
+    for program in programs:
+        assessment = _evaluate_program(program, profile, household_size, rules)
+        assessments.append(assessment)
+        if assessment.status == ProgramStatus.likely_applicable:
+            eligible_programs.append(program)
+        elif assessment.status == ProgramStatus.likely_inapplicable:
+            inapplicable_programs.append(program)
+        if assessment.status == ProgramStatus.uncertain:
+            uncertainty_flags.append(f"{program}: {', '.join(assessment.missing_evidence)}")
+
+    # Prioritize
+    priority_order, priority_rationale = _prioritize_programs(eligible_programs, profile, heuristics)
+
+    # Determine decision status
+    if eligible_programs:
+        decision_status = DecisionStatus.ready_for_explanation
+    elif uncertainty_flags:
+        decision_status = DecisionStatus.ambiguous
+    else:
+        decision_status = DecisionStatus.insufficient_data
 
     return EligibilityPrioritizationOutput(
         program_assessments=assessments,
-        eligible_or_likely_programs=["SNAP"],  # TODO: compute
-        inapplicable_programs=[],  # TODO: compute
-        uncertainty_flags=[],  # TODO: flags
-        priority_order=["SNAP"],  # TODO: prioritize
-        priority_rationale=["Placeholder rationale"],  # TODO: rationale
-        decision_status=DecisionStatus.ready_for_explanation,  # Placeholder
+        eligible_or_likely_programs=eligible_programs,
+        inapplicable_programs=inapplicable_programs,
+        uncertainty_flags=uncertainty_flags,
+        priority_order=priority_order,
+        priority_rationale=priority_rationale,
+        decision_status=decision_status,
     )
 
 
@@ -228,3 +260,156 @@ def checklist_and_explanation(
         referral_notes=[],  # TODO: referrals
         final_status=FinalStatus.delivered,  # Placeholder
     )
+
+
+def _evaluate_program(
+    program: str, profile: HouseholdProfile, household_size: int, rules: List[EligibilityRule]
+) -> ProgramAssessment:
+    """Evaluate rules for a program."""
+    program_id_map = {"SNAP": "snap", "Medicaid/CHIP": "medicaid", "LIHEAP": "liheap"}
+    program_id = program_id_map[program]
+
+    program_rules = [r for r in rules if r.program_id == program_id]
+
+    matched_conditions = []
+    failed_conditions = []
+    missing_evidence = []
+    caveats = []
+    source_refs = set()
+
+    status = ProgramStatus.likely_inapplicable  # Default
+
+    # Group by pathway
+    pathways = {}
+    for rule in program_rules:
+        pathways.setdefault(rule.pathway_id, []).append(rule)
+
+    for pathway_id, path_rules in pathways.items():
+        pathway_matched = []
+        pathway_failed = []
+        pathway_missing = []
+        pathway_uncertain = False
+
+        for rule in path_rules:
+            result = _evaluate_rule(rule, profile, household_size)
+            if result == "match":
+                pathway_matched.append(rule.rule_id)
+                if rule.outcome_if_true == "likely_applicable":
+                    status = ProgramStatus.likely_applicable
+                source_refs.add(rule.source_id)
+            elif result == "fail":
+                pathway_failed.append(rule.rule_id)
+            elif result == "missing":
+                pathway_missing.append(rule.field_name)
+                if rule.uncertainty_if_missing == "uncertain":
+                    pathway_uncertain = True
+            elif result == "uncertain":
+                pathway_uncertain = True
+
+        if pathway_matched and not pathway_failed and not pathway_uncertain:
+            matched_conditions.extend(pathway_matched)
+        elif pathway_failed:
+            failed_conditions.extend(pathway_failed)
+        if pathway_missing:
+            missing_evidence.extend(pathway_missing)
+        if pathway_uncertain:
+            status = ProgramStatus.uncertain
+
+    return ProgramAssessment(
+        program_name=program,
+        status=status,
+        matched_conditions=matched_conditions,
+        failed_conditions=failed_conditions,
+        missing_evidence=missing_evidence,
+        caveats=caveats,
+        source_refs=list(source_refs),
+    )
+
+
+def _evaluate_rule(rule: EligibilityRule, profile: HouseholdProfile, household_size: int) -> str:
+    """Evaluate a single rule."""
+    field_value = _get_field_value(rule.field_name, profile, household_size)
+
+    if rule.operator == "missing":
+        if field_value is None:
+            return "match"
+        return "fail"
+
+    if field_value is None:
+        if rule.uncertainty_if_missing == "uncertain":
+            return "uncertain"
+        return "missing"
+
+    if rule.operator == "==":
+        if str(field_value).lower() == rule.value.lower():
+            return "match"
+        return "fail"
+    elif rule.operator == "<=":
+        if isinstance(field_value, (int, float)) and float(rule.value) >= field_value:
+            return "match"
+        return "fail"
+    elif rule.operator == ">=":
+        if isinstance(field_value, (int, float)) and float(rule.value) <= field_value:
+            return "match"
+        return "fail"
+    elif rule.operator == ">":
+        if isinstance(field_value, (int, float)) and field_value > float(rule.value):
+            return "match"
+        return "fail"
+    elif rule.operator == "in":
+        values = rule.value.split("|")
+        if str(field_value).lower() in [v.lower() for v in values]:
+            return "match"
+        return "fail"
+
+    return "fail"
+
+
+def _get_field_value(field_name: str, profile: HouseholdProfile, household_size: int) -> Any:
+    """Get field value from profile."""
+    if field_name == "household_size_total":
+        return household_size
+    elif field_name == "household_income_total":
+        return profile.household_income_total
+    elif field_name == "num_adults":
+        return profile.num_adults
+    elif field_name == "elderly_or_disabled_member":
+        return profile.elderly_or_disabled_member
+    elif field_name == "employment_status":
+        return profile.employment_status
+    # Add more as needed
+    return getattr(profile, field_name, None)
+
+
+def _prioritize_programs(
+    eligible_programs: List[str], profile: HouseholdProfile, heuristics: List[PriorityHeuristic]
+) -> tuple[List[str], List[str]]:
+    """Prioritize programs using heuristics."""
+    scores = {prog: 0 for prog in eligible_programs}
+    reasons = {prog: [] for prog in eligible_programs}
+
+    for h in heuristics:
+        program = {"snap": "SNAP", "medicaid": "Medicaid/CHIP", "liheap": "LIHEAP"}.get(h.program_id)
+        if program not in eligible_programs:
+            continue
+
+        field_value = getattr(profile, h.field_name, None)
+        if _matches_heuristic(h, field_value):
+            scores[program] += h.weight
+            reasons[program].append(h.reason_text)
+
+    # Sort by score descending, then by name for tie-break
+    sorted_programs = sorted(eligible_programs, key=lambda p: (-scores[p], p))
+    rationale = [f"{p}: {', '.join(reasons[p])}" for p in sorted_programs]
+
+    return sorted_programs, rationale
+
+
+def _matches_heuristic(h: PriorityHeuristic, field_value: Any) -> bool:
+    """Check if heuristic matches."""
+    if h.operator == "==":
+        return str(field_value).lower() == h.value.lower()
+    elif h.operator == ">=":
+        return isinstance(field_value, (int, float)) and field_value >= int(h.value)
+    # Add more operators if needed
+    return False

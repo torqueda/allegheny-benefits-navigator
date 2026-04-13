@@ -1,0 +1,19 @@
+﻿program_id,pathway_id,item_id,document_name,required_or_likely,source_id,citation_note
+snap,all,SNAP_DOC_01,Proof of household income for the last 30 days,required,SNAP_SRC_03,"Application asks for proof of income received in the last 30 days, such as pay stubs, award letters, or pay checks."
+snap,all,SNAP_DOC_02,Social Security numbers for household members applying for SNAP,required,SNAP_SRC_03,Federal law requires SNAP applicants to provide SSNs or apply for one.
+snap,all,SNAP_DOC_03,Immigration / alien documentation for non-U.S. citizen applicants,likely,SNAP_SRC_03,The application requests U.S. citizen status and says alien documentation is required if the answer is no.
+snap,all,SNAP_DOC_04,Proof of household expenses if claiming deductions,likely,SNAP_SRC_03,Application notes the household may need proof of expenses and that deductions will not be applied if expenses are not reported and verified when required.
+snap,all,SNAP_DOC_05,Signed SNAP application or COMPASS submission confirmation,required,SNAP_SRC_01,"SNAP can be applied for online, in person, or by mail; a submitted application is required to get an official determination."
+medicaid,all,MED_DOC_01,Social Security numbers or document numbers for legal immigrants for everyone needing insurance,required,MED_SRC_05,The health coverage application lists SSNs or immigration document numbers as needed information.
+medicaid,all,MED_DOC_02,"Employer and income information for everyone in the household (pay stubs, W-2s, wage/tax statements)",required,MED_SRC_05,The health coverage application lists employer and income information as needed information.
+medicaid,all,MED_DOC_03,Policy numbers for current or recent past health insurance,likely,MED_SRC_05,The application lists policy numbers for any current or recent past health insurance.
+medicaid,all,MED_DOC_04,Information about any job-related health insurance available to the family,likely,MED_SRC_05,The application lists job-related health insurance information as needed information.
+medicaid,all,MED_DOC_05,Proof of identity,likely,MED_SRC_02,"General eligibility page states identity can be verified by a driver license, state ID, or another piece of identification."
+medicaid,all,MED_DOC_06,Proof of U.S. citizenship or lawful non-citizen status,likely,MED_SRC_02,"General eligibility page says U.S. citizens, refugees, and lawfully admitted non-citizens must submit documentation."
+medicaid,non_magi_review,MED_DOC_07,Resource / asset information,likely,MED_SRC_02,"Some non-MAGI eligibility groups have resource limits; collect only when the case may fall into an older-adult, disability, LTC, HCBS, or MAWD pathway."
+liheap,cash,LIH_DOC_01,Recent bill from the main heating source,required,LIHEAP_SRC_01,LIHEAP page says applicants must include a recent bill from the main heating source.
+liheap,cash,LIH_DOC_02,Proof of household income for each household member,required,LIHEAP_SRC_01,LIHEAP page says applicants must include proof of income for each household member.
+liheap,cash,LIH_DOC_03,"Employer statements, pay stubs, or award letters for income verification",likely,LIHEAP_SRC_01,LIHEAP page gives these as examples of acceptable income verification.
+liheap,conditional_noncitizen,LIH_DOC_04,Documentation of lawful status if applicant is not a U.S. citizen,likely,LIHEAP_SRC_01,LIHEAP page says additional documents may be required if the applicant is not a U.S. citizen.
+liheap,conditional_heat_in_rent,LIH_DOC_05,Lease or rent documentation if heating bill is included in rent,likely,LIHEAP_SRC_01,LIHEAP page says additional documents may be required if the heating bill is included in rent.
+liheap,conditional_basic_needs_gap,LIH_DOC_06,Additional financial documentation if income is less than monthly basic living needs,likely,LIHEAP_SRC_01,LIHEAP page says additional documents may be required if income is less than the cost of monthly basic living needs.

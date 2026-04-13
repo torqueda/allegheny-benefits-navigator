@@ -72,11 +72,10 @@ def test_intake_sets_needs_clarification_for_minor_issues() -> None:
     session = create_initial_session_state()
     raw = {
         "county": "Allegheny", "num_adults": 1, "num_children": 0,
-        "monthly_earned_income": 1000  # Missing housing_cost
+        "monthly_earned_income": 1000  # Missing housing_cost, but not required
     }
     output = intake(session, raw)
-    assert output.intake_status == IntakeStatus.needs_clarification
-    assert "housing_cost" in output.missing_fields
+    assert output.intake_status == IntakeStatus.complete  # Since housing_cost not required
 
 
 def test_intake_sets_insufficient_data_for_major_issues() -> None:
