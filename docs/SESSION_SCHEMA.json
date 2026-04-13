@@ -11,9 +11,7 @@
     "program_scope": [
       "SNAP",
       "Medicaid/CHIP",
-      "LIHEAP",
-      "WIC",
-      "local_referral_pathway"
+      "LIHEAP"
     ],
     "policy_snapshot_version": "string",
     "llm_enabled": false,

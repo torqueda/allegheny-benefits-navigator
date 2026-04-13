@@ -69,7 +69,7 @@ class TestCaseRow(BaseModel):
     heating_assistance_need: Optional[bool] = None
     insurance_status: Optional[str] = None
     recent_job_loss: Optional[bool] = None
-    food_insecurity_signal: Optional[bool] = None
+    food_insecurity_signal: Optional[str] = None
     missing_fields: List[str] = Field(default_factory=list)
     contradictory_fields: List[str] = Field(default_factory=list)
     language_or_stress_notes: Optional[str] = None
@@ -85,6 +85,7 @@ class TestCaseRow(BaseModel):
         "employment_status",
         "utility_burden",
         "insurance_status",
+        "food_insecurity_signal",
         "language_or_stress_notes",
         pre=True,
         always=True,
@@ -98,7 +99,6 @@ class TestCaseRow(BaseModel):
         "elderly_or_disabled_member",
         "heating_assistance_need",
         "recent_job_loss",
-        "food_insecurity_signal",
         pre=True,
         always=True,
     )
@@ -134,7 +134,7 @@ class TestCaseRow(BaseModel):
     def _clean_json_list(cls, value: Optional[str]) -> List[str]:
         return _parse_json_array(value)
 
-    @root_validator
+    @root_validator(skip_on_failure=True)
     def _validate_case_id(cls, values):
         case_id = values.get("case_id")
         if not case_id:

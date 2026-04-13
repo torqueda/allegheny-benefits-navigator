@@ -23,6 +23,11 @@ def test_test_case_blank_text_fields_normalize_to_none() -> None:
     assert row.language_or_stress_notes is None
 
 
+def test_test_case_food_insecurity_signal_preserves_categorical_value() -> None:
+    row = load_test_cases("data/test_cases.csv")[0]
+    assert row.food_insecurity_signal == "clear"
+
+
 def test_load_expected_results_returns_expected_count() -> None:
     rows = load_expected_results("data/expected_results.csv")
     assert len(rows) == 10

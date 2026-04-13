@@ -35,6 +35,35 @@ def test_intake_validates_numeric_fields() -> None:
     assert output.household_profile.housing_cost is None  # Negative invalid
 
 
+def test_intake_preserves_categorical_food_insecurity_signal() -> None:
+    session = create_initial_session_state()
+    raw = {
+        "county": "Allegheny",
+        "num_adults": 1,
+        "num_children": 0,
+        "monthly_earned_income": 1000,
+        "food_insecurity_signal": "clear",
+    }
+    output = intake(session, raw)
+    assert output.household_profile.food_insecurity_signal == "clear"
+
+
+def test_intake_rejects_negative_numeric_strings_consistently() -> None:
+    session = create_initial_session_state()
+    raw = {
+        "num_adults": "-1",
+        "num_children": "0",
+        "monthly_earned_income": "-100.5",
+        "monthly_unearned_income": "-2",
+        "household_income_total": "-102.5",
+    }
+    output = intake(session, raw)
+    assert output.household_profile.num_adults is None
+    assert output.household_profile.monthly_earned_income is None
+    assert output.household_profile.monthly_unearned_income is None
+    assert output.household_profile.household_income_total is None
+
+
 def test_intake_detects_missing_required_fields() -> None:
     session = create_initial_session_state()
     raw = {"county": "Allegheny"}  # Missing num_adults, num_children, income
@@ -93,7 +122,7 @@ def test_intake_handles_out_of_scope_geography() -> None:
     raw = {"county": "Philadelphia", "num_adults": 1, "num_children": 0, "monthly_earned_income": 1000}
     output = intake(session, raw)
     assert output.intake_status == IntakeStatus.insufficient_data
-    assert "Geography out of scope" in output.validation_warnings
+    assert any("Geography out of scope" in warning for warning in output.validation_warnings)
 
 
 def test_intake_generates_clarification_questions() -> None:

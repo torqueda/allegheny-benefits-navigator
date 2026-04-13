@@ -26,7 +26,7 @@ def test_household_profile_constructs_with_optional_fields() -> None:
         heating_assistance_need=True,
         insurance_status="uninsured",
         recent_job_loss=False,
-        food_insecurity_signal=True,
+        food_insecurity_signal="clear",
         language_or_stress_notes="Needs English support",
     )
 

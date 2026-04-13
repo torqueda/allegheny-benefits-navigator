@@ -32,6 +32,8 @@ def _parse_boolean(value: Optional[str]) -> Optional[bool]:
 def _parse_priority_order(value: Optional[str]) -> List[str]:
     if value is None:
         return []
+    if isinstance(value, list):
+        return [str(item).strip() for item in value if str(item).strip()]
     value = value.strip()
     if value == "":
         return []
@@ -41,6 +43,9 @@ def _parse_priority_order(value: Optional[str]) -> List[str]:
 def _parse_program_list(value: Optional[str]) -> Optional[List[str]]:
     if value is None:
         return None
+    if isinstance(value, list):
+        parsed = [str(item).strip() for item in value if str(item).strip()]
+        return parsed or None
     normalized = value.strip()
     if normalized == "":
         return None
@@ -101,7 +106,7 @@ class ExpectedResultRow(BaseModel):
     def _clean_program_list(cls, value: Optional[str]) -> Optional[List[str]]:
         return _parse_program_list(value)
 
-    @root_validator
+    @root_validator(skip_on_failure=True)
     def _validate_case_id(cls, values):
         case_id = values.get("case_id")
         if not case_id:

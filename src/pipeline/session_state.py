@@ -7,7 +7,7 @@ from uuid import uuid4
 from src.models.common import DecisionStatus, FinalStatus, IntakeStatus
 from src.models.eligibility import EligibilityPrioritizationOutput
 from src.models.explanation import ChecklistExplanationOutput
-from src.models.intake import IntakeOutput
+from src.models.intake import HouseholdProfile, IntakeOutput
 from src.models.session import (
     Audit,
     AuditEvent,
@@ -38,7 +38,7 @@ def create_initial_session_state(
         app_version="1.0.0",
         ruleset_version="2026-04-12",
         template_version="v1",
-        program_scope=["SNAP", "Medicaid/CHIP", "LIHEAP", "WIC", "local_referral_pathway"],
+        program_scope=["SNAP", "Medicaid/CHIP", "LIHEAP"],
         policy_snapshot_version="snapshot-2026-04-12",
         llm_enabled=False,
         llm_model=None,
@@ -48,7 +48,7 @@ def create_initial_session_state(
 
     # Placeholder initial outputs
     intake_output = IntakeOutput(
-        household_profile=None,  # Will be set by intake component
+        household_profile=HouseholdProfile(),
         missing_fields=[],
         contradictory_fields=[],
         validation_warnings=[],

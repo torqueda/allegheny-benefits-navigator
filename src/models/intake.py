@@ -24,7 +24,7 @@ class HouseholdProfile(BaseModel):
     heating_assistance_need: Optional[bool] = None
     insurance_status: Optional[str] = None
     recent_job_loss: Optional[bool] = None
-    food_insecurity_signal: Optional[bool] = None
+    food_insecurity_signal: Optional[str] = None
     language_or_stress_notes: Optional[str] = None
 
     model_config = ConfigDict(extra="forbid")
