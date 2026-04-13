@@ -1,0 +1,255 @@
+{
+  "session_meta": {
+    "session_id": "16d238d6-8ffa-4b11-a9cd-6575c10cbf02",
+    "run_id": "07665a69-142f-485e-896e-d751bcc3ac4f",
+    "case_id": "TC08",
+    "mode": "synthetic_test",
+    "created_at": "2026-04-13T00:04:05.664615+00:00",
+    "app_version": "0.1.0",
+    "ruleset_version": "2026-04-phase2",
+    "template_version": "v1",
+    "llm_enabled": false,
+    "llm_model": null
+  },
+  "input": {
+    "raw_form_input": {
+      "case_id": "TC08",
+      "case_type": "ambiguous_case",
+      "scenario_summary": "Two adults and three children report a mix of part-time wages, cash babysitting, and a very recent layoff. The intake is messy, the household is behind on bills, and the applicant is more comfortable in Spanish.",
+      "county": "Allegheny",
+      "zip_code": "15214",
+      "num_adults": 2,
+      "num_children": 3,
+      "child_under_5": true,
+      "pregnant_household_member": false,
+      "elderly_or_disabled_member": false,
+      "employment_status": "recent_job_loss",
+      "monthly_earned_income": 2300.0,
+      "monthly_unearned_income": 250.0,
+      "household_income_total": 2550.0,
+      "housing_cost": 1400.0,
+      "utility_burden": "high",
+      "heating_assistance_need": true,
+      "insurance_status": "unknown",
+      "recent_job_loss": true,
+      "food_insecurity_signal": "clear",
+      "missing_fields": [],
+      "contradictory_fields": [],
+      "language_or_stress_notes": "Spanish-speaking; mixes weekly and monthly amounts; very rushed intake."
+    },
+    "source": "csv_loader"
+  },
+  "intake": {
+    "household_profile": {
+      "county": "Allegheny",
+      "zip_code": "15214",
+      "num_adults": 2,
+      "num_children": 3,
+      "child_under_5": true,
+      "pregnant_household_member": false,
+      "elderly_or_disabled_member": false,
+      "employment_status": "recent_job_loss",
+      "monthly_earned_income": 2300.0,
+      "monthly_unearned_income": 250.0,
+      "household_income_total": 2550.0,
+      "housing_cost": 1400.0,
+      "utility_burden": "high",
+      "heating_assistance_need": true,
+      "insurance_status": "unknown",
+      "recent_job_loss": true,
+      "food_insecurity_signal": "clear",
+      "language_or_stress_notes": "Spanish-speaking; mixes weekly and monthly amounts; very rushed intake.",
+      "scenario_summary": "Two adults and three children report a mix of part-time wages, cash babysitting, and a very recent layoff. The intake is messy, the household is behind on bills, and the applicant is more comfortable in Spanish.",
+      "household_size": 5
+    },
+    "missing_fields": [],
+    "contradictory_fields": [],
+    "validation_warnings": [
+      "Insurance status is unknown and may affect Medicaid/CHIP results."
+    ],
+    "clarification_questions": [],
+    "intake_status": "complete"
+  },
+  "eligibility_prioritization": {
+    "program_assessments": [
+      {
+        "program_name": "SNAP",
+        "status": "likely_applicable",
+        "matched_conditions": [
+          "Household income 2550 is within the prototype SNAP threshold 5200.",
+          "Food hardship or low-income signal supports prescreening relevance."
+        ],
+        "failed_conditions": [],
+        "missing_evidence": [],
+        "caveats": [],
+        "source_refs": [
+          "PA SNAP gross-income guidance (curated)"
+        ]
+      },
+      {
+        "program_name": "Medicaid/CHIP",
+        "status": "likely_applicable",
+        "matched_conditions": [
+          "Children in the household keep income within the prototype Medicaid/CHIP threshold 5200."
+        ],
+        "failed_conditions": [],
+        "missing_evidence": [],
+        "caveats": [
+          "Coverage status is unclear and should be verified during follow-up."
+        ],
+        "source_refs": [
+          "PA Medicaid/CHIP eligibility snapshot (curated)"
+        ]
+      },
+      {
+        "program_name": "LIHEAP",
+        "status": "likely_applicable",
+        "matched_conditions": [
+          "Heating-assistance need is present and income 2550 is within the prototype LIHEAP limit 5200."
+        ],
+        "failed_conditions": [],
+        "missing_evidence": [],
+        "caveats": [],
+        "source_refs": [
+          "PA LIHEAP income snapshot (curated)"
+        ]
+      },
+      {
+        "program_name": "WIC",
+        "status": "likely_applicable",
+        "matched_conditions": [
+          "Income 2550 is within the prototype WIC limit 6900."
+        ],
+        "failed_conditions": [],
+        "missing_evidence": [],
+        "caveats": [],
+        "source_refs": [
+          "PA WIC income snapshot (curated)"
+        ]
+      },
+      {
+        "program_name": "Local Referral",
+        "status": "likely_applicable",
+        "matched_conditions": [
+          "The case includes navigation, ambiguity, or local-support signals that warrant a human/community referral."
+        ],
+        "failed_conditions": [],
+        "missing_evidence": [],
+        "caveats": [],
+        "source_refs": []
+      }
+    ],
+    "eligible_or_likely_programs": [
+      "SNAP",
+      "Medicaid/CHIP",
+      "LIHEAP",
+      "WIC",
+      "Local Referral"
+    ],
+    "inapplicable_programs": [],
+    "uncertainty_flags": [
+      "Unknown insurance status affects Medicaid/CHIP confidence."
+    ],
+    "priority_order": [
+      "Local Referral",
+      "SNAP",
+      "LIHEAP",
+      "Medicaid/CHIP",
+      "WIC"
+    ],
+    "priority_rationale": [
+      "Local Referral ranked with prototype score 185.",
+      "SNAP ranked with prototype score 161.",
+      "LIHEAP ranked with prototype score 135.",
+      "Medicaid/CHIP ranked with prototype score 108.",
+      "WIC ranked with prototype score 105."
+    ],
+    "decision_status": "ready_for_explanation"
+  },
+  "checklist_explanation": {
+    "recommended_programs": [
+      "Local Referral",
+      "SNAP",
+      "LIHEAP",
+      "Medicaid/CHIP",
+      "WIC"
+    ],
+    "checklist_items_by_program": {
+      "Local Referral": [
+        "Short summary of urgent need",
+        "Lease or eviction notice if relevant",
+        "Preferred contact method"
+      ],
+      "SNAP": [
+        "Photo ID",
+        "Proof of income",
+        "Recent utility or housing bill"
+      ],
+      "LIHEAP": [
+        "Recent heating bill",
+        "Proof of income",
+        "Household address verification"
+      ],
+      "Medicaid/CHIP": [
+        "Photo ID",
+        "Proof of income",
+        "Insurance information if any"
+      ],
+      "WIC": [
+        "Proof of pregnancy or child age",
+        "Proof of income",
+        "Proof of identity"
+      ]
+    },
+    "next_steps": [
+      "Gather the listed documents for the highest-priority programs first.",
+      "Address heating-bill urgency first if there is a shutoff or overdue balance.",
+      "Contact a local navigator, benefits helper, or housing-support organization for follow-up.",
+      "Treat this as prescreening only, not an official eligibility determination."
+    ],
+    "user_explanation": "Based on the information provided, this household may be a fit for Local Referral, SNAP, LIHEAP, Medicaid/CHIP, WIC. Local Referral: The case includes navigation, ambiguity, or local-support signals that warrant a human/community referral. SNAP: Household income 2550 is within the prototype SNAP threshold 5200. LIHEAP: Heating-assistance need is present and income 2550 is within the prototype LIHEAP limit 5200. Medicaid/CHIP: Children in the household keep income within the prototype Medicaid/CHIP threshold 5200. WIC: Income 2550 is within the prototype WIC limit 6900. Caveats: Unknown insurance status affects Medicaid/CHIP confidence. Coverage status is unclear and should be verified during follow-up. This is a prescreening and next-step guide, not an official determination.",
+    "visible_caveats": [
+      "Unknown insurance status affects Medicaid/CHIP confidence.",
+      "Coverage status is unclear and should be verified during follow-up."
+    ],
+    "referral_notes": [
+      "A local navigator or caseworker may help resolve ambiguity, local housing issues, or application barriers."
+    ],
+    "final_status": "delivered"
+  },
+  "audit": {
+    "events": [
+      {
+        "component": "intake",
+        "event_type": "validation_complete",
+        "timestamp": "2026-04-13T00:04:05.664615+00:00",
+        "details": {
+          "status": "complete"
+        }
+      },
+      {
+        "component": "eligibility_prioritization",
+        "event_type": "decision_complete",
+        "timestamp": "2026-04-13T00:04:05.664615+00:00",
+        "details": {
+          "status": "ready_for_explanation"
+        }
+      },
+      {
+        "component": "checklist_explanation",
+        "event_type": "delivery_complete",
+        "timestamp": "2026-04-13T00:04:05.664615+00:00",
+        "details": {
+          "status": "delivered"
+        }
+      }
+    ],
+    "errors": [],
+    "timings_ms": {
+      "intake": 0,
+      "eligibility_prioritization": 0,
+      "checklist_explanation": 0,
+      "total": 0
+    }
+  }
+}

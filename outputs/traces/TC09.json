@@ -1,0 +1,265 @@
+{
+  "session_meta": {
+    "session_id": "3a94cecc-d957-4a2d-8687-67dd61b67920",
+    "run_id": "5151ccf2-0b2d-453a-827c-a99756257844",
+    "case_id": "TC09",
+    "mode": "synthetic_test",
+    "created_at": "2026-04-13T00:04:05.665163+00:00",
+    "app_version": "0.1.0",
+    "ruleset_version": "2026-04-phase2",
+    "template_version": "v1",
+    "llm_enabled": false,
+    "llm_model": null
+  },
+  "input": {
+    "raw_form_input": {
+      "case_id": "TC09",
+      "case_type": "ambiguous_case",
+      "scenario_summary": "Adult says her 17-year-old niece lives with her most of the week, but custody and tax-dependent status are unclear. It is also unclear whether the teen still has active coverage through another parent.",
+      "county": "Allegheny",
+      "zip_code": "15212",
+      "num_adults": 1,
+      "num_children": 1,
+      "child_under_5": false,
+      "pregnant_household_member": false,
+      "elderly_or_disabled_member": false,
+      "employment_status": "part_time",
+      "monthly_earned_income": 1700.0,
+      "monthly_unearned_income": 0.0,
+      "household_income_total": 1700.0,
+      "housing_cost": 900.0,
+      "utility_burden": "medium",
+      "heating_assistance_need": true,
+      "insurance_status": "unknown",
+      "recent_job_loss": false,
+      "food_insecurity_signal": "possible",
+      "missing_fields": [
+        "insurance_status"
+      ],
+      "contradictory_fields": [
+        "num_children/household composition vs dependent status"
+      ],
+      "language_or_stress_notes": "Needs clarification on who counts in the household and whose insurance is active."
+    },
+    "source": "csv_loader"
+  },
+  "intake": {
+    "household_profile": {
+      "county": "Allegheny",
+      "zip_code": "15212",
+      "num_adults": 1,
+      "num_children": 1,
+      "child_under_5": false,
+      "pregnant_household_member": false,
+      "elderly_or_disabled_member": false,
+      "employment_status": "part_time",
+      "monthly_earned_income": 1700.0,
+      "monthly_unearned_income": 0.0,
+      "household_income_total": 1700.0,
+      "housing_cost": 900.0,
+      "utility_burden": "medium",
+      "heating_assistance_need": true,
+      "insurance_status": "unknown",
+      "recent_job_loss": false,
+      "food_insecurity_signal": "possible",
+      "language_or_stress_notes": "Needs clarification on who counts in the household and whose insurance is active.",
+      "scenario_summary": "Adult says her 17-year-old niece lives with her most of the week, but custody and tax-dependent status are unclear. It is also unclear whether the teen still has active coverage through another parent.",
+      "household_size": 2
+    },
+    "missing_fields": [
+      "insurance_status"
+    ],
+    "contradictory_fields": [
+      "num_children/household composition vs dependent status"
+    ],
+    "validation_warnings": [
+      "Insurance status is unknown and may affect Medicaid/CHIP results."
+    ],
+    "clarification_questions": [
+      "Please clarify missing fields: insurance_status",
+      "Please resolve contradictory inputs: num_children/household composition vs dependent status"
+    ],
+    "intake_status": "needs_clarification"
+  },
+  "eligibility_prioritization": {
+    "program_assessments": [
+      {
+        "program_name": "SNAP",
+        "status": "likely_applicable",
+        "matched_conditions": [
+          "Household income 1700 is within the prototype SNAP threshold 2800.",
+          "Food hardship or low-income signal supports prescreening relevance."
+        ],
+        "failed_conditions": [],
+        "missing_evidence": [],
+        "caveats": [],
+        "source_refs": [
+          "PA SNAP gross-income guidance (curated)"
+        ]
+      },
+      {
+        "program_name": "Medicaid/CHIP",
+        "status": "uncertain",
+        "matched_conditions": [
+          "Children in the household keep income within the prototype Medicaid/CHIP threshold 3600."
+        ],
+        "failed_conditions": [],
+        "missing_evidence": [],
+        "caveats": [
+          "Coverage status is unclear and should be verified during follow-up.",
+          "Household-composition contradictions block a firm Medicaid/CHIP read."
+        ],
+        "source_refs": [
+          "PA Medicaid/CHIP eligibility snapshot (curated)"
+        ]
+      },
+      {
+        "program_name": "LIHEAP",
+        "status": "likely_applicable",
+        "matched_conditions": [
+          "Heating-assistance need is present and income 1700 is within the prototype LIHEAP limit 4200."
+        ],
+        "failed_conditions": [],
+        "missing_evidence": [],
+        "caveats": [],
+        "source_refs": [
+          "PA LIHEAP income snapshot (curated)"
+        ]
+      },
+      {
+        "program_name": "WIC",
+        "status": "likely_inapplicable",
+        "matched_conditions": [],
+        "failed_conditions": [
+          "No child under 5 or pregnancy signal was provided."
+        ],
+        "missing_evidence": [],
+        "caveats": [],
+        "source_refs": [
+          "PA WIC income snapshot (curated)"
+        ]
+      },
+      {
+        "program_name": "Local Referral",
+        "status": "likely_applicable",
+        "matched_conditions": [
+          "The case includes navigation, ambiguity, or local-support signals that warrant a human/community referral."
+        ],
+        "failed_conditions": [],
+        "missing_evidence": [],
+        "caveats": [],
+        "source_refs": []
+      }
+    ],
+    "eligible_or_likely_programs": [
+      "SNAP",
+      "LIHEAP",
+      "Local Referral"
+    ],
+    "inapplicable_programs": [
+      "WIC"
+    ],
+    "uncertainty_flags": [
+      "Missing core fields limit deterministic prescreening.",
+      "Contradictory intake data requires follow-up.",
+      "Unknown insurance status affects Medicaid/CHIP confidence."
+    ],
+    "priority_order": [
+      "Local Referral",
+      "LIHEAP",
+      "SNAP",
+      "Medicaid/CHIP"
+    ],
+    "priority_rationale": [
+      "Local Referral ranked with prototype score 145.",
+      "LIHEAP ranked with prototype score 135.",
+      "SNAP ranked with prototype score 131.",
+      "Medicaid/CHIP ranked with prototype score 74."
+    ],
+    "decision_status": "ambiguous"
+  },
+  "checklist_explanation": {
+    "recommended_programs": [
+      "Local Referral",
+      "LIHEAP",
+      "SNAP",
+      "Medicaid/CHIP"
+    ],
+    "checklist_items_by_program": {
+      "Local Referral": [
+        "Short summary of urgent need",
+        "Lease or eviction notice if relevant",
+        "Preferred contact method"
+      ],
+      "LIHEAP": [
+        "Recent heating bill",
+        "Proof of income",
+        "Household address verification"
+      ],
+      "SNAP": [
+        "Photo ID",
+        "Proof of income",
+        "Recent utility or housing bill"
+      ],
+      "Medicaid/CHIP": [
+        "Photo ID",
+        "Proof of income",
+        "Insurance information if any"
+      ]
+    },
+    "next_steps": [
+      "Clarify missing or contradictory intake details before relying on final prescreening.",
+      "Gather the listed documents for the highest-priority programs first.",
+      "Address heating-bill urgency first if there is a shutoff or overdue balance.",
+      "Contact a local navigator, benefits helper, or housing-support organization for follow-up.",
+      "Treat this as prescreening only, not an official eligibility determination."
+    ],
+    "user_explanation": "Based on the information provided, this household may be a fit for Local Referral, LIHEAP, SNAP, Medicaid/CHIP. Local Referral: The case includes navigation, ambiguity, or local-support signals that warrant a human/community referral. LIHEAP: Heating-assistance need is present and income 1700 is within the prototype LIHEAP limit 4200. SNAP: Household income 1700 is within the prototype SNAP threshold 2800. Medicaid/CHIP: Children in the household keep income within the prototype Medicaid/CHIP threshold 3600. Caveats: Missing core fields limit deterministic prescreening. Contradictory intake data requires follow-up. Unknown insurance status affects Medicaid/CHIP confidence. Coverage status is unclear and should be verified during follow-up. Household-composition contradictions block a firm Medicaid/CHIP read. This is a prescreening and next-step guide, not an official determination.",
+    "visible_caveats": [
+      "Missing core fields limit deterministic prescreening.",
+      "Contradictory intake data requires follow-up.",
+      "Unknown insurance status affects Medicaid/CHIP confidence.",
+      "Coverage status is unclear and should be verified during follow-up.",
+      "Household-composition contradictions block a firm Medicaid/CHIP read."
+    ],
+    "referral_notes": [
+      "A local navigator or caseworker may help resolve ambiguity, local housing issues, or application barriers."
+    ],
+    "final_status": "delivered_with_uncertainty"
+  },
+  "audit": {
+    "events": [
+      {
+        "component": "intake",
+        "event_type": "validation_complete",
+        "timestamp": "2026-04-13T00:04:05.665163+00:00",
+        "details": {
+          "status": "needs_clarification"
+        }
+      },
+      {
+        "component": "eligibility_prioritization",
+        "event_type": "decision_complete",
+        "timestamp": "2026-04-13T00:04:05.665163+00:00",
+        "details": {
+          "status": "ambiguous"
+        }
+      },
+      {
+        "component": "checklist_explanation",
+        "event_type": "delivery_complete",
+        "timestamp": "2026-04-13T00:04:05.665163+00:00",
+        "details": {
+          "status": "delivered_with_uncertainty"
+        }
+      }
+    ],
+    "errors": [],
+    "timings_ms": {
+      "intake": 0,
+      "eligibility_prioritization": 0,
+      "checklist_explanation": 0,
+      "total": 0
+    }
+  }
+}

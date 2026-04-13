@@ -1,0 +1,219 @@
+{
+  "session_meta": {
+    "session_id": "bcdf5cb9-6b9a-4410-baa0-bca77bc57f63",
+    "run_id": "0f666146-6769-4b82-87ef-c12e13cb6e6a",
+    "case_id": "TC07",
+    "mode": "synthetic_test",
+    "created_at": "2026-04-13T00:04:05.664079+00:00",
+    "app_version": "0.1.0",
+    "ruleset_version": "2026-04-phase2",
+    "template_version": "v1",
+    "llm_enabled": false,
+    "llm_model": null
+  },
+  "input": {
+    "raw_form_input": {
+      "case_id": "TC07",
+      "case_type": "local_referral_only",
+      "scenario_summary": "Single adult is staying temporarily with relatives after an eviction and mostly needs housing stabilization and legal or rental help. Income and current circumstances make SNAP, Medicaid, and LIHEAP less likely than a local referral.",
+      "county": "Allegheny",
+      "zip_code": "15233",
+      "num_adults": 1,
+      "num_children": 0,
+      "child_under_5": false,
+      "pregnant_household_member": false,
+      "elderly_or_disabled_member": false,
+      "employment_status": "full_time",
+      "monthly_earned_income": 3200.0,
+      "monthly_unearned_income": 0.0,
+      "household_income_total": 3200.0,
+      "housing_cost": 0.0,
+      "utility_burden": "low",
+      "heating_assistance_need": false,
+      "insurance_status": "insured",
+      "recent_job_loss": false,
+      "food_insecurity_signal": "none",
+      "missing_fields": [],
+      "contradictory_fields": [],
+      "language_or_stress_notes": "Primary need is housing navigation, not benefits intake."
+    },
+    "source": "csv_loader"
+  },
+  "intake": {
+    "household_profile": {
+      "county": "Allegheny",
+      "zip_code": "15233",
+      "num_adults": 1,
+      "num_children": 0,
+      "child_under_5": false,
+      "pregnant_household_member": false,
+      "elderly_or_disabled_member": false,
+      "employment_status": "full_time",
+      "monthly_earned_income": 3200.0,
+      "monthly_unearned_income": 0.0,
+      "household_income_total": 3200.0,
+      "housing_cost": 0.0,
+      "utility_burden": "low",
+      "heating_assistance_need": false,
+      "insurance_status": "insured",
+      "recent_job_loss": false,
+      "food_insecurity_signal": "none",
+      "language_or_stress_notes": "Primary need is housing navigation, not benefits intake.",
+      "scenario_summary": "Single adult is staying temporarily with relatives after an eviction and mostly needs housing stabilization and legal or rental help. Income and current circumstances make SNAP, Medicaid, and LIHEAP less likely than a local referral.",
+      "household_size": 1
+    },
+    "missing_fields": [],
+    "contradictory_fields": [],
+    "validation_warnings": [],
+    "clarification_questions": [],
+    "intake_status": "complete"
+  },
+  "eligibility_prioritization": {
+    "program_assessments": [
+      {
+        "program_name": "SNAP",
+        "status": "likely_inapplicable",
+        "matched_conditions": [],
+        "failed_conditions": [
+          "Household income 3200 exceeds the prototype SNAP threshold 1800."
+        ],
+        "missing_evidence": [],
+        "caveats": [],
+        "source_refs": [
+          "PA SNAP gross-income guidance (curated)"
+        ]
+      },
+      {
+        "program_name": "Medicaid/CHIP",
+        "status": "likely_inapplicable",
+        "matched_conditions": [],
+        "failed_conditions": [
+          "Current insurance status reduces likely fit for Medicaid/CHIP."
+        ],
+        "missing_evidence": [],
+        "caveats": [],
+        "source_refs": [
+          "PA Medicaid/CHIP eligibility snapshot (curated)"
+        ]
+      },
+      {
+        "program_name": "LIHEAP",
+        "status": "likely_inapplicable",
+        "matched_conditions": [],
+        "failed_conditions": [
+          "No heating-assistance need was reported."
+        ],
+        "missing_evidence": [],
+        "caveats": [],
+        "source_refs": [
+          "PA LIHEAP income snapshot (curated)"
+        ]
+      },
+      {
+        "program_name": "WIC",
+        "status": "likely_inapplicable",
+        "matched_conditions": [],
+        "failed_conditions": [
+          "No child under 5 or pregnancy signal was provided."
+        ],
+        "missing_evidence": [],
+        "caveats": [],
+        "source_refs": [
+          "PA WIC income snapshot (curated)"
+        ]
+      },
+      {
+        "program_name": "Local Referral",
+        "status": "likely_applicable",
+        "matched_conditions": [
+          "The case includes navigation, ambiguity, or local-support signals that warrant a human/community referral."
+        ],
+        "failed_conditions": [],
+        "missing_evidence": [],
+        "caveats": [
+          "Local referral should focus on housing stabilization resources."
+        ],
+        "source_refs": []
+      }
+    ],
+    "eligible_or_likely_programs": [
+      "Local Referral"
+    ],
+    "inapplicable_programs": [
+      "SNAP",
+      "Medicaid/CHIP",
+      "LIHEAP",
+      "WIC"
+    ],
+    "uncertainty_flags": [],
+    "priority_order": [
+      "Local Referral",
+      "LIHEAP"
+    ],
+    "priority_rationale": [
+      "Local Referral ranked with prototype score 160.",
+      "LIHEAP ranked with prototype score 5."
+    ],
+    "decision_status": "ready_for_explanation"
+  },
+  "checklist_explanation": {
+    "recommended_programs": [
+      "Local Referral"
+    ],
+    "checklist_items_by_program": {
+      "Local Referral": [
+        "Short summary of urgent need",
+        "Lease or eviction notice if relevant",
+        "Preferred contact method"
+      ]
+    },
+    "next_steps": [
+      "Gather the listed documents for the highest-priority programs first.",
+      "Contact a local navigator, benefits helper, or housing-support organization for follow-up.",
+      "Treat this as prescreening only, not an official eligibility determination."
+    ],
+    "user_explanation": "Based on the information provided, this household may be a fit for Local Referral. Local Referral: The case includes navigation, ambiguity, or local-support signals that warrant a human/community referral. Caveats: Local referral should focus on housing stabilization resources. This is a prescreening and next-step guide, not an official determination.",
+    "visible_caveats": [
+      "Local referral should focus on housing stabilization resources."
+    ],
+    "referral_notes": [
+      "A local navigator or caseworker may help resolve ambiguity, local housing issues, or application barriers."
+    ],
+    "final_status": "delivered"
+  },
+  "audit": {
+    "events": [
+      {
+        "component": "intake",
+        "event_type": "validation_complete",
+        "timestamp": "2026-04-13T00:04:05.664079+00:00",
+        "details": {
+          "status": "complete"
+        }
+      },
+      {
+        "component": "eligibility_prioritization",
+        "event_type": "decision_complete",
+        "timestamp": "2026-04-13T00:04:05.664079+00:00",
+        "details": {
+          "status": "ready_for_explanation"
+        }
+      },
+      {
+        "component": "checklist_explanation",
+        "event_type": "delivery_complete",
+        "timestamp": "2026-04-13T00:04:05.664079+00:00",
+        "details": {
+          "status": "delivered"
+        }
+      }
+    ],
+    "errors": [],
+    "timings_ms": {
+      "intake": 0,
+      "eligibility_prioritization": 0,
+      "checklist_explanation": 0,
+      "total": 0
+    }
+  }
+}

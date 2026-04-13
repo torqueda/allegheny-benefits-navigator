@@ -1,0 +1,197 @@
+{
+  "session_meta": {
+    "session_id": "6d0128a7-bd78-48b9-93a6-f58dbdaeb45e",
+    "run_id": "8fc6d9ff-baed-456f-ac49-24bbfe98a78d",
+    "case_id": "TC02",
+    "mode": "synthetic_test",
+    "created_at": "2026-04-13T00:04:05.661078+00:00",
+    "app_version": "0.1.0",
+    "ruleset_version": "2026-04-phase2",
+    "template_version": "v1",
+    "llm_enabled": false,
+    "llm_model": null
+  },
+  "input": {
+    "raw_form_input": {
+      "case_id": "TC02",
+      "case_type": "clear_ineligible",
+      "scenario_summary": "Two-adult household with stable full-time employment, employer insurance, and no reported food or heating hardship. They are testing whether the system correctly avoids recommending inapplicable programs.",
+      "county": "Allegheny",
+      "zip_code": "15237",
+      "num_adults": 2,
+      "num_children": 0,
+      "child_under_5": false,
+      "pregnant_household_member": false,
+      "elderly_or_disabled_member": false,
+      "employment_status": "full_time",
+      "monthly_earned_income": 7200.0,
+      "monthly_unearned_income": 0.0,
+      "household_income_total": 7200.0,
+      "housing_cost": 1800.0,
+      "utility_burden": "low",
+      "heating_assistance_need": false,
+      "insurance_status": "insured",
+      "recent_job_loss": false,
+      "food_insecurity_signal": "none",
+      "missing_fields": [],
+      "contradictory_fields": [],
+      "language_or_stress_notes": ""
+    },
+    "source": "csv_loader"
+  },
+  "intake": {
+    "household_profile": {
+      "county": "Allegheny",
+      "zip_code": "15237",
+      "num_adults": 2,
+      "num_children": 0,
+      "child_under_5": false,
+      "pregnant_household_member": false,
+      "elderly_or_disabled_member": false,
+      "employment_status": "full_time",
+      "monthly_earned_income": 7200.0,
+      "monthly_unearned_income": 0.0,
+      "household_income_total": 7200.0,
+      "housing_cost": 1800.0,
+      "utility_burden": "low",
+      "heating_assistance_need": false,
+      "insurance_status": "insured",
+      "recent_job_loss": false,
+      "food_insecurity_signal": "none",
+      "language_or_stress_notes": "",
+      "scenario_summary": "Two-adult household with stable full-time employment, employer insurance, and no reported food or heating hardship. They are testing whether the system correctly avoids recommending inapplicable programs.",
+      "household_size": 2
+    },
+    "missing_fields": [],
+    "contradictory_fields": [],
+    "validation_warnings": [],
+    "clarification_questions": [],
+    "intake_status": "complete"
+  },
+  "eligibility_prioritization": {
+    "program_assessments": [
+      {
+        "program_name": "SNAP",
+        "status": "likely_inapplicable",
+        "matched_conditions": [],
+        "failed_conditions": [
+          "Household income 7200 exceeds the prototype SNAP threshold 2800."
+        ],
+        "missing_evidence": [],
+        "caveats": [],
+        "source_refs": [
+          "PA SNAP gross-income guidance (curated)"
+        ]
+      },
+      {
+        "program_name": "Medicaid/CHIP",
+        "status": "likely_inapplicable",
+        "matched_conditions": [],
+        "failed_conditions": [
+          "Current insurance status reduces likely fit for Medicaid/CHIP."
+        ],
+        "missing_evidence": [],
+        "caveats": [],
+        "source_refs": [
+          "PA Medicaid/CHIP eligibility snapshot (curated)"
+        ]
+      },
+      {
+        "program_name": "LIHEAP",
+        "status": "likely_inapplicable",
+        "matched_conditions": [],
+        "failed_conditions": [
+          "No heating-assistance need was reported."
+        ],
+        "missing_evidence": [],
+        "caveats": [],
+        "source_refs": [
+          "PA LIHEAP income snapshot (curated)"
+        ]
+      },
+      {
+        "program_name": "WIC",
+        "status": "likely_inapplicable",
+        "matched_conditions": [],
+        "failed_conditions": [
+          "No child under 5 or pregnancy signal was provided."
+        ],
+        "missing_evidence": [],
+        "caveats": [],
+        "source_refs": [
+          "PA WIC income snapshot (curated)"
+        ]
+      },
+      {
+        "program_name": "Local Referral",
+        "status": "likely_inapplicable",
+        "matched_conditions": [],
+        "failed_conditions": [
+          "No strong local referral trigger was detected in the prototype rules."
+        ],
+        "missing_evidence": [],
+        "caveats": [],
+        "source_refs": []
+      }
+    ],
+    "eligible_or_likely_programs": [],
+    "inapplicable_programs": [
+      "SNAP",
+      "Medicaid/CHIP",
+      "LIHEAP",
+      "WIC",
+      "Local Referral"
+    ],
+    "uncertainty_flags": [],
+    "priority_order": [],
+    "priority_rationale": [],
+    "decision_status": "ready_for_explanation"
+  },
+  "checklist_explanation": {
+    "recommended_programs": [],
+    "checklist_items_by_program": {},
+    "next_steps": [
+      "No clear in-scope match was found; consider a human review if circumstances change.",
+      "Treat this as prescreening only, not an official eligibility determination."
+    ],
+    "user_explanation": "Based on the information provided, this prototype did not find a clear in-scope program match. That does not mean the household is officially ineligible, only that the bounded screen did not find a strong fit.",
+    "visible_caveats": [],
+    "referral_notes": [],
+    "final_status": "delivered"
+  },
+  "audit": {
+    "events": [
+      {
+        "component": "intake",
+        "event_type": "validation_complete",
+        "timestamp": "2026-04-13T00:04:05.661078+00:00",
+        "details": {
+          "status": "complete"
+        }
+      },
+      {
+        "component": "eligibility_prioritization",
+        "event_type": "decision_complete",
+        "timestamp": "2026-04-13T00:04:05.661078+00:00",
+        "details": {
+          "status": "ready_for_explanation"
+        }
+      },
+      {
+        "component": "checklist_explanation",
+        "event_type": "delivery_complete",
+        "timestamp": "2026-04-13T00:04:05.661078+00:00",
+        "details": {
+          "status": "delivered"
+        }
+      }
+    ],
+    "errors": [],
+    "timings_ms": {
+      "intake": 0,
+      "eligibility_prioritization": 0,
+      "checklist_explanation": 0,
+      "total": 0
+    }
+  }
+}

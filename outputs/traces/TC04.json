@@ -1,0 +1,255 @@
+{
+  "session_meta": {
+    "session_id": "f7e493fb-3a4e-489d-a972-8bda94a19d8c",
+    "run_id": "ff36fc36-2e63-4c84-b2fa-1693bea25a36",
+    "case_id": "TC04",
+    "mode": "synthetic_test",
+    "created_at": "2026-04-13T00:04:05.662343+00:00",
+    "app_version": "0.1.0",
+    "ruleset_version": "2026-04-phase2",
+    "template_version": "v1",
+    "llm_enabled": false,
+    "llm_model": null
+  },
+  "input": {
+    "raw_form_input": {
+      "case_id": "TC04",
+      "case_type": "missing_info",
+      "scenario_summary": "Two-adult, one-child household with a main earner doing irregular gig work. They have a utility shutoff notice but cannot provide a reliable monthly income amount yet.",
+      "county": "Allegheny",
+      "zip_code": "15210",
+      "num_adults": 2,
+      "num_children": 1,
+      "child_under_5": false,
+      "pregnant_household_member": false,
+      "elderly_or_disabled_member": false,
+      "employment_status": "self_employed",
+      "monthly_earned_income": null,
+      "monthly_unearned_income": 0.0,
+      "household_income_total": null,
+      "housing_cost": 1100.0,
+      "utility_burden": "high",
+      "heating_assistance_need": true,
+      "insurance_status": "unknown",
+      "recent_job_loss": false,
+      "food_insecurity_signal": "possible",
+      "missing_fields": [
+        "monthly_earned_income",
+        "household_income_total"
+      ],
+      "contradictory_fields": [],
+      "language_or_stress_notes": "Applicant says income changes week to week and does not have recent records."
+    },
+    "source": "csv_loader"
+  },
+  "intake": {
+    "household_profile": {
+      "county": "Allegheny",
+      "zip_code": "15210",
+      "num_adults": 2,
+      "num_children": 1,
+      "child_under_5": false,
+      "pregnant_household_member": false,
+      "elderly_or_disabled_member": false,
+      "employment_status": "self_employed",
+      "monthly_earned_income": null,
+      "monthly_unearned_income": 0.0,
+      "household_income_total": null,
+      "housing_cost": 1100.0,
+      "utility_burden": "high",
+      "heating_assistance_need": true,
+      "insurance_status": "unknown",
+      "recent_job_loss": false,
+      "food_insecurity_signal": "possible",
+      "language_or_stress_notes": "Applicant says income changes week to week and does not have recent records.",
+      "scenario_summary": "Two-adult, one-child household with a main earner doing irregular gig work. They have a utility shutoff notice but cannot provide a reliable monthly income amount yet.",
+      "household_size": 3
+    },
+    "missing_fields": [
+      "monthly_earned_income",
+      "household_income_total"
+    ],
+    "contradictory_fields": [],
+    "validation_warnings": [
+      "Insurance status is unknown and may affect Medicaid/CHIP results."
+    ],
+    "clarification_questions": [
+      "Please clarify missing fields: household_income_total, monthly_earned_income"
+    ],
+    "intake_status": "needs_clarification"
+  },
+  "eligibility_prioritization": {
+    "program_assessments": [
+      {
+        "program_name": "SNAP",
+        "status": "uncertain",
+        "matched_conditions": [],
+        "failed_conditions": [],
+        "missing_evidence": [
+          "household_income_total"
+        ],
+        "caveats": [
+          "Income is missing, so SNAP cannot be screened reliably."
+        ],
+        "source_refs": [
+          "PA SNAP gross-income guidance (curated)"
+        ]
+      },
+      {
+        "program_name": "Medicaid/CHIP",
+        "status": "uncertain",
+        "matched_conditions": [],
+        "failed_conditions": [],
+        "missing_evidence": [
+          "household_income_total"
+        ],
+        "caveats": [],
+        "source_refs": [
+          "PA Medicaid/CHIP eligibility snapshot (curated)"
+        ]
+      },
+      {
+        "program_name": "LIHEAP",
+        "status": "uncertain",
+        "matched_conditions": [],
+        "failed_conditions": [],
+        "missing_evidence": [
+          "household_income_total"
+        ],
+        "caveats": [],
+        "source_refs": [
+          "PA LIHEAP income snapshot (curated)"
+        ]
+      },
+      {
+        "program_name": "WIC",
+        "status": "likely_inapplicable",
+        "matched_conditions": [],
+        "failed_conditions": [
+          "No child under 5 or pregnancy signal was provided."
+        ],
+        "missing_evidence": [],
+        "caveats": [],
+        "source_refs": [
+          "PA WIC income snapshot (curated)"
+        ]
+      },
+      {
+        "program_name": "Local Referral",
+        "status": "likely_applicable",
+        "matched_conditions": [
+          "The case includes navigation, ambiguity, or local-support signals that warrant a human/community referral."
+        ],
+        "failed_conditions": [],
+        "missing_evidence": [],
+        "caveats": [],
+        "source_refs": []
+      }
+    ],
+    "eligible_or_likely_programs": [
+      "Local Referral"
+    ],
+    "inapplicable_programs": [
+      "WIC"
+    ],
+    "uncertainty_flags": [
+      "Missing core fields limit deterministic prescreening.",
+      "Unknown insurance status affects Medicaid/CHIP confidence."
+    ],
+    "priority_order": [
+      "Local Referral",
+      "LIHEAP",
+      "SNAP",
+      "Medicaid/CHIP"
+    ],
+    "priority_rationale": [
+      "Local Referral ranked with prototype score 165.",
+      "LIHEAP ranked with prototype score 90.",
+      "SNAP ranked with prototype score 85.",
+      "Medicaid/CHIP ranked with prototype score 74."
+    ],
+    "decision_status": "ambiguous"
+  },
+  "checklist_explanation": {
+    "recommended_programs": [
+      "Local Referral",
+      "LIHEAP",
+      "SNAP",
+      "Medicaid/CHIP"
+    ],
+    "checklist_items_by_program": {
+      "Local Referral": [
+        "Short summary of urgent need",
+        "Lease or eviction notice if relevant",
+        "Preferred contact method"
+      ],
+      "LIHEAP": [
+        "Recent heating bill",
+        "Proof of income",
+        "Household address verification"
+      ],
+      "SNAP": [
+        "Photo ID",
+        "Proof of income",
+        "Recent utility or housing bill"
+      ],
+      "Medicaid/CHIP": [
+        "Photo ID",
+        "Proof of income",
+        "Insurance information if any"
+      ]
+    },
+    "next_steps": [
+      "Clarify missing or contradictory intake details before relying on final prescreening.",
+      "Gather the listed documents for the highest-priority programs first.",
+      "Address heating-bill urgency first if there is a shutoff or overdue balance.",
+      "Contact a local navigator, benefits helper, or housing-support organization for follow-up.",
+      "Treat this as prescreening only, not an official eligibility determination."
+    ],
+    "user_explanation": "Based on the information provided, this household may be a fit for Local Referral, LIHEAP, SNAP, Medicaid/CHIP. Local Referral: The case includes navigation, ambiguity, or local-support signals that warrant a human/community referral. Caveats: Missing core fields limit deterministic prescreening. Unknown insurance status affects Medicaid/CHIP confidence. Income is missing, so SNAP cannot be screened reliably. This is a prescreening and next-step guide, not an official determination.",
+    "visible_caveats": [
+      "Missing core fields limit deterministic prescreening.",
+      "Unknown insurance status affects Medicaid/CHIP confidence.",
+      "Income is missing, so SNAP cannot be screened reliably."
+    ],
+    "referral_notes": [
+      "A local navigator or caseworker may help resolve ambiguity, local housing issues, or application barriers."
+    ],
+    "final_status": "delivered_with_uncertainty"
+  },
+  "audit": {
+    "events": [
+      {
+        "component": "intake",
+        "event_type": "validation_complete",
+        "timestamp": "2026-04-13T00:04:05.662343+00:00",
+        "details": {
+          "status": "needs_clarification"
+        }
+      },
+      {
+        "component": "eligibility_prioritization",
+        "event_type": "decision_complete",
+        "timestamp": "2026-04-13T00:04:05.662343+00:00",
+        "details": {
+          "status": "ambiguous"
+        }
+      },
+      {
+        "component": "checklist_explanation",
+        "event_type": "delivery_complete",
+        "timestamp": "2026-04-13T00:04:05.662343+00:00",
+        "details": {
+          "status": "delivered_with_uncertainty"
+        }
+      }
+    ],
+    "errors": [],
+    "timings_ms": {
+      "intake": 0,
+      "eligibility_prioritization": 0,
+      "checklist_explanation": 0,
+      "total": 0
+    }
+  }
+}

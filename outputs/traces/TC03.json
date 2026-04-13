@@ -1,0 +1,238 @@
+{
+  "session_meta": {
+    "session_id": "1438ea9a-3e41-4c3e-b4f8-79f1aa229f4c",
+    "run_id": "a2405b0c-0290-4201-83b4-fb9fe9514436",
+    "case_id": "TC03",
+    "mode": "synthetic_test",
+    "created_at": "2026-04-13T00:04:05.661791+00:00",
+    "app_version": "0.1.0",
+    "ruleset_version": "2026-04-phase2",
+    "template_version": "v1",
+    "llm_enabled": false,
+    "llm_model": null
+  },
+  "input": {
+    "raw_form_input": {
+      "case_id": "TC03",
+      "case_type": "multi_program",
+      "scenario_summary": "Single parent with two children ages 3 and 8. Parent recently lost one side job, the family is skipping meals, and the heating bill is overdue.",
+      "county": "Allegheny",
+      "zip_code": "15132",
+      "num_adults": 1,
+      "num_children": 2,
+      "child_under_5": true,
+      "pregnant_household_member": false,
+      "elderly_or_disabled_member": false,
+      "employment_status": "part_time",
+      "monthly_earned_income": 1600.0,
+      "monthly_unearned_income": 300.0,
+      "household_income_total": 1900.0,
+      "housing_cost": 950.0,
+      "utility_burden": "high",
+      "heating_assistance_need": true,
+      "insurance_status": "uninsured",
+      "recent_job_loss": true,
+      "food_insecurity_signal": "clear",
+      "missing_fields": [],
+      "contradictory_fields": [],
+      "language_or_stress_notes": "Very stressed and worried about multiple deadlines."
+    },
+    "source": "csv_loader"
+  },
+  "intake": {
+    "household_profile": {
+      "county": "Allegheny",
+      "zip_code": "15132",
+      "num_adults": 1,
+      "num_children": 2,
+      "child_under_5": true,
+      "pregnant_household_member": false,
+      "elderly_or_disabled_member": false,
+      "employment_status": "part_time",
+      "monthly_earned_income": 1600.0,
+      "monthly_unearned_income": 300.0,
+      "household_income_total": 1900.0,
+      "housing_cost": 950.0,
+      "utility_burden": "high",
+      "heating_assistance_need": true,
+      "insurance_status": "uninsured",
+      "recent_job_loss": true,
+      "food_insecurity_signal": "clear",
+      "language_or_stress_notes": "Very stressed and worried about multiple deadlines.",
+      "scenario_summary": "Single parent with two children ages 3 and 8. Parent recently lost one side job, the family is skipping meals, and the heating bill is overdue.",
+      "household_size": 3
+    },
+    "missing_fields": [],
+    "contradictory_fields": [],
+    "validation_warnings": [],
+    "clarification_questions": [],
+    "intake_status": "complete"
+  },
+  "eligibility_prioritization": {
+    "program_assessments": [
+      {
+        "program_name": "SNAP",
+        "status": "likely_applicable",
+        "matched_conditions": [
+          "Household income 1900 is within the prototype SNAP threshold 3600.",
+          "Food hardship or low-income signal supports prescreening relevance."
+        ],
+        "failed_conditions": [],
+        "missing_evidence": [],
+        "caveats": [],
+        "source_refs": [
+          "PA SNAP gross-income guidance (curated)"
+        ]
+      },
+      {
+        "program_name": "Medicaid/CHIP",
+        "status": "likely_applicable",
+        "matched_conditions": [
+          "Children in the household keep income within the prototype Medicaid/CHIP threshold 4200."
+        ],
+        "failed_conditions": [],
+        "missing_evidence": [],
+        "caveats": [],
+        "source_refs": [
+          "PA Medicaid/CHIP eligibility snapshot (curated)"
+        ]
+      },
+      {
+        "program_name": "LIHEAP",
+        "status": "likely_applicable",
+        "matched_conditions": [
+          "Heating-assistance need is present and income 1900 is within the prototype LIHEAP limit 4500."
+        ],
+        "failed_conditions": [],
+        "missing_evidence": [],
+        "caveats": [],
+        "source_refs": [
+          "PA LIHEAP income snapshot (curated)"
+        ]
+      },
+      {
+        "program_name": "WIC",
+        "status": "likely_applicable",
+        "matched_conditions": [
+          "Income 1900 is within the prototype WIC limit 4900."
+        ],
+        "failed_conditions": [],
+        "missing_evidence": [],
+        "caveats": [],
+        "source_refs": [
+          "PA WIC income snapshot (curated)"
+        ]
+      },
+      {
+        "program_name": "Local Referral",
+        "status": "likely_inapplicable",
+        "matched_conditions": [],
+        "failed_conditions": [
+          "No strong local referral trigger was detected in the prototype rules."
+        ],
+        "missing_evidence": [],
+        "caveats": [],
+        "source_refs": []
+      }
+    ],
+    "eligible_or_likely_programs": [
+      "SNAP",
+      "Medicaid/CHIP",
+      "LIHEAP",
+      "WIC"
+    ],
+    "inapplicable_programs": [
+      "Local Referral"
+    ],
+    "uncertainty_flags": [],
+    "priority_order": [
+      "SNAP",
+      "LIHEAP",
+      "Medicaid/CHIP",
+      "WIC",
+      "Local Referral"
+    ],
+    "priority_rationale": [
+      "SNAP ranked with prototype score 161.",
+      "LIHEAP ranked with prototype score 135.",
+      "Medicaid/CHIP ranked with prototype score 128.",
+      "WIC ranked with prototype score 105.",
+      "Local Referral ranked with prototype score 5."
+    ],
+    "decision_status": "ready_for_explanation"
+  },
+  "checklist_explanation": {
+    "recommended_programs": [
+      "SNAP",
+      "LIHEAP",
+      "Medicaid/CHIP",
+      "WIC"
+    ],
+    "checklist_items_by_program": {
+      "SNAP": [
+        "Photo ID",
+        "Proof of income",
+        "Recent utility or housing bill"
+      ],
+      "LIHEAP": [
+        "Recent heating bill",
+        "Proof of income",
+        "Household address verification"
+      ],
+      "Medicaid/CHIP": [
+        "Photo ID",
+        "Proof of income",
+        "Insurance information if any"
+      ],
+      "WIC": [
+        "Proof of pregnancy or child age",
+        "Proof of income",
+        "Proof of identity"
+      ]
+    },
+    "next_steps": [
+      "Gather the listed documents for the highest-priority programs first.",
+      "Address heating-bill urgency first if there is a shutoff or overdue balance.",
+      "Treat this as prescreening only, not an official eligibility determination."
+    ],
+    "user_explanation": "Based on the information provided, this household may be a fit for SNAP, LIHEAP, Medicaid/CHIP, WIC. SNAP: Household income 1900 is within the prototype SNAP threshold 3600. LIHEAP: Heating-assistance need is present and income 1900 is within the prototype LIHEAP limit 4500. Medicaid/CHIP: Children in the household keep income within the prototype Medicaid/CHIP threshold 4200. WIC: Income 1900 is within the prototype WIC limit 4900. This is a prescreening and next-step guide, not an official determination.",
+    "visible_caveats": [],
+    "referral_notes": [],
+    "final_status": "delivered"
+  },
+  "audit": {
+    "events": [
+      {
+        "component": "intake",
+        "event_type": "validation_complete",
+        "timestamp": "2026-04-13T00:04:05.661791+00:00",
+        "details": {
+          "status": "complete"
+        }
+      },
+      {
+        "component": "eligibility_prioritization",
+        "event_type": "decision_complete",
+        "timestamp": "2026-04-13T00:04:05.661791+00:00",
+        "details": {
+          "status": "ready_for_explanation"
+        }
+      },
+      {
+        "component": "checklist_explanation",
+        "event_type": "delivery_complete",
+        "timestamp": "2026-04-13T00:04:05.661791+00:00",
+        "details": {
+          "status": "delivered"
+        }
+      }
+    ],
+    "errors": [],
+    "timings_ms": {
+      "intake": 0,
+      "eligibility_prioritization": 0,
+      "checklist_explanation": 0,
+      "total": 0
+    }
+  }
+}

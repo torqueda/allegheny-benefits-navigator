@@ -1,0 +1,256 @@
+{
+  "session_meta": {
+    "session_id": "d69083dd-d062-4c4c-8ed1-1ed4127a7530",
+    "run_id": "6b93aa8e-72d8-4a94-96c4-b3929b246b7b",
+    "case_id": "TC06",
+    "mode": "synthetic_test",
+    "created_at": "2026-04-13T00:04:05.663521+00:00",
+    "app_version": "0.1.0",
+    "ruleset_version": "2026-04-phase2",
+    "template_version": "v1",
+    "llm_enabled": false,
+    "llm_model": null
+  },
+  "input": {
+    "raw_form_input": {
+      "case_id": "TC06",
+      "case_type": "contradictory_data",
+      "scenario_summary": "Applicant says she is employed full time and has not recently lost work, but the intake form shows zero earned income. The household is also reporting food and utility hardship.",
+      "county": "Allegheny",
+      "zip_code": "15206",
+      "num_adults": 1,
+      "num_children": 1,
+      "child_under_5": false,
+      "pregnant_household_member": false,
+      "elderly_or_disabled_member": false,
+      "employment_status": "full_time",
+      "monthly_earned_income": 0.0,
+      "monthly_unearned_income": 0.0,
+      "household_income_total": 0.0,
+      "housing_cost": 850.0,
+      "utility_burden": "high",
+      "heating_assistance_need": true,
+      "insurance_status": "uninsured",
+      "recent_job_loss": false,
+      "food_insecurity_signal": "clear",
+      "missing_fields": [],
+      "contradictory_fields": [
+        "employment_status vs monthly_earned_income"
+      ],
+      "language_or_stress_notes": "Possible data-entry mistake; follow-up needed before reasoning."
+    },
+    "source": "csv_loader"
+  },
+  "intake": {
+    "household_profile": {
+      "county": "Allegheny",
+      "zip_code": "15206",
+      "num_adults": 1,
+      "num_children": 1,
+      "child_under_5": false,
+      "pregnant_household_member": false,
+      "elderly_or_disabled_member": false,
+      "employment_status": "full_time",
+      "monthly_earned_income": 0.0,
+      "monthly_unearned_income": 0.0,
+      "household_income_total": 0.0,
+      "housing_cost": 850.0,
+      "utility_burden": "high",
+      "heating_assistance_need": true,
+      "insurance_status": "uninsured",
+      "recent_job_loss": false,
+      "food_insecurity_signal": "clear",
+      "language_or_stress_notes": "Possible data-entry mistake; follow-up needed before reasoning.",
+      "scenario_summary": "Applicant says she is employed full time and has not recently lost work, but the intake form shows zero earned income. The household is also reporting food and utility hardship.",
+      "household_size": 2
+    },
+    "missing_fields": [],
+    "contradictory_fields": [
+      "employment_status vs monthly_earned_income"
+    ],
+    "validation_warnings": [],
+    "clarification_questions": [
+      "Please resolve contradictory inputs: employment_status vs monthly_earned_income"
+    ],
+    "intake_status": "needs_clarification"
+  },
+  "eligibility_prioritization": {
+    "program_assessments": [
+      {
+        "program_name": "SNAP",
+        "status": "uncertain",
+        "matched_conditions": [
+          "Household income 0 is within the prototype SNAP threshold 2800.",
+          "Food hardship or low-income signal supports prescreening relevance."
+        ],
+        "failed_conditions": [],
+        "missing_evidence": [],
+        "caveats": [
+          "Contradictory intake data blocks a firm SNAP read."
+        ],
+        "source_refs": [
+          "PA SNAP gross-income guidance (curated)"
+        ]
+      },
+      {
+        "program_name": "Medicaid/CHIP",
+        "status": "uncertain",
+        "matched_conditions": [
+          "Children in the household keep income within the prototype Medicaid/CHIP threshold 3600."
+        ],
+        "failed_conditions": [],
+        "missing_evidence": [],
+        "caveats": [
+          "Contradictory income details block a firm Medicaid/CHIP read."
+        ],
+        "source_refs": [
+          "PA Medicaid/CHIP eligibility snapshot (curated)"
+        ]
+      },
+      {
+        "program_name": "LIHEAP",
+        "status": "uncertain",
+        "matched_conditions": [
+          "Heating-assistance need is present and income 0 is within the prototype LIHEAP limit 4200."
+        ],
+        "failed_conditions": [],
+        "missing_evidence": [],
+        "caveats": [
+          "Contradictory intake data blocks a firm LIHEAP read."
+        ],
+        "source_refs": [
+          "PA LIHEAP income snapshot (curated)"
+        ]
+      },
+      {
+        "program_name": "WIC",
+        "status": "likely_inapplicable",
+        "matched_conditions": [],
+        "failed_conditions": [
+          "No child under 5 or pregnancy signal was provided."
+        ],
+        "missing_evidence": [],
+        "caveats": [],
+        "source_refs": [
+          "PA WIC income snapshot (curated)"
+        ]
+      },
+      {
+        "program_name": "Local Referral",
+        "status": "likely_applicable",
+        "matched_conditions": [
+          "The case includes navigation, ambiguity, or local-support signals that warrant a human/community referral."
+        ],
+        "failed_conditions": [],
+        "missing_evidence": [],
+        "caveats": [],
+        "source_refs": []
+      }
+    ],
+    "eligible_or_likely_programs": [
+      "Local Referral"
+    ],
+    "inapplicable_programs": [
+      "WIC"
+    ],
+    "uncertainty_flags": [
+      "Contradictory intake data requires follow-up."
+    ],
+    "priority_order": [
+      "Local Referral",
+      "SNAP",
+      "LIHEAP",
+      "Medicaid/CHIP"
+    ],
+    "priority_rationale": [
+      "Local Referral ranked with prototype score 145.",
+      "SNAP ranked with prototype score 102.",
+      "LIHEAP ranked with prototype score 90.",
+      "Medicaid/CHIP ranked with prototype score 82."
+    ],
+    "decision_status": "ambiguous"
+  },
+  "checklist_explanation": {
+    "recommended_programs": [
+      "Local Referral",
+      "SNAP",
+      "LIHEAP",
+      "Medicaid/CHIP"
+    ],
+    "checklist_items_by_program": {
+      "Local Referral": [
+        "Short summary of urgent need",
+        "Lease or eviction notice if relevant",
+        "Preferred contact method"
+      ],
+      "SNAP": [
+        "Photo ID",
+        "Proof of income",
+        "Recent utility or housing bill"
+      ],
+      "LIHEAP": [
+        "Recent heating bill",
+        "Proof of income",
+        "Household address verification"
+      ],
+      "Medicaid/CHIP": [
+        "Photo ID",
+        "Proof of income",
+        "Insurance information if any"
+      ]
+    },
+    "next_steps": [
+      "Clarify missing or contradictory intake details before relying on final prescreening.",
+      "Gather the listed documents for the highest-priority programs first.",
+      "Address heating-bill urgency first if there is a shutoff or overdue balance.",
+      "Contact a local navigator, benefits helper, or housing-support organization for follow-up.",
+      "Treat this as prescreening only, not an official eligibility determination."
+    ],
+    "user_explanation": "Based on the information provided, this household may be a fit for Local Referral, SNAP, LIHEAP, Medicaid/CHIP. Local Referral: The case includes navigation, ambiguity, or local-support signals that warrant a human/community referral. SNAP: Household income 0 is within the prototype SNAP threshold 2800. LIHEAP: Heating-assistance need is present and income 0 is within the prototype LIHEAP limit 4200. Medicaid/CHIP: Children in the household keep income within the prototype Medicaid/CHIP threshold 3600. Caveats: Contradictory intake data requires follow-up. Contradictory intake data blocks a firm SNAP read. Contradictory intake data blocks a firm LIHEAP read. Contradictory income details block a firm Medicaid/CHIP read. This is a prescreening and next-step guide, not an official determination.",
+    "visible_caveats": [
+      "Contradictory intake data requires follow-up.",
+      "Contradictory intake data blocks a firm SNAP read.",
+      "Contradictory intake data blocks a firm LIHEAP read.",
+      "Contradictory income details block a firm Medicaid/CHIP read."
+    ],
+    "referral_notes": [
+      "A local navigator or caseworker may help resolve ambiguity, local housing issues, or application barriers."
+    ],
+    "final_status": "delivered_with_uncertainty"
+  },
+  "audit": {
+    "events": [
+      {
+        "component": "intake",
+        "event_type": "validation_complete",
+        "timestamp": "2026-04-13T00:04:05.663521+00:00",
+        "details": {
+          "status": "needs_clarification"
+        }
+      },
+      {
+        "component": "eligibility_prioritization",
+        "event_type": "decision_complete",
+        "timestamp": "2026-04-13T00:04:05.663521+00:00",
+        "details": {
+          "status": "ambiguous"
+        }
+      },
+      {
+        "component": "checklist_explanation",
+        "event_type": "delivery_complete",
+        "timestamp": "2026-04-13T00:04:05.663521+00:00",
+        "details": {
+          "status": "delivered_with_uncertainty"
+        }
+      }
+    ],
+    "errors": [],
+    "timings_ms": {
+      "intake": 0,
+      "eligibility_prioritization": 0,
+      "checklist_explanation": 0,
+      "total": 0
+    }
+  }
+}

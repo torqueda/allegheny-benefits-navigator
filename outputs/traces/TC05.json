@@ -1,0 +1,255 @@
+{
+  "session_meta": {
+    "session_id": "b1ef58a6-d401-4591-932a-5ad6764ad1e2",
+    "run_id": "b3033182-65c7-4f1f-b896-b81d97a427b1",
+    "case_id": "TC05",
+    "mode": "synthetic_test",
+    "created_at": "2026-04-13T00:04:05.662944+00:00",
+    "app_version": "0.1.0",
+    "ruleset_version": "2026-04-phase2",
+    "template_version": "v1",
+    "llm_enabled": false,
+    "llm_model": null
+  },
+  "input": {
+    "raw_form_input": {
+      "case_id": "TC05",
+      "case_type": "near_threshold",
+      "scenario_summary": "Two adults and two children (ages 4 and 9) are living on one paycheck. Their income appears just under SNAP and LIHEAP cutoffs, and the younger child may still fall within Medicaid limits while the older child may not.",
+      "county": "Allegheny",
+      "zip_code": "15108",
+      "num_adults": 2,
+      "num_children": 2,
+      "child_under_5": true,
+      "pregnant_household_member": false,
+      "elderly_or_disabled_member": false,
+      "employment_status": "full_time",
+      "monthly_earned_income": 4090.0,
+      "monthly_unearned_income": 0.0,
+      "household_income_total": 4090.0,
+      "housing_cost": 1500.0,
+      "utility_burden": "medium",
+      "heating_assistance_need": true,
+      "insurance_status": "underinsured",
+      "recent_job_loss": false,
+      "food_insecurity_signal": "possible",
+      "missing_fields": [],
+      "contradictory_fields": [],
+      "language_or_stress_notes": "Needs careful explanation of different thresholds by program and child age."
+    },
+    "source": "csv_loader"
+  },
+  "intake": {
+    "household_profile": {
+      "county": "Allegheny",
+      "zip_code": "15108",
+      "num_adults": 2,
+      "num_children": 2,
+      "child_under_5": true,
+      "pregnant_household_member": false,
+      "elderly_or_disabled_member": false,
+      "employment_status": "full_time",
+      "monthly_earned_income": 4090.0,
+      "monthly_unearned_income": 0.0,
+      "household_income_total": 4090.0,
+      "housing_cost": 1500.0,
+      "utility_burden": "medium",
+      "heating_assistance_need": true,
+      "insurance_status": "underinsured",
+      "recent_job_loss": false,
+      "food_insecurity_signal": "possible",
+      "language_or_stress_notes": "Needs careful explanation of different thresholds by program and child age.",
+      "scenario_summary": "Two adults and two children (ages 4 and 9) are living on one paycheck. Their income appears just under SNAP and LIHEAP cutoffs, and the younger child may still fall within Medicaid limits while the older child may not.",
+      "household_size": 4
+    },
+    "missing_fields": [],
+    "contradictory_fields": [],
+    "validation_warnings": [],
+    "clarification_questions": [],
+    "intake_status": "complete"
+  },
+  "eligibility_prioritization": {
+    "program_assessments": [
+      {
+        "program_name": "SNAP",
+        "status": "likely_applicable",
+        "matched_conditions": [
+          "Household income 4090 is within the prototype SNAP threshold 4200.",
+          "Food hardship or low-income signal supports prescreening relevance."
+        ],
+        "failed_conditions": [],
+        "missing_evidence": [],
+        "caveats": [
+          "Income appears close to the SNAP threshold and should be verified."
+        ],
+        "source_refs": [
+          "PA SNAP gross-income guidance (curated)"
+        ]
+      },
+      {
+        "program_name": "Medicaid/CHIP",
+        "status": "likely_applicable",
+        "matched_conditions": [
+          "Children in the household keep income within the prototype Medicaid/CHIP threshold 4300."
+        ],
+        "failed_conditions": [],
+        "missing_evidence": [],
+        "caveats": [
+          "Child age bands may split Medicaid vs CHIP outcomes."
+        ],
+        "source_refs": [
+          "PA Medicaid/CHIP eligibility snapshot (curated)"
+        ]
+      },
+      {
+        "program_name": "LIHEAP",
+        "status": "likely_applicable",
+        "matched_conditions": [
+          "Heating-assistance need is present and income 4090 is within the prototype LIHEAP limit 4200."
+        ],
+        "failed_conditions": [],
+        "missing_evidence": [],
+        "caveats": [
+          "LIHEAP appears close to the income cutoff and should be verified."
+        ],
+        "source_refs": [
+          "PA LIHEAP income snapshot (curated)"
+        ]
+      },
+      {
+        "program_name": "WIC",
+        "status": "likely_applicable",
+        "matched_conditions": [
+          "Income 4090 is within the prototype WIC limit 5900."
+        ],
+        "failed_conditions": [],
+        "missing_evidence": [],
+        "caveats": [],
+        "source_refs": [
+          "PA WIC income snapshot (curated)"
+        ]
+      },
+      {
+        "program_name": "Local Referral",
+        "status": "likely_inapplicable",
+        "matched_conditions": [],
+        "failed_conditions": [
+          "No strong local referral trigger was detected in the prototype rules."
+        ],
+        "missing_evidence": [],
+        "caveats": [],
+        "source_refs": []
+      }
+    ],
+    "eligible_or_likely_programs": [
+      "SNAP",
+      "Medicaid/CHIP",
+      "LIHEAP",
+      "WIC"
+    ],
+    "inapplicable_programs": [
+      "Local Referral"
+    ],
+    "uncertainty_flags": [
+      "SNAP threshold edge case.",
+      "Child coverage may vary by age band.",
+      "LIHEAP threshold edge case."
+    ],
+    "priority_order": [
+      "LIHEAP",
+      "SNAP",
+      "Medicaid/CHIP",
+      "WIC",
+      "Local Referral"
+    ],
+    "priority_rationale": [
+      "LIHEAP ranked with prototype score 135.",
+      "SNAP ranked with prototype score 131.",
+      "Medicaid/CHIP ranked with prototype score 128.",
+      "WIC ranked with prototype score 105.",
+      "Local Referral ranked with prototype score 45."
+    ],
+    "decision_status": "ready_for_explanation"
+  },
+  "checklist_explanation": {
+    "recommended_programs": [
+      "LIHEAP",
+      "SNAP",
+      "Medicaid/CHIP",
+      "WIC"
+    ],
+    "checklist_items_by_program": {
+      "LIHEAP": [
+        "Recent heating bill",
+        "Proof of income",
+        "Household address verification"
+      ],
+      "SNAP": [
+        "Photo ID",
+        "Proof of income",
+        "Recent utility or housing bill"
+      ],
+      "Medicaid/CHIP": [
+        "Photo ID",
+        "Proof of income",
+        "Insurance information if any"
+      ],
+      "WIC": [
+        "Proof of pregnancy or child age",
+        "Proof of income",
+        "Proof of identity"
+      ]
+    },
+    "next_steps": [
+      "Gather the listed documents for the highest-priority programs first.",
+      "Address heating-bill urgency first if there is a shutoff or overdue balance.",
+      "Treat this as prescreening only, not an official eligibility determination."
+    ],
+    "user_explanation": "Based on the information provided, this household may be a fit for LIHEAP, SNAP, Medicaid/CHIP, WIC. LIHEAP: Heating-assistance need is present and income 4090 is within the prototype LIHEAP limit 4200. SNAP: Household income 4090 is within the prototype SNAP threshold 4200. Medicaid/CHIP: Children in the household keep income within the prototype Medicaid/CHIP threshold 4300. WIC: Income 4090 is within the prototype WIC limit 5900. Caveats: SNAP threshold edge case. Child coverage may vary by age band. LIHEAP threshold edge case. LIHEAP appears close to the income cutoff and should be verified. Income appears close to the SNAP threshold and should be verified. Child age bands may split Medicaid vs CHIP outcomes. This is a prescreening and next-step guide, not an official determination.",
+    "visible_caveats": [
+      "SNAP threshold edge case.",
+      "Child coverage may vary by age band.",
+      "LIHEAP threshold edge case.",
+      "LIHEAP appears close to the income cutoff and should be verified.",
+      "Income appears close to the SNAP threshold and should be verified.",
+      "Child age bands may split Medicaid vs CHIP outcomes."
+    ],
+    "referral_notes": [],
+    "final_status": "delivered"
+  },
+  "audit": {
+    "events": [
+      {
+        "component": "intake",
+        "event_type": "validation_complete",
+        "timestamp": "2026-04-13T00:04:05.662944+00:00",
+        "details": {
+          "status": "complete"
+        }
+      },
+      {
+        "component": "eligibility_prioritization",
+        "event_type": "decision_complete",
+        "timestamp": "2026-04-13T00:04:05.662944+00:00",
+        "details": {
+          "status": "ready_for_explanation"
+        }
+      },
+      {
+        "component": "checklist_explanation",
+        "event_type": "delivery_complete",
+        "timestamp": "2026-04-13T00:04:05.662944+00:00",
+        "details": {
+          "status": "delivered"
+        }
+      }
+    ],
+    "errors": [],
+    "timings_ms": {
+      "intake": 0,
+      "eligibility_prioritization": 0,
+      "checklist_explanation": 0,
+      "total": 0
+    }
+  }
+}

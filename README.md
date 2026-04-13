@@ -20,18 +20,14 @@ intake() -> eligibility_and_prioritization() -> checklist_and_explanation()
 - **Eligibility + Prioritization** handles deterministic decision logic only.
 - **Checklist + Explanation** handles communication only.
 
-## Current build plan
-Phase 1 Codex scaffolding should:
-- generate typed Pydantic models
-- generate session-state models
-- generate tests for model validation and serialization
-- avoid business logic in the first pass
-
-Later passes will add:
-- CSV loaders
-- pipeline/controller skeleton
-- deterministic component logic
-- logging and evaluation output
+## Current implementation
+The repository now includes a runnable Phase 2 prototype:
+- typed shared models with a lightweight fallback when `pydantic` is not installed
+- CSV loaders for synthetic evaluation fixtures
+- deterministic intake, eligibility/prioritization, and checklist/explanation components
+- session-state trace generation for each synthetic case
+- evaluation output written to `data/evaluation_results.csv`
+- basic end-to-end tests using the Python standard library `unittest`
 
 ## Repo structure
 - `docs/` design inputs and schemas
@@ -47,12 +43,13 @@ Later passes will add:
 
 ## Quick start
 1. Create and activate a virtual environment.
-2. Install dependencies from `requirements.txt`.
-3. Keep design changes in `docs/` and evaluation inputs in `data/`.
-4. Use Codex to scaffold typed models before implementing pipeline logic.
+2. Install dependencies from `requirements.txt` if desired, though the current prototype can run in a standard-library-only environment.
+3. Run `python3 -m unittest -q` to check the prototype tests.
+4. Run `python3 -m src.evaluate` to execute the 10 synthetic cases and regenerate traces plus `data/evaluation_results.csv`.
+5. Keep design changes in `docs/` and evaluation inputs in `data/`.
 
 ## Current status
-Repository initialized for prototype scaffolding with Codex.
+Prototype implemented for the core Phase 2 flow, with 10/10 synthetic cases matching the expected evaluation fixture.
 
 ## Out of scope
 - official eligibility determinations
