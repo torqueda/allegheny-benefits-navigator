@@ -21,11 +21,12 @@ from src.pipeline.session_state import (
 def run_pipeline(
     case_id: str | None = None,
     raw_form_input: Dict[str, Any] | None = None,
+    ambiguity_mode: bool = False,
 ) -> SessionState:
     """
     Orchestrate the 3-component pipeline: intake -> eligibility_and_prioritization -> checklist_and_explanation.
 
-    Returns the final session state after all components have run.
+    ambiguity_mode: If True, allow handoff from Intake even if needs_clarification (for testing ambiguity handling).
     """
     if raw_form_input is None:
         raw_form_input = {}
@@ -38,10 +39,13 @@ def run_pipeline(
     session = update_session_with_intake_output(session, intake_output)
 
     # Handoff check: Intake -> Eligibility + Prioritization
-    if intake_output.intake_status not in [IntakeStatus.complete, IntakeStatus.needs_clarification]:
-        # Early stop if not complete or needs_clarification (for ambiguity testing)
-        # For now, assume we continue
-        pass
+    can_handoff = (
+        intake_output.intake_status == IntakeStatus.complete or
+        (intake_output.intake_status == IntakeStatus.needs_clarification and ambiguity_mode)
+    )
+    if not can_handoff:
+        # Early stop
+        return session
 
     # Component 2: Eligibility + Prioritization
     eligibility_output = eligibility_and_prioritization(session)
@@ -49,9 +53,8 @@ def run_pipeline(
 
     # Handoff check: Eligibility + Prioritization -> Checklist + Explanation
     if eligibility_output.decision_status not in [DecisionStatus.ready_for_explanation, DecisionStatus.ambiguous]:
-        # Early stop if not ready or ambiguous
-        # For now, assume we continue
-        pass
+        # Early stop
+        return session
 
     # Component 3: Checklist + Explanation
     checklist_output = checklist_and_explanation(session)
