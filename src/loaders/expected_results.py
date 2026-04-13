@@ -1,24 +1,26 @@
 from __future__ import annotations
 
 from pathlib import Path
-from typing import List, Optional
+from typing import Any, List, Optional, Self
 
 import pandas as pd
-from pydantic import BaseModel, ConfigDict, Field, root_validator, validator
+from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
 
 from src.models.common import ProgramStatus
 
 
-def _normalize_text(value: Optional[str]) -> Optional[str]:
+def _normalize_text(value: Any) -> Optional[str]:
     if value is None:
         return None
-    normalized = value.strip()
+    normalized = str(value).strip()
     return normalized if normalized != "" else None
 
 
-def _parse_boolean(value: Optional[str]) -> Optional[bool]:
+def _parse_boolean(value: Any) -> Optional[bool]:
     if value is None:
         return None
+    if isinstance(value, bool):
+        return value
     normalized = value.strip().lower()
     if normalized == "":
         return None
@@ -29,7 +31,7 @@ def _parse_boolean(value: Optional[str]) -> Optional[bool]:
     raise ValueError(f"Invalid boolean value: {value}")
 
 
-def _parse_priority_order(value: Optional[str]) -> List[str]:
+def _parse_priority_order(value: Any) -> List[str]:
     if value is None:
         return []
     if isinstance(value, list):
@@ -40,7 +42,7 @@ def _parse_priority_order(value: Optional[str]) -> List[str]:
     return [item.strip() for item in value.split(" > ") if item.strip()]
 
 
-def _parse_program_list(value: Optional[str]) -> Optional[List[str]]:
+def _parse_program_list(value: Any) -> Optional[List[str]]:
     if value is None:
         return None
     if isinstance(value, list):
@@ -67,51 +69,55 @@ class ExpectedResultRow(BaseModel):
 
     model_config = ConfigDict(extra="forbid")
 
-    @validator(
+    @field_validator(
         "case_id",
         "expected_explanation_notes",
         "why_this_is_expected",
-        pre=True,
-        always=True,
+        mode="before",
     )
-    def _clean_text(cls, value: Optional[str]) -> Optional[str]:
+    @classmethod
+    def _clean_text(cls, value: Any) -> Optional[str]:
         return _normalize_text(value)
 
-    @validator(
+    @field_validator(
         "expected_snap",
         "expected_medicaid_chip",
         "expected_liheap",
         "expected_wic",
         "expected_local_referral",
-        pre=True,
-        always=True,
+        mode="before",
     )
-    def _clean_program_status(cls, value: Optional[str]) -> Optional[ProgramStatus]:
+    @classmethod
+    def _clean_program_status(cls, value: Any) -> Optional[ProgramStatus]:
         if value is None:
             return None
-        normalized = value.strip()
+        if isinstance(value, ProgramStatus):
+            return value
+        normalized = str(value).strip()
         if normalized == "":
             return None
         return ProgramStatus(normalized)
 
-    @validator("expected_uncertainty_flag", pre=True, always=True)
-    def _clean_uncertainty_flag(cls, value: Optional[str]) -> Optional[bool]:
+    @field_validator("expected_uncertainty_flag", mode="before")
+    @classmethod
+    def _clean_uncertainty_flag(cls, value: Any) -> Optional[bool]:
         return _parse_boolean(value)
 
-    @validator("expected_priority_order", pre=True, always=True)
-    def _clean_priority_order(cls, value: Optional[str]) -> List[str]:
+    @field_validator("expected_priority_order", mode="before")
+    @classmethod
+    def _clean_priority_order(cls, value: Any) -> List[str]:
         return _parse_priority_order(value)
 
-    @validator("expected_checklist_programs", pre=True, always=True)
-    def _clean_program_list(cls, value: Optional[str]) -> Optional[List[str]]:
+    @field_validator("expected_checklist_programs", mode="before")
+    @classmethod
+    def _clean_program_list(cls, value: Any) -> Optional[List[str]]:
         return _parse_program_list(value)
 
-    @root_validator(skip_on_failure=True)
-    def _validate_case_id(cls, values):
-        case_id = values.get("case_id")
-        if not case_id:
+    @model_validator(mode="after")
+    def _validate_case_id(self) -> Self:
+        if not self.case_id:
             raise ValueError("case_id is required")
-        return values
+        return self
 
 
 def load_expected_results(csv_path: str | Path) -> List[ExpectedResultRow]:

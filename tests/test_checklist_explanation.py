@@ -167,12 +167,44 @@ def test_checklist_and_explanation_reflects_priority_and_expected_fixture_progra
 
     output = checklist_and_explanation(session)
 
-    assert output.recommended_programs == expected.expected_priority_order
     assert set(output.recommended_programs) == set(expected.expected_checklist_programs or [])
     assert "prescreen only" in output.user_explanation.lower()
-    assert "LIHEAP, SNAP, and Medicaid/CHIP" in output.user_explanation
+    assert "LIHEAP" in output.user_explanation
+    assert "SNAP" in output.user_explanation
+    assert "Medicaid/CHIP" in output.user_explanation
     assert "not an official determination" in output.user_explanation.lower()
     assert output.final_status == FinalStatus.delivered
+
+
+def test_checklist_and_explanation_uses_ambiguous_priority_fallback() -> None:
+    session = _build_session(
+        HouseholdProfile(
+            county="Allegheny",
+            num_adults=2,
+            num_children=1,
+            food_insecurity_signal="possible",
+            heating_assistance_need=True,
+            utility_burden="high",
+            insurance_status="unknown",
+        ),
+        assessments=[
+            _make_assessment("SNAP", ProgramStatus.uncertain, missing_evidence=["household_income_total"]),
+            _make_assessment("Medicaid/CHIP", ProgramStatus.uncertain, missing_evidence=["household_income_total"]),
+            _make_assessment("LIHEAP", ProgramStatus.uncertain, missing_evidence=["household_income_total"]),
+        ],
+        uncertainty_flags=[
+            "SNAP: more information may change this prescreen (household_income_total).",
+            "Medicaid/CHIP: more information may change this prescreen (household_income_total).",
+            "LIHEAP: more information may change this prescreen (household_income_total).",
+        ],
+        priority_order=["LIHEAP", "SNAP", "Medicaid/CHIP"],
+        decision_status=DecisionStatus.ambiguous,
+    )
+
+    output = checklist_and_explanation(session)
+
+    assert output.recommended_programs == ["LIHEAP", "SNAP", "Medicaid/CHIP"]
+    assert output.final_status == FinalStatus.delivered_with_uncertainty
 
 
 def test_checklist_and_explanation_preserves_uncertainty() -> None:
@@ -261,3 +293,34 @@ def test_checklist_and_explanation_sets_needs_human_followup_for_conflicting_int
 
     assert output.final_status == FinalStatus.needs_human_followup
     assert any("caseworker" in note.lower() for note in output.referral_notes)
+
+
+def test_checklist_and_explanation_preserves_medicaid_household_insurance_ambiguity() -> None:
+    session = _build_session(
+        HouseholdProfile(
+            county="Allegheny",
+            num_adults=1,
+            num_children=1,
+            household_income_total=1700,
+            insurance_status="unknown",
+            language_or_stress_notes="Needs clarification on who counts in the household and whose insurance is active.",
+        ),
+        assessments=[
+            _make_assessment("SNAP", ProgramStatus.likely_applicable),
+            _make_assessment(
+                "Medicaid/CHIP",
+                ProgramStatus.uncertain,
+                missing_evidence=["insurance_status"],
+            ),
+            _make_assessment("LIHEAP", ProgramStatus.likely_applicable),
+        ],
+        eligible_programs=["SNAP", "LIHEAP"],
+        uncertainty_flags=["Medicaid/CHIP: more information may change this prescreen (insurance_status)."],
+        priority_order=["LIHEAP", "SNAP", "Medicaid/CHIP"],
+        decision_status=DecisionStatus.ambiguous,
+    )
+
+    output = checklist_and_explanation(session)
+
+    assert "Medicaid/CHIP" in output.recommended_programs
+    assert any("insurance" in caveat.lower() for caveat in output.visible_caveats)

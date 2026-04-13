@@ -1,13 +1,30 @@
 from __future__ import annotations
 
 from pathlib import Path
-from typing import List, Sequence
+from typing import Any, ClassVar, List, Sequence
 
 import pandas as pd
-from pydantic import BaseModel, ConfigDict
+from pydantic import BaseModel, ConfigDict, field_validator, model_validator
+
+SUPPORTED_PROGRAM_IDS = {"snap", "medicaid", "liheap"}
+SUPPORTED_RULE_TYPES = {"inclusion", "ambiguity"}
+SUPPORTED_RULE_OPERATORS = {"==", "<=", ">=", ">", "in", "missing"}
+SUPPORTED_HEURISTIC_OPERATORS = {"==", ">="}
+SUPPORTED_SOURCE_TYPES = {"webpage", "pdf"}
+
+
+def _normalize_required_text(value: Any, field_name: str) -> str:
+    normalized = str(value).strip()
+    if not normalized:
+        raise ValueError(f"{field_name} must be non-empty")
+    return normalized
 
 
 class EligibilityRule(BaseModel):
+    _program_ids: ClassVar[set[str]] = SUPPORTED_PROGRAM_IDS
+    _rule_types: ClassVar[set[str]] = SUPPORTED_RULE_TYPES
+    _operators: ClassVar[set[str]] = SUPPORTED_RULE_OPERATORS
+
     program_id: str
     pathway_id: str
     rule_id: str
@@ -22,8 +39,53 @@ class EligibilityRule(BaseModel):
 
     model_config = ConfigDict(extra="forbid")
 
+    @field_validator("program_id", mode="before")
+    @classmethod
+    def _validate_program_id(cls, value: Any) -> str:
+        normalized = _normalize_required_text(value, "program_id").lower()
+        if normalized not in cls._program_ids:
+            raise ValueError(f"Unsupported program_id: {normalized}")
+        return normalized
+
+    @field_validator("pathway_id", "rule_id", "field_name", "source_id", "citation_note", mode="before")
+    @classmethod
+    def _validate_required_text_fields(cls, value: Any, info) -> str:
+        return _normalize_required_text(value, info.field_name)
+
+    @field_validator("rule_type", mode="before")
+    @classmethod
+    def _validate_rule_type(cls, value: Any) -> str:
+        normalized = _normalize_required_text(value, "rule_type").lower()
+        if normalized not in cls._rule_types:
+            raise ValueError(f"Unsupported rule_type: {normalized}")
+        return normalized
+
+    @field_validator("operator", mode="before")
+    @classmethod
+    def _validate_operator(cls, value: Any) -> str:
+        normalized = _normalize_required_text(value, "operator")
+        if normalized not in cls._operators:
+            raise ValueError(f"Unsupported operator: {normalized}")
+        return normalized
+
+    @field_validator("outcome_if_true", "uncertainty_if_missing", mode="before")
+    @classmethod
+    def _validate_outcome_fields(cls, value: Any, info) -> str:
+        return _normalize_required_text(value, info.field_name)
+
+    @model_validator(mode="after")
+    def _validate_missing_operator_value(self) -> "EligibilityRule":
+        if self.operator == "missing" and self.value.strip():
+            raise ValueError("value must be blank when operator is 'missing'")
+        if self.operator != "missing" and not self.value.strip():
+            raise ValueError("value must be non-empty when operator is not 'missing'")
+        return self
+
 
 class PriorityHeuristic(BaseModel):
+    _program_ids: ClassVar[set[str]] = SUPPORTED_PROGRAM_IDS
+    _operators: ClassVar[set[str]] = SUPPORTED_HEURISTIC_OPERATORS
+
     program_id: str
     heuristic_id: str
     field_name: str
@@ -35,8 +97,31 @@ class PriorityHeuristic(BaseModel):
 
     model_config = ConfigDict(extra="forbid")
 
+    @field_validator("program_id", mode="before")
+    @classmethod
+    def _validate_program_id(cls, value: Any) -> str:
+        normalized = _normalize_required_text(value, "program_id").lower()
+        if normalized not in cls._program_ids:
+            raise ValueError(f"Unsupported program_id: {normalized}")
+        return normalized
+
+    @field_validator("heuristic_id", "field_name", "value", "reason_text", "source_id", mode="before")
+    @classmethod
+    def _validate_required_text_fields(cls, value: Any, info) -> str:
+        return _normalize_required_text(value, info.field_name)
+
+    @field_validator("operator", mode="before")
+    @classmethod
+    def _validate_operator(cls, value: Any) -> str:
+        normalized = _normalize_required_text(value, "operator")
+        if normalized not in cls._operators:
+            raise ValueError(f"Unsupported operator: {normalized}")
+        return normalized
+
 
 class ProgramSource(BaseModel):
+    _program_ids: ClassVar[set[str]] = SUPPORTED_PROGRAM_IDS
+
     program_id: str
     source_id: str
     source_title: str
@@ -48,8 +133,38 @@ class ProgramSource(BaseModel):
 
     model_config = ConfigDict(extra="forbid")
 
+    @field_validator("program_id", mode="before")
+    @classmethod
+    def _validate_program_id(cls, value: Any) -> str:
+        normalized = _normalize_required_text(value, "program_id").lower()
+        if normalized not in cls._program_ids:
+            raise ValueError(f"Unsupported program_id: {normalized}")
+        return normalized
+
+    @field_validator(
+        "source_id",
+        "source_title",
+        "source_url",
+        "accessed_date",
+        "source_scope",
+        mode="before",
+    )
+    @classmethod
+    def _validate_required_text_fields(cls, value: Any, info) -> str:
+        return _normalize_required_text(value, info.field_name)
+
+    @field_validator("source_type", mode="before")
+    @classmethod
+    def _validate_source_type(cls, value: Any) -> str:
+        normalized = _normalize_required_text(value, "source_type").lower()
+        if normalized not in SUPPORTED_SOURCE_TYPES:
+            raise ValueError(f"Unsupported source_type: {normalized}")
+        return normalized
+
 
 class ChecklistRequirement(BaseModel):
+    _program_ids: ClassVar[set[str]] = SUPPORTED_PROGRAM_IDS
+
     program_id: str
     pathway_id: str
     item_id: str
@@ -59,6 +174,27 @@ class ChecklistRequirement(BaseModel):
     citation_note: str
 
     model_config = ConfigDict(extra="forbid")
+
+    @field_validator("program_id", mode="before")
+    @classmethod
+    def _validate_program_id(cls, value: Any) -> str:
+        normalized = _normalize_required_text(value, "program_id").lower()
+        if normalized not in cls._program_ids:
+            raise ValueError(f"Unsupported program_id: {normalized}")
+        return normalized
+
+    @field_validator(
+        "pathway_id",
+        "item_id",
+        "document_name",
+        "required_or_likely",
+        "source_id",
+        "citation_note",
+        mode="before",
+    )
+    @classmethod
+    def _validate_required_text_fields(cls, value: Any, info) -> str:
+        return _normalize_required_text(value, info.field_name)
 
 
 def _read_rules_csv(path: Path) -> pd.DataFrame:

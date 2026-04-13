@@ -20,6 +20,7 @@ from src.models.session import SessionState
 
 RULES_DIR = "data/rules_source"
 SUPPORTED_PROGRAMS = ("SNAP", "Medicaid/CHIP", "LIHEAP")
+PROFILE_FIELD_NAMES = set(HouseholdProfile.model_fields)
 PROGRAM_ID_BY_NAME = {
     "SNAP": "snap",
     "Medicaid/CHIP": "medicaid",
@@ -205,6 +206,12 @@ def _detect_contradictions(normalized: Dict[str, Any]) -> List[str]:
     if total is not None and abs((earned + unearned) - total) > 1:
         contradictions.append("income components vs total")
 
+    if (
+        normalized.get("employment_status") == "full_time"
+        and normalized.get("monthly_earned_income") == 0
+    ):
+        contradictions.append("employment_status vs monthly_earned_income")
+
     return contradictions
 
 
@@ -223,9 +230,10 @@ def _determine_intake_status(
         warnings.append("Some required fields are missing.")
         questions.extend([f"Please provide: {field_name}" for field_name in missing])
 
+    issue_count = len(missing) + len(contradictions)
     if not missing and not contradictions:
         status = IntakeStatus.complete
-    elif len(missing) <= 2 and not contradictions:
+    elif issue_count <= 2:
         status = IntakeStatus.needs_clarification
     else:
         status = IntakeStatus.insufficient_data
@@ -246,26 +254,51 @@ def eligibility_and_prioritization(
     rules = load_eligibility_rules(RULES_DIR)
     heuristics = load_priority_heuristics(RULES_DIR)
 
-    household_size = (profile.num_adults or 0) + (profile.num_children or 0)
+    base_household_size = (profile.num_adults or 0) + (profile.num_children or 0)
     assessments: List[ProgramAssessment] = []
     uncertainty_flags: List[str] = []
     eligible_programs: List[str] = []
     inapplicable_programs: List[str] = []
+    uncertain_programs: List[str] = []
 
     for program in SUPPORTED_PROGRAMS:
-        assessment = _evaluate_program(program, profile, household_size, rules)
+        effective_household_size = _effective_household_size(program, profile, base_household_size)
+        assessment = _evaluate_program(
+            program,
+            profile,
+            effective_household_size,
+            rules,
+            contradictions=session.intake.contradictory_fields,
+        )
         assessments.append(assessment)
         if assessment.status == ProgramStatus.likely_applicable:
             eligible_programs.append(program)
         elif assessment.status == ProgramStatus.likely_inapplicable:
             inapplicable_programs.append(program)
+        else:
+            uncertain_programs.append(program)
 
-        if assessment.status == ProgramStatus.uncertain:
-            uncertainty_flags.append(_format_uncertainty_flag(assessment))
+        uncertainty_flags.extend(
+            _collect_program_uncertainty_flags(
+                program,
+                assessment,
+                profile,
+                base_household_size,
+                rules,
+            )
+        )
 
-    priority_order, priority_rationale = _prioritize_programs(eligible_programs, profile, heuristics)
+    priority_candidates = list(eligible_programs)
+    if not priority_candidates:
+        priority_candidates.extend(uncertain_programs)
+    else:
+        for program in uncertain_programs:
+            if program not in priority_candidates:
+                priority_candidates.append(program)
+
+    priority_order, priority_rationale = _prioritize_programs(priority_candidates, profile, heuristics)
     decision_status = (
-        DecisionStatus.ambiguous if uncertainty_flags else DecisionStatus.ready_for_explanation
+        DecisionStatus.ambiguous if uncertainty_flags or uncertain_programs else DecisionStatus.ready_for_explanation
     )
 
     return EligibilityPrioritizationOutput(
@@ -341,7 +374,11 @@ def checklist_and_explanation(
 
 
 def _evaluate_program(
-    program: str, profile: HouseholdProfile, household_size: int, rules: List[EligibilityRule]
+    program: str,
+    profile: HouseholdProfile,
+    household_size: int,
+    rules: List[EligibilityRule],
+    contradictions: Sequence[str] | None = None,
 ) -> ProgramAssessment:
     """Evaluate deterministic rules for a single program."""
     program_id = PROGRAM_ID_BY_NAME[program]
@@ -368,6 +405,12 @@ def _evaluate_program(
         for rule in path_rules:
             result = _evaluate_rule(rule, profile, household_size)
             if result == "match":
+                if _is_unmodeled_ambiguity_rule(rule):
+                    if rule.citation_note:
+                        caveats.append(rule.citation_note)
+                    source_refs.add(rule.source_id)
+                    continue
+
                 pathway_matched.append(rule.rule_id)
                 if rule.outcome_if_true == "likely_applicable":
                     pathway_likely_applicable = True
@@ -399,7 +442,7 @@ def _evaluate_program(
         if pathway_uncertain:
             status = ProgramStatus.uncertain
 
-    return ProgramAssessment(
+    assessment = ProgramAssessment(
         program_name=program,
         status=status,
         matched_conditions=_preserve_order_unique(matched_conditions),
@@ -408,6 +451,12 @@ def _evaluate_program(
         caveats=_preserve_order_unique(caveats),
         source_refs=sorted(source_refs),
     )
+
+    assessment = _apply_income_contradiction_uncertainty(
+        assessment,
+        contradictions or [],
+    )
+    return _apply_medicaid_note_ambiguity(program, assessment, profile)
 
 
 def _evaluate_rule(rule: EligibilityRule, profile: HouseholdProfile, household_size: int) -> str:
@@ -440,6 +489,81 @@ def _get_field_value(field_name: str, profile: HouseholdProfile, household_size:
     if field_name == "household_size_total":
         return household_size
     return getattr(profile, field_name, None)
+
+
+def _effective_household_size(
+    program: str,
+    profile: HouseholdProfile,
+    household_size: int,
+) -> int:
+    if program == "Medicaid/CHIP" and profile.pregnant_household_member:
+        # Pregnancy Medicaid counts at least one unborn child toward household size.
+        return household_size + 1
+    return household_size
+
+
+def _is_unmodeled_ambiguity_rule(rule: EligibilityRule) -> bool:
+    return rule.rule_type == "ambiguity" and rule.field_name not in PROFILE_FIELD_NAMES and rule.field_name != "household_size_total"
+
+
+def _apply_income_contradiction_uncertainty(
+    assessment: ProgramAssessment,
+    contradictions: Sequence[str],
+) -> ProgramAssessment:
+    income_conflicts = {
+        "income components vs total",
+        "employment_status vs monthly_earned_income",
+    }
+    if not any(conflict in income_conflicts for conflict in contradictions):
+        return assessment
+
+    missing_evidence = list(assessment.missing_evidence)
+    if "household_income_total" not in missing_evidence:
+        missing_evidence.append("household_income_total")
+
+    caveats = list(assessment.caveats)
+    caveat = "Conflicting income or employment information may change this program result."
+    if caveat not in caveats:
+        caveats.append(caveat)
+
+    return assessment.model_copy(
+        update={
+            "status": ProgramStatus.uncertain,
+            "missing_evidence": _preserve_order_unique(missing_evidence),
+            "caveats": _preserve_order_unique(caveats),
+        }
+    )
+
+
+def _apply_medicaid_note_ambiguity(
+    program: str,
+    assessment: ProgramAssessment,
+    profile: HouseholdProfile,
+) -> ProgramAssessment:
+    notes = (profile.language_or_stress_notes or "").lower()
+    if program != "Medicaid/CHIP":
+        return assessment
+    if profile.insurance_status != "unknown":
+        return assessment
+    if "household" not in notes or "insurance" not in notes:
+        return assessment
+
+    missing_evidence = list(assessment.missing_evidence)
+    if "insurance_status" not in missing_evidence:
+        missing_evidence.append("insurance_status")
+
+    caveats = list(assessment.caveats)
+    caveat = "Household-composition or insurance-coverage details in the intake notes may change this Medicaid/CHIP result."
+    if caveat not in caveats:
+        caveats.append(caveat)
+
+    return assessment.model_copy(
+        update={
+            "status": ProgramStatus.uncertain,
+            "missing_evidence": _preserve_order_unique(missing_evidence),
+            "caveats": _preserve_order_unique(caveats),
+        }
+    )
 
 
 def _prioritize_programs(
@@ -487,6 +611,68 @@ def _format_uncertainty_flag(assessment: ProgramAssessment) -> str:
         missing = ", ".join(assessment.missing_evidence)
         return f"{assessment.program_name}: more information may change this prescreen ({missing})."
     return f"{assessment.program_name}: this prescreen remains uncertain and may need follow-up."
+
+
+def _collect_program_uncertainty_flags(
+    program: str,
+    assessment: ProgramAssessment,
+    profile: HouseholdProfile,
+    household_size: int,
+    rules: List[EligibilityRule],
+) -> List[str]:
+    flags: List[str] = []
+
+    if assessment.status == ProgramStatus.uncertain:
+        flags.append(_format_uncertainty_flag(assessment))
+
+    if program == "Medicaid/CHIP" and profile.insurance_status == "unknown":
+        flags.append("Medicaid/CHIP: current insurance coverage details are unclear and may affect this prescreen.")
+
+    if program == "Medicaid/CHIP" and _has_mixed_age_child_uncertainty(profile, household_size, rules):
+        flags.append(
+            "Medicaid/CHIP: child age bands may change whether every child fits Medicaid or may need CHIP follow-up."
+        )
+
+    if program == "Medicaid/CHIP" and profile.pregnant_household_member:
+        flags.append(
+            "Medicaid/CHIP: pregnancy can change household-size counting, so this result should be treated as a prescreen."
+        )
+
+    return _preserve_order_unique(flags)
+
+
+def _has_mixed_age_child_uncertainty(
+    profile: HouseholdProfile,
+    household_size: int,
+    rules: List[EligibilityRule],
+) -> bool:
+    if not profile.child_under_5 or (profile.num_children or 0) <= 1:
+        return False
+    if profile.household_income_total is None:
+        return False
+
+    under5_limit = _lookup_income_limit(rules, "medicaid", f"medicaid_child_under5_hh_{household_size}")
+    child_6_18_limit = _lookup_income_limit(rules, "medicaid", f"medicaid_child_6_18_hh_{household_size}")
+    if under5_limit is None or child_6_18_limit is None:
+        return False
+
+    return child_6_18_limit < profile.household_income_total <= under5_limit
+
+
+def _lookup_income_limit(
+    rules: List[EligibilityRule],
+    program_id: str,
+    pathway_id: str,
+) -> float | None:
+    for rule in rules:
+        if (
+            rule.program_id == program_id
+            and rule.pathway_id == pathway_id
+            and rule.field_name == "household_income_total"
+            and rule.operator == "<="
+        ):
+            return float(rule.value)
+    return None
 
 
 def _derive_recommended_programs(

@@ -2,22 +2,24 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
-from typing import List, Optional
+from typing import Any, List, Optional, Self
 
 import pandas as pd
-from pydantic import BaseModel, ConfigDict, Field, root_validator, validator
+from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
 
 
-def _normalize_text(value: Optional[str]) -> Optional[str]:
+def _normalize_text(value: Any) -> Optional[str]:
     if value is None:
         return None
-    normalized = value.strip()
+    normalized = str(value).strip()
     return normalized if normalized != "" else None
 
 
-def _parse_boolean(value: Optional[str]) -> Optional[bool]:
+def _parse_boolean(value: Any) -> Optional[bool]:
     if value is None:
         return None
+    if isinstance(value, bool):
+        return value
     value = value.strip().lower()
     if value == "":
         return None
@@ -28,18 +30,22 @@ def _parse_boolean(value: Optional[str]) -> Optional[bool]:
     raise ValueError(f"Invalid boolean value: {value}")
 
 
-def _parse_optional_float(value: Optional[str]) -> Optional[float]:
+def _parse_optional_float(value: Any) -> Optional[float]:
     if value is None:
         return None
+    if isinstance(value, (int, float)) and not isinstance(value, bool):
+        return float(value)
     value = value.strip()
     if value == "":
         return None
     return float(value)
 
 
-def _parse_json_array(value: Optional[str]) -> List[str]:
+def _parse_json_array(value: Any) -> List[str]:
     if value is None:
         return []
+    if isinstance(value, list):
+        return [str(item) for item in value]
     value = value.strip()
     if value == "":
         return []
@@ -50,6 +56,8 @@ def _parse_json_array(value: Optional[str]) -> List[str]:
 
 
 class TestCaseRow(BaseModel):
+    __test__ = False
+
     case_id: str
     case_type: str
     scenario_summary: str
@@ -76,7 +84,7 @@ class TestCaseRow(BaseModel):
 
     model_config = ConfigDict(extra="forbid")
 
-    @validator(
+    @field_validator(
         "case_id",
         "case_type",
         "scenario_summary",
@@ -87,31 +95,31 @@ class TestCaseRow(BaseModel):
         "insurance_status",
         "food_insecurity_signal",
         "language_or_stress_notes",
-        pre=True,
-        always=True,
+        mode="before",
     )
-    def _clean_text(cls, value: Optional[str]) -> Optional[str]:
+    @classmethod
+    def _clean_text(cls, value: Any) -> Optional[str]:
         return _normalize_text(value)
 
-    @validator(
+    @field_validator(
         "child_under_5",
         "pregnant_household_member",
         "elderly_or_disabled_member",
         "heating_assistance_need",
         "recent_job_loss",
-        pre=True,
-        always=True,
+        mode="before",
     )
-    def _clean_bool(cls, value: Optional[str]) -> Optional[bool]:
+    @classmethod
+    def _clean_bool(cls, value: Any) -> Optional[bool]:
         return _parse_boolean(value)
 
-    @validator(
+    @field_validator(
         "num_adults",
         "num_children",
-        pre=True,
-        always=True,
+        mode="before",
     )
-    def _clean_int(cls, value: Optional[str]) -> Optional[int]:
+    @classmethod
+    def _clean_int(cls, value: Any) -> Optional[int]:
         if value is None:
             return None
         value = str(value).strip()
@@ -119,27 +127,27 @@ class TestCaseRow(BaseModel):
             return None
         return int(value)
 
-    @validator(
+    @field_validator(
         "monthly_earned_income",
         "monthly_unearned_income",
         "household_income_total",
         "housing_cost",
-        pre=True,
-        always=True,
+        mode="before",
     )
-    def _clean_float(cls, value: Optional[str]) -> Optional[float]:
+    @classmethod
+    def _clean_float(cls, value: Any) -> Optional[float]:
         return _parse_optional_float(value)
 
-    @validator("missing_fields", "contradictory_fields", pre=True, always=True)
-    def _clean_json_list(cls, value: Optional[str]) -> List[str]:
+    @field_validator("missing_fields", "contradictory_fields", mode="before")
+    @classmethod
+    def _clean_json_list(cls, value: Any) -> List[str]:
         return _parse_json_array(value)
 
-    @root_validator(skip_on_failure=True)
-    def _validate_case_id(cls, values):
-        case_id = values.get("case_id")
-        if not case_id:
+    @model_validator(mode="after")
+    def _validate_case_id(self) -> Self:
+        if not self.case_id:
             raise ValueError("case_id is required")
-        return values
+        return self
 
 
 def load_test_cases(csv_path: str | Path) -> List[TestCaseRow]:

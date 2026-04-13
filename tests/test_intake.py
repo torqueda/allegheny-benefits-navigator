@@ -97,7 +97,7 @@ def test_intake_sets_complete_status_for_valid_input() -> None:
     assert not output.contradictory_fields
 
 
-def test_intake_sets_needs_clarification_for_minor_issues() -> None:
+def test_intake_stays_complete_when_only_optional_fields_are_missing() -> None:
     session = create_initial_session_state()
     raw = {
         "county": "Allegheny", "num_adults": 1, "num_children": 0,
@@ -105,6 +105,21 @@ def test_intake_sets_needs_clarification_for_minor_issues() -> None:
     }
     output = intake(session, raw)
     assert output.intake_status == IntakeStatus.complete  # Since housing_cost not required
+
+
+def test_intake_sets_needs_clarification_for_single_contradiction() -> None:
+    session = create_initial_session_state()
+    raw = {
+        "county": "Allegheny",
+        "num_adults": 1,
+        "num_children": 0,
+        "employment_status": "full_time",
+        "monthly_earned_income": 0,
+        "household_income_total": 0,
+    }
+    output = intake(session, raw)
+    assert "employment_status vs monthly_earned_income" in output.contradictory_fields
+    assert output.intake_status == IntakeStatus.needs_clarification
 
 
 def test_intake_sets_insufficient_data_for_major_issues() -> None:
