@@ -25,5 +25,5 @@ data/uploaded_policies/
 # Demo output PDFs and reference PDFs (local only)
 *.pdf
 
-# Generated diagrams
-pipeline_diagram.png
+# Generated diagrams (committed to docs/ instead)
+# pipeline_diagram.png
