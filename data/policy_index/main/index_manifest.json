@@ -1,0 +1,14 @@
+{
+  "chunk_count": 2192,
+  "embedding_dim": 1536,
+  "embedding_model": "text-embedding-3-small",
+  "program_counts": {
+    "LIHEAP": 146,
+    "Medicaid/CHIP": 1344,
+    "SNAP": 700,
+    "Transit Relief Pilot": 1,
+    "LIHWAP": 1
+  },
+  "chunks_path": "/Users/ouyangyuhan/Documents/for codex/allegheny-benefits-navigator/retrieval_grounded_navigator/data/policy_index/main/chunks.jsonl",
+  "embeddings_path": "/Users/ouyangyuhan/Documents/for codex/allegheny-benefits-navigator/retrieval_grounded_navigator/data/policy_index/main/embeddings.npy"
+}

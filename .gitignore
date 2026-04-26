@@ -17,7 +17,7 @@ Retrieval-Grounded Policy Navigator.html
 Retrieval-Grounded Policy Navigator.pdf
 
 # Local retrieval index artifacts
-data/policy_index/
+# data/policy_index/
 
 # Runtime-uploaded local policy files
 data/uploaded_policies/
