@@ -24,6 +24,8 @@ data/uploaded_policies/
 
 # Demo output PDFs and reference PDFs (local only)
 *.pdf
+# But track demo sample run outputs
+!outputs/sample_runs/*.pdf
 
 # Generated diagrams (committed to docs/ instead)
 # pipeline_diagram.png
