@@ -1,0 +1,3423 @@
+{
+  "start_urls": [
+    "http://services.dpw.state.pa.us/oimpolicymanuals/snap/index.htm",
+    "http://services.dpw.state.pa.us/oimpolicymanuals/snap/SNAP_Handbook_Title_Page.htm"
+  ],
+  "allowed_prefixes": [
+    "http://services.dpw.state.pa.us/oimpolicymanuals/snap/"
+  ],
+  "download_count": 487,
+  "failure_count": 0,
+  "records": [
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/index.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__index.htm.html",
+      "title": "SNAP Handbook",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631091.1835468
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/SNAP_Handbook_Title_Page.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__SNAP_Handbook_Title_Page.htm.html",
+      "title": "SNAP Handbook Title Page",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631091.50262
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/whxdata/projectsettings.js",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__whxdata__projectsettings.js.html",
+      "title": "projectsettings.js",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631091.7828832
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/whxdata/search_topics.js",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__whxdata__search_topics.js.html",
+      "title": "search_topics.js",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631092.278028
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/whxdata/search_db.js",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__whxdata__search_db.js.html",
+      "title": "search_db.js",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631092.5960581
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/whxdata/whtagdata.js",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__whxdata__whtagdata.js.html",
+      "title": "whtagdata.js",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631092.855783
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/template/scripts/projectdata.js",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__template__scripts__projectdata.js.html",
+      "title": "projectdata.js",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631093.1177611
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/csh-redirect.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__csh-redirect.htm.html",
+      "title": "SNAP Handbook",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631093.378772
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/536_Pennsylvanians_with_Employment_and_or_Engagement_Requirements_(PEERs)/Chapter_536__Able-Bodied_Adults_Without_Dependents_(ABAWDs).htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__536_Pennsylvanians_with_Employment_and_or_Engagement_Requirements__PEERs___Chapter_536__Able-Bodied_Adults_Without_Dependents__ABAWDs_.htm.html",
+      "title": "Chapter 536: Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631093.65709
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/513_Strikers/SNAP_513_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__513_Strikers__SNAP_513_Title.htm.html",
+      "title": "513 Tile",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631093.931277
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/520_Identity/SNAP_520_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__520_Identity__SNAP_520_Title.htm.html",
+      "title": "520 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631094.1983979
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/550_Income/SNAP_550_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__550_Income__SNAP_550_Title.htm.html",
+      "title": "550 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631094.468417
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/577_Notices/SNAP_577_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__577_Notices__SNAP_577_Title.htm.html",
+      "title": "577 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631094.739604
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/514_Students/SNAP_514_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__514_Students__SNAP_514_Title.htm.html",
+      "title": "514 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631095.010854
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/576_Renewal/SNAP_576_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__576_Renewal__SNAP_576_Title.htm.html",
+      "title": "576 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631095.2824059
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/510_Households/SNAP_510_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__510_Households__SNAP_510_Title.htm.html",
+      "title": "510 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631095.5554519
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/540_Resources/SNAP_540_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__540_Resources__SNAP_540_Title.htm.html",
+      "title": "540 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631095.821857
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/523_Residence/SNAP_523_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__523_Residence__SNAP_523_Title.htm.html",
+      "title": "523 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631096.097368
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/504_Application/SNAP_504_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__504_Application__SNAP_504_Title.htm.html",
+      "title": "504 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631096.367339
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/572_Mass_Changes/SNAP_572_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__572_Mass_Changes__SNAP_572_Title.htm.html",
+      "title": "572 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631096.6334982
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/504_Application/504_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__504_Application__504_Appendix_A.htm.html",
+      "title": "504_Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631096.901168
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/560_Income_Deductions/SNAP_560_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__560_Income_Deductions__SNAP_560_Title.htm.html",
+      "title": "560 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631097.1760519
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/506_Expedited_Service/SNAP_506_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__506_Expedited_Service__SNAP_506_Title.htm.html",
+      "title": "506 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631097.455126
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/567_Prospective_Budgeting/SNAP_567_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__567_Prospective_Budgeting__SNAP_567_Title.htm.html",
+      "title": "567 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631097.799666
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/575_Certification_Periods/SNAP_575_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__575_Certification_Periods__SNAP_575_Title.htm.html",
+      "title": "575 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631098.0797791
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/503_General_Information/SNAP_503_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__503_General_Information__SNAP_503_Title.htm.html",
+      "title": "503 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631098.372819
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/552_Self-Employment_Income/SNAP_552_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__552_Self-Employment_Income__SNAP_552_Title.htm.html",
+      "title": "552 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631098.646291
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/512_Categorical_Eligibility/SNAP_512_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__512_Categorical_Eligibility__SNAP_512_Title.htm.html",
+      "title": "512 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631098.9262662
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/578_Verification_Requirements/SNAP_578_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__578_Verification_Requirements__SNAP_578_Title.htm.html",
+      "title": "578 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631099.199829
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/571_Semi-Annual_Reporting_(SAR)/SNAP_571_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__571_Semi-Annual_Reporting__SAR___SNAP_571_Title.htm.html",
+      "title": "571 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631099.467513
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/516_Migrant_or_Seasonal_Farm_Workers/SNAP_516_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__516_Migrant_or_Seasonal_Farm_Workers__SNAP_516_Title.htm.html",
+      "title": "516 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631099.738015
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/535_SNAP_Employment_and_Training/SNAP_535_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__535_SNAP_Employment_and_Training__SNAP_535_Title.htm.html",
+      "title": "535 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631100.009409
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/522_Citizen_Noncitizen/SNAP_522_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__522_Citizen_Noncitizen__SNAP_522_Title.htm.html",
+      "title": "522 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631100.301259
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/505_Authorized_Representative/SNAP_505_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__505_Authorized_Representative__SNAP_505_Title.htm.html",
+      "title": "505 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631100.5853372
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/580_Issuing_Benefits/SNAP_580_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__580_Issuing_Benefits__SNAP_580_Title.htm.html",
+      "title": "580 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631100.940438
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/522_Citizen_Noncitizen/522_Appendix_K.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__522_Citizen_Noncitizen__522_Appendix_K.htm.html",
+      "title": "522 Appendix K",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631101.222985
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/581_Restoring_Benefits/SNAP_581_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__581_Restoring_Benefits__SNAP_581_Title.htm.html",
+      "title": "581 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631101.516104
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/511_Living_Arrangements/SNAP_511_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__511_Living_Arrangements__SNAP_511_Title.htm.html",
+      "title": "511 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631101.787404
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/500_OpsMemos_PolicyClarifications/500_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__500_OpsMemos_PolicyClarifications__500_Title.htm.html",
+      "title": "500 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631102.0619688
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/570_Reporting_Changes/Chapter_579_Reopening_Benefits.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__570_Reporting_Changes__Chapter_579_Reopening_Benefits.htm.html",
+      "title": "Chapter 579 Reopening Benefits",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631102.330274
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/503_General_Information/503_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__503_General_Information__503_Appendix_A.htm.html",
+      "title": "503_Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631102.603269
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/522_Citizen_Noncitizen/522_Appendix_L.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__522_Citizen_Noncitizen__522_Appendix_L.htm.html",
+      "title": "522 Appendix L",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631102.872884
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/579_Reopening_Benefits/579_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__579_Reopening_Benefits__579_Title.htm.html",
+      "title": "579 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631103.140231
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/506_Expedited_Service/506_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__506_Expedited_Service__506_Appendix_A.htm.html",
+      "title": "506_Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631103.4118001
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/568_Computing_Eligibility_and_Benefit_Amount/SNAP_568_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__568_Computing_Eligibility_and_Benefit_Amount__SNAP_568_Title.htm.html",
+      "title": "568 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631103.697376
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/580_Issuing_Benefits/580_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__580_Issuing_Benefits__580_Appendix_A.htm.html",
+      "title": "580_Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631103.988962
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/568_Computing_Eligibility_and_Benefit_Amount/568_Appendix_E.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__568_Computing_Eligibility_and_Benefit_Amount__568_Appendix_E.htm.html",
+      "title": "568_Appendix E",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631104.2553248
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/555_Deeming_Income_and_Resources/SNAP_555_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__555_Deeming_Income_and_Resources__SNAP_555_Title.htm.html",
+      "title": "555 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631104.607815
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/577_Notices/577_9_Automated_Notices.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__577_Notices__577_9_Automated_Notices.htm.html",
+      "title": "577.8 Automated Notices",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631104.8740962
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/522_Citizen_Noncitizen/522_Appendix_H.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__522_Citizen_Noncitizen__522_Appendix_H.htm.html",
+      "title": "522_Appendix H",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631105.1979609
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/510_Households/510_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__510_Households__510_Appendix_A.htm.html",
+      "title": "510_Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631105.469378
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/522_Citizen_Noncitizen/522_Appendix_D.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__522_Citizen_Noncitizen__522_Appendix_D.htm.html",
+      "title": "522_Appendix D",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631105.741301
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/581_Restoring_Benefits/581_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__581_Restoring_Benefits__581_Appendix_B.htm.html",
+      "title": "581_Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631106.0099468
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/570_Reporting_Changes/570_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__570_Reporting_Changes__570_Appendix_A.htm.html",
+      "title": "570_Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631106.279338
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/522_Citizen_Noncitizen/522_Appendix_G.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__522_Citizen_Noncitizen__522_Appendix_G.htm.html",
+      "title": "522_Appendix G",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631106.550524
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/580_Issuing_Benefits/580_Appendix_D.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__580_Issuing_Benefits__580_Appendix_D.htm.html",
+      "title": "580_Appendix D",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631106.820661
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/504_Application/504_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__504_Application__504_Appendix_B.htm.html",
+      "title": "504_Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631107.08759
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/571_Semi-Annual_Reporting_(SAR)/571_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__571_Semi-Annual_Reporting__SAR___571_Appendix_A.htm.html",
+      "title": "571_Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631107.3557818
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/505_Authorized_Representative/505_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__505_Authorized_Representative__505_Appendix_A.htm.html",
+      "title": "505_Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631107.623421
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/522_Citizen_Noncitizen/522_Appendix_J.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__522_Citizen_Noncitizen__522_Appendix_J.htm.html",
+      "title": "522 Appendix J",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631107.888614
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/516_Migrant_or_Seasonal_Farm_Workers/516_7_Semiannual_Reporting_Prospective_Budgeting.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__516_Migrant_or_Seasonal_Farm_Workers__516_7_Semiannual_Reporting_Prospective_Budgeting.htm.html",
+      "title": "516.7 Semiannual Reporting Prospective Budgeting",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631108.157166
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/511_Living_Arrangements/511_Appendix_D.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__511_Living_Arrangements__511_Appendix_D.htm.html",
+      "title": "511_Appendix D",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631108.4241788
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/513_Strikers/513_5_Computing_Net_Income.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__513_Strikers__513_5_Computing_Net_Income.htm.html",
+      "title": "513.5 Computing Net Income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631108.6910641
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/522_Citizen_Noncitizen/522_Appendix_I.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__522_Citizen_Noncitizen__522_Appendix_I.htm.html",
+      "title": "522_Appendix I",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631108.966846
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/578_Verification_Requirements/578_6_Home_Visits.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__578_Verification_Requirements__578_6_Home_Visits.htm.html",
+      "title": "578.6 Home Visits",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631109.236172
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/522_Citizen_Noncitizen/522_Appendix_F.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__522_Citizen_Noncitizen__522_Appendix_F.htm.html",
+      "title": "522_Appendix F",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631109.5007029
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/560_Income_Deductions/560_3_Standard_Deduction.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__560_Income_Deductions__560_3_Standard_Deduction.htm.html",
+      "title": "560.3 Standard Deduction",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631109.867211
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/523_Residence/523_4_Special_Living_Arrangements.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__523_Residence__523_4_Special_Living_Arrangements.htm.html",
+      "title": "523.4 Special Living Arrangements",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631110.136631
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/572_Mass_Changes/572_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__572_Mass_Changes__572_1_General_Policy.htm.html",
+      "title": "572.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631110.4300082
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/516_Migrant_or_Seasonal_Farm_Workers/516_9_Renewal.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__516_Migrant_or_Seasonal_Farm_Workers__516_9_Renewal.htm.html",
+      "title": "516.9 Renewal",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631110.697888
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/513_Strikers/513_4_Computing_Gross_Income.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__513_Strikers__513_4_Computing_Gross_Income.htm.html",
+      "title": "513.4 Computing Gross Income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631110.965971
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/578_Verification_Requirements/578.5_Collateral_Contacts.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__578_Verification_Requirements__578.5_Collateral_Contacts.htm.html",
+      "title": "578.5 Collateral Contacts",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631111.236601
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/576_Renewal/576_5_Failure_of_the_County_Assistance_Office_to_Act.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__576_Renewal__576_5_Failure_of_the_County_Assistance_Office_to_Act.htm.html",
+      "title": "576.5 Failure of the County Assistance Office to Act",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631111.5030808
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/567_Prospective_Budgeting/567_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__567_Prospective_Budgeting__567_1_General_Policy.htm.html",
+      "title": "567.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631111.769349
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/522_Citizen_Noncitizen/522_Appendix_A1(a).htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__522_Citizen_Noncitizen__522_Appendix_A1_a_.htm.html",
+      "title": "522_Appendix A 1(a)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631112.036465
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/581_Restoring_Benefits/581_7_Method_of_Restoration.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__581_Restoring_Benefits__581_7_Method_of_Restoration.htm.html",
+      "title": "581.7 Method of Restoration",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631112.312172
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/552_Self-Employment_Income/552_7_Certification_Periods.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__552_Self-Employment_Income__552_7_Certification_Periods.htm.html",
+      "title": "552.7 Certification Periods",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631112.59075
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/511_Living_Arrangements/511_5_Residents_of_Federally_Subsidized_Housing_for_the_Elderly.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__511_Living_Arrangements__511_5_Residents_of_Federally_Subsidized_Housing_for_the_Elderly.htm.html",
+      "title": "511.5 Residents of Federally Subsidized Housing for the Elderly",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631112.8570209
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/575_Certification_Periods/575_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__575_Certification_Periods__575_Appendix_B.htm.html",
+      "title": "575_Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631113.122578
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/581_Restoring_Benefits/581_8_Change_in_Who_Is_in_the_Household.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__581_Restoring_Benefits__581_8_Change_in_Who_Is_in_the_Household.htm.html",
+      "title": "581.8 Change in Who Is in the Household",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631113.39852
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/504_Application/504_5_Normal_Processing.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__504_Application__504_5_Normal_Processing.htm.html",
+      "title": "504.5 Normal Processing",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631113.6684248
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/577_Notices/577_5_Client_Verification_Request_Form_PA_162-VR.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__577_Notices__577_5_Client_Verification_Request_Form_PA_162-VR.htm.html",
+      "title": "577.5 Client Verification Request Form (PA 162-VR)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631113.941825
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/513_Strikers/513_2_Who_Is_a_Striker.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__513_Strikers__513_2_Who_Is_a_Striker.htm.html",
+      "title": "513.2 Who Is a Striker",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631114.2150972
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/581_Restoring_Benefits/581_5_Client_Notice.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__581_Restoring_Benefits__581_5_Client_Notice.htm.html",
+      "title": "581.5 Client Notice",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631114.571597
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/516_Migrant_or_Seasonal_Farm_Workers/516_5_Work_Requirements.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__516_Migrant_or_Seasonal_Farm_Workers__516_5_Work_Requirements.htm.html",
+      "title": "516.5 Work Requirements",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631114.842557
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/581_Restoring_Benefits/581_10_Case_Record_Recording.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__581_Restoring_Benefits__581_10_Case_Record_Recording.htm.html",
+      "title": "581.10 Case Record Recording",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631115.142884
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/516_Migrant_or_Seasonal_Farm_Workers/516_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__516_Migrant_or_Seasonal_Farm_Workers__516_1_General_Policy.htm.html",
+      "title": "516.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631115.412658
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/516_Migrant_or_Seasonal_Farm_Workers/516_10_Proration.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__516_Migrant_or_Seasonal_Farm_Workers__516_10_Proration.htm.html",
+      "title": "516.10 Proration",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631115.686709
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/523_Residence/523_2_One_Monthly_Issuance_Entitlement.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__523_Residence__523_2_One_Monthly_Issuance_Entitlement.htm.html",
+      "title": "523.2 One Monthly Issuance Entitlement/ Duplicate Participation",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631115.970569
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/516_Migrant_or_Seasonal_Farm_Workers/516_8_Certification_Periods.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__516_Migrant_or_Seasonal_Farm_Workers__516_8_Certification_Periods.htm.html",
+      "title": "516.8 Certification Periods",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631116.244703
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/511_Living_Arrangements/511_3_Residents_of_Boarding_Homes.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__511_Living_Arrangements__511_3_Residents_of_Boarding_Homes.htm.html",
+      "title": "511.3 Residents of Boarding Homes",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631116.5165498
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/577_Notices/577_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__577_Notices__577_Appendix_B.htm.html",
+      "title": "577_Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631116.7889102
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/581_Restoring_Benefits/581_3_Time_Limits.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__581_Restoring_Benefits__581_3_Time_Limits.htm.html",
+      "title": "581.3 Time Limits",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631117.0567622
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/572_Mass_Changes/572.6_Fair_Hearing.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__572_Mass_Changes__572.6_Fair_Hearing.htm.html",
+      "title": "572.6 Fair Hearing",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631117.333708
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/503_General_Information/503_8_Strikes_and_Lockouts.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__503_General_Information__503_8_Strikes_and_Lockouts.htm.html",
+      "title": "503.8 Strikes and Lockouts",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631117.6119308
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/581_Restoring_Benefits/581_6_Disputed_Benefits.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__581_Restoring_Benefits__581_6_Disputed_Benefits.htm.html",
+      "title": "581.6 Disputed Benefits",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631117.88239
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/571_Semi-Annual_Reporting_(SAR)/571_7_Failure_to_Turn_in_a_SAR_Form_or_a_Complete_LIN_by_the_Extended_Due_Date.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__571_Semi-Annual_Reporting__SAR___571_7_Failure_to_Turn_in_a_SAR_Form_or_a_Complete_LIN_by_the_Extended_Due_Date.htm.html",
+      "title": "571.7 Failure to Turn in a SAR Form or",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631118.239937
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/505_Authorized_Representative/505_7_Authorized_Representative_for_Multiple_Households.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__505_Authorized_Representative__505_7_Authorized_Representative_for_Multiple_Households.htm.html",
+      "title": "505.7 Authorized Representative for Multiple Households",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631118.513729
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/577_Notices/577_7_Notice_of_Denial_of_Expedited_Service_PA_FS_163.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__577_Notices__577_7_Notice_of_Denial_of_Expedited_Service_PA_FS_163.htm.html",
+      "title": "577.7 Notice of Denial of Expedited Service (PA/FS 163)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631118.819814
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/550_Income/550_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__550_Income__550_1_General_Policy.htm.html",
+      "title": "550.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631119.095448
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/560_Income_Deductions/560_2_Earned_Income_Deduction.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__560_Income_Deductions__560_2_Earned_Income_Deduction.htm.html",
+      "title": "560.2 Earned Income Deduction",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631119.38444
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/513_Strikers/513_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__513_Strikers__513_1_General_Policy.htm.html",
+      "title": "513.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631119.660408
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/580_Issuing_Benefits/580_7Special_Allowances_for_Supportive_Services_Related_to_the_Employment_and_Training_Program_ETP.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__580_Issuing_Benefits__580_7Special_Allowances_for_Supportive_Services_Related_to_the_Employment_and_Training_Program_ETP.htm.html",
+      "title": "580.7 Employment and Training Program (ETP)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631119.93601
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/580_Issuing_Benefits/580_2_BenefitIssuance_Cycles.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__580_Issuing_Benefits__580_2_BenefitIssuance_Cycles.htm.html",
+      "title": "580.2 Benefit Issuance Cycles",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631120.214348
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/516_Migrant_or_Seasonal_Farm_Workers/516_3_Application.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__516_Migrant_or_Seasonal_Farm_Workers__516_3_Application.htm.html",
+      "title": "516.3 Application",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631120.488587
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/572_Mass_Changes/572_2_SNAP_Changes.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__572_Mass_Changes__572_2_SNAP_Changes.htm.html",
+      "title": "572.2 SNAP Changes",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631120.869948
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/575_Certification_Periods/Appendix_C_Guidelines_for_Budget_Alignment.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__575_Certification_Periods__Appendix_C_Guidelines_for_Budget_Alignment.htm.html",
+      "title": "575 Appendix C",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631121.1423721
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/540_Resources/540_2_Household_Responsibility.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__540_Resources__540_2_Household_Responsibility.htm.html",
+      "title": "540.2 Household Responsibility",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631121.441504
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/577_Notices/577_6_Notice_of_Expiration_PA_10-SFSP.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__577_Notices__577_6_Notice_of_Expiration_PA_10-SFSP.htm.html",
+      "title": "577.6 Notice of Expiration (PA 10-SFSP)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631121.7119439
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/578_Verification_Requirements/578_7_Pending_Verification.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__578_Verification_Requirements__578_7_Pending_Verification.htm.html",
+      "title": "578.7 Pending Verification",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631121.9884832
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/571_Semi-Annual_Reporting_(SAR)/571_9_Appeal_and_Fair_Hearing_Process.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__571_Semi-Annual_Reporting__SAR___571_9_Appeal_and_Fair_Hearing_Process.htm.html",
+      "title": "571.9 Appeal and Fair Hearing Process",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631122.258539
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/550_Income/550_4_Third-Party_Payment.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__550_Income__550_4_Third-Party_Payment.htm.html",
+      "title": "550.4 Third-Party Payment",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631122.530771
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/505_Authorized_Representative/505_2_Authorized_Representative_Applying_for_a_Household.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__505_Authorized_Representative__505_2_Authorized_Representative_Applying_for_a_Household.htm.html",
+      "title": "505.2 Authorized Representative Applying for a Household",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631122.801148
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/581_Restoring_Benefits/581_2_Method_of_Discovery.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__581_Restoring_Benefits__581_2_Method_of_Discovery.htm.html",
+      "title": "581.2 Method of Discovery",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631123.0736
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/540_Resources/540_7_Recording_in_the_Case_Record.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__540_Resources__540_7_Recording_in_the_Case_Record.htm.html",
+      "title": "540.7 Recording in the Case Record",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631123.347615
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/512_Categorical_Eligibility/512_4_End_of_Categorical_Eligibility.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__512_Categorical_Eligibility__512_4_End_of_Categorical_Eligibility.htm.html",
+      "title": "512.4 Termination of Categorical Eligibility",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631123.6248078
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/578_Verification_Requirements/578_4_Documentary_Evidence.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__578_Verification_Requirements__578_4_Documentary_Evidence.htm.html",
+      "title": "578.4 Documentary Evidence",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631123.887954
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/505_Authorized_Representative/505_4_Authorized_Representative_Using_EBT.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__505_Authorized_Representative__505_4_Authorized_Representative_Using_EBT.htm.html",
+      "title": "505.4 Authorized Representative Using EBT",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631124.160786
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/581_Restoring_Benefits/581_9_Out-of-State_Moves.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__581_Restoring_Benefits__581_9_Out-of-State_Moves.htm.html",
+      "title": "581.9 Out-of-State Moves",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631124.432995
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/570_Reporting_Changes/570_3_Reporting_Methods.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__570_Reporting_Changes__570_3_Reporting_Methods.htm.html",
+      "title": "570.3 Reporting Methods",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631124.706891
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/514_Students/514_5_Verification_of_Student_Income.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__514_Students__514_5_Verification_of_Student_Income.htm.html",
+      "title": "514.4 Verification of Student Income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631125.05984
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/505_Authorized_Representative/505_8_Restrictions.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__505_Authorized_Representative__505_8_Restrictions.htm.html",
+      "title": "505.8 Restrictions",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631125.34208
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/510_Households/510_3_Verification.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__510_Households__510_3_Verification.htm.html",
+      "title": "510.3 Verification",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631125.632502
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/522_Citizen_Noncitizen/522_Appendix_E.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__522_Citizen_Noncitizen__522_Appendix_E.htm.html",
+      "title": "522_Appendix E",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631125.907777
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/552_Self-Employment_Income/552_6_Budgeting_of_Self-Employment_Income.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__552_Self-Employment_Income__552_6_Budgeting_of_Self-Employment_Income.htm.html",
+      "title": "552.6 Budgeting of Self-Employment Income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631126.1830652
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/571_Semi-Annual_Reporting_(SAR)/571_10_Renewal_of_Semiannual_Reporting_Cases.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__571_Semi-Annual_Reporting__SAR___571_10_Renewal_of_Semiannual_Reporting_Cases.htm.html",
+      "title": "571.10 Renewal of Semiannual Reporting Cases",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631126.4573429
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/513_Strikers/513_6_Determining_the_Status_of_a_Work_Stoppage.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__513_Strikers__513_6_Determining_the_Status_of_a_Work_Stoppage.htm.html",
+      "title": "513.6 Determining the Status of a Work Stoppage",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631126.7255192
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/506_Expedited_Service/506_5_Denials.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__506_Expedited_Service__506_5_Denials.htm.html",
+      "title": "506.5 Denials",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631126.999037
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/505_Authorized_Representative/505_9_Disqualification_of_an_Authorized_Representative.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__505_Authorized_Representative__505_9_Disqualification_of_an_Authorized_Representative.htm.html",
+      "title": "505.9 Disqualification of an Authorized Representative",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631127.274236
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/572_Mass_Changes/572_3_Public_Assistance_Grant_Changes.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__572_Mass_Changes__572_3_Public_Assistance_Grant_Changes.htm.html",
+      "title": "572.3 Public Assistance Grant Changes",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631127.5617979
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/552_Self-Employment_Income/552_3_Computing_Average_Monthly_Profit.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__552_Self-Employment_Income__552_3_Computing_Average_Monthly_Profit.htm.html",
+      "title": "552.3 Computing Average Monthly Profit",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631127.835839
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/505_Authorized_Representative/505_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__505_Authorized_Representative__505_1_General_Policy.htm.html",
+      "title": "505.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631128.111267
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/567_Prospective_Budgeting/567_3_At_the_SAR_review_or_at_renewal.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__567_Prospective_Budgeting__567_3_At_the_SAR_review_or_at_renewal.htm.html",
+      "title": "567.3 At the SAR Review or at Renewal",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631128.389994
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/575_Certification_Periods/575_4_Certification_Notices.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__575_Certification_Periods__575_4_Certification_Notices.htm.html",
+      "title": "575.4 Certification Notices",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631128.726059
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/512_Categorical_Eligibility/512_3_Issuing_Benefits.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__512_Categorical_Eligibility__512_3_Issuing_Benefits.htm.html",
+      "title": "512.3 Issuing Benefits",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631128.9987998
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/516_Migrant_or_Seasonal_Farm_Workers/516_4_Verification.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__516_Migrant_or_Seasonal_Farm_Workers__516_4_Verification.htm.html",
+      "title": "516.4 Verification",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631129.302402
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/577_Notices/577_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__577_Notices__577_1_General_Policy.htm.html",
+      "title": "577.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631129.578548
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/572_Mass_Changes/572_5_Notice.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__572_Mass_Changes__572_5_Notice.htm.html",
+      "title": "572.5 Notice",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631129.8544059
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/516_Migrant_or_Seasonal_Farm_Workers/516_6_Resources_and_Income.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__516_Migrant_or_Seasonal_Farm_Workers__516_6_Resources_and_Income.htm.html",
+      "title": "516.6 Resources and Income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631130.133845
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/581_Restoring_Benefits/581_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__581_Restoring_Benefits__581_Appendix_A.htm.html",
+      "title": "581_Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631130.4115462
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/560_Income_Deductions/560_6_Child_Support_Deduction.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__560_Income_Deductions__560_6_Child_Support_Deduction.htm.html",
+      "title": "560.6 Child Support Deduction",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631130.680577
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/552_Self-Employment_Income/552_4_Estimating_Self-Employment_Income.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__552_Self-Employment_Income__552_4_Estimating_Self-Employment_Income.htm.html",
+      "title": "552.4 Estimating Self-Employment Income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631130.955054
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/523_Residence/523_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__523_Residence__523_1_General_Policy.htm.html",
+      "title": "523.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631131.229179
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/540_Resources/540_8_Verification_of_Resources.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__540_Resources__540_8_Verification_of_Resources.htm.html",
+      "title": "540.8 Verification of Resources",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631131.500931
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/503_General_Information/503_7_Volunteer_Workers_CBO.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__503_General_Information__503_7_Volunteer_Workers_CBO.htm.html",
+      "title": "503.7 Volunteer Workers and Community-Based Organizations",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631131.7705238
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/568_Computing_Eligibility_and_Benefit_Amount/568_4_Increase_in_Income_or_Decrease_in_Expenses.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__568_Computing_Eligibility_and_Benefit_Amount__568_4_Increase_in_Income_or_Decrease_in_Expenses.htm.html",
+      "title": "568.4 Increase in Income or Decrease in Expenses",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631132.03843
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/505_Authorized_Representative/505_5_Authorized_Representative_for_a_Resident_of_a_Drug_or_Alcohol_Treatment_Center.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__505_Authorized_Representative__505_5_Authorized_Representative_for_a_Resident_of_a_Drug_or_Alcohol_Treatment_Center.htm.html",
+      "title": "505.5 Authorized Representative for a Resident of a Drug or Alcohol Treatment Center",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631132.401653
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/568_Computing_Eligibility_and_Benefit_Amount/568_3_Six-Month_SAR_Review_and_Renewal.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__568_Computing_Eligibility_and_Benefit_Amount__568_3_Six-Month_SAR_Review_and_Renewal.htm.html",
+      "title": "568.3 Six-Month SAR Review and Renewal",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631132.6793542
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/523_Residence/523_3_Verification.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__523_Residence__523_3_Verification.htm.html",
+      "title": "523.3 Verification",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631132.979917
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/504_Application/504_7_Denying_an_Application.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__504_Application__504_7_Denying_an_Application.htm.html",
+      "title": "504.7 Denying an Application",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631133.2675688
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/523_Residence/523.6_Out-of-State_Move_and_EBT.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__523_Residence__523.6_Out-of-State_Move_and_EBT.htm.html",
+      "title": "523.6 Out-of-State Move and EBT",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631133.5350158
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/568_Computing_Eligibility_and_Benefit_Amount/568_5_Decrease_in_Income_or_Increase_in_Expenses.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__568_Computing_Eligibility_and_Benefit_Amount__568_5_Decrease_in_Income_or_Increase_in_Expenses.htm.html",
+      "title": "568.5 Decrease in Income or Increase in Expenses",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631133.810345
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/506_Expedited_Service/506_3_Determining_Entitlement_to_Expedited_Service.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__506_Expedited_Service__506_3_Determining_Entitlement_to_Expedited_Service.htm.html",
+      "title": "506.3 Determining Entitlement to Expedited Service",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631134.0855622
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/577_Notices/577_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__577_Notices__577_Appendix_A.htm.html",
+      "title": "577_Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631134.357125
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/550_Income/550_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__550_Income__550_Appendix_A.htm.html",
+      "title": "550_Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631134.62721
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/578_Verification_Requirements/578_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__578_Verification_Requirements__578_1_General_Policy.htm.html",
+      "title": "578.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631134.902236
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/510_Households/510_5_Ineligible_Persons_Whose_Income_and_Resources_Count.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__510_Households__510_5_Ineligible_Persons_Whose_Income_and_Resources_Count.htm.html",
+      "title": "510.5 Ineligible Persons Whose Income and Resources Count",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631135.170379
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/511_Living_Arrangements/511_Appendix_C.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__511_Living_Arrangements__511_Appendix_C.htm.html",
+      "title": "511_Appendix C",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631135.445709
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/513_Strikers/513_3_Who_Is_Not_a_Striker.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__513_Strikers__513_3_Who_Is_Not_a_Striker.htm.html",
+      "title": "513.3 Who Is Not a Striker",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631135.723155
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/576_Renewal/576_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__576_Renewal__576_1_General_Policy.htm.html",
+      "title": "576.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631136.0626822
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/505_Authorized_Representative/505_3_Authorized_Representative_Obtaining_Benefits.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__505_Authorized_Representative__505_3_Authorized_Representative_Obtaining_Benefits.htm.html",
+      "title": "505.3 Authorized Representative Obtaining Benefits",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631136.334783
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/578_Verification_Requirements/578_2_Household_Responsibility.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__578_Verification_Requirements__578_2_Household_Responsibility.htm.html",
+      "title": "578.2 Household Responsibility",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631136.6458619
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/571_Semi-Annual_Reporting_(SAR)/571_5_Reviewing_the_Late_Incomplete_Notice.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__571_Semi-Annual_Reporting__SAR___571_5_Reviewing_the_Late_Incomplete_Notice.htm.html",
+      "title": "571.5 Reviewing the Late/Incomplete Notice",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631136.9061792
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/581_Restoring_Benefits/581_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__581_Restoring_Benefits__581_1_General_Policy.htm.html",
+      "title": "581.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631137.176515
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/570_Reporting_Changes/570_6_Failure_to_Report.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__570_Reporting_Changes__570_6_Failure_to_Report.htm.html",
+      "title": "570.6 Failure to Report",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631137.4514408
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/572_Mass_Changes/572_4_Federal_Benefit_Changes.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__572_Mass_Changes__572_4_Federal_Benefit_Changes.htm.html",
+      "title": "572.4 Federal Benefit Changes",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631137.7354271
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/520_Identity/520.1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__520_Identity__520.1_General_Policy.htm.html",
+      "title": "520.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631138.008381
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/571_Semi-Annual_Reporting_(SAR)/571_8_One_Month_of_Zero_Issuance_and_Termination_of_Benefits.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__571_Semi-Annual_Reporting__SAR___571_8_One_Month_of_Zero_Issuance_and_Termination_of_Benefits.htm.html",
+      "title": "571.8 One Month of Zero Issuance and",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631138.286976
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/568_Computing_Eligibility_and_Benefit_Amount/568_7_Deletion_of_a_Household_Member.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__568_Computing_Eligibility_and_Benefit_Amount__568_7_Deletion_of_a_Household_Member.htm.html",
+      "title": "568.7 Deletion of a Household Member",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631138.5587862
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/505_Authorized_Representative/505_6_Authorized_Representative_for_a_Resident_of_a_Group_Living_Arrangement.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__505_Authorized_Representative__505_6_Authorized_Representative_for_a_Resident_of_a_Group_Living_Arrangement.htm.html",
+      "title": "505.6 Authorized Representative for a Resident of a Group Living Arrangement",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631138.826486
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/568_Computing_Eligibility_and_Benefit_Amount/568_Appendix_D.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__568_Computing_Eligibility_and_Benefit_Amount__568_Appendix_D.htm.html",
+      "title": "568_Appendix D",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631139.11985
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/570_Reporting_Changes/570_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__570_Reporting_Changes__570_1_General_Policy.htm.html",
+      "title": "570.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631139.3968482
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/503_General_Information/503_2_The_EBT_System.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__503_General_Information__503_2_The_EBT_System.htm.html",
+      "title": "503.2 The EBT System",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631139.742849
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/580_Issuing_Benefits/580_4_One-Time_Issuance.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__580_Issuing_Benefits__580_4_One-Time_Issuance.htm.html",
+      "title": "580.4 One-Time Issuance",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631140.016584
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/511_Living_Arrangements/511_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__511_Living_Arrangements__511_1_General_Policy.htm.html",
+      "title": "511.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631140.315569
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/504_Application/504_3_Reviews_for_Expedited_SNAP.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__504_Application__504_3_Reviews_for_Expedited_SNAP.htm.html",
+      "title": "504.3 Reviews for Expedited SNAP",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631140.588447
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/579_Reopening_Benefits/579.1_Reopening_Denied_Applications.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__579_Reopening_Benefits__579.1_Reopening_Denied_Applications.htm.html",
+      "title": "579.1 Reopening Denied Applications",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631140.8611772
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/552_Self-Employment_Income/552_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__552_Self-Employment_Income__552_1_General_Policy.htm.html",
+      "title": "552.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631141.143448
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/579_Reopening_Benefits/579.2_Reopening_Closed_Benefits.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__579_Reopening_Benefits__579.2_Reopening_Closed_Benefits.htm.html",
+      "title": "579.2 Reopening Closed Benefits",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631141.4211252
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/535_SNAP_Employment_and_Training/535_3_County_Assistance_Office_Responsibilities.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__535_SNAP_Employment_and_Training__535_3_County_Assistance_Office_Responsibilities.htm.html",
+      "title": "535.2 County Assistance Office Responsibilities",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631141.698903
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/510_Households/510_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__510_Households__510_1_General_Policy.htm.html",
+      "title": "510.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631141.9720151
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/503_General_Information/503_3_Included_and_Excluded_Items.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__503_General_Information__503_3_Included_and_Excluded_Items.htm.html",
+      "title": "503.3 Included and Excluded Items",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631142.243495
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/577_Notices/577_3_Advance_Notice_of_Adverse_Action.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__577_Notices__577_3_Advance_Notice_of_Adverse_Action.htm.html",
+      "title": "577.3 Advance Notice of Adverse Action",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631142.5153768
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/571_Semi-Annual_Reporting_(SAR)/571_6_Processing_the_Late_Incomplete_Notice.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__571_Semi-Annual_Reporting__SAR___571_6_Processing_the_Late_Incomplete_Notice.htm.html",
+      "title": "571.6 Processing the Late/Incomplete Notice",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631142.786874
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/511_Living_Arrangements/511_8_Disqualification_of_a_Treatment_Center_or_Group_Living_Arrangement.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__511_Living_Arrangements__511_8_Disqualification_of_a_Treatment_Center_or_Group_Living_Arrangement.htm.html",
+      "title": "511.8 Disqualification of a Treatment Center or Group Living Arrangement",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631143.057754
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/552_Self-Employment_Income/552_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__552_Self-Employment_Income__552_Appendix_A.htm.html",
+      "title": "552_Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631143.415412
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/577_Notices/577_4_Confirming_Notice.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__577_Notices__577_4_Confirming_Notice.htm.html",
+      "title": "577.4 Confirming Notice",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631143.687597
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/514_Students/514_3_Income_of_Eligible_Students.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__514_Students__514_3_Income_of_Eligible_Students.htm.html",
+      "title": "514.3 Income of Eligible Students",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631143.9928179
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/579_Reopening_Benefits/579.3_Reopening_Benefits_Closed_at_Renewal.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__579_Reopening_Benefits__579.3_Reopening_Benefits_Closed_at_Renewal.htm.html",
+      "title": "579.3 Reopening Benefits Closed at Renewal",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631144.271351
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/560_Income_Deductions/560_7_Homeless_shelter_deduction.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__560_Income_Deductions__560_7_Homeless_shelter_deduction.htm.html",
+      "title": "560.7 Homeless Shelter Deduction",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631144.540195
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/580_Issuing_Benefits/580_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__580_Issuing_Benefits__580_1_General_Policy.htm.html",
+      "title": "580.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631144.813844
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/506_Expedited_Service/506_7_Certification_Periods.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__506_Expedited_Service__506_7_Certification_Periods.htm.html",
+      "title": "506.7 Certification Periods",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631145.089677
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/581_Restoring_Benefits/581_4_Computing_Lost_Benefits.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__581_Restoring_Benefits__581_4_Computing_Lost_Benefits.htm.html",
+      "title": "581.4 Computing Lost Benefits",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631145.4107258
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/575_Certification_Periods/575_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__575_Certification_Periods__575_1_General_Policy.htm.html",
+      "title": "575.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631145.686881
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/511_Living_Arrangements/511_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__511_Living_Arrangements__511_Appendix_A.htm.html",
+      "title": "511_Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631146.097196
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/514_Students/514_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__514_Students__514_1_General_Policy.htm.html",
+      "title": "514.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631146.371474
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/568_Computing_Eligibility_and_Benefit_Amount/568_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__568_Computing_Eligibility_and_Benefit_Amount__568_Appendix_B.htm.html",
+      "title": "568_Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631146.665331
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/580_Issuing_Benefits/580_Appendix_C.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__580_Issuing_Benefits__580_Appendix_C.htm.html",
+      "title": "580_Appendix C",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631146.9533818
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/570_Reporting_Changes/570_5_Cash_Assistance_and_SNAP_Households.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__570_Reporting_Changes__570_5_Cash_Assistance_and_SNAP_Households.htm.html",
+      "title": "570.5 Cash Assistance and SNAP Households",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631147.2315588
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/506_Expedited_Service/506_8_Expedited_Issuance_Procedures.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__506_Expedited_Service__506_8_Expedited_Issuance_Procedures.htm.html",
+      "title": "506.8 Expedited Issuance Procedures",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631147.5109591
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/560_Income_Deductions/560_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__560_Income_Deductions__560_1_General_Policy.htm.html",
+      "title": "560.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631147.791021
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/580_Issuing_Benefits/580_3_Initial_Openings.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__580_Issuing_Benefits__580_3_Initial_Openings.htm.html",
+      "title": "580.3 Initial Openings",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631148.1336682
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/503_General_Information/503_1.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__503_General_Information__503_1.htm.html",
+      "title": "503.1 Operation of SNAP",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631148.414699
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/540_Resources/540_6_Transfer_of_Resources.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__540_Resources__540_6_Transfer_of_Resources.htm.html",
+      "title": "540.6 Transfer of Resources",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631148.711105
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/555_Deeming_Income_and_Resources/555.2_Disqualification_for_Intentional_Program_Violation.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__555_Deeming_Income_and_Resources__555.2_Disqualification_for_Intentional_Program_Violation.htm.html",
+      "title": "555.2 Disqualification for Intentional Program Violation",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631148.987322
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/571_Semi-Annual_Reporting_(SAR)/571_2_The_Semiannual_Reporting_System.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__571_Semi-Annual_Reporting__SAR___571_2_The_Semiannual_Reporting_System.htm.html",
+      "title": "571.2 The Semiannual Reporting System",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631149.262336
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/576_Renewal/576_2_Notice_of_Expiration.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__576_Renewal__576_2_Notice_of_Expiration.htm.html",
+      "title": "576.2 Notice of Expiration",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631149.534573
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/510_Households/510_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__510_Households__510_Appendix_B.htm.html",
+      "title": "510_Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631149.8059452
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/511_Living_Arrangements/511_4_Residents_of_Institutions.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__511_Living_Arrangements__511_4_Residents_of_Institutions.htm.html",
+      "title": "511.4 Residents of Institutions",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631150.083651
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/522_Citizen_Noncitizen/522_Appendix_A2.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__522_Citizen_Noncitizen__522_Appendix_A2.htm.html",
+      "title": "522_Appendix A 2",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631150.367896
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/568_Computing_Eligibility_and_Benefit_Amount/568_2_Application.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__568_Computing_Eligibility_and_Benefit_Amount__568_2_Application.htm.html",
+      "title": "568.2 Application",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631150.658284
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/570_Reporting_Changes/SNAP_570_Title.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__570_Reporting_Changes__SNAP_570_Title.htm.html",
+      "title": "570 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631150.9403598
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/568_Computing_Eligibility_and_Benefit_Amount/568_6_Addition_of_a_Household_Member.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__568_Computing_Eligibility_and_Benefit_Amount__568_6_Addition_of_a_Household_Member.htm.html",
+      "title": "568.6 Addition of a Household Member",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631151.282507
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/503_General_Information/503_4_Disclosure.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__503_General_Information__503_4_Disclosure.htm.html",
+      "title": "503.4 Disclosure",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631151.562954
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/503_General_Information/503_6_Nondiscrimination.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__503_General_Information__503_6_Nondiscrimination.htm.html",
+      "title": "503.6 Nondiscrimination",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631151.8518379
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/571_Semi-Annual_Reporting_(SAR)/571_4_Processing_Semiannual_Reporting_Forms.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__571_Semi-Annual_Reporting__SAR___571_4_Processing_Semiannual_Reporting_Forms.htm.html",
+      "title": "571.4 Processing Semiannual Reporting Forms",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631152.132899
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/523_Residence/523.5_Permanent_Move_to_Another_County_in_Pennsylvania_Intercounty_Transfer.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__523_Residence__523.5_Permanent_Move_to_Another_County_in_Pennsylvania_Intercounty_Transfer.htm.html",
+      "title": "523.5 Permanent Move to Another County in Pennsylvania (Intercounty Transfer)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631152.416739
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/504_Application/504_2_Place_of_Application.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__504_Application__504_2_Place_of_Application.htm.html",
+      "title": "504.2 Place of Application",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631152.704711
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/577_Notices/577_2_Notice_of_Eligibility.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__577_Notices__577_2_Notice_of_Eligibility.htm.html",
+      "title": "577.2 Notice of Eligibility",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631152.9902909
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/504_Application/504_6_Delays_in_Processing.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__504_Application__504_6_Delays_in_Processing.htm.html",
+      "title": "504.6 Delays in Processing",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631153.2732868
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/570_Reporting_Changes/570_2_Types_of_Changes_to_be_Reported.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__570_Reporting_Changes__570_2_Types_of_Changes_to_be_Reported.htm.html",
+      "title": "570.2 Types of Changes to Be Reported",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631153.556881
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/552_Self-Employment_Income/552_2_Identifying_Self-Employment.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__552_Self-Employment_Income__552_2_Identifying_Self-Employment.htm.html",
+      "title": "552.2 Identifying Self-Employment",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631153.89986
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/576_Renewal/576_3_Timely_Renewals.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__576_Renewal__576_3_Timely_Renewals.htm.html",
+      "title": "576.3 Timely Renewals",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631154.188798
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/571_Semi-Annual_Reporting_(SAR)/571_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__571_Semi-Annual_Reporting__SAR___571_Appendix_B.htm.html",
+      "title": "571_Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631154.487357
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/571_Semi-Annual_Reporting_(SAR)/571_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__571_Semi-Annual_Reporting__SAR___571_1_General_Policy.htm.html",
+      "title": "571.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631154.764195
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/540_Resources/540_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__540_Resources__540_1_General_Policy.htm.html",
+      "title": "540.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631155.0460758
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/506_Expedited_Service/506_4_Time_Frame_for_Issuing_Benefits.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__506_Expedited_Service__506_4_Time_Frame_for_Issuing_Benefits.htm.html",
+      "title": "506.4 Time Frame for Issuing Benefits",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631155.329278
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/506_Expedited_Service/506_2_Application_Filing.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__506_Expedited_Service__506_2_Application_Filing.htm.html",
+      "title": "506.2 CAO Responsibilities at Application",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631155.6148438
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/522_Citizen_Noncitizen/522_2_Citizens.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__522_Citizen_Noncitizen__522_2_Citizens.htm.html",
+      "title": "522.2 Citizens",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631155.897086
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/571_Semi-Annual_Reporting_(SAR)/571_3_Reviewing_the_Semiannual_Reporting_Form.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__571_Semi-Annual_Reporting__SAR___571_3_Reviewing_the_Semiannual_Reporting_Form.htm.html",
+      "title": "571.3 Reviewing the Semiannual Reporting Form",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631156.1831539
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/511_Living_Arrangements/511_9_Shelters_for_Battered_Women.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__511_Living_Arrangements__511_9_Shelters_for_Battered_Women.htm.html",
+      "title": "511.9 Shelters for Battered Women",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631156.5270011
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/535_SNAP_Employment_and_Training/535_Appendix_C.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__535_SNAP_Employment_and_Training__535_Appendix_C.htm.html",
+      "title": "535_Appendix C",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631156.802141
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/555_Deeming_Income_and_Resources/555_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__555_Deeming_Income_and_Resources__555_1_General_Policy.htm.html",
+      "title": "555.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631157.097673
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/567_Prospective_Budgeting/567_5_Cash_Assistance_SNAP_Households.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__567_Prospective_Budgeting__567_5_Cash_Assistance_SNAP_Households.htm.html",
+      "title": "567.4 Cash Assistance/SNAP Households",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631157.374367
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/576_Renewal/576_4_Untimely_Renewals_Due_to_the_Household_s_Failure_to_Act.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__576_Renewal__576_4_Untimely_Renewals_Due_to_the_Household_s_Failure_to_Act.htm.html",
+      "title": "576.4 Untimely Renewals Due to the Household's Failure to Act",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631157.6543639
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/516_Migrant_or_Seasonal_Farm_Workers/516_2_Expedited_Service_for_Destitute_Migrant_or_Seasonal_Farm_Workers.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__516_Migrant_or_Seasonal_Farm_Workers__516_2_Expedited_Service_for_Destitute_Migrant_or_Seasonal_Farm_Workers.htm.html",
+      "title": "516.2 Expedited Service for Destitute Migrant or Seasonal Farm Workers",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631157.92473
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/575_Certification_Periods/575_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__575_Certification_Periods__575_Appendix_A.htm.html",
+      "title": "575_Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631158.203535
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/568_Computing_Eligibility_and_Benefit_Amount/568_8_Extended_SNAP_Benefits.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__568_Computing_Eligibility_and_Benefit_Amount__568_8_Extended_SNAP_Benefits.htm.html",
+      "title": "568.8 Extended SNAP Benefits",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631158.48466
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/540_Resources/540_4_Determining_the_Value_of_Resources.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__540_Resources__540_4_Determining_the_Value_of_Resources.htm.html",
+      "title": "540.4 Determining the Value of Resources",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631158.765655
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/514_Students/514_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__514_Students__514_Appendix_A.htm.html",
+      "title": "514 Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631159.0485241
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/552_Self-Employment_Income/552_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__552_Self-Employment_Income__552_Appendix_B.htm.html",
+      "title": "552_Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631159.341718
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/522_Citizen_Noncitizen/522_Appendix_C.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__522_Citizen_Noncitizen__522_Appendix_C.htm.html",
+      "title": "522_Appendix C",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631159.6796212
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/512_Categorical_Eligibility/512_2_The_Application_Process.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__512_Categorical_Eligibility__512_2_The_Application_Process.htm.html",
+      "title": "512.2 The Application Process",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631159.9709818
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/503_General_Information/503_Appendix_C.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__503_General_Information__503_Appendix_C.htm.html",
+      "title": "503_Appendix C",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631160.252608
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/540_Resources/540_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__540_Resources__540_Appendix_A.htm.html",
+      "title": "540_Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631160.532098
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/575_Certification_Periods/575_2_Guidelines_for_Certification_Periods.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__575_Certification_Periods__575_2_Guidelines_for_Certification_Periods.htm.html",
+      "title": "575.2 Guidelines for Certification Periods",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631160.8145778
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/580_Issuing_Benefits/580_5_Replacements.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__580_Issuing_Benefits__580_5_Replacements.htm.html",
+      "title": "580.5 Replacements",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631161.0958169
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/578_Verification_Requirements/578_8_Automated_Sources.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__578_Verification_Requirements__578_8_Automated_Sources.htm.html",
+      "title": "578.8 Automated Sources",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631161.379552
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/568_Computing_Eligibility_and_Benefit_Amount/568_Appendix_C.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__568_Computing_Eligibility_and_Benefit_Amount__568_Appendix_C.htm.html",
+      "title": "568_Appendix C",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631161.660807
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/570_Reporting_Changes/570_4_Verification.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__570_Reporting_Changes__570_4_Verification.htm.html",
+      "title": "570.4 Verification",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631161.944572
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/578_Verification_Requirements/578_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__578_Verification_Requirements__578_Appendix_A.htm.html",
+      "title": "578_Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631162.289846
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/535_SNAP_Employment_and_Training/535_5_Employment_and_Training_Program.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__535_SNAP_Employment_and_Training__535_5_Employment_and_Training_Program.htm.html",
+      "title": "535.5 Voluntary Job Quit and Reducing Work Effort",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631162.58526
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/522_Citizen_Noncitizen/522_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__522_Citizen_Noncitizen__522_1_General_Policy.htm.html",
+      "title": "522.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631162.865571
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/511_Living_Arrangements/511_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__511_Living_Arrangements__511_Appendix_B.htm.html",
+      "title": "511_Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631163.140308
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/550_Income/550_2_Earned_Income.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__550_Income__550_2_Earned_Income.htm.html",
+      "title": "550.2 Earned Income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631163.416708
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/512_Categorical_Eligibility/512_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__512_Categorical_Eligibility__512_1_General_Policy.htm.html",
+      "title": "512.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631163.697334
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/510_Households/510_4_Other_Persons_Who_Live_with_the_SNAP_Household.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__510_Households__510_4_Other_Persons_Who_Live_with_the_SNAP_Household.htm.html",
+      "title": "510.4 Other Persons Who Live with the SNAP Household",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631163.991081
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/560_Income_Deductions/560_5_Dependent_Care_Deduction.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__560_Income_Deductions__560_5_Dependent_Care_Deduction.htm.html",
+      "title": "560.5 Dependent Care Deduction",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631164.270079
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/535_SNAP_Employment_and_Training/535_7_Disqualification_or_Sanctions_for_Failure_to_Comply_with_Work_Requirements.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__535_SNAP_Employment_and_Training__535_7_Disqualification_or_Sanctions_for_Failure_to_Comply_with_Work_Requirements.htm.html",
+      "title": "535.7 Unsuitable Employment",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631164.546185
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/504_Application/504_4_Application_Interview.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__504_Application__504_4_Application_Interview.htm.html",
+      "title": "504.4 Application Interview",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631164.91237
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/555_Deeming_Income_and_Resources/555_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__555_Deeming_Income_and_Resources__555_Appendix_A.htm.html",
+      "title": "555_Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631165.202003
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/552_Self-Employment_Income/552_5_Computing_Monthly_Profit_from_Self-Employment_Income.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__552_Self-Employment_Income__552_5_Computing_Monthly_Profit_from_Self-Employment_Income.htm.html",
+      "title": "552.5 Computing Monthly Profit from Self-Employment Income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631165.493205
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/580_Issuing_Benefits/580_6_Pennsylvania_EBT_ACCESS_Card.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__580_Issuing_Benefits__580_6_Pennsylvania_EBT_ACCESS_Card.htm.html",
+      "title": "580.6 Pennsylvania EBT ACCESS Card",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631165.77723
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/555_Deeming_Income_and_Resources/555.3_Ineligible_Students,_Noncitizens,_Social_Security_Number_Disqualifications,_and_Able-Bodied_Adults_without_Dependents_(ABAWDs).htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__555_Deeming_Income_and_Resources__555.3_Ineligible_Students__Noncitizens__Social_Security_Number_Disqualifications__and_Able-Bodied_Adults_without_Dependents__ABAWDs_.htm.html",
+      "title": "555.3 Ineligible Students, Noncitizens, Social Security Number Disqualifications, and Able-Bodied Adults without Dependents (ABAWDs)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631166.061419
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/510_Households/510_2_Household_Members.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__510_Households__510_2_Household_Members.htm.html",
+      "title": "510.2 Household Members",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631166.356907
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/506_Expedited_Service/506_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__506_Expedited_Service__506_1_General_Policy.htm.html",
+      "title": "506.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631166.634059
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/503_General_Information/503_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__503_General_Information__503_Appendix_B.htm.html",
+      "title": "503_Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631166.918398
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/522_Citizen_Noncitizen/522_Appendix_A_1.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__522_Citizen_Noncitizen__522_Appendix_A_1.htm.html",
+      "title": "522_Appendix A 1",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631167.21266
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/506_Expedited_Service/506_6_Determining_Eligibiilty_for_Expedited_Benefits.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__506_Expedited_Service__506_6_Determining_Eligibiilty_for_Expedited_Benefits.htm.html",
+      "title": "506.6 Determining Eligibility for Expedited Benefits",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631167.591646
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/536_Pennsylvanians_with_Employment_and_or_Engagement_Requirements_(PEERs)/Appendix_B__15_Percent_Exemptions.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__536_Pennsylvanians_with_Employment_and_or_Engagement_Requirements__PEERs___Appendix_B__15_Percent_Exemptions.htm.html",
+      "title": "Appendix B: Discretionary Exemptions",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631167.879446
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/560_Income_Deductions/560_4_Excess_Medical_Deduction.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__560_Income_Deductions__560_4_Excess_Medical_Deduction.htm.html",
+      "title": "560.4 Excess Medical Deduction",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631168.1826549
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/511_Living_Arrangements/511_2_Homeless_Persons.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__511_Living_Arrangements__511_2_Homeless_Persons.htm.html",
+      "title": "511.2 Homeless Persons",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631168.474738
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/568_Computing_Eligibility_and_Benefit_Amount/568_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__568_Computing_Eligibility_and_Benefit_Amount__568_1_General_Policy.htm.html",
+      "title": "568.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631168.775779
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/567_Prospective_Budgeting/567_2_At_Application.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__567_Prospective_Budgeting__567_2_At_Application.htm.html",
+      "title": "567.2 At Application",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631169.115222
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/511_Living_Arrangements/511_6_Residents_of_Drug_and_Alcohol_Treatment_and_Rehabilitation_Centers.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__511_Living_Arrangements__511_6_Residents_of_Drug_and_Alcohol_Treatment_and_Rehabilitation_Centers.htm.html",
+      "title": "511.6 Residents of Drug and Alcohol Treatment and Rehabilitation Centers",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631169.408339
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/575_Certification_Periods/575_3_Changes_in_Length_of_Certification_Periods_for_Cash_Assistance_SNAP_Households.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__575_Certification_Periods__575_3_Changes_in_Length_of_Certification_Periods_for_Cash_Assistance_SNAP_Households.htm.html",
+      "title": "575.3 Changes in Length of Certification Periods for Cash Assistance/SNAP Households",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631169.7087429
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/535_SNAP_Employment_and_Training/535_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__535_SNAP_Employment_and_Training__535_Appendix_A.htm.html",
+      "title": "535_Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631169.9950452
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/571_Semi-Annual_Reporting_(SAR)/571_Appendix_C.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__571_Semi-Annual_Reporting__SAR___571_Appendix_C.htm.html",
+      "title": "571_Appendix C",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631170.285919
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/511_Living_Arrangements/511_7_Residents_of_Group_Living_Arrangements.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__511_Living_Arrangements__511_7_Residents_of_Group_Living_Arrangements.htm.html",
+      "title": "511.7 Residents of Group Living Arrangements",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631170.571553
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/506_Expedited_Service/Appendix_B_Expedited_SNAP_Interview_Desk_Guide.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__506_Expedited_Service__Appendix_B_Expedited_SNAP_Interview_Desk_Guide.htm.html",
+      "title": "506 Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631170.857936
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/503_General_Information/503_5_Rights_and_Responsibilities.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__503_General_Information__503_5_Rights_and_Responsibilities.htm.html",
+      "title": "503.5 Rights and Responsibilities",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631171.214305
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/536_Pennsylvanians_with_Employment_and_or_Engagement_Requirements_(PEERs)/536.1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__536_Pennsylvanians_with_Employment_and_or_Engagement_Requirements__PEERs___536.1_General_Policy.htm.html",
+      "title": "536.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631171.5165179
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/522_Citizen_Noncitizen/522_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__522_Citizen_Noncitizen__522_Appendix_B.htm.html",
+      "title": "522_Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631171.818942
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/550_Income/550_3_Unearned_Income.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__550_Income__550_3_Unearned_Income.htm.html",
+      "title": "550.3 Unearned Income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631172.12531
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/535_SNAP_Employment_and_Training/535_6_Good_Cause.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__535_SNAP_Employment_and_Training__535_6_Good_Cause.htm.html",
+      "title": "535.6 The Compliance Review Process for Voluntary Job Quit and Reducing Work Effort",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631172.419162
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/504_Application/504_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__504_Application__504_1_General_Policy.htm.html",
+      "title": "504.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631172.8389719
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/514_Students/514_2_Eligible_Students.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__514_Students__514_2_Eligible_Students.htm.html",
+      "title": "514.2 Eligible Students",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631173.145511
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/536_Pennsylvanians_with_Employment_and_or_Engagement_Requirements_(PEERs)/Appendix_A__Current_Geographical_Areas_Waived.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__536_Pennsylvanians_with_Employment_and_or_Engagement_Requirements__PEERs___Appendix_A__Current_Geographical_Areas_Waived.htm.html",
+      "title": "Appendix A: Current Geographical Areas Waived",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631173.46518
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/535_SNAP_Employment_and_Training/535_2_Participation_Status_and_Codes.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__535_SNAP_Employment_and_Training__535_2_Participation_Status_and_Codes.htm.html",
+      "title": "535.3 Participation Status and Codes",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631173.829655
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/578_Verification_Requirements/578_3_County_Assistance_Office_Responsibility.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__578_Verification_Requirements__578_3_County_Assistance_Office_Responsibility.htm.html",
+      "title": "578.3 County Assistance Office Responsibility",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631174.158017
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/560_Income_Deductions/560_8_Shelter_Utility_Deduction.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__560_Income_Deductions__560_8_Shelter_Utility_Deduction.htm.html",
+      "title": "560.8 Shelter/Utility Deduction",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631174.4883049
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/540_Resources/540_5_Excluded_Resources.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__540_Resources__540_5_Excluded_Resources.htm.html",
+      "title": "540.5 Excluded Resources",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631174.881655
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/536_Pennsylvanians_with_Employment_and_or_Engagement_Requirements_(PEERs)/536.3_Certification_Periods_For_PEERs.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__536_Pennsylvanians_with_Employment_and_or_Engagement_Requirements__PEERs___536.3_Certification_Periods_For_PEERs.htm.html",
+      "title": "536.3 Certification Periods For PEERs",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631175.1918359
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/540_Resources/540_3_Countable_Resources.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__540_Resources__540_3_Countable_Resources.htm.html",
+      "title": "540.3 Countable Resources",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631175.541122
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/535_SNAP_Employment_and_Training/535_4_Work_Requirements.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__535_SNAP_Employment_and_Training__535_4_Work_Requirements.htm.html",
+      "title": "535.4 Special Allowances for Supportive Services",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631175.922891
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/535_SNAP_Employment_and_Training/535_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__535_SNAP_Employment_and_Training__535_1_General_Policy.htm.html",
+      "title": "535.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631176.244609
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/550_Income/550_5_Income_Excluded_in_Computing_Eligibility.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__550_Income__550_5_Income_Excluded_in_Computing_Eligibility.htm.html",
+      "title": "550.5 Income Excluded in Computing Eligibility",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631176.592271
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/522_Citizen_Noncitizen/522_3_Non-Citizens.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__522_Citizen_Noncitizen__522_3_Non-Citizens.htm.html",
+      "title": "522.3 Non-Citizens",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631176.9937248
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/535_SNAP_Employment_and_Training/Appendix_B.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__535_SNAP_Employment_and_Training__Appendix_B.htm.html",
+      "title": "535_Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631177.3077068
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/580_Issuing_Benefits/580_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__580_Issuing_Benefits__580_Appendix_B.htm.html",
+      "title": "580_Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631177.662406
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/522_Citizen_Noncitizen/522_4_Verification.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__522_Citizen_Noncitizen__522_4_Verification.htm.html",
+      "title": "522.4 Verification",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631178.092983
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/560_Income_Deductions/560_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__560_Income_Deductions__560_Appendix_A.htm.html",
+      "title": "560_Appendix A.htm",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631178.444387
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/536_Pennsylvanians_with_Employment_and_or_Engagement_Requirements_(PEERs)/536.2_PEER_Exemptions.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__536_Pennsylvanians_with_Employment_and_or_Engagement_Requirements__PEERs___536.2_PEER_Exemptions.htm.html",
+      "title": "536.2 PEER Exemptions",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631178.841287
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/500_OpsMemos_PolicyClarifications/SNAP_Handbook_Operations_Memoranda.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__500_OpsMemos_PolicyClarifications__SNAP_Handbook_Operations_Memoranda.htm.html",
+      "title": "500_SNAP Handbook Operations Memoranda",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631179.216589
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/500_OpsMemos_PolicyClarifications/SNAP_Handbook_Policy_Clarifications.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__500_OpsMemos_PolicyClarifications__SNAP_Handbook_Policy_Clarifications.htm.html",
+      "title": "500_SNAP Handbook Policy Clarifications",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631179.709652
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/568_Computing_Eligibility_and_Benefit_Amount/568_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__568_Computing_Eligibility_and_Benefit_Amount__568_Appendix_A.htm.html",
+      "title": "568_Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631180.2984269
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/suspension.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__suspension.htm.html",
+      "title": "Untitled Page",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631180.6837142
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/SSN.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__SSN.htm.html",
+      "title": "SSN",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631180.954581
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/issuance_month.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__issuance_month.htm.html",
+      "title": "Untitled Page",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631181.221451
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/IRS.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__IRS.htm.html",
+      "title": "Untitled Page",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631181.49058
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/SSI.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__SSI.htm.html",
+      "title": "SSI",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631181.758946
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/point_of_sale_(POS).htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__point_of_sale__POS_.htm.html",
+      "title": "Untitled Page",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631182.022253
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/part-time_employment.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__part-time_employment.htm.html",
+      "title": "Untitled Page",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631182.285171
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/SUA.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__SUA.htm.html",
+      "title": "SUA",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631182.5450702
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/PARIS.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__PARIS.htm.html",
+      "title": "PARIS",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631182.8103218
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/RSDI.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__RSDI.htm.html",
+      "title": "RSDI",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631183.078656
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/specified_relative.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__specified_relative.htm.html",
+      "title": "Untitled Page",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631183.342651
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/SAR.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__SAR.htm.html",
+      "title": "SAR",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631183.6038551
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/noncitizen.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__noncitizen.htm.html",
+      "title": "noncitizen",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631183.870518
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/prospective_determination.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__prospective_determination.htm.html",
+      "title": "Untitled Page",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631184.137416
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/SSA.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__SSA.htm.html",
+      "title": "SSA",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631184.400182
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/standard_deduction.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__standard_deduction.htm.html",
+      "title": "standard deduction",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631184.676586
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/Medicaid.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__Medicaid.htm.html",
+      "title": "Medicaid",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631184.938417
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/recoupment.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__recoupment.htm.html",
+      "title": "recoupment",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631185.203167
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/eCIS.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__eCIS.htm.html",
+      "title": "eCIS",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631185.466618
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/self-employment_income.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__self-employment_income.htm.html",
+      "title": "self-employment income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631185.73809
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/personal_property.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__personal_property.htm.html",
+      "title": "personal property",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631186.0061219
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/resource.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__resource.htm.html",
+      "title": "resource",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631186.269037
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/personal_identification_number_(PIN).htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__personal_identification_number__PIN_.htm.html",
+      "title": "personal identification number (PIN)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631186.532935
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/intentional_program_violation_.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__intentional_program_violation_.htm.html",
+      "title": "intentional program violation_",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631186.797386
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/Medicare.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__Medicare.htm.html",
+      "title": "Medicare",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631187.063387
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/resources.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__resources.htm.html",
+      "title": "resources",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631187.330953
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/preliminary_review.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__preliminary_review.htm.html",
+      "title": "Untitled Page",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631187.599582
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/Office_of_State_Inspector_General.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__Office_of_State_Inspector_General.htm.html",
+      "title": "Office of State Inspector General",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631187.868756
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/resident.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__resident.htm.html",
+      "title": "resident",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631188.135061
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/unearned_income1.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__unearned_income1.htm.html",
+      "title": "unearned income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631188.405143
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/mailingaddress.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__mailingaddress.htm.html",
+      "title": "mailingaddress",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631188.676669
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/proration.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__proration.htm.html",
+      "title": "proration",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631189.0247161
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/returned_benefits.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__returned_benefits.htm.html",
+      "title": "returned benefits",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631189.292533
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/ineligible_noncitizen.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__ineligible_noncitizen.htm.html",
+      "title": "ineligible_noncitizen",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631189.593898
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/standard_utility_allowance_(SUA).htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__standard_utility_allowance__SUA_.htm.html",
+      "title": "standard utility allowance (SUA)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631189.861611
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/sponsor.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__sponsor.htm.html",
+      "title": "sponsor",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631190.13102
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/renewal.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__renewal.htm.html",
+      "title": "renewal",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631190.399657
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/shelter_deduction.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__shelter_deduction.htm.html",
+      "title": "shelter deduction",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631190.667306
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/program_status_code.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__program_status_code.htm.html",
+      "title": "program status code",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631190.934054
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/roomer.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__roomer.htm.html",
+      "title": "roomer",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631191.201935
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/sponsored_noncitizen.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__sponsored_noncitizen.htm.html",
+      "title": "sponsored_noncitizen",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631191.472762
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/noncontinuous_eligibility.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__noncontinuous_eligibility.htm.html",
+      "title": "noncontinuous eligibility",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631191.742005
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/OTI_.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__OTI_.htm.html",
+      "title": "OTI_",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631192.011138
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/ineligible_member.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__ineligible_member.htm.html",
+      "title": "ineligible member",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631192.2755468
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/Thrifty_Food_Plan.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__Thrifty_Food_Plan.htm.html",
+      "title": "Thrifty Food Plan",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631192.544354
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/UC.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__UC.htm.html",
+      "title": "UC",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631192.809847
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/SDX.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__SDX.htm.html",
+      "title": "SDX",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631193.0774
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/L_IN.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__L_IN.htm.html",
+      "title": "L/IN",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631193.346804
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/WIA.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__WIA.htm.html",
+      "title": "WIA",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631193.6224298
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/INS.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__INS.htm.html",
+      "title": "INS",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631193.8899982
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/SAVE.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__SAVE.htm.html",
+      "title": "SAVE",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631194.1560378
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/PACSES.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__PACSES.htm.html",
+      "title": "PACSES",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631194.4239638
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/USCIS.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__USCIS.htm.html",
+      "title": "USCIS",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631194.69045
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/payment_name.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__payment_name.htm.html",
+      "title": "payment name",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631194.950635
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/parole.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__parole.htm.html",
+      "title": "parole",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631195.216235
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/lien.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__lien.htm.html",
+      "title": "lien",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631195.485632
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/over_issuance.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__over_issuance.htm.html",
+      "title": "over issuance",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631195.839912
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/issuance_date.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__issuance_date.htm.html",
+      "title": "issuance date",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631196.104275
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/RMS.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__RMS.htm.html",
+      "title": "RMS",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631196.420816
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/system.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__system.htm.html",
+      "title": "system",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631196.690428
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/reporting_period.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__reporting_period.htm.html",
+      "title": "reporting period",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631196.959782
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/strike.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__strike.htm.html",
+      "title": "strike",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631197.230784
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/mass_change.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__mass_change.htm.html",
+      "title": "mass change",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631197.495063
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/intercounty_transfer.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__intercounty_transfer.htm.html",
+      "title": "intercounty transfer",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631197.767046
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/lockout.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__lockout.htm.html",
+      "title": "lockout",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631198.044009
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/self-employment.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__self-employment.htm.html",
+      "title": "self-employment",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631198.311337
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/under_issuance.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__under_issuance.htm.html",
+      "title": "under issuance",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631198.580131
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/third-party_payments.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__third-party_payments.htm.html",
+      "title": "third-party payments",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631198.847477
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/overpayment.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__overpayment.htm.html",
+      "title": "overpayment",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631199.116383
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/Notice_to_Applicant.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__Notice_to_Applicant.htm.html",
+      "title": "Notice to Applicant",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631199.381488
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/natural_disaster.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__natural_disaster.htm.html",
+      "title": "natural disaster",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631199.657283
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/TANF.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__TANF.htm.html",
+      "title": "TANF",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631199.926631
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/supportive_services.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__supportive_services.htm.html",
+      "title": "supportive services",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631200.194716
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/institution.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__institution.htm.html",
+      "title": "institution",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631200.466892
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/probation.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__probation.htm.html",
+      "title": "probation",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631200.734895
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/total_gross_receipts.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__total_gross_receipts.htm.html",
+      "title": "total gross receipts",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631201.078055
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/payee.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__payee.htm.html",
+      "title": "payee",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631201.3441799
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/reinstatement.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__reinstatement.htm.html",
+      "title": "reinstatement",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631201.658276
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/Family_Works.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__Family_Works.htm.html",
+      "title": "Family Works",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631201.927583
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/Profit.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__Profit.htm.html",
+      "title": "Profit",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631202.193821
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/support.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__support.htm.html",
+      "title": "support",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631202.460052
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/timely_notice.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__timely_notice.htm.html",
+      "title": "timely notice",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631202.728329
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/provider.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__provider.htm.html",
+      "title": "provider",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631202.9998562
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/Expanded_Categorically_Eligible_Households.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__Expanded_Categorically_Eligible_Households.htm.html",
+      "title": "Expanded Categorically Eligible Households",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631203.2665431
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/uninterrupted_benefits.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__uninterrupted_benefits.htm.html",
+      "title": "uninterrupted benefits",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631203.531533
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/parolee.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__parolee.htm.html",
+      "title": "parolee",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631203.79876
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/liquid_resources.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__liquid_resources.htm.html",
+      "title": "liquid resources",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631204.072504
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/shelter_for_battered_persons.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__shelter_for_battered_persons.htm.html",
+      "title": "shelter for battered persons",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631204.339019
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/initial_month.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__initial_month.htm.html",
+      "title": "initial month",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631204.6072052
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/restored_benefits.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__restored_benefits.htm.html",
+      "title": "restored benefits",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631204.8732328
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/lump_sum_payment.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__lump_sum_payment.htm.html",
+      "title": "lump sum payment",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631205.1405718
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/refugee.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__refugee.htm.html",
+      "title": "refugee",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631205.411422
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/vendor.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__vendor.htm.html",
+      "title": "vendor",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631205.683543
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/EBT.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__EBT.htm.html",
+      "title": "EBT",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631205.954448
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/bendex.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__bendex.htm.html",
+      "title": "BENDEX",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631206.229013
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/household.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__household.htm.html",
+      "title": "household",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631206.5058858
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/GA.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__GA.htm.html",
+      "title": "GA",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631206.848835
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/buy-in.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__buy-in.htm.html",
+      "title": "buy-in",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631207.1155462
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/earned_income_deduction.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__earned_income_deduction.htm.html",
+      "title": "earned income deduction",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631207.422996
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/documentary_evidence.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__documentary_evidence.htm.html",
+      "title": "documentary evidence",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631207.687976
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/capital_assets.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__capital_assets.htm.html",
+      "title": "capital assets",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631207.9593449
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/GLA.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__GLA.htm.html",
+      "title": "GLA",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631208.232508
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/amr.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__amr.htm.html",
+      "title": "AMR",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631208.508802
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/FNS.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__FNS.htm.html",
+      "title": "FNS",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631208.776376
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/elderly.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__elderly.htm.html",
+      "title": "elderly",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631209.046232
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/INA.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__INA.htm.html",
+      "title": "INA",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631209.313845
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/ETP.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__ETP.htm.html",
+      "title": "ETP",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631209.587981
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/HUD.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__HUD.htm.html",
+      "title": "HUD",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631209.871259
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/educational_assistance.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__educational_assistance.htm.html",
+      "title": "educational assistance",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631210.1452742
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/calendar_month.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__calendar_month.htm.html",
+      "title": "calendar month",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631210.4183521
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/depreciation.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__depreciation.htm.html",
+      "title": "depreciation",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631210.6802108
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/effective_date.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__effective_date.htm.html",
+      "title": "effective date",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631211.0470269
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/countable_income.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__countable_income.htm.html",
+      "title": "countable income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631211.3245928
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/Department_of_Human_Services_(DHS).htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__Department_of_Human_Services__DHS_.htm.html",
+      "title": "Department of Human Services (DHS)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631211.622091
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/executive_director.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__executive_director.htm.html",
+      "title": "executive director",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631211.906278
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/county_assistance_office_(cao).htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__county_assistance_office__cao_.htm.html",
+      "title": "County Assistance Office (CAO)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631212.1763132
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/confirming_notice.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__confirming_notice.htm.html",
+      "title": "confirming notice",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631212.4388962
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/calendar_quarter.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__calendar_quarter.htm.html",
+      "title": "calendar quarter",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631212.710746
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/blue_book.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__blue_book.htm.html",
+      "title": "blue book",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631212.979976
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/good_cause.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__good_cause.htm.html",
+      "title": "good cause",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631213.250525
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/automated_teller_machine_(atm).htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__automated_teller_machine__atm_.htm.html",
+      "title": "automated teller machine (ATM)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631213.519107
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/budget_plan.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__budget_plan.htm.html",
+      "title": "budget plan",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631213.791179
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/designee.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__designee.htm.html",
+      "title": "designee",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631214.064752
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/FPIG.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__FPIG.htm.html",
+      "title": "FPIG",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631214.3452852
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/Department_of_Housing_and_Urban_Development_(HUD).htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__Department_of_Housing_and_Urban_Development__HUD_.htm.html",
+      "title": "Department of Housing and Urban Development (HUD)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631214.614548
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/Commonwealth_of_Pennsylvania_Access_to_Social_Services_(COMPASS).htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__Commonwealth_of_Pennsylvania_Access_to_Social_Services__COMPASS_.htm.html",
+      "title": "Commonwealth of Pennsylvania Access to Social Services (COMPASS)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631214.882596
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/appeal.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__appeal.htm.html",
+      "title": "appeal",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631215.238996
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/eligible_foods.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__eligible_foods.htm.html",
+      "title": "eligible foods",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631215.509696
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/anticipated_changes.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__anticipated_changes.htm.html",
+      "title": "anticipated changes",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631215.817309
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/ABAWD.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__ABAWD.htm.html",
+      "title": "ABAWD",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631216.096611
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/certification_period.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__certification_period.htm.html",
+      "title": "certification period",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631216.36735
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/collateral_contact.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__collateral_contact.htm.html",
+      "title": "collateral contact",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631216.6374242
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/excluded_income.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__excluded_income.htm.html",
+      "title": "excluded income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631216.909476
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/dependent_care_deduction.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__dependent_care_deduction.htm.html",
+      "title": "dependent care deduction",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631217.185726
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/Food_and_Nutrition_Service_(FNS).htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__Food_and_Nutrition_Service__FNS_.htm.html",
+      "title": "Food and Nutrition Service (FNS)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631217.4549298
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/fair_market_value.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__fair_market_value.htm.html",
+      "title": "fair market value",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631217.726644
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/advance_notice.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__advance_notice.htm.html",
+      "title": "Advance Notice",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631217.998964
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/EBT_card.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__EBT_card.htm.html",
+      "title": "EBT card",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631218.2700942
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/cooling_cost.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__cooling_cost.htm.html",
+      "title": "cooling cost",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631218.543531
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/advance_notice_of_adverse_action.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__advance_notice_of_adverse_action.htm.html",
+      "title": "Advance Notice of Adverse Action",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631218.817833
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/administrative_error.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__administrative_error.htm.html",
+      "title": "administrative error",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631219.084162
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/complete_application.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__complete_application.htm.html",
+      "title": "complete application",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631219.4341319
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/application_interview.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__application_interview.htm.html",
+      "title": "application interview",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631219.7162938
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/corrective_payment.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__corrective_payment.htm.html",
+      "title": "corrective payment",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631220.0061371
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/certification.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__certification.htm.html",
+      "title": "certification",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631220.27895
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/CJIS.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__CJIS.htm.html",
+      "title": "CJIS",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631220.552534
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/enumeration.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__enumeration.htm.html",
+      "title": "enumeration",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631220.820432
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/fair_hearing.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__fair_hearing.htm.html",
+      "title": "fair hearing",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631221.108876
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/boarder.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__boarder.htm.html",
+      "title": "boarder",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631221.386077
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/application_month.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__application_month.htm.html",
+      "title": "application month",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631221.660169
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/equity_value.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__equity_value.htm.html",
+      "title": "equity value",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631221.9394119
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/eligible_noncitizen.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__eligible_noncitizen.htm.html",
+      "title": "eligible noncitizen",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631222.216223
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/continuation_of_benefits.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__continuation_of_benefits.htm.html",
+      "title": "continuation of benefits",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631222.487731
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/debit.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__debit.htm.html",
+      "title": "debit",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631222.764881
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/categorically_eligible_household.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__categorically_eligible_household.htm.html",
+      "title": "categorically eligible household",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631223.09969
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/e-CIS.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__e-CIS.htm.html",
+      "title": "e-CIS",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631223.3757582
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/homeless_shelter.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__homeless_shelter.htm.html",
+      "title": "homeless shelter",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631223.686462
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/immigrant.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__immigrant.htm.html",
+      "title": "immigrant",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631223.958882
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/citizenship.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__citizenship.htm.html",
+      "title": "citizenship",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631224.232537
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/alimony.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__alimony.htm.html",
+      "title": "alimony",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631224.503062
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/IEVS.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__IEVS.htm.html",
+      "title": "IEVS",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631224.78554
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/budget_month.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__budget_month.htm.html",
+      "title": "budget month",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631225.068635
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/earned_income.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__earned_income.htm.html",
+      "title": "earned income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631225.347766
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/attendant.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__attendant.htm.html",
+      "title": "attendant",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631225.61746
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/identifiable_application.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__identifiable_application.htm.html",
+      "title": "identifiable application",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631225.890434
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/electronic_benefit_transfer_(EBT).htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__electronic_benefit_transfer__EBT_.htm.html",
+      "title": "electronic benefit transfer (EBT)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631226.245746
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/alert.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__alert.htm.html",
+      "title": "alert",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631226.5221949
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/ACCESS_card.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__ACCESS_card.htm.html",
+      "title": "ACCESS card",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631226.8289769
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/annuity.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__annuity.htm.html",
+      "title": "annuity",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631227.105645
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/expedited_service.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__expedited_service.htm.html",
+      "title": "expedited service",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631227.380598
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/hearing_request.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__hearing_request.htm.html",
+      "title": "hearing request",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631227.661561
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/budget_group.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__budget_group.htm.html",
+      "title": "budget group",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631227.942318
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/application_filing_date.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__application_filing_date.htm.html",
+      "title": "application filing date",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631228.216758
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/asylee.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__asylee.htm.html",
+      "title": "asylee",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631228.489717
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/disqualified_household_member.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__disqualified_household_member.htm.html",
+      "title": "disqualified household member",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631228.765312
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/group_living_arrangement_(GLA).htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__group_living_arrangement__GLA_.htm.html",
+      "title": "group living arrangement (GLA)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631229.0379572
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/head_of_household.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__head_of_household.htm.html",
+      "title": "head of household",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631229.397609
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/extended_SNAP.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__extended_SNAP.htm.html",
+      "title": "Extended SNAP",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631229.671206
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/excess_medical_deduction.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__excess_medical_deduction.htm.html",
+      "title": "excess medical deduction",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631229.978366
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/ar.htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__ar.htm.html",
+      "title": "AR - Authorized representative",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631230.253392
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/authorized_representative_(AR).htm",
+      "local_path": "raw_policy_downloads/snap_v8/oimpolicymanuals__snap__Popups__authorized_representative__AR_.htm.html",
+      "title": "Authorized Representative - AR",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776631230.531722
+    }
+  ],
+  "failures": []
+}

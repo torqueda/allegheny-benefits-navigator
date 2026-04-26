@@ -1,0 +1,15 @@
+---
+program: SNAP
+source_type: official_handbook
+title: 540 Title
+chapter: 540
+source_url: http://services.dpw.state.pa.us/oimpolicymanuals/snap/540_Resources/SNAP_540_Title.htm
+accessed_date: 2026-04-19
+jurisdiction: Pennsylvania
+---
+
+# 540 Title
+
+Supplemental Nutrition Assistance Program (SNAP) Handbook
+
+Chapter 540: Resources

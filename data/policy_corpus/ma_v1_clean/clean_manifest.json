@@ -1,0 +1,2684 @@
+{
+  "source_manifest": "data/raw_policy_downloads/ma_v1/manifest.json",
+  "clean_count": 446,
+  "skipped_count": 0,
+  "records": [
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/index.htm",
+      "source_title": "Medical Assistance Eligibility Handbook",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_index.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/Title_Page.htm",
+      "source_title": "Medical Assistance Eligibility_Title_Page",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_title_page.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/whxdata/projectsettings.js",
+      "source_title": "projectsettings.js",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_projectsettings.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/whxdata/search_topics.js",
+      "source_title": "search_topics.js",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_search_topics.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/whxdata/search_db.js",
+      "source_title": "search_db.js",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_search_db.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/whxdata/whtagdata.js",
+      "source_title": "whtagdata.js",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_whtagdata.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/template/scripts/projectdata.js",
+      "source_title": "projectdata.js",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_projectdata.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/csh-redirect.htm",
+      "source_title": "Medical Assistance Eligibility Handbook",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_csh_redirect.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/376_Renewal/376_Appendix_D.htm",
+      "source_title": "376 Appendix D",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_376_376_appendix_d.md",
+      "chapter_hint": "376"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/339_Transitional_Medical_Assistance_(TMA)/339_Appendix_B.htm",
+      "source_title": "339 Appendix B:Transitional Medical Assistance (TMA) Notice Reason/Options",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_339_339_appendix_b.md",
+      "chapter_hint": "339"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/376_Renewal/Appendix_C__Medical_Assistance_Closure_Checklist.htm",
+      "source_title": "376 Appendix C",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_376_appendix_c_medical_assistance_closure_checklist.md",
+      "chapter_hint": "376"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/315_Children_with_Special_Needs/315_Appendix_A.htm",
+      "source_title": "315 Appendix A: CHIP to PH-95 Referral",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_315_315_appendix_a.md",
+      "chapter_hint": "315"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/379_Reconsidering_Denied_Applications_and_Reopening_Closed_Benefits/379_Title.htm",
+      "source_title": "379 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_379_379_title.md",
+      "chapter_hint": "379"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/368_Determining_Eligibility_for_NMP/368.1_Title.htm",
+      "source_title": "368 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_368_368_1_title.md",
+      "chapter_hint": "368"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/312_Title.htm",
+      "source_title": "312 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_312_312_title.md",
+      "chapter_hint": "312"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/300_Forms_Operations_Memoranda_and_Policy_Clarifications/300_Title.htm",
+      "source_title": "300_Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_300_300_title.md",
+      "chapter_hint": "300"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/339_Transitional_Medical_Assistance_(TMA)/339_Title.htm",
+      "source_title": "339 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_339_339_title.md",
+      "chapter_hint": "339"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/New_Topic.htm",
+      "source_title": "378 Appendix I",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_378_new_topic.md",
+      "chapter_hint": "378"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_Appendix_E.htm",
+      "source_title": "316 Appendix E",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_316_316_appendix_e.md",
+      "chapter_hint": "316"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/361_MNO_Deductions/361_Title.htm",
+      "source_title": "361 Title Page",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_361_361_title.md",
+      "chapter_hint": "361"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/391_Personal_Care_Supplement/391.5_Annual_Review_of_Functional_Disability.htm",
+      "source_title": "391.5 Reserved",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_391_5_391_5_annual_review_of_functional_disability.md",
+      "chapter_hint": "391.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/392_Institutions/392_Title.htm",
+      "source_title": "392_Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_392_392_title.md",
+      "chapter_hint": "392"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/376_Renewal/376_Title.htm",
+      "source_title": "376 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_376_376_title.md",
+      "chapter_hint": "376"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/320_Identity/320_Title.htm",
+      "source_title": "320 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_320_320_title.md",
+      "chapter_hint": "320"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/377_Notices/377_Title.htm",
+      "source_title": "377 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_377_377_title.md",
+      "chapter_hint": "377"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/321_Age/321_Title.htm",
+      "source_title": "321 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_321_321_title.md",
+      "chapter_hint": "321"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/350_Income/350_Title.htm",
+      "source_title": "350 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_350_350_title.md",
+      "chapter_hint": "350"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/322_Citizen_Noncitizen/322_Title.htm",
+      "source_title": "322 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_322_322_title.md",
+      "chapter_hint": "322"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/315_Children_with_Special_Needs/315_Title.htm",
+      "source_title": "315 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_315_315_title.md",
+      "chapter_hint": "315"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/304_Application/304_Title.htm",
+      "source_title": "304 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_304_304_title.md",
+      "chapter_hint": "304"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/317_BCCPT/317_Title.htm",
+      "source_title": "317 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_317_317_title.md",
+      "chapter_hint": "317"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/372_Mass_Changes/372_Title.htm",
+      "source_title": "372 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_372_372_title.md",
+      "chapter_hint": "372"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/388_Buy-In/388_Title.htm",
+      "source_title": "388 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_388_388_title.md",
+      "chapter_hint": "388"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/329_Deprivation/329_Title.htm",
+      "source_title": "329 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_329_329_title.md",
+      "chapter_hint": "329"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/327_Specified_Relatives/327_Title.htm",
+      "source_title": "327 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_327_327_title.md",
+      "chapter_hint": "327"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/391_Personal_Care_Supplement/391_Title.htm",
+      "source_title": "391 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_391_391_title.md",
+      "chapter_hint": "391"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/323_Residence/323_Title.htm",
+      "source_title": "323 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_323_323_title.md",
+      "chapter_hint": "323"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_Title.htm",
+      "source_title": "378 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_378_378_title.md",
+      "chapter_hint": "378"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/352_Self-Employment/352_Title.htm",
+      "source_title": "352 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_352_352_title.md",
+      "chapter_hint": "352"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/337_Medicare/337_Title.htm",
+      "source_title": "337 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_337_337_title.md",
+      "chapter_hint": "337"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/340_Resources/340_Title.htm",
+      "source_title": "340 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_340_340_title.md",
+      "chapter_hint": "340"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/355_Deeming_Income_and_Resources/355_Title.htm",
+      "source_title": "355 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_355_355_title.md",
+      "chapter_hint": "355"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/357_Lump_Sum/357_Title.htm",
+      "source_title": "357 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_357_357_title.md",
+      "chapter_hint": "357"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/369_Determining_Eligibility_for_MNO/369_Title.htm",
+      "source_title": "369 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_369_369_title.md",
+      "chapter_hint": "369"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/305_Category/305_Title.htm",
+      "source_title": "305 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_305_305_title.md",
+      "chapter_hint": "305"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/303_General_Information/303_Title.htm",
+      "source_title": "303 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_303_303_title.md",
+      "chapter_hint": "303"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/370_Reporting_Changes/370_Title.htm",
+      "source_title": "370 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_370_370_title.md",
+      "chapter_hint": "370"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/387_SSI/387_Title.htm",
+      "source_title": "387 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_387_387_title.md",
+      "chapter_hint": "387"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/380_Issuing_the_ACCESS_Card/380_Title.htm",
+      "source_title": "380 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_380_380_title.md",
+      "chapter_hint": "380"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/314_Students/314_Title.htm",
+      "source_title": "314 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_314_314_title.md",
+      "chapter_hint": "314"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/386_Medical_Assistance_Plan_Options/386_Title.htm",
+      "source_title": "386 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_386_386_title.md",
+      "chapter_hint": "386"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_Title.htm",
+      "source_title": "316 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_316_316_title.md",
+      "chapter_hint": "316"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/309_Health_Care_Services_Benefits_for_Children/309_Title.htm",
+      "source_title": "309 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_309_309_title.md",
+      "chapter_hint": "309"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/310_Applicant_And_Recipient_Groups_Standard_Filing_Unit/310_Title.htm",
+      "source_title": "310 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_310_310_title.md",
+      "chapter_hint": "310"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/380_Issuing_the_ACCESS_Card/380_Appendix_D.htm",
+      "source_title": "380 Appendix C",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_380_380_appendix_d.md",
+      "chapter_hint": "380"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/388_Buy-In/388_Appendix_B.htm",
+      "source_title": "388 Appendix B",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_388_388_appendix_b.md",
+      "chapter_hint": "388"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_Title.htm",
+      "source_title": "338 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_338_338_title.md",
+      "chapter_hint": "338"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/388_Buy-In/388_Appendix_C.htm",
+      "source_title": "388 Appendix C",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_388_388_appendix_c.md",
+      "chapter_hint": "388"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/319_Healthy_Horizons/319_Title.htm",
+      "source_title": "319 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_319_319_title.md",
+      "chapter_hint": "319"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/380_Issuing_the_ACCESS_Card/380_Appendix_C.htm",
+      "source_title": "380 Appendix B",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_380_380_appendix_c.md",
+      "chapter_hint": "380"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_Appendix_H.htm",
+      "source_title": "378 Appendix H",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_378_378_appendix_h.md",
+      "chapter_hint": "378"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/317_BCCPT/317_Appendix_C.htm",
+      "source_title": "317 Appendix C",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_317_317_appendix_c.md",
+      "chapter_hint": "317"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_Appendix_J.htm",
+      "source_title": "338 Appendix I",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_338_338_appendix_j.md",
+      "chapter_hint": "338"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_Appendix_E.htm",
+      "source_title": "338 Appendix E",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_338_338_appendix_e.md",
+      "chapter_hint": "338"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_Appendix_G.htm",
+      "source_title": "316 Appendix F",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_316_316_appendix_g.md",
+      "chapter_hint": "316"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_Appendix_C.htm",
+      "source_title": "378 Appendix C",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_378_378_appendix_c.md",
+      "chapter_hint": "378"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/317_BCCPT/317_Appendix_D.htm",
+      "source_title": "317 Appendix D",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_317_317_appendix_d.md",
+      "chapter_hint": "317"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_3_Retroactive_Medical_Assistance_Eligibility.htm",
+      "source_title": "338.3 Retroactive Medical Assistance Eligibility",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_338_3_338_3_retroactive_medical_assistance_eligibility.md",
+      "chapter_hint": "338.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/303_General_Information/303_5_Confidentiality.htm",
+      "source_title": "303.5 Confidentiality",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_303_5_303_5_confidentiality.md",
+      "chapter_hint": "303.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/337_Medicare/337_Appendix_B.htm",
+      "source_title": "337 Appendix B",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_337_337_appendix_b.md",
+      "chapter_hint": "337"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/360_NMP_Deductions/360_Title.htm",
+      "source_title": "360_Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_360_360_title.md",
+      "chapter_hint": "360"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/305_Category/305_Appendix_C.htm",
+      "source_title": "305 Appendix C",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_305_305_appendix_c.md",
+      "chapter_hint": "305"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/317_BCCPT/317_5_Income.htm",
+      "source_title": "317.5 Income",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_317_5_317_5_income.md",
+      "chapter_hint": "317.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/304_Application/304_Appendix_C.htm",
+      "source_title": "304 Appendix C",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_304_304_appendix_c.md",
+      "chapter_hint": "304"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/318_Healthy_Beginnings_Reserved/318_Title.htm",
+      "source_title": "318 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_318_318_title.md",
+      "chapter_hint": "318"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/317_BCCPT/317_4_Resources.htm",
+      "source_title": "317.4 Resources",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_317_4_317_4_resources.md",
+      "chapter_hint": "317.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/311_Reserved/311_Title.htm",
+      "source_title": "311 Title",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_311_311_title.md",
+      "chapter_hint": "311"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/315_Children_with_Special_Needs/315_6_Reserved.htm",
+      "source_title": "315.6 Reserved",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_315_6_315_6_reserved.md",
+      "chapter_hint": "315.6"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/315_Children_with_Special_Needs/315_3_Resources.htm",
+      "source_title": "315.3 Resources",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_315_3_315_3_resources.md",
+      "chapter_hint": "315.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/317_BCCPT/317_Appendix_A.htm",
+      "source_title": "317 Appendix A",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_317_317_appendix_a.md",
+      "chapter_hint": "317"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/387_SSI/387_Appendix_C.htm",
+      "source_title": "387 Appendix C",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_387_387_appendix_c.md",
+      "chapter_hint": "387"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/317_BCCPT/317_Appendix_E.htm",
+      "source_title": "317 Appendix E",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_317_317_appendix_e.md",
+      "chapter_hint": "317"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/389_HCBS_MoveTo_LTC_489/389.1_Reserved.htm",
+      "source_title": "389.1 Reserved",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_389_1_389_1_reserved.md",
+      "chapter_hint": "389.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_Appendix_A.htm",
+      "source_title": "338 Appendix A",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_338_338_appendix_a.md",
+      "chapter_hint": "338"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/372_Mass_Changes/372_5_Fair_Hearing.htm",
+      "source_title": "372.5 Fair Hearing",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_372_5_372_5_fair_hearing.md",
+      "chapter_hint": "372.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/370_Reporting_Changes/370_3_Reporting_Methods.htm",
+      "source_title": "370.3 Reporting Methods",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_370_3_370_3_reporting_methods.md",
+      "chapter_hint": "370.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/323_Residence/Appendix_A_Approved_Pediatric_Facilities.htm",
+      "source_title": "323 Appendix A",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_323_appendix_a_approved_pediatric_facilities.md",
+      "chapter_hint": "323"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_Appendix_G.htm",
+      "source_title": "338 Appendix G",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_338_338_appendix_g.md",
+      "chapter_hint": "338"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/387_SSI/387_Appendix_B.htm",
+      "source_title": "387 Appendix B",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_387_387_appendix_b.md",
+      "chapter_hint": "387"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/309_Health_Care_Services_Benefits_for_Children/309_7_Children_s_Services_under_PA_Blue_Cross_Blue_Shield.htm",
+      "source_title": "309.6 Children's Services under PA Blue Cross/Blue Shield",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_309_6_309_7_children_s_services_under_pa_blue_cross_blue_shield.md",
+      "chapter_hint": "309.6"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_05_Income_Deductions.htm",
+      "source_title": "316.5 Income Deductions",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_316_5_316_05_income_deductions.md",
+      "chapter_hint": "316.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/355_Deeming_Income_and_Resources/355_Appendix_A.htm",
+      "source_title": "355 Appendix A",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_355_355_appendix_a.md",
+      "chapter_hint": "355"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/377_Notices/377_6_Notice_Retention.htm",
+      "source_title": "377.6 Notice Retention",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_377_6_377_6_notice_retention.md",
+      "chapter_hint": "377.6"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/321_Age/321_1_General_Policy.htm",
+      "source_title": "321.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_321_1_321_1_general_policy.md",
+      "chapter_hint": "321.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/309_Health_Care_Services_Benefits_for_Children/309_Appendix_B.htm",
+      "source_title": "309 Appendix B",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_309_309_appendix_b.md",
+      "chapter_hint": "309"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/303_General_Information/303_3_Suspected_Child_Abuse.htm",
+      "source_title": "303.3 Suspected Child Abuse",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_303_3_303_3_suspected_child_abuse.md",
+      "chapter_hint": "303.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/303_General_Information/303_7_State_Employee_Recipient_Match.htm",
+      "source_title": "303.7 State Employee/Recipient Match",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_303_7_303_7_state_employee_recipient_match.md",
+      "chapter_hint": "303.7"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_03_Resources.htm",
+      "source_title": "316.3 Resources",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_316_3_316_03_resources.md",
+      "chapter_hint": "316.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/377_Notices/377_5_Client_Verification_Request_Form.htm",
+      "source_title": "377.5 Client Verification Request Form",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_377_5_377_5_client_verification_request_form.md",
+      "chapter_hint": "377.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/352_Self-Employment/352_5_Deductions_from_Profit.htm",
+      "source_title": "352.5 Deductions from Profit",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_352_5_352_5_deductions_from_profit.md",
+      "chapter_hint": "352.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/309_Health_Care_Services_Benefits_for_Children/309_6_Children_s_Health_Insurance_Program_CHIP.htm",
+      "source_title": "309.5 Children's Health Insurance Program (CHIP)",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_309_5_309_6_children_s_health_insurance_program_chip.md",
+      "chapter_hint": "309.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/317_BCCPT/317_2_Who_Is_the_BCCPT_Woman.htm",
+      "source_title": "317.2 Who is the BCCPT Individual?",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_317_2_317_2_who_is_the_bccpt_woman.md",
+      "chapter_hint": "317.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/339_Transitional_Medical_Assistance_(TMA)/339.3.htm",
+      "source_title": "339.3 TMA Reviews",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_339_3_339_3.md",
+      "chapter_hint": "339.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/305.7_Program_Status_Codes_and_Budget_Groups.htm",
+      "source_title": "305.7 Program Status Codes and Budget Groups",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_305_7_305_7_program_status_codes_and_budget_groups.md",
+      "chapter_hint": "305.7"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/309_Health_Care_Services_Benefits_for_Children/309_1_General_Policy.htm",
+      "source_title": "309.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_309_1_309_1_general_policy.md",
+      "chapter_hint": "309.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/370_Reporting_Changes/370_4_Failure_to_Report_Changes.htm",
+      "source_title": "370.4 Failure to Report Changes",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_370_4_370_4_failure_to_report_changes.md",
+      "chapter_hint": "370.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/317_BCCPT/317_Appendix_F.htm",
+      "source_title": "317 Appendix F",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_317_317_appendix_f.md",
+      "chapter_hint": "317"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/387_SSI/387_7_Eligibility_for_Other_Programs.htm",
+      "source_title": "387.7 Eligibility for Other Programs",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_387_7_387_7_eligibility_for_other_programs.md",
+      "chapter_hint": "387.7"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_5_Home_Visits.htm",
+      "source_title": "378.5 Home Visits",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_378_5_378_5_home_visits.md",
+      "chapter_hint": "378.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/372_Mass_Changes/372_1_General_Policy.htm",
+      "source_title": "372.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_372_1_372_1_general_policy.md",
+      "chapter_hint": "372.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/323_Residence/323_3_Homeless_Persons.htm",
+      "source_title": "323.3 Homeless Individuals",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_323_3_323_3_homeless_persons.md",
+      "chapter_hint": "323.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_Appendix_H.htm",
+      "source_title": "316 Appendix G",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_316_316_appendix_h.md",
+      "chapter_hint": "316"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/392_Institutions/392_Appendix_A.htm",
+      "source_title": "392_Appendix_A",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_392_392_appendix_a.md",
+      "chapter_hint": "392"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/360_NMP_Deductions/360.5_Monthly_Spend-Down_Deduction.htm",
+      "source_title": "360.5 Monthly Spend-Down Deduction",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_360_5_360_5_monthly_spend_down_deduction.md",
+      "chapter_hint": "360.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/327_Specified_Relatives/327_1_General_Policy.htm",
+      "source_title": "327.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_327_1_327_1_general_policy.md",
+      "chapter_hint": "327.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_9_Health_Insurance_Portability_and_Accountability_Act.htm",
+      "source_title": "338.9 Health Insurance Portability and Accountability Act",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_338_9_338_9_health_insurance_portability_and_accountability_act.md",
+      "chapter_hint": "338.9"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/303_General_Information/303_1_General_Policy.htm",
+      "source_title": "303.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_303_1_303_1_general_policy.md",
+      "chapter_hint": "303.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/314_Students/314_3_Excluded_Education_Assistance\u2014SSI_Related.htm",
+      "source_title": "314.3 Excluded Education Assistance\u00e2\u0080\u0094SSI Related",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_314_3_314_3_excluded_education_assistance_ssi_related.md",
+      "chapter_hint": "314.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/372_Mass_Changes/372_4_Notices.htm",
+      "source_title": "372.4 Notices",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_372_4_372_4_notices.md",
+      "chapter_hint": "372.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/368_Determining_Eligibility_for_NMP/Appendix_B__Supplemental_Security_Income_Benefit_Lefvels--SSI-Related.htm",
+      "source_title": "Appendix B: Supplemental Security Income Benefit Lefvels--SSI-Related",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_appendix_b_supplemental_security_income_benefit_lefvels_ssi_related.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/319_Healthy_Horizons/319_4_Period_of_Eligibility.htm",
+      "source_title": "319.4 Period of Eligibility",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_319_4_319_4_period_of_eligibility.md",
+      "chapter_hint": "319.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/391_Personal_Care_Supplement/391_2_Eligibility_Requirements.htm",
+      "source_title": "391.2 Eligibility Requirements",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_391_2_391_2_eligibility_requirements.md",
+      "chapter_hint": "391.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/368_Determining_Eligibility_for_NMP/368.6_Renewal.htm",
+      "source_title": "368.6 Renewal",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_368_6_368_6_renewal.md",
+      "chapter_hint": "368.6"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/361_MNO_Deductions/361_Appendix_B.htm",
+      "source_title": "361 Appendix B Medical Expense Deductions",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_361_361_appendix_b.md",
+      "chapter_hint": "361"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/392_Institutions/392_5_Institutional_Care_Contracts.htm",
+      "source_title": "392.5 Institutional Care Contracts",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_392_5_392_5_institutional_care_contracts.md",
+      "chapter_hint": "392.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/314_Students/314_6_Countable_Educational_Assistance\u2014SSI_Related.htm",
+      "source_title": "314.6 Countable Educational Assistance\u00e2\u0080\u0094SSI Related",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_314_6_314_6_countable_educational_assistance_ssi_related.md",
+      "chapter_hint": "314.6"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/372_Mass_Changes/372_2_Effect_of_Changes_on_MA_Eligibility.htm",
+      "source_title": "372.2 Effect of Changes on MA Eligibility",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_372_2_372_2_effect_of_changes_on_ma_eligibility.md",
+      "chapter_hint": "372.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/314_Students/314_5_Countable_Educational_Assistance\u2014TANF_GA_Related.htm",
+      "source_title": "314.5 Countable Educational Assistance\u00e2\u0080\u0094TANF/GA Related",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_314_5_314_5_countable_educational_assistance_tanf_ga_related.md",
+      "chapter_hint": "314.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_Appendix_F.htm",
+      "source_title": "378 Appendix F",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_378_378_appendix_f.md",
+      "chapter_hint": "378"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/327_Specified_Relatives/327_5_Changes_in_Circumstances.htm",
+      "source_title": "327.5 Changes in Circumstances",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_327_5_327_5_changes_in_circumstances.md",
+      "chapter_hint": "327.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_07_Retroactive_Eligibility.htm",
+      "source_title": "316.7 Retroactive Eligibility",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_316_7_316_07_retroactive_eligibility.md",
+      "chapter_hint": "316.7"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/360_NMP_Deductions/360_Appendix_B.htm",
+      "source_title": "360 Appendix B",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_360_360_appendix_b.md",
+      "chapter_hint": "360"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/314_Students/314_7_Verification.htm",
+      "source_title": "314.7 Verification",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_314_7_314_7_verification.md",
+      "chapter_hint": "314.7"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/303_General_Information/303_6_Charges_of_Employee_Fraud.htm",
+      "source_title": "303.6 Charges of Employee Fraud",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_303_6_303_6_charges_of_employee_fraud.md",
+      "chapter_hint": "303.6"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/368_Determining_Eligibility_for_NMP/368.5_Change_of_Category.htm",
+      "source_title": "368.5 Change of Category",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_368_5_368_5_change_of_category.md",
+      "chapter_hint": "368.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/315_Children_with_Special_Needs/315_4_Income.htm",
+      "source_title": "315.4 Income",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_315_4_315_4_income.md",
+      "chapter_hint": "315.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/304_Application/AppendixF__Procedures_for_the_Criminal_History_Inquiry_(GA-Related_Medical_AssistanceOnly).htm",
+      "source_title": "304 Appendix F",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_304_appendixf_procedures_for_the_criminal_history_inquiry_ga_related_medical_assistanceonly.md",
+      "chapter_hint": "304"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_09_MAWD_Closure.htm",
+      "source_title": "316.9 MAWD Closure",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_316_9_316_09_mawd_closure.md",
+      "chapter_hint": "316.9"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/370_Reporting_Changes/370_5_County_Assistance_Office_Duties.htm",
+      "source_title": "370.5 County Assistance Office Duties",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_370_5_370_5_county_assistance_office_duties.md",
+      "chapter_hint": "370.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_08_Period_of_Eligibility.htm",
+      "source_title": "316.8 Period of Eligibility",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_316_8_316_08_period_of_eligibility.md",
+      "chapter_hint": "316.8"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/369_Determining_Eligibility_for_MNO/369_6_Renewal.htm",
+      "source_title": "369.6 Renewal",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_369_6_369_6_renewal.md",
+      "chapter_hint": "369.6"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/303_General_Information/303_4_Nondiscrimination.htm",
+      "source_title": "303.4 Nondiscrimination",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_303_4_303_4_nondiscrimination.md",
+      "chapter_hint": "303.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/327_Specified_Relatives/327_4_Temporary_Absence_of_the_Dependent_Child_or_Specified_.htm",
+      "source_title": "327.4 Temporary Absence of the Dependent Child or Specified Relative",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_327_4_327_4_temporary_absence_of_the_dependent_child_or_specified.md",
+      "chapter_hint": "327.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/312.3_Period_of_Eligibility.htm",
+      "source_title": "312.3 Period of Eligibility",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_312_3_312_3_period_of_eligibility.md",
+      "chapter_hint": "312.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/379_Reconsidering_Denied_Applications_and_Reopening_Closed_Benefits/379.1.htm",
+      "source_title": "379.1 Reconsidering Denied Applications",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_379_1_379_1.md",
+      "chapter_hint": "379.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/314_Students/314_2_Excluded_Educational_Assistance\u2014TANF_GA_Related.htm",
+      "source_title": "314.2 Excluded Educational Assistance\u00e2\u0080\u0094TANF/GA Related",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_314_2_314_2_excluded_educational_assistance_tanf_ga_related.md",
+      "chapter_hint": "314.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/340_Resources/340_9_Disposition_of_Resources.htm",
+      "source_title": "340.9 Disposition of Resources",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_340_9_340_9_disposition_of_resources.md",
+      "chapter_hint": "340.9"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/386_Medical_Assistance_Plan_Options/386_1_General_Policy.htm",
+      "source_title": "386.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_386_1_386_1_general_policy.md",
+      "chapter_hint": "386.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/355_Deeming_Income_and_Resources/355_3_Deeming_Resources\u2014GA-Related.htm",
+      "source_title": "355.3 Deeming Resources\u00e2\u0080\u0094GA-Related",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_355_3_355_3_deeming_resources_ga_related.md",
+      "chapter_hint": "355.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/337_Medicare/337_1_General_Policy.htm",
+      "source_title": "337.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_337_1_337_1_general_policy.md",
+      "chapter_hint": "337.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/327_Specified_Relatives/327_3_Number_of_Specified_Relatives.htm",
+      "source_title": "327.3 Number of Specified Relatives",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_327_3_327_3_number_of_specified_relatives.md",
+      "chapter_hint": "327.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/323_Residence/323_5_Proof_of_Residence.htm",
+      "source_title": "323.5 Proof of Residence",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_323_5_323_5_proof_of_residence.md",
+      "chapter_hint": "323.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/314_Students/314_4_Countable_Educational_Assistance.htm",
+      "source_title": "314.4 Countable Educational Assistance",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_314_4_314_4_countable_educational_assistance.md",
+      "chapter_hint": "314.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/309_Health_Care_Services_Benefits_for_Children/309_4_MA_Service_Delivery.htm",
+      "source_title": "309.3 MA Service Delivery",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_309_3_309_4_ma_service_delivery.md",
+      "chapter_hint": "309.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/370_Reporting_Changes/370_6_Changes_that_Result_in_Ineligibility.htm",
+      "source_title": "370.6 Changes that Result in Ineligibility",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_370_6_370_6_changes_that_result_in_ineligibility.md",
+      "chapter_hint": "370.6"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/380_Issuing_the_ACCESS_Card/380_5_Replacement_of_ACCESS_Card.htm",
+      "source_title": "380.5 Replacement of ACCESS Card",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_380_5_380_5_replacement_of_access_card.md",
+      "chapter_hint": "380.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/321_Age/321_4_Proof_of_Age.htm",
+      "source_title": "321.4 Proof of Age",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_321_4_321_4_proof_of_age.md",
+      "chapter_hint": "321.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/361_MNO_Deductions/361_1_General_Policy.htm",
+      "source_title": "361.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_361_1_361_1_general_policy.md",
+      "chapter_hint": "361.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/329_Deprivation/329_2_Continued_Absence.htm",
+      "source_title": "329.2 Unemployment/Underemployment",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_329_2_329_2_continued_absence.md",
+      "chapter_hint": "329.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/355_Deeming_Income_and_Resources/355_Appendix_B.htm",
+      "source_title": "355 Appendix B",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_355_355_appendix_b.md",
+      "chapter_hint": "355"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/314_Students/314_1_General_Policy.htm",
+      "source_title": "314.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_314_1_314_1_general_policy.md",
+      "chapter_hint": "314.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/392_Institutions/392_6_Targeted_Case-Management_Services.htm",
+      "source_title": "392.6 Targeted Case-Management Services",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_392_6_392_6_targeted_case_management_services.md",
+      "chapter_hint": "392.6"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/392_Institutions/392_1_General_Policy.htm",
+      "source_title": "392.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_392_1_392_1_general_policy.md",
+      "chapter_hint": "392.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/323_Residence/323_1_General_Policy.htm",
+      "source_title": "323.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_323_1_323_1_general_policy.md",
+      "chapter_hint": "323.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/391_Personal_Care_Supplement/391_Appendix_C.htm",
+      "source_title": "391 Appendix C",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_391_391_appendix_c.md",
+      "chapter_hint": "391"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/350_Income/350_4_Rental_Property_Income.htm",
+      "source_title": "350.4 Rental Property Income",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_350_4_350_4_rental_property_income.md",
+      "chapter_hint": "350.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_Appendix_G.htm",
+      "source_title": "378 Appendix G",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_378_378_appendix_g.md",
+      "chapter_hint": "378"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/360_NMP_Deductions/360.1_General_Policy_.htm",
+      "source_title": "360.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_360_1_360_1_general_policy.md",
+      "chapter_hint": "360.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_Appendix_C.htm",
+      "source_title": "338 Appendix C",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_338_338_appendix_c.md",
+      "chapter_hint": "338"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/340_Resources/340_5_Motor_Vehicles.htm",
+      "source_title": "340.5 Motor Vehicles",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_340_5_340_5_motor_vehicles.md",
+      "chapter_hint": "340.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/370_Reporting_Changes/370_2_Types_of_Changes_to_be_Reported.htm",
+      "source_title": "370.2 Types of Changes to be Reported",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_370_2_370_2_types_of_changes_to_be_reported.md",
+      "chapter_hint": "370.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/379_Reconsidering_Denied_Applications_and_Reopening_Closed_Benefits/379.2.htm",
+      "source_title": "379.2 Reopening Closed Benefits",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_379_2_379_2.md",
+      "chapter_hint": "379.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/379_Reconsidering_Denied_Applications_and_Reopening_Closed_Benefits/379.3.htm",
+      "source_title": "379.3 Reopening Benefits that were Closed at Renewal",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_379_3_379_3.md",
+      "chapter_hint": "379.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_4_Collateral_Contacts.htm",
+      "source_title": "378.4 Collateral Contacts",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_378_4_378_4_collateral_contacts.md",
+      "chapter_hint": "378.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/319_Healthy_Horizons/319_3_What_Is_the_Healthy_Horizons_Family.htm",
+      "source_title": "319.3 What Is the Healthy Horizons Family?",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_319_3_319_3_what_is_the_healthy_horizons_family.md",
+      "chapter_hint": "319.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/377_Notices/377.2_Notice_to_Applicant.htm",
+      "source_title": "377.2 Notice to Applicant",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_377_2_377_2_notice_to_applicant.md",
+      "chapter_hint": "377.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/315_Children_with_Special_Needs/315_7_Renewals.htm",
+      "source_title": "315.7 Renewals",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_315_7_315_7_renewals.md",
+      "chapter_hint": "315.7"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_Appendix_F.htm",
+      "source_title": "338 Appendix F",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_338_338_appendix_f.md",
+      "chapter_hint": "338"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/319_Healthy_Horizons/319_5_Resources.htm",
+      "source_title": "319.5 Resources",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_319_5_319_5_resources.md",
+      "chapter_hint": "319.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/391_Personal_Care_Supplement/391_1_General_Policy.htm",
+      "source_title": "391.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_391_1_391_1_general_policy.md",
+      "chapter_hint": "391.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/380_Issuing_the_ACCESS_Card/380_4_Temporary_ACCESS_Card.htm",
+      "source_title": "380.4 Temporary ACCESS Card",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_380_4_380_4_temporary_access_card.md",
+      "chapter_hint": "380.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/319_Healthy_Horizons/319_2_Who_Is_Considered_Disabled.htm",
+      "source_title": "319.2 Determining Disiability",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_319_2_319_2_who_is_considered_disabled.md",
+      "chapter_hint": "319.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/339_Transitional_Medical_Assistance_(TMA)/Chapter_339.1.htm",
+      "source_title": "339.1 General Policy for Transitional Medical Assistance (TMA)",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_339_1_chapter_339_1.md",
+      "chapter_hint": "339.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/391_Personal_Care_Supplement/391_Appendix_B.htm",
+      "source_title": "391 Appendix B",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_391_391_appendix_b.md",
+      "chapter_hint": "391"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/368_Determining_Eligibility_for_NMP/Appendix_A__NMP_Income_Limits--TANF_GA-Related_Family_Size_Allowance.htm",
+      "source_title": "Appendix A: NMP Income Limits--TANF/GA-Related Family Size Allowance",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_appendix_a_nmp_income_limits_tanf_ga_related_family_size_allowance.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_2_Client_Responsibility.htm",
+      "source_title": "378.2 Applicant/Recipient Responsibility",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_378_2_378_2_client_responsibility.md",
+      "chapter_hint": "378.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/361_MNO_Deductions/361_4_Deductions_Unearned_Rental_Income.htm",
+      "source_title": "361.4 Deductions from Unearned Rental Property",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_361_4_361_4_deductions_unearned_rental_income.md",
+      "chapter_hint": "361.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/317_BCCPT/317_3_Period_of_Eligibility.htm",
+      "source_title": "317.3 Period of Eligibility",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_317_3_317_3_period_of_eligibility.md",
+      "chapter_hint": "317.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/Appendix_F__Filing_Requirements_for_Tax_Dependents.htm",
+      "source_title": "Appendix F Categories Affected by FMAP Initiative",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_appendix_f_filing_requirements_for_tax_dependents.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/370_Reporting_Changes/370_1_General_Policy.htm",
+      "source_title": "370.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_370_1_370_1_general_policy.md",
+      "chapter_hint": "370.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/386_Medical_Assistance_Plan_Options/386_2_Client_Enrollment.htm",
+      "source_title": "386.2 Plan Enrollment Process",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_386_2_386_2_client_enrollment.md",
+      "chapter_hint": "386.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/369_Determining_Eligibility_for_MNO/369_Appendix_A.htm",
+      "source_title": "369 Appendix A",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_369_369_appendix_a.md",
+      "chapter_hint": "369"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/391_Personal_Care_Supplement/391.6_Changes_in_Eligibility.htm",
+      "source_title": "391.6 Changes in Eligibility",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_391_6_391_6_changes_in_eligibility.md",
+      "chapter_hint": "391.6"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/Appendix_H__Desk_Guide_for_MAGI_Household_Composition.htm",
+      "source_title": "Appendix H Categories Not Eligible for Continuous Eligibility",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_appendix_h_desk_guide_for_magi_household_composition.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/369_Determining_Eligibility_for_MNO/369_5_Change_of_Category.htm",
+      "source_title": "369.5 Change of Category",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_369_5_369_5_change_of_category.md",
+      "chapter_hint": "369.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/392_Institutions/392_4_Other_Public_Institutions.htm",
+      "source_title": "392.4 Other Public Institutions",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_392_4_392_4_other_public_institutions.md",
+      "chapter_hint": "392.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_7_MA_Providers.htm",
+      "source_title": "338.7 MA Providers",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_338_7_338_7_ma_providers.md",
+      "chapter_hint": "338.7"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/355_Deeming_Income_and_Resources/355_2_Deeming_Resources\u2014SSI-Related.htm",
+      "source_title": "355.2 Deeming Resources\u00e2\u0080\u0094SSI-Related",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_355_2_355_2_deeming_resources_ssi_related.md",
+      "chapter_hint": "355.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/352_Self-Employment/352_1_General_Policy.htm",
+      "source_title": "352.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_352_1_352_1_general_policy.md",
+      "chapter_hint": "352.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/304_Application/304_3_Screening_Interview.htm",
+      "source_title": "304.3 Screening Interview",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_304_3_304_3_screening_interview.md",
+      "chapter_hint": "304.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/310_Applicant_And_Recipient_Groups_Standard_Filing_Unit/310_3_Persons_Who_May_Be_Included_in_the_Same_or_Separate_Ap.htm",
+      "source_title": "310.3 Individuals Who May Be Included in the Same or Separate Applicant/Recipient Group",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_310_3_310_3_persons_who_may_be_included_in_the_same_or_separate_ap.md",
+      "chapter_hint": "310.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/319_Healthy_Horizons/319_9_Authorizing_Healthy_Horizons.htm",
+      "source_title": "319.9 Authorizing Healthy Horizons",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_319_9_319_9_authorizing_healthy_horizons.md",
+      "chapter_hint": "319.9"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/380_Issuing_the_ACCESS_Card/380_1_General_Policy.htm",
+      "source_title": "380.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_380_1_380_1_general_policy.md",
+      "chapter_hint": "380.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/350_Income/350_2_Earned_Income.htm",
+      "source_title": "350.2 Earned Income",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_350_2_350_2_earned_income.md",
+      "chapter_hint": "350.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/304_Application/304_Appendix_D.htm",
+      "source_title": "304 Appendix D",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_304_304_appendix_d.md",
+      "chapter_hint": "304"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/357_Lump_Sum/357_3_Treatment_of_Lump_Sum_as_a_Resource.htm",
+      "source_title": "357.3 Treatment of Lump Sum as a Resource",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_357_3_357_3_treatment_of_lump_sum_as_a_resource.md",
+      "chapter_hint": "357.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/Appendix_E_MAGI_Tax_Deductions_Maximum_Amounts.htm",
+      "source_title": "Appendix E Desk Guide for MAGI Household Composition",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_appendix_e_magi_tax_deductions_maximum_amounts.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/337_Medicare/337_3_Medicare_Part_B_-_Medical_Insurance.htm",
+      "source_title": "337.3 Medicare Part B - Medical Insurance",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_337_3_337_3_medicare_part_b_medical_insurance.md",
+      "chapter_hint": "337.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/357_Lump_Sum/357_2_Types_of_Lump_Sum.htm",
+      "source_title": "357.2 Types of Lump Sum",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_357_2_357_2_types_of_lump_sum.md",
+      "chapter_hint": "357.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/352_Self-Employment/352_2_Identifying_Self-Employment.htm",
+      "source_title": "352.2 Identifying Self-Employment",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_352_2_352_2_identifying_self_employment.md",
+      "chapter_hint": "352.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/372_Mass_Changes/372_3_Federal_Benefit_Changes.htm",
+      "source_title": "372.3 Federal Benefit Changes",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_372_3_372_3_federal_benefit_changes.md",
+      "chapter_hint": "372.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/304_Application/304_Appendix_E.htm",
+      "source_title": "304 Appendix E",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_304_304_appendix_e.md",
+      "chapter_hint": "304"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/340_Resources/340_2_Deciding_on_Ownership.htm",
+      "source_title": "340.2 Deciding on Ownership",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_340_2_340_2_deciding_on_ownership.md",
+      "chapter_hint": "340.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/329_Deprivation/329_1_General_Policy.htm",
+      "source_title": "329.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_329_1_329_1_general_policy.md",
+      "chapter_hint": "329.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_Appendix_B.htm",
+      "source_title": "338 Appendix B",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_338_338_appendix_b.md",
+      "chapter_hint": "338"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/323_Residence/323_4_Place_of_Application.htm",
+      "source_title": "323.4 Place of Application",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_323_4_323_4_place_of_application.md",
+      "chapter_hint": "323.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/304_Application/304_Appendix_B.htm",
+      "source_title": "304 Appendix B",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_304_304_appendix_b.md",
+      "chapter_hint": "304"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/321_Age/321_3_Emancipation.htm",
+      "source_title": "321.3 Emancipation",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_321_3_321_3_emancipation.md",
+      "chapter_hint": "321.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/310_Applicant_And_Recipient_Groups_Standard_Filing_Unit/310_1_General_Policy.htm",
+      "source_title": "310.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_310_1_310_1_general_policy.md",
+      "chapter_hint": "310.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/320_Identity/320_1_General_Policy.htm",
+      "source_title": "320.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_320_1_320_1_general_policy.md",
+      "chapter_hint": "320.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/315_Children_with_Special_Needs/315_8_Termination_of_Benefits.htm",
+      "source_title": "315.8 Termination of Benefits",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_315_8_315_8_termination_of_benefits.md",
+      "chapter_hint": "315.8"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/368_Determining_Eligibility_for_NMP/368.8_Changes_in_Applicant_Recipient_Group_Members.htm",
+      "source_title": "368.8 Changes in Applicant/Recipient Group Members",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_368_8_368_8_changes_in_applicant_recipient_group_members.md",
+      "chapter_hint": "368.8"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/315_Children_with_Special_Needs/315_2_Determining_Disability.htm",
+      "source_title": "315.2 Determining Disability",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_315_2_315_2_determining_disability.md",
+      "chapter_hint": "315.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/360_NMP_Deductions/360_4_Deductions_from_Unearned_Rental_Income.htm",
+      "source_title": "360.4 Deductions from Unearned Rental Income",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_360_4_360_4_deductions_from_unearned_rental_income.md",
+      "chapter_hint": "360.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/327_Specified_Relatives/327_6_Proof.htm",
+      "source_title": "327.6 Proof",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_327_6_327_6_proof.md",
+      "chapter_hint": "327.6"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/337_Medicare/337_4_Medicare_Part_C_\u2013_Medicare_Advantage_Plans.htm",
+      "source_title": "337.4 Medicare Part C \u00e2\u0080\u0093 Medicare Advantage Plans",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_337_4_337_4_medicare_part_c_medicare_advantage_plans.md",
+      "chapter_hint": "337.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/337_Medicare/337_Appendix_C.htm",
+      "source_title": "337 Appendix C",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_337_337_appendix_c.md",
+      "chapter_hint": "337"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/369_Determining_Eligibility_for_MNO/369_2_Gross_Income.htm",
+      "source_title": "369.2 Gross Income",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_369_2_369_2_gross_income.md",
+      "chapter_hint": "369.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/380_Issuing_the_ACCESS_Card/380_3_NCE_Open_Issue_ACCESS_card.htm",
+      "source_title": "380.3 Non-Continuous Eligibility (NCE) Opening and Issuing an ACCESS Card",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_380_3_380_3_nce_open_issue_access_card.md",
+      "chapter_hint": "380.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_1_General_Policy.htm",
+      "source_title": "338.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_338_1_338_1_general_policy.md",
+      "chapter_hint": "338.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/380_Issuing_the_ACCESS_Card/380_Appendix_A.htm",
+      "source_title": "380 Appendix A",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_380_380_appendix_a.md",
+      "chapter_hint": "380"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/340_Resources/340_Appendix_A.htm",
+      "source_title": "340 Appendix A",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_340_340_appendix_a.md",
+      "chapter_hint": "340"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/377_Notices/377_4_Confirming_Notice.htm",
+      "source_title": "377.4 Confirming Notice",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_377_4_377_4_confirming_notice.md",
+      "chapter_hint": "377.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/368_Determining_Eligibility_for_NMP/368.1_General_Policy.htm",
+      "source_title": "368.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_368_1_368_1_general_policy.md",
+      "chapter_hint": "368.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/309_Health_Care_Services_Benefits_for_Children/309_3_MA_Application_Process.htm",
+      "source_title": "309.2 Newborn Eligibility",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_309_2_309_3_ma_application_process.md",
+      "chapter_hint": "309.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/376_Renewal/376_1_General_Policy.htm",
+      "source_title": "376.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_376_1_376_1_general_policy.md",
+      "chapter_hint": "376.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/339_Transitional_Medical_Assistance_(TMA)/339.2.htm",
+      "source_title": "339.2 TMA Eligibility",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_339_2_339_2.md",
+      "chapter_hint": "339.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_8_Corrective_Action_Payment_Reimbursement_for_Paid_and_U.htm",
+      "source_title": "338.8 Corrective Action Payment",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_338_8_338_8_corrective_action_payment_reimbursement_for_paid_and_u.md",
+      "chapter_hint": "338.8"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/304_Application/304_Appendix_A.htm",
+      "source_title": "304 Appendix A",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_304_304_appendix_a.md",
+      "chapter_hint": "304"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/317_BCCPT/317_6_Determining_Eligibility.htm",
+      "source_title": "317.6 Determining Eligibility",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_317_6_317_6_determining_eligibility.md",
+      "chapter_hint": "317.6"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/377_Notices/377.1_General_Policy.htm",
+      "source_title": "377.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_377_1_377_1_general_policy.md",
+      "chapter_hint": "377.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/352_Self-Employment/352_3_Estimating_Self-Employment_Income.htm",
+      "source_title": "352.3 Estimating Self-Employment Income",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_352_3_352_3_estimating_self_employment_income.md",
+      "chapter_hint": "352.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/392_Institutions/392_3_Medical_Institutions.htm",
+      "source_title": "392.3 Medical Institutions",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_392_3_392_3_medical_institutions.md",
+      "chapter_hint": "392.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/337_Medicare/337_2_Medicare_Part_A_-_Hospital_Insurance.htm",
+      "source_title": "337.2 Medicare Part A - Hospital Insurance",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_337_2_337_2_medicare_part_a_hospital_insurance.md",
+      "chapter_hint": "337.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_10_Restarting_MAWD.htm",
+      "source_title": "316.10 Reauthorizing MAWD",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_316_10_316_10_restarting_mawd.md",
+      "chapter_hint": "316.10"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_Appendix_A.htm",
+      "source_title": "378 Appendix A",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_378_378_appendix_a.md",
+      "chapter_hint": "378"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_Appendix_A.htm",
+      "source_title": "316 Appendix A",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_316_316_appendix_a.md",
+      "chapter_hint": "316"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/368_Determining_Eligibility_for_NMP/368.7_Changes_in_Income.htm",
+      "source_title": "368.7 Changes in Income",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_368_7_368_7_changes_in_income.md",
+      "chapter_hint": "368.7"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/355_Deeming_Income_and_Resources/355_1_General_Policy.htm",
+      "source_title": "355.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_355_1_355_1_general_policy.md",
+      "chapter_hint": "355.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_Appendix_D.htm",
+      "source_title": "338 Appendix D",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_338_338_appendix_d.md",
+      "chapter_hint": "338"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/391_Personal_Care_Supplement/391_Appendix_A.htm",
+      "source_title": "391 Appendix A",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_391_391_appendix_a.md",
+      "chapter_hint": "391"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/377_Notices/377.3_Advance_Notice.htm",
+      "source_title": "377.3 Advance Notice",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_377_3_377_3_advance_notice.md",
+      "chapter_hint": "377.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/391_Personal_Care_Supplement/391.4_Approving_the_Supplement.htm",
+      "source_title": "391.4 Approving the Supplement",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_391_4_391_4_approving_the_supplement.md",
+      "chapter_hint": "391.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_04_Income.htm",
+      "source_title": "316.4 Income",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_316_4_316_04_income.md",
+      "chapter_hint": "316.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/388_Buy-In/388_4_Start_of_Buy-In_Coverage.htm",
+      "source_title": "388.4 Buy-In Begins",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_388_4_388_4_start_of_buy_in_coverage.md",
+      "chapter_hint": "388.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/357_Lump_Sum/357_1_General_Policy.htm",
+      "source_title": "357.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_357_1_357_1_general_policy.md",
+      "chapter_hint": "357.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/317_BCCPT/317_7_Authorizing_BCCPT_and_Renewal.htm",
+      "source_title": "317.7 Authorizing BCCPT and Renewal",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_317_7_317_7_authorizing_bccpt_and_renewal.md",
+      "chapter_hint": "317.7"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/387_SSI/387_2_SSI_Categories.htm",
+      "source_title": "387.2 SSI Categories",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_387_2_387_2_ssi_categories.md",
+      "chapter_hint": "387.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_Appendix_C.htm",
+      "source_title": "316 Appendix C",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_316_316_appendix_c.md",
+      "chapter_hint": "316"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/339_Transitional_Medical_Assistance_(TMA)/339_Appendix_A.htm",
+      "source_title": "339 Appendix A: Transitional Medical Assistance (TMA) Income Limits-MG71(Second Six Months)",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_339_339_appendix_a.md",
+      "chapter_hint": "339"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/310_Applicant_And_Recipient_Groups_Standard_Filing_Unit/310_4_Multiple_Applicant_Recipient_Groups.htm",
+      "source_title": "310.4 Multiple Applicant/Recipient Groups",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_310_4_310_4_multiple_applicant_recipient_groups.md",
+      "chapter_hint": "310.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/388_Buy-In/388_5_End_of_Buy-In_Coverage.htm",
+      "source_title": "388.5 Buy-In Ends",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_388_5_388_5_end_of_buy_in_coverage.md",
+      "chapter_hint": "388.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/360_NMP_Deductions/360_Appendix_A.htm",
+      "source_title": "360 Appendix A",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_360_360_appendix_a.md",
+      "chapter_hint": "360"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/317_BCCPT/317_1_General_Policy.htm",
+      "source_title": "317.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_317_1_317_1_general_policy.md",
+      "chapter_hint": "317.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/340_Resources/340_3_Personal_Property.htm",
+      "source_title": "340.3 Personal Property",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_340_3_340_3_personal_property.md",
+      "chapter_hint": "340.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/360_NMP_Deductions/360.6_Medical_Expense_Deductions.htm",
+      "source_title": "360.6 Medical Expense Deductions",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_360_6_360_6_medical_expense_deductions.md",
+      "chapter_hint": "360.6"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_5_Using_Medical_Assistance.htm",
+      "source_title": "338.5 Using Medical Assistance",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_338_5_338_5_using_medical_assistance.md",
+      "chapter_hint": "338.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/340_Resources/340_4_Life_Insurance.htm",
+      "source_title": "340.4 Life Insurance",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_340_4_340_4_life_insurance.md",
+      "chapter_hint": "340.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/337_Medicare/337_Appendix_A.htm",
+      "source_title": "337 Appendix A",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_337_337_appendix_a.md",
+      "chapter_hint": "337"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/361_MNO_Deductions/361_5_Medical_Expense_Deductions.htm",
+      "source_title": "361.5 Medical Expense Deductions",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_361_5_361_5_medical_expense_deductions.md",
+      "chapter_hint": "361.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/361_MNO_Deductions/361_Appendix_A.htm",
+      "source_title": "361 Appendix A Standard of Need",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_361_361_appendix_a.md",
+      "chapter_hint": "361"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/388_Buy-In/388_2_Buy-In_of_Medicare_Part_A.htm",
+      "source_title": "388.2 Buy-In of Medicare Part A",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_388_2_388_2_buy_in_of_medicare_part_a.md",
+      "chapter_hint": "388.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/312..7_Former_Foster_Care.htm",
+      "source_title": "312.7 Former Foster Care",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_312_7_312_7_former_foster_care.md",
+      "chapter_hint": "312.7"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/310_Applicant_And_Recipient_Groups_Standard_Filing_Unit/310_5_Determining_Eligibility_for_Multiple_Applicant_Recipie.htm",
+      "source_title": "310.5 Determining Eligibility for Multiple Applicant/Recipient Groups",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_310_5_310_5_determining_eligibility_for_multiple_applicant_recipie.md",
+      "chapter_hint": "310.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/327_Specified_Relatives/327_2_Conditions_for_a_Specified_Relative.htm",
+      "source_title": "327.2 Conditions for a Specified Relative",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_327_2_327_2_conditions_for_a_specified_relative.md",
+      "chapter_hint": "327.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/387_SSI/387_1_General_Policy.htm",
+      "source_title": "387.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_387_1_387_1_general_policy.md",
+      "chapter_hint": "387.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/350_Income/350_5_Income_of_a_Child.htm",
+      "source_title": "350.5 Income of a Child",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_350_5_350_5_income_of_a_child.md",
+      "chapter_hint": "350.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/376_Renewal/376_4_Semiannual_Reporting.htm",
+      "source_title": "376.3 Semiannual Reporting",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_376_3_376_4_semiannual_reporting.md",
+      "chapter_hint": "376.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/380_Issuing_the_ACCESS_Card/380_2_Access_Card_Issue_Replace.htm",
+      "source_title": "380.2 ACCESS Card Issuance and Replacement",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_380_2_380_2_access_card_issue_replace.md",
+      "chapter_hint": "380.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_Appendix_B.htm",
+      "source_title": "378 Appendix B",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_378_378_appendix_b.md",
+      "chapter_hint": "378"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/309_Health_Care_Services_Benefits_for_Children/309_Appendix_A.htm",
+      "source_title": "309 Appendix A",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_309_309_appendix_a.md",
+      "chapter_hint": "309"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/315_Children_with_Special_Needs/315_1_General_Policy.htm",
+      "source_title": "315.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_315_1_315_1_general_policy.md",
+      "chapter_hint": "315.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/340_Resources/340_7_Burial_Resources.htm",
+      "source_title": "340.7 Burial Resources",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_340_7_340_7_burial_resources.md",
+      "chapter_hint": "340.7"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/Appendix_B_MAGI_Income_Limits_133__of_the_2014_Federal_Poverty_Income_Guidelines.htm",
+      "source_title": "Appendix B MAGI Tax Deductions Maximum Amounts",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_appendix_b_magi_income_limits_133_of_the_2014_federal_poverty_income_guidelines.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/391_Personal_Care_Supplement/391_3_Application_for_the_Supplement.htm",
+      "source_title": "391.3 Application for the Supplement",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_391_3_391_3_application_for_the_supplement.md",
+      "chapter_hint": "391.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/309_Health_Care_Services_Benefits_for_Children/309_5_MA_Services_for_Children.htm",
+      "source_title": "309.4 MA Services for Children",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_309_4_309_5_ma_services_for_children.md",
+      "chapter_hint": "309.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/376_Renewal/376_Appendix_A.htm",
+      "source_title": "376 Appendix A",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_376_376_appendix_a.md",
+      "chapter_hint": "376"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/377_Notices/377_Appendix_B.htm",
+      "source_title": "377 Appendix A",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_377_377_appendix_b.md",
+      "chapter_hint": "377"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/Appendix_D_MAGI_Income_Limits_215__of_the_2014_federal_Poverty_Income_Guidelines_Pregnant_Women_and_Infants_less_than_one_year_old.htm",
+      "source_title": "Appendix D Tax Dependent Criteria",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_appendix_d_magi_income_limits_215_of_the_2014_federal_poverty_income_guidelines_pregnant_women_and_infants_less_than_one_year_old.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/392_Institutions/392_2_Correctional_Institutions.htm",
+      "source_title": "392.2 Correctional Institutions",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_392_2_392_2_correctional_institutions.md",
+      "chapter_hint": "392.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/369_Determining_Eligibility_for_MNO/369_1_General_Policy.htm",
+      "source_title": "369.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_369_1_369_1_general_policy.md",
+      "chapter_hint": "369.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/321_Age/321_2_Assigning_Categories_by_Age.htm",
+      "source_title": "321.2 Assigning Categories by Age",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_321_2_321_2_assigning_categories_by_age.md",
+      "chapter_hint": "321.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/369_Determining_Eligibility_for_MNO/369_8_Changes_in_Applicant_Recipient_Group_Members.htm",
+      "source_title": "369.8 Changes in Applicant/Recipient Group Members",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_369_8_369_8_changes_in_applicant_recipient_group_members.md",
+      "chapter_hint": "369.8"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/Appendix_C_MAGI_Income_Limits_157__of_the_2014_Federal_Poverty_Income_Guidelines_Children_age_1-5.htm",
+      "source_title": "Appendix C Filing Requirements for Tax Dependents",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_appendix_c_magi_income_limits_157_of_the_2014_federal_poverty_income_guidelines_children_age_1_5.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/352_Self-Employment/352_4_Computing_Monthly_Profit.htm",
+      "source_title": "352.4 Computing Monthly Profit",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_352_4_352_4_computing_monthly_profit.md",
+      "chapter_hint": "352.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_Appendix_B.htm",
+      "source_title": "316 Appendix B",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_316_316_appendix_b.md",
+      "chapter_hint": "316"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/387_SSI/387_3_SSI_Benefits.htm",
+      "source_title": "387.3 SSI Benefits",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_387_3_387_3_ssi_benefits.md",
+      "chapter_hint": "387.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/340_Resources/340_Appendix_B.htm",
+      "source_title": "340 Appendix B",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_340_340_appendix_b.md",
+      "chapter_hint": "340"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/372_Mass_Changes/372_Appendix_A.htm",
+      "source_title": "372 Appendix A",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_372_372_appendix_a.md",
+      "chapter_hint": "372"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/312.5_Income_Deductions_and_Disregard.htm",
+      "source_title": "312.5 Income Deductions and Disregard",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_312_5_312_5_income_deductions_and_disregard.md",
+      "chapter_hint": "312.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/368_Determining_Eligibility_for_NMP/368.4_NMP_Spend-Down.htm",
+      "source_title": "368.4 NMP Spend-Down",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_368_4_368_4_nmp_spend_down.md",
+      "chapter_hint": "368.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_6_Special_MA_Services.htm",
+      "source_title": "338.6 Special MA Services",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_338_6_338_6_special_ma_services.md",
+      "chapter_hint": "338.6"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/305_Category/305_1_General_Policy.htm",
+      "source_title": "305.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_305_1_305_1_general_policy.md",
+      "chapter_hint": "305.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/309_Health_Care_Services_Benefits_for_Children/309_9_Children_s_Health_Services_under_the_Department_of_Edu.htm",
+      "source_title": "309.8 Children's Health Services under the Department of Education",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_309_8_309_9_children_s_health_services_under_the_department_of_edu.md",
+      "chapter_hint": "309.8"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_Appendix_D.htm",
+      "source_title": "378 Appendix D",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_378_378_appendix_d.md",
+      "chapter_hint": "378"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/323_Residence/323_7_Person_Whose_Location_Is_Unknown.htm",
+      "source_title": "323.7 Individual Whose Location Is Unknown",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_323_7_323_7_person_whose_location_is_unknown.md",
+      "chapter_hint": "323.7"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/388_Buy-In/388_Appendix_A.htm",
+      "source_title": "388 Appendix A",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_388_388_appendix_a.md",
+      "chapter_hint": "388"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/369_Determining_Eligibility_for_MNO/369.7_Changes_in_Income.htm",
+      "source_title": "369.7 Changes in Income",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_369_7_369_7_changes_in_income.md",
+      "chapter_hint": "369.7"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_4_Automatic_Medical_Assistance_Coverage_Extensions.htm",
+      "source_title": "338.4 Automatic Medical Assistance Coverage Extensions",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_338_4_338_4_automatic_medical_assistance_coverage_extensions.md",
+      "chapter_hint": "338.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/310_Applicant_And_Recipient_Groups_Standard_Filing_Unit/310_Appendix_B.htm",
+      "source_title": "310 Appendix B",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_310_310_appendix_b.md",
+      "chapter_hint": "310"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/392_Institutions/Appendic_C__Pediatric_Care_Facilities.htm",
+      "source_title": "392 Appendix C",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_392_appendic_c_pediatric_care_facilities.md",
+      "chapter_hint": "392"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/304_Application/304_4_Application_Interview.htm",
+      "source_title": "304.4 Application Interview",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_304_4_304_4_application_interview.md",
+      "chapter_hint": "304.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/303_General_Information/303_2_Rights_and_Responsibilities.htm",
+      "source_title": "303.2 Rights and Responsibilities",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_303_2_303_2_rights_and_responsibilities.md",
+      "chapter_hint": "303.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/310_Applicant_And_Recipient_Groups_Standard_Filing_Unit/310_2_Establishing_an_Applicant_Recipient_Group_\u2013_Who_Goes_i.htm",
+      "source_title": "310.2 Establishing an Applicant/Recipient Group \u00e2\u0080\u0093 Who Goes in Which Group?",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_310_2_310_2_establishing_an_applicant_recipient_group_who_goes_i.md",
+      "chapter_hint": "310.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/388_Buy-In/388_3_Buy-In_of_Medicare_Part_B.htm",
+      "source_title": "388.3 Buy-In of Medicare Part B",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_388_3_388_3_buy_in_of_medicare_part_b.md",
+      "chapter_hint": "388.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/320_Identity/320_2_Proof_of_Identity.htm",
+      "source_title": "320.2 Proof of Identity",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_320_2_320_2_proof_of_identity.md",
+      "chapter_hint": "320.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/304_Application/304_5_Processing_an_Application.htm",
+      "source_title": "304.5 Processing an Application",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_304_5_304_5_processing_an_application.md",
+      "chapter_hint": "304.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/Appendix_G__Tax_Dependent_Criteria.htm",
+      "source_title": "Appendix G Scenarios for Authorizing Categories Affected by the FMAP Initiative",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_appendix_g_tax_dependent_criteria.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/368_Determining_Eligibility_for_NMP/368.2_Retroactive_NMP.htm",
+      "source_title": "368.2 Retroactive NMP",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_368_2_368_2_retroactive_nmp.md",
+      "chapter_hint": "368.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/305_Category/305_Appendix_A.htm",
+      "source_title": "305 Appendix A",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_305_305_appendix_a.md",
+      "chapter_hint": "305"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/309_Health_Care_Services_Benefits_for_Children/309_8_Children_s_Health_Services_under_the_Department_of_Hea.htm",
+      "source_title": "309.7 Children's Health Services under the Department of Health",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_309_7_309_8_children_s_health_services_under_the_department_of_hea.md",
+      "chapter_hint": "309.7"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/361_MNO_Deductions/361_3_Deductions_SSI_Related.htm",
+      "source_title": "361.3 Deductions---SSI Related",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_361_3_361_3_deductions_ssi_related.md",
+      "chapter_hint": "361.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/340_Resources/340_6_Real_Property.htm",
+      "source_title": "340.6 Real Property",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_340_6_340_6_real_property.md",
+      "chapter_hint": "340.6"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/350_Income/350_1_General_Policy.htm",
+      "source_title": "350.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_350_1_350_1_general_policy.md",
+      "chapter_hint": "350.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/387_SSI/387_4_SSI\u2014State_Data_Exchange_SDX_System.htm",
+      "source_title": "387.4 SSI\u00e2\u0080\u0094State Data Exchange (SDX) System",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_387_4_387_4_ssi_state_data_exchange_sdx_system.md",
+      "chapter_hint": "387.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/312.2_Who_is_in_the_MAGI_Household.htm",
+      "source_title": "312.2 Who is in the MAGI Household?",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_312_2_312_2_who_is_in_the_magi_household.md",
+      "chapter_hint": "312.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/369_Determining_Eligibility_for_MNO/369.htm",
+      "source_title": "369.3 Retroactive MNO",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_369_3_369.md",
+      "chapter_hint": "369.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_Appendix_D.htm",
+      "source_title": "316 Appendix D",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_316_316_appendix_d.md",
+      "chapter_hint": "316"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/323_Residence/323_6_Changes_in_Residence.htm",
+      "source_title": "323.6 Changes in Residence",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_323_6_323_6_changes_in_residence.md",
+      "chapter_hint": "323.6"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/360_NMP_Deductions/360_3_Deductions\u2014SSI-Related.htm",
+      "source_title": "360.3 Deductions\u00e2\u0080\u0094SSI-Related",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_360_3_360_3_deductions_ssi_related.md",
+      "chapter_hint": "360.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/319_Healthy_Horizons/319_8_Determining_Eligibility.htm",
+      "source_title": "319.8 Determining Eligibility",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_319_8_319_8_determining_eligibility.md",
+      "chapter_hint": "319.8"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/337_Medicare/337_5_Medicare_Part_D_-_Prescription_Drug_Coverage.htm",
+      "source_title": "337.5 Medicare Part D - Prescription Drug Coverage",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_337_5_337_5_medicare_part_d_prescription_drug_coverage.md",
+      "chapter_hint": "337.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/322_Citizen_Noncitizen/322_1_General_Policy.htm",
+      "source_title": "322.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_322_1_322_1_general_policy.md",
+      "chapter_hint": "322.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_01_General_Policy.htm",
+      "source_title": "316.1 General Policy for MAWD and MAWD/HCBS",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_316_1_316_01_general_policy.md",
+      "chapter_hint": "316.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/372_Mass_Changes/372_Appendix_B.htm",
+      "source_title": "372 Appendix B",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_372_372_appendix_b.md",
+      "chapter_hint": "372"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/340_Resources/340_1_General_Policy.htm",
+      "source_title": "340.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_340_1_340_1_general_policy.md",
+      "chapter_hint": "340.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/312.6_Deciding_on_Eligibility.htm",
+      "source_title": "312.6 Deciding on Eligibility",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_312_6_312_6_deciding_on_eligibility.md",
+      "chapter_hint": "312.6"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/319_Healthy_Horizons/319_1_General_Policy.htm",
+      "source_title": "319.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_319_1_319_1_general_policy.md",
+      "chapter_hint": "319.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/323_Residence/323_2_Who_Is_a_Resident.htm",
+      "source_title": "323.2 Who Is a Resident",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_323_2_323_2_who_is_a_resident.md",
+      "chapter_hint": "323.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/368_Determining_Eligibility_for_NMP/368.3_Continuing_NMP.htm",
+      "source_title": "368.3 Continuing NMP",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_368_3_368_3_continuing_nmp.md",
+      "chapter_hint": "368.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_2_Third-Party_Resources.htm",
+      "source_title": "338.2 Third-Party Resources",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_338_2_338_2_third_party_resources.md",
+      "chapter_hint": "338.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_02_Deciding_on_Eligibility.htm",
+      "source_title": "316.2 Determining Eligibility",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_316_2_316_02_deciding_on_eligibility.md",
+      "chapter_hint": "316.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/350_Income/350_3_Unearned_Income.htm",
+      "source_title": "350.3 Unearned Income",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_350_3_350_3_unearned_income.md",
+      "chapter_hint": "350.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/360_NMP_Deductions/360_2_Deductions\u2014TANF_GA-Related.htm",
+      "source_title": "360.2 Deductions\u00e2\u0080\u0094TANF/GA-Related",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_360_2_360_2_deductions_tanf_ga_related.md",
+      "chapter_hint": "360.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_Appendix_H.htm",
+      "source_title": "338 Appendix H",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_338_338_appendix_h.md",
+      "chapter_hint": "338"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/312.8_Authorizing_Presumptive_Eligibility.htm",
+      "source_title": "312.8 Authorizing Presumptive Eligibility",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_312_8_312_8_authorizing_presumptive_eligibility.md",
+      "chapter_hint": "312.8"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/304_Application/304_2_Application_Process.htm",
+      "source_title": "304.2 Application Process",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_304_2_304_2_application_process.md",
+      "chapter_hint": "304.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/304_Application/304_1_General_Policy.htm",
+      "source_title": "304.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_304_1_304_1_general_policy.md",
+      "chapter_hint": "304.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/319_Healthy_Horizons/319_7_Income_Deductions.htm",
+      "source_title": "319.7 Income Deductions",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_319_7_319_7_income_deductions.md",
+      "chapter_hint": "319.7"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/305_Category/305_Appendix_B.htm",
+      "source_title": "305 Appendix B",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_305_305_appendix_b.md",
+      "chapter_hint": "305"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/388_Buy-In/388_1_General_Policy.htm",
+      "source_title": "388.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_388_1_388_1_general_policy.md",
+      "chapter_hint": "388.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/388_Buy-In/388_6_Approving_Buy-In.htm",
+      "source_title": "388.6 Authorizing Buy-In",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_388_6_388_6_approving_buy_in.md",
+      "chapter_hint": "388.6"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_06_Premiums.htm",
+      "source_title": "316.6 Premiums",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_316_6_316_06_premiums.md",
+      "chapter_hint": "316.6"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/322_Citizen_Noncitizen/322_Appendix_B.htm",
+      "source_title": "322 Appendix B",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_322_322_appendix_b.md",
+      "chapter_hint": "322"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/322_Citizen_Noncitizen/322_Appendix_A.htm",
+      "source_title": "322 Appendix A",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_322_322_appendix_a.md",
+      "chapter_hint": "322"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/322_Citizen_Noncitizen/322_2_Citizenship.htm",
+      "source_title": "322.2 Citizenship",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_322_2_322_2_citizenship.md",
+      "chapter_hint": "322.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/300_Forms_Operations_Memoranda_and_Policy_Clarifications/Forms.htm",
+      "source_title": "Forms",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_forms.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_1_General_Policy.htm",
+      "source_title": "378.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_378_1_378_1_general_policy.md",
+      "chapter_hint": "378.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/312.1_General_Policy.htm",
+      "source_title": "312.1 General Policy",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_312_1_312_1_general_policy.md",
+      "chapter_hint": "312.1"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_6_Automated_Sources.htm",
+      "source_title": "378.6 Automated Sources",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_378_6_378_6_automated_sources.md",
+      "chapter_hint": "378.6"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/305_Category/305_3_TANF-Related_Categories\u2014NMP_and_MNO.htm",
+      "source_title": "305.3 TANF-Related Categories\u00e2\u0080\u0094NMP and MNO",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_305_3_305_3_tanf_related_categories_nmp_and_mno.md",
+      "chapter_hint": "305.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/387_SSI/387_5_MA_Coverage_for_SSI_Recipients.htm",
+      "source_title": "387.5 MA Coverage for SSI Recipients",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_387_5_387_5_ma_coverage_for_ssi_recipients.md",
+      "chapter_hint": "387.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/376_Renewal/376_Appendix_B.htm",
+      "source_title": "376 Appendix B",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_376_376_appendix_b.md",
+      "chapter_hint": "376"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/319_Healthy_Horizons/319_Appendix_A.htm",
+      "source_title": "319 Appendix A",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_319_319_appendix_a.md",
+      "chapter_hint": "319"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/369_Determining_Eligibility_for_MNO/369_4_Continuing_MNO.htm",
+      "source_title": "369.4 Continuing MNO",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_369_4_369_4_continuing_mno.md",
+      "chapter_hint": "369.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/355_Deeming_Income_and_Resources/355_5_Deeming_Income\u2014TANF_GA-Related.htm",
+      "source_title": "355.5 Deeming Income\u00e2\u0080\u0094TANF/GA-Related",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_355_5_355_5_deeming_income_tanf_ga_related.md",
+      "chapter_hint": "355.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/355_Deeming_Income_and_Resources/355_4_Deeming_Income\u2014SSI-Related.htm",
+      "source_title": "355.4 Deeming Income\u00e2\u0080\u0094SSI-Related",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_355_4_355_4_deeming_income_ssi_related.md",
+      "chapter_hint": "355.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/319_Healthy_Horizons/319_Appendix_B.htm",
+      "source_title": "319 Appendix B",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_319_319_appendix_b.md",
+      "chapter_hint": "319"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/361_MNO_Deductions/361_2_Deductions_TANF_GA_Related.htm",
+      "source_title": "361.2 Deductions-TANF/GA Related",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_361_2_361_2_deductions_tanf_ga_related.md",
+      "chapter_hint": "361.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/312.4_Income.htm",
+      "source_title": "312.4 Income",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_312_4_312_4_income.md",
+      "chapter_hint": "312.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/315_Children_with_Special_Needs/315_5_Determining_Eligibility.htm",
+      "source_title": "315.5 Determining Eligibility",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_315_5_315_5_determining_eligibility.md",
+      "chapter_hint": "315.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/319_Healthy_Horizons/319_Appendix_C.htm",
+      "source_title": "319 Appendix C",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_319_319_appendix_c.md",
+      "chapter_hint": "319"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_Appendix_E.htm",
+      "source_title": "378 Appendix E",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_378_378_appendix_e.md",
+      "chapter_hint": "378"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/392_Institutions/392_Appendix_B.htm",
+      "source_title": "392 Appendix B",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_392_392_appendix_b.md",
+      "chapter_hint": "392"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/387_SSI/387_Appendix_D.htm",
+      "source_title": "387 Appendix D",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_387_387_appendix_d.md",
+      "chapter_hint": "387"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/357_Lump_Sum/357_4_Treatment_of_Lump_Sum_as_Income.htm",
+      "source_title": "357.4 Treatment of Lump Sum as Income",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_357_4_357_4_treatment_of_lump_sum_as_income.md",
+      "chapter_hint": "357.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_3_County_Assistance_Office_Responsibility.htm",
+      "source_title": "378.3 County Assistance Office Responsibility",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_378_3_378_3_county_assistance_office_responsibility.md",
+      "chapter_hint": "378.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/319_Healthy_Horizons/319_6_Income.htm",
+      "source_title": "319.6 Income",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_319_6_319_6_income.md",
+      "chapter_hint": "319.6"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/340_Resources/340_8_Resource_Exclusions.htm",
+      "source_title": "340.8 Resource Exclusions",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_340_8_340_8_resource_exclusions.md",
+      "chapter_hint": "340.8"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/322_Citizen_Noncitizen/322_3_Alien_Status.htm",
+      "source_title": "322.3 Non-Citizen Status",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_322_3_322_3_alien_status.md",
+      "chapter_hint": "322.3"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/387_SSI/387_Appendix_A.htm",
+      "source_title": "387 Appendix A",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_387_387_appendix_a.md",
+      "chapter_hint": "387"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/310_Applicant_And_Recipient_Groups_Standard_Filing_Unit/310_Appendix_A.htm",
+      "source_title": "310 Appendix A",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_310_310_appendix_a.md",
+      "chapter_hint": "310"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/300_Forms_Operations_Memoranda_and_Policy_Clarifications/300_Operations_Memoranda.htm",
+      "source_title": "300_OperationsMemoranda",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_300_300_operations_memoranda.md",
+      "chapter_hint": "300"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/376_Renewal/376.2_Renewal.htm",
+      "source_title": "376.2 Renewal",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_376_2_376_2_renewal.md",
+      "chapter_hint": "376.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/350_Income/350_6_Income_Exclusions.htm",
+      "source_title": "350.6 Income Exclusions",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_350_6_350_6_income_exclusions.md",
+      "chapter_hint": "350.6"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/387_SSI/387_6_Extended_NMP\u2014Special_Situations.htm",
+      "source_title": "387.6 Continued MA\u00e2\u0080\u0094\"Special SSI MA\" Categories",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_387_6_387_6_extended_nmp_special_situations.md",
+      "chapter_hint": "387.6"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/305_Category/305_4_GA-Related_PD_Category\u2014NMP.htm",
+      "source_title": "305.4 General Assistance (GA)-Related Categories",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_305_4_305_4_ga_related_pd_category_nmp.md",
+      "chapter_hint": "305.4"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/305_Category/305_6_Program_Status_Codes_and_Budget_Groups.htm",
+      "source_title": "305.6 Other Categories",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_305_6_305_6_program_status_codes_and_budget_groups.md",
+      "chapter_hint": "305.6"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/305_Category/305_5_TD_GA-Related_Category\u2014MNO.htm",
+      "source_title": "305.5 Modified Adjusted Gross Income (MAGI)-Related Categories",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_305_5_305_5_td_ga_related_category_mno.md",
+      "chapter_hint": "305.5"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/300_Forms_Operations_Memoranda_and_Policy_Clarifications/300_Policy_Clarifications.htm",
+      "source_title": "300_PolicyClarifications",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_300_300_policy_clarifications.md",
+      "chapter_hint": "300"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/305_Category/305_2_SSI-Related_Categories\u2014NMP_and_MNO.htm",
+      "source_title": "305.2 Supplemental Security Income (SSI)-Related Categories",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_305_2_305_2_ssi_related_categories_nmp_and_mno.md",
+      "chapter_hint": "305.2"
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/Appendix_A_MAGI_Income_Limits_33__of_the_2014_Federal_Poverty_Income_Guidelines.htm",
+      "source_title": "Appendix A MAGI Income Limits",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_appendix_a_magi_income_limits_33_of_the_2014_federal_poverty_income_guidelines.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/MNO.htm",
+      "source_title": "MNO",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_mno.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/capital_expenditure.htm",
+      "source_title": "capital expenditure",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_capital_expenditure.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/MRT.htm",
+      "source_title": "MRT",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_mrt.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/Data_Exchanges_(DX).htm",
+      "source_title": "Data Exchanges (DX)",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_data_exchanges_dx.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/category.htm",
+      "source_title": "category",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_category.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/CAO.htm",
+      "source_title": "CAO",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_cao.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/SSI.htm",
+      "source_title": "SSI",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_ssi.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/department_of_Human_Services_(DHS).htm",
+      "source_title": "Department of Human Services (DHS)",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_department_of_human_services_dhs.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/recipient.htm",
+      "source_title": "recipient",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_recipient.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/child.htm",
+      "source_title": "child",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_child.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/Home_and_Community-Based_Services.htm",
+      "source_title": "home and community-based services",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_home_and_community_based_services.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/GA.htm",
+      "source_title": "GA",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_ga.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/cost-of-living_adjustment_(cola).htm",
+      "source_title": "cost-of-living adjustment (COLA)",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_cost_of_living_adjustment_cola.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/VA.htm",
+      "source_title": "VA",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_va.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/disabled.htm",
+      "source_title": "disabled",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_disabled.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/LTC.htm",
+      "source_title": "LTC",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_ltc.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/Medicare_Part_B.htm",
+      "source_title": "Medicare Part B",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_medicare_part_b.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/NMP.htm",
+      "source_title": "NMP",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_nmp.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/MA.htm",
+      "source_title": "MA",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_ma.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/LRR.htm",
+      "source_title": "LRR",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_lrr.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/noncitizen.htm",
+      "source_title": "noncitizen",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_noncitizen.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/real_property.htm",
+      "source_title": "real property",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_real_property.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/SSA.htm",
+      "source_title": "SSA",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_ssa.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/alimony.htm",
+      "source_title": "alimony",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_alimony.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/personal_property.htm",
+      "source_title": "personal property",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_personal_property.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/calendar_month.htm",
+      "source_title": "calendar month",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_calendar_month.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/work_expense_deduction.htm",
+      "source_title": "work expense deduction",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_work_expense_deduction.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/stepparent.htm",
+      "source_title": "stepparent",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_stepparent.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/unearned_income.htm",
+      "source_title": "unearned income",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_unearned_income.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/SAR.htm",
+      "source_title": "SAR",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_sar.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/self-employment.htm",
+      "source_title": "self-employment",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_self_employment.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/income.htm",
+      "source_title": "income",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_income.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/work_incentive_deduction.htm",
+      "source_title": "work incentive deduction",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_work_incentive_deduction.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/Renewal.htm",
+      "source_title": "renewal",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_renewal.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/retroactive_period.htm",
+      "source_title": "retroactive period",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_retroactive_period.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/applicant.htm",
+      "source_title": "applicant",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_applicant.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/alert.htm",
+      "source_title": "alert",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_alert.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/attendant.htm",
+      "source_title": "attendant",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_attendant.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/Healthy_Beginnings.htm",
+      "source_title": "Healthy Beginnings",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_healthy_beginnings.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/earned_income_incentive.htm",
+      "source_title": "earned income incentive",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_earned_income_incentive.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/earned_income_deduction.htm",
+      "source_title": "earned income deduction",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_earned_income_deduction.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/nonmoney_payment_(NMP).htm",
+      "source_title": "nonmoney payment (NMP)",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_nonmoney_payment_nmp.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/applicant_recipient_group.htm",
+      "source_title": "applicant/recipient group",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_applicant_recipient_group.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/Income_Eligibility_Verification_System_(IEVS).htm",
+      "source_title": "Income Eligibility Verification System (IEVS)",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_income_eligibility_verification_system_ievs.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/provider.htm",
+      "source_title": "provider",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_provider.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/third-party_resources_(TPR).htm",
+      "source_title": "third-party resources (TPR)",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_third_party_resources_tpr.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/paternity.htm",
+      "source_title": "paternity",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_paternity.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/standard_of_need.htm",
+      "source_title": "standard of need",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_standard_of_need.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/long-term_care_(ltc).htm",
+      "source_title": "long-term care (LTC)",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_long_term_care_ltc.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/attendant_care.htm",
+      "source_title": "attendant care",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_attendant_care.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/earned_income.htm",
+      "source_title": "earned income",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_earned_income.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/lump_sum_payment.htm",
+      "source_title": "lump sum payment",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_lump_sum_payment.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/fair_hearing.htm",
+      "source_title": "fair hearing",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_fair_hearing.md",
+      "chapter_hint": ""
+    },
+    {
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/parent.htm",
+      "source_title": "parent",
+      "output_path": "policy_corpus/ma_v1_clean/medicaid_chip_parent.md",
+      "chapter_hint": ""
+    }
+  ],
+  "skipped": []
+}

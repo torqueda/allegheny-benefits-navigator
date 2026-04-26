@@ -1,0 +1,444 @@
+{
+  "schema_version": "2.0",
+  "description": "Phase 3 agent test cases. Evaluation uses directional checks (not exact string match) to accommodate the RAG+LLM+cross-check pipeline.",
+  "case_format": {
+    "case_id": "Stable identifier.",
+    "category": "Scenario family.",
+    "evaluation_type": "success_case | failure_case | edge_case",
+    "turns": "Ordered user messages for multi-turn intake.",
+    "expected_intake": {
+      "required_profile_fields": "Fields that must be present in normalized_profile.",
+      "expected_missing_fields": "Fields that should still be missing after turns.",
+      "expected_contradictory_fields": "Conflicts the intake agent should preserve.",
+      "expected_intake_status": "Terminal status after turns."
+    },
+    "expected_eligibility": {
+      "must_recommend": "Programs in recommended_programs (strong or possible match).",
+      "must_not_recommend": "Programs that must NOT appear in recommended_programs.",
+      "top_priority_in": "Acceptable set for priority_order[0].",
+      "must_be_strong_match": "Programs that must reach strong_match.",
+      "may_be_possible_match": "Programs that can reasonably be strong_match or possible_match.",
+      "must_be_no_clear_match": "Programs that must be no_clear_match.",
+      "expected_decision_status": "ready_for_explanation | ambiguous",
+      "expected_has_uncertainty_flags": "true if uncertainty_flags should be non-empty."
+    },
+    "expected_explanation": {
+      "must_mention_programs": "Programs appearing in explanation text.",
+      "must_include_checklist_terms": "Terms appearing in checklist_by_program.",
+      "must_include_caveats": "Caution themes in visible_caveats or explanation.",
+      "expected_final_status": "delivered | delivered_with_uncertainty | needs_human_followup"
+    },
+    "phase3_checks": {
+      "expect_cross_check_rationale": "true if rationale should contain a cross-check entry.",
+      "expect_contradiction_detected": "true if contradictory_fields should be non-empty."
+    }
+  },
+  "cases": [
+    {
+      "case_id": "AGENT_01",
+      "category": "multi_program_clear_need",
+      "evaluation_type": "success_case",
+      "turns": [
+        "I live in Pittsburgh with my two kids. I was laid off last month, I have no insurance, and our household income is about $1800 per month. We are behind on our heating bill and struggling to afford groceries."
+      ],
+      "expected_intake": {
+        "required_profile_fields": {
+          "county": "Allegheny",
+          "num_adults": 1,
+          "num_children": 2,
+          "recent_job_loss": true,
+          "insurance_status": "uninsured",
+          "household_income_total": 1800,
+          "food_insecurity_signal": "clear",
+          "heating_assistance_need": true
+        },
+        "expected_missing_fields": [],
+        "expected_contradictory_fields": [],
+        "expected_intake_status": "complete"
+      },
+      "expected_eligibility": {
+        "must_recommend": ["SNAP", "Medicaid/CHIP", "LIHEAP"],
+        "must_not_recommend": [],
+        "top_priority_in": ["SNAP", "LIHEAP", "Medicaid/CHIP"],
+        "must_be_strong_match": [],
+        "may_be_possible_match": ["SNAP", "LIHEAP", "Medicaid/CHIP"],
+        "must_be_no_clear_match": [],
+        "expected_decision_status": "ambiguous",
+        "expected_has_uncertainty_flags": false
+      },
+      "expected_explanation": {
+        "must_mention_programs": ["SNAP", "LIHEAP", "Medicaid/CHIP"],
+        "must_include_checklist_terms": ["income", "heating", "identity"],
+        "must_include_caveats": ["prescreening", "official determination"],
+        "expected_final_status": "delivered_with_uncertainty"
+      },
+      "phase3_checks": {
+        "expect_cross_check_rationale": false,
+        "expect_contradiction_detected": false
+      }
+    },
+    {
+      "case_id": "AGENT_02",
+      "category": "clear_ineligible",
+      "evaluation_type": "success_case",
+      "turns": [
+        "I am a single adult in Pittsburgh with no children, staying with relatives after an eviction. I work full time and make about $3200 a month. I have insurance and my biggest need is help with housing and legal support, not food or heating."
+      ],
+      "expected_intake": {
+        "required_profile_fields": {
+          "county": "Allegheny",
+          "num_adults": 1,
+          "num_children": 0,
+          "employment_status": "full_time",
+          "household_income_total": 3200,
+          "insurance_status": "insured"
+        },
+        "expected_missing_fields": [],
+        "expected_contradictory_fields": [],
+        "expected_intake_status": "complete"
+      },
+      "expected_eligibility": {
+        "must_recommend": [],
+        "must_not_recommend": ["SNAP", "LIHEAP"],
+        "top_priority_in": [],
+        "must_be_strong_match": [],
+        "may_be_possible_match": [],
+        "must_be_no_clear_match": ["SNAP", "LIHEAP"],
+        "expected_decision_status": "ready_for_explanation",
+        "expected_has_uncertainty_flags": false
+      },
+      "expected_explanation": {
+        "must_mention_programs": [],
+        "must_include_checklist_terms": [],
+        "must_include_caveats": ["prescreening"],
+        "expected_final_status": "delivered"
+      },
+      "phase3_checks": {
+        "expect_cross_check_rationale": false,
+        "expect_contradiction_detected": false
+      }
+    },
+    {
+      "case_id": "AGENT_03",
+      "category": "pregnancy_medicaid_focus",
+      "evaluation_type": "edge_case",
+      "turns": [
+        "I live in Pittsburgh with my husband and I am pregnant with twins. We make about $2800 per month. We are insured through his job but the plan is expensive and I want to know if I might qualify for health coverage while pregnant."
+      ],
+      "expected_intake": {
+        "required_profile_fields": {
+          "county": "Allegheny",
+          "num_adults": 2,
+          "pregnant_household_member": true,
+          "insurance_status": "underinsured",
+          "household_income_total": 2800
+        },
+        "expected_missing_fields": [],
+        "expected_contradictory_fields": [],
+        "expected_intake_status": "complete"
+      },
+      "expected_eligibility": {
+        "must_recommend": ["Medicaid/CHIP"],
+        "must_not_recommend": [],
+        "top_priority_in": ["Medicaid/CHIP"],
+        "must_be_strong_match": [],
+        "may_be_possible_match": ["Medicaid/CHIP"],
+        "must_be_no_clear_match": ["LIHEAP"],
+        "expected_decision_status": "ambiguous",
+        "expected_has_uncertainty_flags": false
+      },
+      "expected_explanation": {
+        "must_mention_programs": ["Medicaid/CHIP"],
+        "must_include_checklist_terms": ["identity", "insurance", "income"],
+        "must_include_caveats": ["pregnancy", "prescreening"],
+        "expected_final_status": "delivered_with_uncertainty"
+      },
+      "phase3_checks": {
+        "expect_cross_check_rationale": false,
+        "expect_contradiction_detected": false
+      }
+    },
+    {
+      "case_id": "AGENT_04",
+      "category": "liheap_crisis_multi_turn",
+      "evaluation_type": "success_case",
+      "turns": [
+        "I live in Pittsburgh with my daughter. We got a shutoff notice but I did not say how much income we have yet.",
+        "I am not working right now. We get about $950 a month from unemployment and child support combined."
+      ],
+      "expected_intake": {
+        "required_profile_fields": {
+          "county": "Allegheny",
+          "num_adults": 1,
+          "num_children": 1,
+          "utility_burden": "high",
+          "heating_assistance_need": true,
+          "household_income_total": 950
+        },
+        "expected_missing_fields": [],
+        "expected_contradictory_fields": [],
+        "expected_intake_status": "complete"
+      },
+      "expected_eligibility": {
+        "must_recommend": ["LIHEAP", "SNAP"],
+        "must_not_recommend": [],
+        "top_priority_in": ["LIHEAP", "SNAP"],
+        "must_be_strong_match": [],
+        "may_be_possible_match": ["LIHEAP", "SNAP"],
+        "must_be_no_clear_match": [],
+        "expected_decision_status": "ambiguous",
+        "expected_has_uncertainty_flags": false
+      },
+      "expected_explanation": {
+        "must_mention_programs": ["LIHEAP", "SNAP"],
+        "must_include_checklist_terms": ["heating", "income"],
+        "must_include_caveats": ["prescreening"],
+        "expected_final_status": "delivered_with_uncertainty"
+      },
+      "phase3_checks": {
+        "expect_cross_check_rationale": true,
+        "expect_contradiction_detected": false
+      }
+    },
+    {
+      "case_id": "AGENT_05",
+      "category": "income_conflict_resolved_multi_turn",
+      "evaluation_type": "success_case",
+      "turns": [
+        "I live in Pittsburgh with my son. I work full time, but right now I make $0. We are behind on our gas bill and I am not sure how much total income we have each month.",
+        "Sorry, I was laid off two weeks ago. I am not working now. We got $600 unemployment this month and no other income."
+      ],
+      "expected_intake": {
+        "required_profile_fields": {
+          "county": "Allegheny",
+          "num_adults": 1,
+          "num_children": 1,
+          "employment_status": "recent_job_loss",
+          "household_income_total": 600
+        },
+        "expected_missing_fields": [],
+        "expected_contradictory_fields": [],
+        "expected_intake_status": "complete"
+      },
+      "expected_eligibility": {
+        "must_recommend": ["LIHEAP", "SNAP"],
+        "must_not_recommend": [],
+        "top_priority_in": ["LIHEAP", "SNAP", "Medicaid/CHIP"],
+        "must_be_strong_match": [],
+        "may_be_possible_match": ["LIHEAP", "SNAP", "Medicaid/CHIP"],
+        "must_be_no_clear_match": [],
+        "expected_decision_status": "ambiguous",
+        "expected_has_uncertainty_flags": false
+      },
+      "expected_explanation": {
+        "must_mention_programs": ["LIHEAP", "SNAP"],
+        "must_include_checklist_terms": ["income", "heating"],
+        "must_include_caveats": ["prescreening", "official determination"],
+        "expected_final_status": "delivered_with_uncertainty"
+      },
+      "phase3_checks": {
+        "expect_cross_check_rationale": false,
+        "expect_contradiction_detected": false
+      }
+    },
+    {
+      "case_id": "AGENT_06",
+      "category": "missing_info_graceful_degradation",
+      "evaluation_type": "failure_case",
+      "turns": [
+        "I live in Pittsburgh and I have been having trouble buying groceries.",
+        "I do not know exactly how much income comes in each month and I want to skip that for now."
+      ],
+      "expected_intake": {
+        "required_profile_fields": {
+          "county": "Allegheny"
+        },
+        "expected_missing_fields": ["num_adults", "num_children", "household_income_total"],
+        "expected_contradictory_fields": [],
+        "expected_intake_status": "insufficient_data"
+      },
+      "expected_eligibility": {
+        "must_recommend": [],
+        "must_not_recommend": [],
+        "top_priority_in": [],
+        "must_be_strong_match": [],
+        "may_be_possible_match": [],
+        "must_be_no_clear_match": [],
+        "expected_decision_status": "ambiguous",
+        "expected_has_uncertainty_flags": false
+      },
+      "expected_explanation": {
+        "must_mention_programs": [],
+        "must_include_checklist_terms": [],
+        "must_include_caveats": ["prescreening"],
+        "expected_final_status": "delivered_with_uncertainty"
+      },
+      "phase3_checks": {
+        "expect_cross_check_rationale": false,
+        "expect_contradiction_detected": false
+      }
+    },
+    {
+      "case_id": "AGENT_07",
+      "category": "child_health_coverage",
+      "evaluation_type": "success_case",
+      "turns": [
+        "I live in Pittsburgh with three children ages 2, 7, and 15. We make about $2500 a month. The kids do not have health insurance right now."
+      ],
+      "expected_intake": {
+        "required_profile_fields": {
+          "county": "Allegheny",
+          "num_adults": 1,
+          "num_children": 3,
+          "insurance_status": "uninsured",
+          "household_income_total": 2500
+        },
+        "expected_missing_fields": [],
+        "expected_contradictory_fields": [],
+        "expected_intake_status": "complete"
+      },
+      "expected_eligibility": {
+        "must_recommend": ["Medicaid/CHIP", "SNAP"],
+        "must_not_recommend": [],
+        "top_priority_in": ["Medicaid/CHIP", "SNAP"],
+        "must_be_strong_match": [],
+        "may_be_possible_match": ["Medicaid/CHIP", "SNAP"],
+        "must_be_no_clear_match": [],
+        "expected_decision_status": "ambiguous",
+        "expected_has_uncertainty_flags": false
+      },
+      "expected_explanation": {
+        "must_mention_programs": ["Medicaid/CHIP", "SNAP"],
+        "must_include_checklist_terms": ["identity", "insurance", "income"],
+        "must_include_caveats": ["children", "official determination"],
+        "expected_final_status": "delivered_with_uncertainty"
+      },
+      "phase3_checks": {
+        "expect_cross_check_rationale": false,
+        "expect_contradiction_detected": false
+      }
+    },
+    {
+      "case_id": "AGENT_08",
+      "category": "contradictory_data_cross_check",
+      "evaluation_type": "failure_case",
+      "turns": [
+        "I live in Pittsburgh with my son. I work full time, but I have zero earned income this month. We are struggling with food and our gas bill is overdue."
+      ],
+      "expected_intake": {
+        "required_profile_fields": {
+          "county": "Allegheny",
+          "num_adults": 1,
+          "num_children": 1,
+          "employment_status": "full_time",
+          "monthly_earned_income": 0,
+          "food_insecurity_signal": "clear"
+        },
+        "expected_missing_fields": [],
+        "expected_contradictory_fields": ["employment_status vs monthly_earned_income"],
+        "expected_intake_status": "needs_clarification"
+      },
+      "expected_eligibility": {
+        "must_recommend": [],
+        "must_not_recommend": [],
+        "top_priority_in": [],
+        "must_be_strong_match": [],
+        "may_be_possible_match": ["SNAP", "LIHEAP"],
+        "must_be_no_clear_match": [],
+        "expected_decision_status": "ambiguous",
+        "expected_has_uncertainty_flags": false
+      },
+      "expected_explanation": {
+        "must_mention_programs": [],
+        "must_include_checklist_terms": [],
+        "must_include_caveats": ["prescreening"],
+        "expected_final_status": "needs_human_followup"
+      },
+      "phase3_checks": {
+        "expect_cross_check_rationale": false,
+        "expect_contradiction_detected": true
+      }
+    },
+    {
+      "case_id": "AGENT_09",
+      "category": "liheap_snap_dual_need",
+      "evaluation_type": "success_case",
+      "turns": [
+        "I live in Pittsburgh with my husband and one child. Our income is around $2100 a month. We are running out of heating fuel and we have been cutting back on food."
+      ],
+      "expected_intake": {
+        "required_profile_fields": {
+          "county": "Allegheny",
+          "num_adults": 2,
+          "num_children": 1,
+          "household_income_total": 2100,
+          "food_insecurity_signal": "clear",
+          "heating_assistance_need": true
+        },
+        "expected_missing_fields": [],
+        "expected_contradictory_fields": [],
+        "expected_intake_status": "complete"
+      },
+      "expected_eligibility": {
+        "must_recommend": ["LIHEAP", "SNAP"],
+        "must_not_recommend": [],
+        "top_priority_in": ["LIHEAP", "SNAP"],
+        "must_be_strong_match": [],
+        "may_be_possible_match": ["LIHEAP", "SNAP"],
+        "must_be_no_clear_match": [],
+        "expected_decision_status": "ambiguous",
+        "expected_has_uncertainty_flags": false
+      },
+      "expected_explanation": {
+        "must_mention_programs": ["LIHEAP", "SNAP"],
+        "must_include_checklist_terms": ["heating", "income"],
+        "must_include_caveats": ["prescreening", "official determination"],
+        "expected_final_status": "delivered_with_uncertainty"
+      },
+      "phase3_checks": {
+        "expect_cross_check_rationale": true,
+        "expect_contradiction_detected": false
+      }
+    },
+    {
+      "case_id": "AGENT_10",
+      "category": "outside_county_boundary",
+      "evaluation_type": "failure_case",
+      "turns": [
+        "I live in Philadelphia with my daughter. I have no insurance, my income is about $900 a month, and I am behind on my gas bill."
+      ],
+      "expected_intake": {
+        "required_profile_fields": {
+          "county": "Philadelphia",
+          "num_adults": 1,
+          "num_children": 1,
+          "insurance_status": "uninsured",
+          "household_income_total": 900
+        },
+        "expected_missing_fields": [],
+        "expected_contradictory_fields": [],
+        "expected_intake_status": "insufficient_data"
+      },
+      "expected_eligibility": {
+        "must_recommend": [],
+        "must_not_recommend": [],
+        "top_priority_in": [],
+        "must_be_strong_match": [],
+        "may_be_possible_match": ["LIHEAP", "SNAP", "Medicaid/CHIP"],
+        "must_be_no_clear_match": [],
+        "expected_decision_status": "ambiguous",
+        "expected_has_uncertainty_flags": false
+      },
+      "expected_explanation": {
+        "must_mention_programs": [],
+        "must_include_checklist_terms": [],
+        "must_include_caveats": ["prescreening"],
+        "expected_final_status": "delivered_with_uncertainty"
+      },
+      "phase3_checks": {
+        "expect_cross_check_rationale": false,
+        "expect_contradiction_detected": false
+      }
+    }
+  ]
+}

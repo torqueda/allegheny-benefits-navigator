@@ -1,0 +1,29 @@
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# OS/editor noise
+.DS_Store
+
+# Local exports and generated browser-save artifacts
+Retrieval-Grounded Policy Navigator_files/
+Retrieval-Grounded Policy Navigator.html
+Retrieval-Grounded Policy Navigator.pdf
+
+# Local retrieval index artifacts
+data/policy_index/
+
+# Runtime-uploaded local policy files
+data/uploaded_policies/
+
+# Demo output PDFs and reference PDFs (local only)
+*.pdf
+
+# Generated diagrams
+pipeline_diagram.png

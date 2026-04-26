@@ -1,0 +1,131 @@
+[
+  {
+    "case_id": "AGENT_01",
+    "evaluation_type": "success_case",
+    "outcome": "PASS",
+    "intake_status": "complete",
+    "decision_status": "ambiguous",
+    "final_status": "delivered_with_uncertainty",
+    "recommended_programs": [
+      "SNAP",
+      "Medicaid/CHIP",
+      "LIHEAP"
+    ],
+    "failures": []
+  },
+  {
+    "case_id": "AGENT_02",
+    "evaluation_type": "success_case",
+    "outcome": "PASS",
+    "intake_status": "complete",
+    "decision_status": "ready_for_explanation",
+    "final_status": "delivered",
+    "recommended_programs": [],
+    "failures": []
+  },
+  {
+    "case_id": "AGENT_03",
+    "evaluation_type": "edge_case",
+    "outcome": "PASS",
+    "intake_status": "complete",
+    "decision_status": "ambiguous",
+    "final_status": "delivered_with_uncertainty",
+    "recommended_programs": [
+      "Medicaid/CHIP"
+    ],
+    "failures": []
+  },
+  {
+    "case_id": "AGENT_04",
+    "evaluation_type": "success_case",
+    "outcome": "PASS",
+    "intake_status": "complete",
+    "decision_status": "ambiguous",
+    "final_status": "delivered_with_uncertainty",
+    "recommended_programs": [
+      "SNAP",
+      "Medicaid/CHIP",
+      "LIHEAP"
+    ],
+    "failures": []
+  },
+  {
+    "case_id": "AGENT_05",
+    "evaluation_type": "success_case",
+    "outcome": "PASS",
+    "intake_status": "complete",
+    "decision_status": "ambiguous",
+    "final_status": "delivered_with_uncertainty",
+    "recommended_programs": [
+      "Medicaid/CHIP",
+      "LIHEAP",
+      "SNAP"
+    ],
+    "failures": []
+  },
+  {
+    "case_id": "AGENT_06",
+    "evaluation_type": "failure_case",
+    "outcome": "PASS",
+    "intake_status": "insufficient_data",
+    "decision_status": "ambiguous",
+    "final_status": "delivered_with_uncertainty",
+    "recommended_programs": [],
+    "failures": []
+  },
+  {
+    "case_id": "AGENT_07",
+    "evaluation_type": "success_case",
+    "outcome": "PASS",
+    "intake_status": "complete",
+    "decision_status": "ambiguous",
+    "final_status": "delivered_with_uncertainty",
+    "recommended_programs": [
+      "Medicaid/CHIP",
+      "SNAP"
+    ],
+    "failures": []
+  },
+  {
+    "case_id": "AGENT_08",
+    "evaluation_type": "failure_case",
+    "outcome": "PASS",
+    "intake_status": "needs_clarification",
+    "decision_status": "ambiguous",
+    "final_status": "needs_human_followup",
+    "recommended_programs": [
+      "SNAP",
+      "Medicaid/CHIP",
+      "LIHEAP"
+    ],
+    "failures": []
+  },
+  {
+    "case_id": "AGENT_09",
+    "evaluation_type": "success_case",
+    "outcome": "PASS",
+    "intake_status": "complete",
+    "decision_status": "ambiguous",
+    "final_status": "delivered_with_uncertainty",
+    "recommended_programs": [
+      "SNAP",
+      "LIHEAP",
+      "Medicaid/CHIP"
+    ],
+    "failures": []
+  },
+  {
+    "case_id": "AGENT_10",
+    "evaluation_type": "failure_case",
+    "outcome": "PASS",
+    "intake_status": "insufficient_data",
+    "decision_status": "ambiguous",
+    "final_status": "delivered_with_uncertainty",
+    "recommended_programs": [
+      "Medicaid/CHIP",
+      "SNAP",
+      "LIHEAP"
+    ],
+    "failures": []
+  }
+]
