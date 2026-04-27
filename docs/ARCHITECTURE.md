@@ -51,6 +51,8 @@ In practice, ranking is influenced by urgency and hardship signals, likely appli
 - stores the raw text locally
 - makes the new document available to the retrieval layer immediately
 
+For current privacy, session-state, and upload-governance notes tied to this architecture, see `docs/PRIVACY_SESSION_GOVERNANCE.md`.
+
 ## What Is Legacy vs Current
 
 - Current user input path: natural language in `user_description`
@@ -58,3 +60,6 @@ In practice, ranking is influenced by urgency and hardship signals, likely appli
 - Legacy support path: manually entered structured fields in the UI
 - Legacy evaluation logic: deterministic scoring inside
   `eligibility_agent.py`, now mainly used as fallback/cross-check
+
+For one concise current-repo trace of the coordination flow, see
+`docs/AGENTIC_COORDINATION_WALKTHROUGH.md`.
