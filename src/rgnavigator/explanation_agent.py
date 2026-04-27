@@ -31,24 +31,25 @@ def run_checklist_and_explanation(intake: IntakeOutput, eligibility: Eligibility
     next_steps = _build_next_steps(intake, eligibility)
     explanation = _build_explanation(intake, recommended_matches, eligibility)
 
-    llm_content = _generate_explanation_with_llm(
-        intake=intake,
-        eligibility=eligibility,
-        recommended_matches=recommended_matches,
-        fallback_checklist=checklist_by_program,
-        fallback_next_steps=next_steps,
-        fallback_explanation=explanation,
-        fallback_caveats=visible_caveats,
-    )
-    if llm_content:
-        checklist_by_program = llm_content.get("checklist_by_program", checklist_by_program)
-        next_steps = llm_content.get("next_steps", next_steps)
-        explanation = llm_content.get("plain_language_explanation", explanation)
-        visible_caveats = llm_content.get("visible_caveats", visible_caveats)
+    if _should_use_llm_explanation(intake, eligibility):
+        llm_content = _generate_explanation_with_llm(
+            intake=intake,
+            eligibility=eligibility,
+            recommended_matches=recommended_matches,
+            fallback_checklist=checklist_by_program,
+            fallback_next_steps=next_steps,
+            fallback_explanation=explanation,
+            fallback_caveats=visible_caveats,
+        )
+        if llm_content:
+            checklist_by_program = llm_content.get("checklist_by_program", checklist_by_program)
+            next_steps = llm_content.get("next_steps", next_steps)
+            explanation = llm_content.get("plain_language_explanation", explanation)
+            visible_caveats = llm_content.get("visible_caveats", visible_caveats)
 
     final_status = (
         "needs_human_followup"
-        if intake.contradictory_fields
+        if _requires_human_followup(intake)
         else "delivered_with_uncertainty"
         if eligibility.decision_status == "ambiguous"
         else "delivered"
@@ -71,6 +72,12 @@ def _base_visible_caveats(intake: IntakeOutput, eligibility: EligibilityOutput, 
         "This is not an official determination.",
     ]
     visible_caveats.extend(eligibility.uncertainty_flags)
+    if _is_out_of_scope(intake):
+        visible_caveats.append("This prototype currently supports Allegheny County households only.")
+    if intake.contradictory_fields:
+        visible_caveats.append("Conflicting intake details must be resolved before relying on this prescreen.")
+    if intake.missing_fields:
+        visible_caveats.append(f"Key details are still missing: {', '.join(intake.missing_fields)}.")
     for match in recommended_matches:
         visible_caveats.extend(match.caveats[:2])
     return _dedupe(visible_caveats)
@@ -90,6 +97,16 @@ def _build_evidence_quotes(recommended_matches) -> list[str]:
 
 def _build_next_steps(intake: IntakeOutput, eligibility: EligibilityOutput) -> list[str]:
     steps = []
+    if _is_out_of_scope(intake):
+        steps.append("This prototype supports Allegheny County households only.")
+        steps.append("Contact the local county assistance office or a human caseworker in the household's county.")
+        steps.append("Do not rely on this prescreen for out-of-county eligibility decisions.")
+        return _dedupe(steps)
+    if intake.contradictory_fields:
+        steps.append("Resolve the contradictory intake details before relying on this prescreen.")
+        steps.append(f"Conflicting details: {', '.join(intake.contradictory_fields)}.")
+        steps.append("Update the household facts, then rerun the prescreen or review with a caseworker.")
+        return _dedupe(steps)
     if eligibility.recommended_programs:
         steps.append("Review the recommended programs in the order shown and compare each one against the retrieved policy sections.")
     else:
@@ -97,7 +114,8 @@ def _build_next_steps(intake: IntakeOutput, eligibility: EligibilityOutput) -> l
     if intake.extracted_signals:
         steps.append("Confirm the structured intake fields extracted from the household description before relying on the ranking.")
     if intake.missing_fields:
-        steps.append(f"Clarify missing intake details: {', '.join(intake.missing_fields)}.")
+        steps.append(f"Gather or confirm these missing details: {', '.join(intake.missing_fields)}.")
+        steps.append("The most important missing information is the evidence that would change program fit or income screening.")
     if intake.contradictory_fields:
         steps.append("Resolve contradictory intake details before relying on this prescreen.")
     if eligibility.decision_status == "ambiguous":
@@ -109,7 +127,25 @@ def _build_next_steps(intake: IntakeOutput, eligibility: EligibilityOutput) -> l
 
 def _build_explanation(intake: IntakeOutput, matches, eligibility: EligibilityOutput) -> str:
     intro = "This upgraded navigator turns the household description into structured intake fields, then ranks programs using retrieved local policy evidence."
+    if _is_out_of_scope(intake):
+        return (
+            "This prototype currently supports Allegheny County households only. "
+            "The household appears to be outside that supported geography, so the system is stopping before normal recommendations. "
+            "Use county-specific official resources or a human caseworker before relying on any benefits prescreen."
+        )
+    if intake.contradictory_fields:
+        return (
+            f"{intro} The current intake contains contradictory core details ({', '.join(intake.contradictory_fields)}), "
+            "so the system is withholding normal actionable recommendations. "
+            "Please resolve the contradiction and rerun the prescreen before relying on any eligibility guidance."
+        )
     if not matches:
+        if intake.missing_fields:
+            return (
+                f"{intro} The system is not making a normal recommendation because key details are still missing "
+                f"({', '.join(intake.missing_fields)}). "
+                "Gathering those facts will most affect whether the prescreen can safely estimate program fit."
+            )
         return (
             f"{intro} Based on the information currently available, no clear program match stood out strongly enough to recommend. "
             "That does not mean the household is ineligible; it means the current profile and retrieved evidence did not produce a strong enough match."
@@ -133,6 +169,23 @@ def _build_explanation(intake: IntakeOutput, matches, eligibility: EligibilityOu
             pieces.append(f"Retrieved evidence for {match.program_name} highlights the section '{section}': {top_chunk.text}")
     pieces.append("Treat this as a guided prescreen and next-step summary, not a final eligibility decision.")
     return " ".join(pieces)
+
+
+def _is_out_of_scope(intake: IntakeOutput) -> bool:
+    county = (intake.normalized_profile.county or "").strip().lower()
+    return bool(county) and county != "allegheny"
+
+
+def _requires_human_followup(intake: IntakeOutput) -> bool:
+    return _is_out_of_scope(intake) or bool(intake.contradictory_fields)
+
+
+def _should_use_llm_explanation(intake: IntakeOutput, eligibility: EligibilityOutput) -> bool:
+    if _requires_human_followup(intake):
+        return False
+    if intake.intake_status == "insufficient_data" and not eligibility.recommended_programs:
+        return False
+    return True
 
 
 def _generate_explanation_with_llm(

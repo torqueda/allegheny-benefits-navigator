@@ -12,6 +12,8 @@ def run_navigator(raw_input: dict, *, selected_programs: list[str] | None = None
     eligibility = run_eligibility_and_prioritization(
         intake.normalized_profile,
         intake.intake_status,
+        missing_fields=intake.missing_fields,
+        contradictory_fields=intake.contradictory_fields,
         selected_programs=selected_programs,
     )
     explanation = run_checklist_and_explanation(intake, eligibility)

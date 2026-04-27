@@ -25,8 +25,10 @@ Intake Agent → Eligibility Agent (RAG + Rule Cross-Check) → Explanation Agen
 ```
 
 - **Intake Agent** — extracts structured profile from free-text narrative; triggers clarification chat when required fields are missing
-- **Eligibility Agent** — retrieves policy chunks per program, scores with LLM, cross-checks against deterministic rule engine; outputs `decision_status: ready_for_explanation` (agree) or `ambiguous` (disagree)
+- **Eligibility Agent** — retrieves policy chunks per program, scores with LLM, cross-checks against deterministic rule engine, ranks recommended programs for review, and outputs `decision_status: ready_for_explanation` when intake is complete and all recommended programs are `strong_match` or `ambiguous` when intake is incomplete or any recommended program remains `possible_match`
 - **Explanation Agent** — generates plain-language summary, next steps, checklist, and caveats with policy section citations
+
+Priority order is the order in which the navigator suggests a user review recommended programs first. It is a triage/review order based on likely applicability, program-profile fit, immediate hardship urgency, and uncertainty-aware screening signals. Missing or contradictory evidence should increase caveats or human follow-up, not create overconfident ranking. It is not an official statement of legal eligibility certainty, benefit amount, or application difficulty.
 
 See [`docs/pipeline_diagram.png`](docs/pipeline_diagram.png) for a visual overview.
 
@@ -36,14 +38,18 @@ See [`docs/pipeline_diagram.png`](docs/pipeline_diagram.png) for a visual overvi
 
 | Outcome | Count |
 |---|---|
-| PASS | 7 |
-| PARTIAL | 2 |
-| FAIL | 1 |
+| PASS | 6 |
+| FAIL | 4 |
 
-Known open failures:
-- **FAILURE-01** — Out-of-county input not detected (Philadelphia case processed as Allegheny)
-- **FAILURE-02** — Contradictory structured inputs not explicitly challenged
-- **FAILURE-03** — Graceful degradation produces minimal output when income withheld
+The checked-in `eval/evaluation_results.csv` reflects the latest completed evaluation run with the current best configuration and records 6 PASS / 4 FAIL. Evaluation still treats eligibility correctness as the primary criterion and uses priority order only as limited directional evidence, not as an exact full-ranking requirement.
+
+Current governance status and remaining limitations:
+- **GOV-01** — Out-of-county input is now stopped before normal recommendation flow (`AGENT_10` PASS)
+- **GOV-02** — Contradictory intake is now suppressed as actionable output and passes the current evaluation package (`AGENT_08` PASS)
+- **LIMIT-01** — The no-match guardrail still regresses on the high-income insured adult case (`AGENT_02`)
+- **LIMIT-02** — The pregnancy pathway case still misranks priority and misses a key explanation term (`AGENT_03`)
+- **LIMIT-03** — Graceful degradation remains conservative and safe, but `AGENT_06` still misses expected intake-state and missing-field detail
+- **LIMIT-04** — The uninsured-children case still over-prioritizes LIHEAP ahead of health coverage in the current run (`AGENT_07`)
 
 See [`eval/evaluation_results.csv`](eval/evaluation_results.csv) and [`eval/failure_log.md`](eval/failure_log.md) for full details.
 
@@ -72,7 +78,7 @@ docs/
     screenshot_index.md         Index describing each screenshot
 eval/
   evaluation_results.csv        10-case evaluation results
-  failure_log.md                Bug fixes and known failure analysis
+  failure_log.md                Fixed issues and known limitation analysis
   version_notes.md              Phase 3 changelog from Phase 2 prototype
 media/
   demo_video_link.txt           Link to 5-minute demo video

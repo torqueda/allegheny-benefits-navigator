@@ -35,6 +35,10 @@ It adds two new supporting capabilities:
 - ranks likely matches
 - marks uncertainty when evidence is incomplete or contradictory
 
+Priority order is the order in which the navigator suggests a user review recommended programs first. It is based mainly on how likely the household appears to match each program and secondarily on immediate hardship signals such as food need, health coverage need, or heating need. It is a triage heuristic for follow-up, not an official statement of legal urgency, benefit amount, or application difficulty.
+
+In practice, ranking is influenced by urgency and hardship signals, likely applicability, program profile fit, practical next-step value, and uncertainty handling. Missing or contradictory evidence should increase caveats or human follow-up rather than create overconfident ranking. See `docs/PRIORITY_HEURISTIC.md` for the reviewer-facing definition and evaluation note.
+
 ### 4. Checklist + Explanation Agent
 
 - generates next steps and checklist items

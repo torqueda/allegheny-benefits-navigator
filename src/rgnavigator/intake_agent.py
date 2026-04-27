@@ -24,6 +24,9 @@ NON_ANSWER_MARKERS = {
     "prefer not to say",
 }
 
+SUPPORTED_COUNTY = "Allegheny"
+OUT_OF_SCOPE_COUNTY_MARKER = "Outside Supported Geography"
+
 
 def _project_root() -> Path:
     return Path(__file__).resolve().parents[2]
@@ -48,9 +51,12 @@ def run_intake(raw_input: dict) -> IntakeOutput:
     contradictory_fields = _detect_contradictions(profile)
     questions = _build_clarification_questions(profile, missing_fields, contradictory_fields, normalized)
 
-    if profile.county and profile.county != "Allegheny":
+    if _is_out_of_scope_county(profile.county):
         status = "insufficient_data"
-        questions.append("This demo currently focuses on Allegheny County households. If this household is outside Allegheny County, you can stop here or continue just for a rough prototype walkthrough.")
+        questions.append(
+            "This prototype currently supports Allegheny County households only. "
+            "Please rely on local county-specific resources or a human caseworker before using this prescreen."
+        )
     elif not missing_fields and not contradictory_fields:
         status = "complete"
     elif len(missing_fields) + len(contradictory_fields) <= 2:
@@ -144,13 +150,18 @@ def _extract_from_description(description: str | None) -> dict:
     text = description.lower()
     extracted: dict = {"user_description": description}
 
-    if "allegheny" in text or "pittsburgh" in text:
-        extracted["county"] = "Allegheny"
+    county = _extract_county_from_text(text)
+    if county:
+        extracted["county"] = county
 
     adults = _extract_people_count(text, "adult")
     if adults is not None:
         extracted["num_adults"] = adults
     elif "single adult" in text or "single person" in text:
+        extracted["num_adults"] = 1
+    elif any(phrase in text for phrase in ("with my husband", "with my wife", "with my spouse", "with my partner")):
+        extracted["num_adults"] = 2
+    elif any(phrase in text for phrase in ("by myself", "live alone", "i live alone", "alone")):
         extracted["num_adults"] = 1
 
     children = _extract_people_count(text, "child")
@@ -158,25 +169,49 @@ def _extract_from_description(description: str | None) -> dict:
         extracted["num_children"] = children
     elif "no children" in text:
         extracted["num_children"] = 0
+    elif any(phrase in text for phrase in ("with my son", "with my daughter", "my son.", "my daughter.")):
+        extracted["num_children"] = 1
+    elif any(phrase in text for phrase in ("by myself", "live alone", "i live alone", "alone")):
+        extracted["num_children"] = 0
 
-    income_match = re.search(r"\$?\s*([0-9]{3,5})(?:\s*(?:/|per)?\s*month|\s*monthly)", text)
+    if extracted.get("num_adults") is None and ("i live" in text or text.startswith("i am")):
+        extracted["num_adults"] = 1
+
+    income_match = re.search(r"\$?\s*([0-9]{3,5})(?:\s*(?:/|per|a)?\s*month|\s*monthly)", text)
     if income_match:
         extracted["household_income_total"] = float(income_match.group(1))
+    else:
+        contextual_income_match = re.search(
+            r"\$?\s*([0-9]{3,5})(?:[^.\n]{0,40})\b(?:income|unemployment|child support|wages|earned income|benefits)\b",
+            text,
+        )
+        if contextual_income_match:
+            extracted["household_income_total"] = float(contextual_income_match.group(1))
+    if "zero earned income" in text or "0 earned income" in text:
+        extracted["monthly_earned_income"] = 0.0
 
     if any(phrase in text for phrase in ("uninsured", "no insurance", "without insurance")):
         extracted["insurance_status"] = "uninsured"
+    elif any(phrase in text for phrase in ("do not have health insurance", "do not have insurance", "kids do not have health insurance")):
+        extracted["insurance_status"] = "uninsured"
+    elif any(phrase in text for phrase in ("insured through", "i have insurance", "we have insurance")):
+        extracted["insurance_status"] = "insured"
     elif "underinsured" in text:
         extracted["insurance_status"] = "underinsured"
+    elif "plan is expensive" in text or "coverage is expensive" in text:
+        extracted["insurance_status"] = "underinsured"
 
-    if any(phrase in text for phrase in ("struggling to afford groceries", "food insecurity", "can't afford food", "cannot afford food")):
+    if any(phrase in text for phrase in ("struggling to afford groceries", "food insecurity", "can't afford food", "cannot afford food", "struggling with food", "cutting back on food")):
         extracted["food_insecurity_signal"] = "clear"
+    elif any(phrase in text for phrase in ("trouble buying groceries",)):
+        extracted["food_insecurity_signal"] = "possible"
     elif any(word in text for word in ("groceries", "food pantry", "food bank", "food hardship")):
         extracted["food_insecurity_signal"] = "possible"
 
-    if any(phrase in text for phrase in ("past-due gas bill", "behind on my gas bill", "shutoff", "utility burden", "overdue utility")):
+    if any(phrase in text for phrase in ("past-due gas bill", "behind on my gas bill", "behind on our gas bill", "behind on our heating bill", "running out of heating fuel", "shutoff", "utility burden", "overdue utility", "shutoff notice")):
         extracted["utility_burden"] = "high"
         extracted["heating_assistance_need"] = True
-    elif any(word in text for word in ("gas bill", "heating bill", "utility bill", "heating cost", "cold spell")):
+    elif any(word in text for word in ("gas bill", "heating bill", "utility bill", "heating cost", "cold spell", "heating fuel")):
         extracted["utility_burden"] = "medium"
 
     if any(phrase in text for phrase in ("lost my job", "laid off", "job loss", "hours cut", "lost work hours", "working limited part-time hours")):
@@ -195,6 +230,21 @@ def _extract_from_description(description: str | None) -> dict:
         extracted["child_under_5"] = True
 
     return extracted
+
+
+def _extract_county_from_text(text: str) -> str | None:
+    if any(phrase in text for phrase in ("outside allegheny county", "outside allegheny", "not in allegheny county")):
+        return OUT_OF_SCOPE_COUNTY_MARKER
+
+    county_match = re.search(r"\b([a-z]+)\s+county\b", text)
+    if county_match:
+        return county_match.group(1).title()
+
+    if "allegheny" in text or "pittsburgh" in text:
+        return SUPPORTED_COUNTY
+    if "philadelphia" in text:
+        return "Philadelphia"
+    return None
 
 
 def _extract_with_llm(normalized_input: dict) -> dict:
@@ -285,7 +335,13 @@ def _extract_with_llm(normalized_input: dict) -> dict:
 
 
 def _extract_people_count(text: str, noun: str) -> int | None:
-    digit_match = re.search(rf"(\d+)\s+{noun}s?\b", text)
+    noun_patterns = {
+        "adult": r"(?:adult|adults)",
+        "child": r"(?:child|children|kid|kids)",
+    }
+    noun_pattern = noun_patterns.get(noun, rf"{noun}s?")
+
+    digit_match = re.search(rf"(\d+)\s+{noun_pattern}\b", text)
     if digit_match:
         return int(digit_match.group(1))
     word_map = {
@@ -297,7 +353,7 @@ def _extract_people_count(text: str, noun: str) -> int | None:
         "six": 6,
     }
     for word, value in word_map.items():
-        if f"{word} {noun}" in text or f"{word} {noun}s" in text:
+        if re.search(rf"\b{word}\s+{noun_pattern}\b", text):
             return value
     return None
 
@@ -352,6 +408,8 @@ def _build_intake_summary(
         pieces.append("Utility or heating strain is present in the intake.")
     if profile.insurance_status:
         pieces.append(f"Insurance status is reported as {profile.insurance_status}.")
+    if _is_out_of_scope_county(profile.county):
+        pieces.append("The household appears to be outside the Allegheny County scope supported by this prototype.")
     if missing_fields:
         pieces.append(f"Missing fields: {', '.join(missing_fields)}.")
     if contradictory_fields:
@@ -373,6 +431,8 @@ def _build_extracted_signals(profile: UserIntake, description: str | None, *, ll
         signals.append("coverage_need_detected")
     if profile.recent_job_loss:
         signals.append("income_disruption_detected")
+    if _is_out_of_scope_county(profile.county):
+        signals.append("out_of_scope_geography_detected")
     return signals
 
 
@@ -497,3 +557,12 @@ def _generate_clarification_questions_with_llm(
         if text not in cleaned:
             cleaned.append(text)
     return cleaned[:3]
+
+
+def _is_out_of_scope_county(county: str | None) -> bool:
+    if not county:
+        return False
+    normalized = county.strip().lower()
+    if not normalized:
+        return False
+    return normalized != SUPPORTED_COUNTY.lower()

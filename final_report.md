@@ -44,9 +44,9 @@ For each program in scope (SNAP, Medicaid/CHIP, LIHEAP, plus any user-uploaded p
 1. **RAG retrieval** — generates a program-specific query from the intake profile, retrieves the top-k most relevant policy chunks from the local vector index using cosine similarity against OpenAI `text-embedding-3-small` embeddings
 2. **LLM scoring** — `gpt-4o-mini` scores eligibility (`strong_match` / `possible_match` / `no_clear_match`) using the retrieved chunks as grounding context, and produces a rationale with policy section citations
 3. **Rule cross-check** — a deterministic scoring function applies explicit thresholds from `program_profiles.json` (income limits, household size, special conditions)
-4. **Hybrid decision** — if LLM and rules agree → `ready_for_explanation`; if they disagree → `ambiguous`
+4. **Decision status** — `ready_for_explanation` when intake is complete and all recommended programs are `strong_match`; `ambiguous` when intake is incomplete or any recommended program remains `possible_match`
 
-Programs are then ranked by `priority_score` (a composite of match score, rule score, and retrieval signal strength).
+Priority order is the order in which the navigator suggests a user review recommended programs first. It is a triage/review order based on likely applicability, program-profile fit, immediate hardship urgency, and uncertainty-aware screening signals. Missing or contradictory evidence should increase caveats or human follow-up, not create overconfident ranking. It is not an official statement of legal eligibility certainty, benefit amount, or application difficulty.
 
 ### 2.3 Explanation Agent
 
@@ -70,7 +70,7 @@ Fallback: template-rendered output when no API key is present.
 
 **Per-program RAG queries** — each program generates its own targeted retrieval query rather than sharing a single query across all programs. This prevents Medicaid-specific policy text from contaminating SNAP or LIHEAP scoring.
 
-**Hybrid cross-check** — rather than trusting the LLM alone, every eligibility decision is independently scored by a deterministic rule engine. Disagreements are surfaced explicitly as `ambiguous` rather than hidden. This limits false positives in a high-stakes context.
+**Hybrid cross-check** — rather than trusting the LLM alone, every eligibility decision is independently scored by a deterministic rule engine. Missing or contradictory evidence is meant to surface as caveats, `possible_match` outcomes, or human-followup signals rather than as overconfident ranking. This limits false positives in a high-stakes context.
 
 **Incremental indexing** — early versions rebuilt the entire vector index on every document upload. Phase 3 replaced this with `append_document_to_policy_index()`, which embeds only the new document's chunks and appends them — making uploads fast even with a large existing corpus.
 
@@ -97,62 +97,97 @@ Fallback: template-rendered output when no API key is present.
 
 10 evaluation cases covering: standard success cases (complete intake, clear program match), multi-turn intake cases (income withheld initially), edge cases (pregnancy pathway, children-only coverage), and failure cases (missing income, contradictory data, out-of-county input).
 
-Each case was run through the live application and evaluated against expected behavior: whether intake completed correctly, whether the right programs were recommended, and whether the decision status accurately reflected system confidence.
+Each case was run through the live application and evaluated against expected behavior: whether intake completed correctly, whether the right programs were recommended, and whether the decision status accurately reflected system confidence. The evaluator treats eligibility correctness separately from priority-order limitations: recommended-program correctness is primary, while priority order is checked only directionally through limited acceptable top-priority sets rather than exact full-ranking matches.
 
 ### 4.2 Results Summary
 
 | Case | Type | Outcome | Decision Status |
 |---|---|---|---|
 | AGENT_01 | success | PASS | ambiguous |
-| AGENT_02 | success | PASS | ready_for_explanation |
-| AGENT_03 | edge | PASS | ambiguous |
+| AGENT_02 | success | FAIL | ambiguous |
+| AGENT_03 | edge | FAIL | ambiguous |
 | AGENT_04 | success (multi-turn) | PASS | ambiguous |
 | AGENT_05 | success (multi-turn) | PASS | ambiguous |
-| AGENT_06 | failure (missing income) | PARTIAL | ambiguous |
-| AGENT_07 | success | PASS | ambiguous |
-| AGENT_08 | failure (contradictory data) | PARTIAL | ambiguous |
+| AGENT_06 | failure (missing income) | FAIL | ambiguous |
+| AGENT_07 | success | FAIL | ambiguous |
+| AGENT_08 | failure (contradictory data) | PASS | ambiguous |
 | AGENT_09 | success | PASS | ambiguous |
-| AGENT_10 | failure (out-of-county) | FAIL | ambiguous |
+| AGENT_10 | failure (out-of-county) | PASS | ambiguous |
 
-**7 PASS / 2 PARTIAL / 1 FAIL**
+**6 PASS / 4 FAIL**
 
-`decision_status: ambiguous` appearing on most PASS cases is expected and correct behavior — it indicates that the LLM and rule engine scored programs differently in confidence level, not that the recommendation itself is wrong. The hybrid architecture is conservative by design.
+The checked-in `eval/evaluation_results.csv` reflects the latest completed evaluation run with the current best configuration. `AGENT_01`, `AGENT_04`, `AGENT_05`, `AGENT_08`, `AGENT_09`, and `AGENT_10` now pass, while the remaining failures cluster around one no-match guardrail case, one incomplete-intake detail case, and two reviewer-facing priority or explanation alignment cases rather than exact legal eligibility determination.
 
 ### 4.3 Notable findings
 
-- AGENT_02 cleanly returned `no_clear_match` for all programs on a high-income insured adult — the key test that the system avoids false positives. Both LLM and rules agreed, producing `ready_for_explanation`.
-- AGENT_04 demonstrated correct multi-turn behavior: pipeline held back after Turn 1 (missing income), asked clarifying questions, and ran successfully after Turn 2.
-- AGENT_03 correctly identified the pregnancy-specific Medicaid pathway even for an insured household — a non-obvious eligibility edge case.
+- AGENT_10 is the clearest governance improvement from the recent patch: the out-of-county case now stops before normal recommendation flow and passes evaluation.
+- AGENT_08 is now aligned with the intended safety behavior: contradictory intake suppresses normal actionable recommendations, returns `needs_human_followup`, and passes the current evaluation package.
+- AGENT_02 remains the clearest false-positive regression in the checked-in run: the system still recommends programs on a case that should produce a clean no-match outcome.
+- AGENT_03 and AGENT_07 now stand out as the clearest remaining reviewer-facing priority-order misses.
 
 ---
 
 ## 5. Failure Analysis
 
-### FAILURE-01 — Out-of-County Case Not Detected (AGENT_10) — Severity: High
+### GOV-01 — Out-of-County Inputs Now Stop Before Normal Recommendations (AGENT_10) — Severity: Mitigated
 
-A Philadelphia household description was accepted and processed without any warning. The system returned `strong_match` for Medicaid/CHIP — results that may not reflect Philadelphia County program rules or offices. County field defaults to Allegheny if not explicitly set; there is no validation step that checks whether the county is within scope.
+A Philadelphia household description is now flagged as outside the supported county scope, and the runtime stops before normal recommendation flow.
 
-**Root cause:** No county boundary check in intake agent. The intake schema accepts `county` as a free-text field but does not validate it against a list of supported counties.
+**Root cause before the patch:** Intake scope detection existed, but the pipeline did not short-circuit after that warning.
 
-**Mitigation in current version:** Output includes disclaimer "This is prescreening only. It is not an official eligibility determination." — but no county-specific warning.
+**Current behavior:** Intake marks the case `insufficient_data`, the final response is `needs_human_followup`, and the system withholds normal recommendations and normal `priority_order`. This case now passes the evaluator.
 
-**Planned fix:** Add explicit county check in intake agent. If county is outside Allegheny, surface a warning before running the pipeline rather than silently continuing.
+**Remaining risk:** Unsupported geography phrased in ways the intake parser misses could still evade the guard.
 
-### FAILURE-02 — Contradictory Data Not Challenged (AGENT_08) — Severity: Medium
+### GOV-02 — Contradictory Core Intake Is Suppressed Before Actionable Recommendations (AGENT_08) — Severity: Mitigated
 
-A user reported full-time employment with zero earned income this month. The intake agent flagged `needs_clarification` but the pipeline ran anyway. The cross-check diverged on program scores and produced `ambiguous` output, but no message explained to the user what the contradiction was or asked them to resolve it.
+A user reported full-time employment with zero earned income this month. The runtime now preserves the contradiction, suppresses normal actionable recommendations, and surfaces `needs_human_followup`.
 
-**Root cause:** Contradiction detection is not implemented in the intake normalization step. The LLM extracts fields independently and does not compare them for consistency.
+**Root cause before the patch:** The pipeline could continue into recommendations even when core income and employment evidence conflicted.
 
-**Planned fix:** Add explicit contradiction detection in intake agent (e.g., `employment_status == full_time AND earned_income == 0`) that halts the pipeline and generates a targeted resolution prompt.
+**Current behavior:** The evaluator now records this case as PASS because contradiction handling suppresses normal recommendations until the conflict is resolved.
 
-### FAILURE-03 — Graceful Degradation Produces Unhelpful Output (AGENT_06) — Severity: Low
+**Remaining risk:** Other contradiction patterns may still need explicit coverage in intake validation.
 
-When the user declined to share income after two turns, the system correctly reached `insufficient_data` status and did not produce false program matches. However, the output to the user was nearly empty — no actionable guidance, no suggested alternative paths (e.g., "contact a local caseworker").
+### LIMIT-01 — Clear No-Match Guardrail Still Regresses on a High-Income Insured Adult (AGENT_02) — Severity: High
 
-**Root cause:** Explanation agent has no fallback template for `insufficient_data` cases. It renders minimal output because no program matches are present to explain.
+The high-income insured adult case should return a clean no-match result, but the current run still surfaces `Medicaid/CHIP`, `LIHEAP`, and `SNAP` as `possible_match` recommendations.
 
-**Planned fix:** Add a fallback guidance block for `insufficient_data` that surfaces general next steps regardless of whether program matches exist.
+**Root cause:** The current scoring and retrieval path still produces false-positive secondary match signals on this guardrail case.
+
+**Current behavior:** The evaluator still marks this case FAIL because `SNAP` and `LIHEAP` should not be recommended here.
+
+**Remaining risk:** This remains the clearest false-positive risk in the current best run.
+
+### LIMIT-02 — Pregnancy Pathway Case Still Misranks Priority and Misses Explanation Detail (AGENT_03) — Severity: Medium
+
+The pregnancy-specific health coverage case still fails because `LIHEAP` is ranked first, secondary programs are over-surfaced, and the explanation misses the term `pregnancy`.
+
+**Root cause:** The current ranking and explanation path still underweights the pregnancy-specific Medicaid pathway and over-surfaces secondary programs.
+
+**Current behavior:** The evaluator still marks the case FAIL because `Medicaid/CHIP` should be the primary review candidate in this scenario.
+
+**Remaining risk:** This is the clearest remaining priority-order limitation in the current best run.
+
+### LIMIT-03 — Graceful Degradation Is Safe but Still Misses Expected Detail (AGENT_06) — Severity: Low
+
+When the user declined to share income after two turns, the system correctly avoided false program matches and returned caveated fallback guidance. The remaining gap is that the evaluator still sees the case as under-specified.
+
+**Root cause:** Intake still stays at `needs_clarification` and omits `num_adults` from `missing_fields`, while the reviewer expectation for this case is `insufficient_data` plus a fuller missing-field list.
+
+**Current behavior:** The evaluator still marks the case FAIL even though the runtime remains conservative and suppresses normal recommendations.
+
+**Remaining risk:** The safe degradation path is better than before, but intake-state and missing-field detail remain inconsistent.
+
+### LIMIT-04 — Uninsured-Children Case Still Over-Prioritizes LIHEAP Ahead of Health Coverage (AGENT_07) — Severity: Medium
+
+The uninsured-children case still recommends `LIHEAP`, `SNAP`, and `Medicaid/CHIP`, but the evaluator rejects the ordering because `LIHEAP` is ranked first instead of `Medicaid/CHIP` or `SNAP`.
+
+**Root cause:** The current priority heuristic still overweights a secondary hardship signal relative to the health-coverage need in this scenario.
+
+**Current behavior:** The evaluator still marks this case FAIL because the review order does not match the intended triage emphasis for uninsured children.
+
+**Remaining risk:** This remains a reviewer-facing priority-order miss even though the program set itself is otherwise plausible.
 
 ---
 
@@ -171,12 +206,12 @@ When the user declined to share income after two turns, the system correctly rea
 
 ## 7. Lessons Learned
 
-**Hybrid scoring is worth the complexity.** Running a deterministic rule engine alongside the LLM and surfacing disagreements as `ambiguous` — rather than just trusting the LLM — caught several cases where the LLM was overconfident on borderline incomes. The cross-check adds latency but meaningfully reduces false positives.
+**Hybrid scoring is worth the complexity.** Running a deterministic rule engine alongside the LLM and surfacing uncertainty through `possible_match`, caveats, and human-followup signaling — rather than just trusting the LLM — caught several cases where the system would otherwise be too confident. The cross-check adds latency but meaningfully reduces false positives.
 
 **Per-program retrieval prevents cross-contamination.** When we used a single shared retrieval query, Medicaid-specific sections were being retrieved and used to score SNAP eligibility. Moving to program-specific queries, each generated from the intake profile and program context, significantly improved the relevance of cited policy sections.
 
 **Multi-turn intake works but needs better failure guidance.** The clarification chat correctly held the pipeline back when income was missing and successfully resolved the case after a second turn. The failure mode — when the user refuses to share income entirely — produces safe but unhelpful output. Graceful degradation needs a richer fallback path.
 
-**Intake-level validation gaps are high-risk.** The out-of-county failure (FAILURE-01) is not a retrieval or scoring problem — it is an input validation problem. The system accepted a Philadelphia address and ran as if it were Allegheny County. Boundary checks need to happen before the pipeline runs, not after.
+**Intake-level validation gaps are high-risk.** The out-of-county case showed that a governance issue can sit outside retrieval and scoring entirely. The recent patch fixed the direct AGENT_10 failure by stopping normal recommendation flow, but it also highlighted how much of the remaining evaluation drift now lives in fallback extraction and state-setting rather than in ranking alone.
 
 **Index management needs attention at scale.** Early versions rebuilt the full 2,191-chunk vector index on every document upload. This was too slow for a live demo. The switch to incremental appending (embed only new chunks, append to existing index) made uploads instant — but it also means the index can accumulate stale or duplicate entries if documents are re-uploaded. Version tracking for the index is a future need.

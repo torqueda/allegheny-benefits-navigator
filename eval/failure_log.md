@@ -2,7 +2,7 @@
 
 ## Overview
 
-This file is the canonical Phase 3 failure analysis for final submission.
+This file is the canonical Phase 3 failure analysis for the checked-in Phase 3 evaluation package.
 
 Artifact roles for the evaluation package:
 - `eval/test_cases.csv`: canonical reviewer-facing test cases
@@ -12,57 +12,123 @@ Artifact roles for the evaluation package:
 - `data/agent_test_cases.json`: internal runner/demo fixture
 - `data/evaluation_results_phase3.json`: raw internal runner output
 
-The current canonical result set passes all 10 evaluation cases, including failure and boundary scenarios. This log therefore focuses on remaining behavioral limitations surfaced by those cases rather than on obsolete PASS/PARTIAL/FAIL packaging from older runs.
+The checked-in `eval/evaluation_results.csv` reflects the latest completed evaluation run with the current best configuration. That run produced 6 PASS / 4 FAIL across 10 total cases. Evaluation still treats eligibility correctness separately from priority-order limitations, so this log distinguishes behavior now intentionally handled by governance controls from limitations that remain open in the current runtime.
+
+Priority order is the order in which the navigator suggests a user review recommended programs first. It is based mainly on how likely the household appears to match each program and secondarily on immediate hardship signals such as food need, health coverage need, or heating need. It is a triage heuristic for follow-up, not an official statement of legal urgency, benefit amount, or application difficulty.
+
+Ranking is additionally shaped by program profile fit, practical next-step value, and uncertainty handling. Missing or contradictory evidence should increase caveats or human follow-up rather than create overconfident ranking.
 
 ---
 
-## Open Limitations Observed in Evaluation
+## Behavior Now Intentionally Handled by Governance Controls
 
-### LIMIT-01 — Out-of-County Inputs Are Detected but Not Hard-Stopped (AGENT_10)
+### GOV-01 — Out-of-County Inputs Stop Before Normal Recommendations (AGENT_10)
 
 | Field | Detail |
 |---|---|
-| **limitation_id** | LIMIT-01 |
+| **failure_id** | GOV-01 |
 | **date_reviewed** | 2026-04-26 |
-| **case** | AGENT_10 (`outside_county_boundary`) |
-| **current_behavior** | Intake correctly marks the case `insufficient_data` and adds an Allegheny-only warning for a Philadelphia household. The downstream pipeline may still continue into a caveated prototype walkthrough and surface recommended programs. |
-| **why_it_matters** | Users outside Allegheny County can still see recommendations that are not intended as county-specific determinations. |
+| **case_id** | AGENT_10 (`outside_county_boundary`) |
+| **trigger** | User reports a household outside Allegheny County. |
+| **what_happened** | Intake marks the case `insufficient_data`, the final response is `needs_human_followup`, and the runtime withholds normal recommendations and normal `priority_order` output. The evaluator now records this case as PASS. |
+| **why_it_happened** | The recent behavior patch added an out-of-scope guard that stops normal recommendation flow for unsupported geography. |
+| **why_it_matters** | Users outside Allegheny County now get an explicit scope boundary instead of a misleading county-specific prescreen. |
+| **severity** | Medium before the patch; now mitigated by governance control |
+| **current_evaluation_status** | PASS in the current checked-in evaluation run. |
+| **fix_attempted_or_mitigation_added** | The pipeline now returns an Allegheny-only scope message and suppresses normal recommendations for clearly out-of-county households. |
+| **current_status** | Resolved in the current runtime for the evaluated out-of-county case. Residual risk remains for unsupported geography phrased in ways the intake parser may still miss. |
+
+---
+
+### GOV-02 — Contradictory Core Intake Is Suppressed Before Actionable Recommendations (AGENT_08)
+
+| Field | Detail |
+|---|---|
+| **failure_id** | GOV-02 |
+| **date_reviewed** | 2026-04-26 |
+| **case_id** | AGENT_08 (`contradictory_data_cross_check`) |
+| **trigger** | User reports conflicting employment and earned-income facts. |
+| **what_happened** | Intake preserves the contradiction, the final response is `needs_human_followup`, and the runtime suppresses normal actionable recommendations until the contradiction is resolved. The evaluator now records this case as PASS. |
+| **why_it_happened** | The recent behavior patch added contradiction-aware suppression so unresolved core evidence conflicts do not continue into a normal actionable prescreen. |
+| **why_it_matters** | Users now receive a safer clarification-first response instead of recommendations presented as ready to act on. |
+| **severity** | Medium before the patch; now mitigated by governance control |
+| **current_evaluation_status** | PASS in the current checked-in evaluation run. |
+| **fix_attempted_or_mitigation_added** | Contradictions now trigger `needs_human_followup`, preserve the contradiction in structured output, and suppress normal actionable recommendations. |
+| **current_status** | Resolved in the current runtime for the evaluated contradiction case. Residual risk remains for contradiction patterns not yet covered by the current intake checks. |
+
+---
+
+## Still-Open Limitations Observed in Evaluation
+
+### LIMIT-01 — Clear No-Match Guardrail Still Regresses on a High-Income Insured Adult (AGENT_02)
+
+| Field | Detail |
+|---|---|
+| **failure_id** | LIMIT-01 |
+| **date_reviewed** | 2026-04-26 |
+| **case_id** | AGENT_02 (`high_income_no_match`) |
+| **trigger** | User reports a high-income insured adult household with needs outside the supported benefit set. |
+| **what_happened** | The runtime still recommends `Medicaid/CHIP`, `LIHEAP`, and `SNAP` instead of returning a clean no-match result. |
+| **why_it_happened** | The current scoring and retrieval path still produces false-positive `possible_match` signals on this guardrail case. |
+| **why_it_matters** | This remains the clearest false-positive regression in the current checked-in run. |
+| **severity** | High |
+| **current_evaluation_status** | FAIL in the current checked-in evaluation run. |
+| **fix_attempted_or_mitigation_added** | No direct fix landed in the recent governance patch; that patch focused on unsafe recommendation suppression for out-of-scope and contradictory cases. |
+| **current_status** | Open. This remains the clearest false-positive regression in the current checked-in run. |
+
+---
+
+### LIMIT-02 — Pregnancy Pathway Case Still Misranks Priority and Misses Explanation Detail (AGENT_03)
+
+| Field | Detail |
+|---|---|
+| **failure_id** | LIMIT-02 |
+| **date_reviewed** | 2026-04-26 |
+| **case_id** | AGENT_03 (`pregnancy_pathway_edge_case`) |
+| **trigger** | User reports pregnancy, existing insurance, and a scenario where Medicaid/CHIP should remain the primary review candidate. |
+| **what_happened** | The runtime recommends `LIHEAP`, `SNAP`, and `Medicaid/CHIP`, puts `LIHEAP` first, and misses the term `pregnancy` in the explanation or caveat text. |
+| **why_it_happened** | The current ranking and explanation path still underweights the pregnancy-specific Medicaid pathway and over-surfaces secondary programs. |
+| **why_it_matters** | This is the clearest remaining priority-order limitation in the checked-in run because the evaluator expects Medicaid/CHIP to be the top review candidate here. |
 | **severity** | Medium |
-| **current_evaluation_status** | The failure-case scenario passes the evaluator because the intake guard now fires as expected. |
-| **remaining_gap** | The pipeline does not currently short-circuit after out-of-scope county detection. |
-| **recommended_future_fix** | Halt eligibility/explanation after the out-of-county intake guard, or replace the walkthrough with an explicit out-of-scope handoff. |
+| **current_evaluation_status** | FAIL in the current checked-in evaluation run. |
+| **fix_attempted_or_mitigation_added** | Priority order remains documented and evaluated as a triage heuristic rather than a legal determination, which keeps this issue scoped as a ranking and explanation problem rather than an official eligibility claim. |
+| **current_status** | Open. Priority and explanation alignment remain incomplete for this edge case. |
 
 ---
 
-### LIMIT-02 — Contradictions Trigger Human-Followup, but Recommendations May Still Appear (AGENT_08)
+### LIMIT-03 — Incomplete-Intake Fallback Is Safe but Still Misses Expected Detail (AGENT_06)
 
 | Field | Detail |
 |---|---|
-| **limitation_id** | LIMIT-02 |
+| **failure_id** | LIMIT-03 |
 | **date_reviewed** | 2026-04-26 |
-| **case** | AGENT_08 (`contradictory_data_cross_check`) |
-| **current_behavior** | Intake detects the contradiction, keeps the case at `needs_clarification`, and the explanation output surfaces `needs_human_followup`. Under the current prototype flow, recommendations may still appear downstream. |
-| **why_it_matters** | The system communicates uncertainty more honestly than before, but it still produces recommendations on top of contradictory facts. |
-| **severity** | Medium |
-| **current_evaluation_status** | The failure-case scenario passes the evaluator because contradiction detection and human-followup signaling now behave as expected. |
-| **remaining_gap** | The pipeline does not force contradiction resolution before continuing into eligibility/explanation. |
-| **recommended_future_fix** | Short-circuit after unresolved contradictions, or suppress recommended programs until the contradiction is resolved. |
-
----
-
-### LIMIT-03 — Incomplete-Intake Fallback Is Safe but Still Light on Guidance (AGENT_06)
-
-| Field | Detail |
-|---|---|
-| **limitation_id** | LIMIT-03 |
-| **date_reviewed** | 2026-04-26 |
-| **case** | AGENT_06 (`missing_info_graceful_degradation`) |
-| **current_behavior** | Intake reaches `insufficient_data`, no programs are recommended, and the evaluator treats the case as a successful safe degradation path. |
-| **why_it_matters** | The system avoids false matches, but the fallback user guidance is still modest relative to a real service handoff. |
+| **case_id** | AGENT_06 (`missing_info_graceful_degradation`) |
+| **trigger** | User declines or cannot provide enough income detail to complete intake. |
+| **what_happened** | The runtime avoids false matches and keeps recommendations suppressed, but the case still fails evaluation because intake remains `needs_clarification` instead of `insufficient_data` and omits `num_adults` from the reported `missing_fields`. |
+| **why_it_happened** | The fallback intake parser infers one adult from the narrative and stays in clarification mode longer than the reviewer expectation for this case. |
+| **why_it_matters** | The safe behavior is preserved, but the evaluator still sees a mismatch in how incomplete evidence is summarized and escalated. |
 | **severity** | Low |
-| **current_evaluation_status** | The failure-case scenario passes the evaluator because the system remains conservative and does not hallucinate program matches. |
-| **remaining_gap** | Users who refuse or cannot share enough information do not yet get richer alternative pathways or referral guidance. |
-| **recommended_future_fix** | Add a dedicated insufficient-data fallback block with local contact/referral guidance and clearer next-step instructions. |
+| **current_evaluation_status** | FAIL in the current checked-in evaluation run. |
+| **fix_attempted_or_mitigation_added** | The recent patch keeps the fallback conservative, suppresses normal recommendations, and adds clearer gather-this-information guidance. |
+| **current_status** | Open. Guidance is better than before, but intake-state and missing-field detail still lag the expected behavior. |
+
+---
+
+### LIMIT-04 — Uninsured-Children Case Still Over-Prioritizes LIHEAP Ahead of Health Coverage (AGENT_07)
+
+| Field | Detail |
+|---|---|
+| **failure_id** | LIMIT-04 |
+| **date_reviewed** | 2026-04-26 |
+| **case_id** | AGENT_07 (`uninsured_children_priority_case`) |
+| **trigger** | User reports uninsured children and a scenario where Medicaid/CHIP or SNAP should rank ahead of LIHEAP. |
+| **what_happened** | The runtime recommends `LIHEAP`, `SNAP`, and `Medicaid/CHIP`, but the evaluator rejects the case because `LIHEAP` is ranked first instead of `Medicaid/CHIP` or `SNAP`. |
+| **why_it_happened** | The current priority heuristic still overweights a secondary hardship signal relative to the health-coverage need in this case. |
+| **why_it_matters** | This is a current reviewer-facing priority-order miss, even though the program set itself is otherwise plausible. |
+| **severity** | Medium |
+| **current_evaluation_status** | FAIL in the current checked-in evaluation run. |
+| **fix_attempted_or_mitigation_added** | Priority order is now documented consistently as a triage heuristic, which keeps this issue framed as a review-order limitation rather than an official eligibility determination. |
+| **current_status** | Open. The remaining gap is review-order alignment for this household type. |
 
 ---
 

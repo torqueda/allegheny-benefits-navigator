@@ -16,24 +16,41 @@
   {
     "case_id": "AGENT_02",
     "evaluation_type": "success_case",
-    "outcome": "PASS",
-    "intake_status": "complete",
-    "decision_status": "ready_for_explanation",
-    "final_status": "delivered",
-    "recommended_programs": [],
-    "failures": []
-  },
-  {
-    "case_id": "AGENT_03",
-    "evaluation_type": "edge_case",
-    "outcome": "PASS",
+    "outcome": "FAIL",
     "intake_status": "complete",
     "decision_status": "ambiguous",
     "final_status": "delivered_with_uncertainty",
     "recommended_programs": [
+      "Medicaid/CHIP",
+      "LIHEAP",
+      "SNAP"
+    ],
+    "failures": [
+      "[eligibility] 'SNAP' must NOT be in recommended_programs",
+      "[eligibility] 'LIHEAP' must NOT be in recommended_programs",
+      "[eligibility] 'SNAP' must be no_clear_match, got 'possible_match'",
+      "[eligibility] 'LIHEAP' must be no_clear_match, got 'possible_match'",
+      "[eligibility] decision_status: expected 'ready_for_explanation', got 'ambiguous'",
+      "[explanation] final_status: expected 'delivered', got 'delivered_with_uncertainty'"
+    ]
+  },
+  {
+    "case_id": "AGENT_03",
+    "evaluation_type": "edge_case",
+    "outcome": "FAIL",
+    "intake_status": "complete",
+    "decision_status": "ambiguous",
+    "final_status": "delivered_with_uncertainty",
+    "recommended_programs": [
+      "LIHEAP",
+      "SNAP",
       "Medicaid/CHIP"
     ],
-    "failures": []
+    "failures": [
+      "[eligibility] top priority must be one of ['Medicaid/CHIP'], got 'LIHEAP'",
+      "[eligibility] 'LIHEAP' must be no_clear_match, got 'possible_match'",
+      "[explanation] caveats/explanation missing term 'pregnancy'"
+    ]
   },
   {
     "case_id": "AGENT_04",
@@ -57,34 +74,40 @@
     "decision_status": "ambiguous",
     "final_status": "delivered_with_uncertainty",
     "recommended_programs": [
+      "SNAP",
       "Medicaid/CHIP",
-      "LIHEAP",
-      "SNAP"
+      "LIHEAP"
     ],
     "failures": []
   },
   {
     "case_id": "AGENT_06",
     "evaluation_type": "failure_case",
-    "outcome": "PASS",
-    "intake_status": "insufficient_data",
+    "outcome": "FAIL",
+    "intake_status": "needs_clarification",
     "decision_status": "ambiguous",
     "final_status": "delivered_with_uncertainty",
     "recommended_programs": [],
-    "failures": []
+    "failures": [
+      "[intake] missing_fields: expected ['num_adults', 'num_children', 'household_income_total'], got ['num_children', 'household_income_total']",
+      "[intake] intake_status: expected 'insufficient_data', got 'needs_clarification'"
+    ]
   },
   {
     "case_id": "AGENT_07",
     "evaluation_type": "success_case",
-    "outcome": "PASS",
+    "outcome": "FAIL",
     "intake_status": "complete",
     "decision_status": "ambiguous",
     "final_status": "delivered_with_uncertainty",
     "recommended_programs": [
-      "Medicaid/CHIP",
-      "SNAP"
+      "LIHEAP",
+      "SNAP",
+      "Medicaid/CHIP"
     ],
-    "failures": []
+    "failures": [
+      "[eligibility] top priority must be one of ['Medicaid/CHIP', 'SNAP'], got 'LIHEAP'"
+    ]
   },
   {
     "case_id": "AGENT_08",
@@ -93,11 +116,7 @@
     "intake_status": "needs_clarification",
     "decision_status": "ambiguous",
     "final_status": "needs_human_followup",
-    "recommended_programs": [
-      "SNAP",
-      "Medicaid/CHIP",
-      "LIHEAP"
-    ],
+    "recommended_programs": [],
     "failures": []
   },
   {
@@ -120,12 +139,8 @@
     "outcome": "PASS",
     "intake_status": "insufficient_data",
     "decision_status": "ambiguous",
-    "final_status": "delivered_with_uncertainty",
-    "recommended_programs": [
-      "Medicaid/CHIP",
-      "SNAP",
-      "LIHEAP"
-    ],
+    "final_status": "needs_human_followup",
+    "recommended_programs": [],
     "failures": []
   }
 ]

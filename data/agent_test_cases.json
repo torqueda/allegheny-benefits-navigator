@@ -345,7 +345,7 @@
         "must_not_recommend": [],
         "top_priority_in": [],
         "must_be_strong_match": [],
-        "may_be_possible_match": ["SNAP", "LIHEAP"],
+        "may_be_possible_match": [],
         "must_be_no_clear_match": [],
         "expected_decision_status": "ambiguous",
         "expected_has_uncertainty_flags": false
@@ -426,7 +426,7 @@
         "must_not_recommend": [],
         "top_priority_in": [],
         "must_be_strong_match": [],
-        "may_be_possible_match": ["LIHEAP", "SNAP", "Medicaid/CHIP"],
+        "may_be_possible_match": [],
         "must_be_no_clear_match": [],
         "expected_decision_status": "ambiguous",
         "expected_has_uncertainty_flags": false
@@ -435,7 +435,7 @@
         "must_mention_programs": [],
         "must_include_checklist_terms": [],
         "must_include_caveats": ["prescreening"],
-        "expected_final_status": "delivered_with_uncertainty"
+        "expected_final_status": "needs_human_followup"
       },
       "phase3_checks": {
         "expect_cross_check_rationale": false,

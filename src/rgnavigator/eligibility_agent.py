@@ -58,8 +58,26 @@ def run_eligibility_and_prioritization(
     profile: UserIntake,
     intake_status: str,
     *,
+    missing_fields: list[str] | None = None,
+    contradictory_fields: list[str] | None = None,
     selected_programs: list[str] | None = None,
 ) -> EligibilityOutput:
+    missing_fields = missing_fields or []
+    contradictory_fields = contradictory_fields or []
+
+    # Priority order is only meaningful for actionable review candidates.
+    # If the intake is out of scope or contains core contradictions, return a
+    # safe structured response without normal recommendations or ranking.
+    if _should_suppress_recommendations(profile, intake_status, missing_fields, contradictory_fields):
+        return EligibilityOutput(
+            query_summary=", ".join(_intake_query_terms(profile)) or "no_retrieval_terms",
+            program_matches=[],
+            recommended_programs=[],
+            uncertainty_flags=_safe_uncertainty_flags(profile, missing_fields, contradictory_fields),
+            priority_order=[],
+            decision_status="ambiguous",
+        )
+
     all_profiles = _load_program_profiles()
     known_program_names = {p["program_name"] for p in all_profiles}
     profiles = [p for p in all_profiles if selected_programs is None or p["program_name"] in selected_programs]
@@ -109,7 +127,7 @@ def run_eligibility_and_prioritization(
             )
 
     recommended = [match for match in program_matches if match.status in {"strong_match", "possible_match"}]
-    recommended.sort(key=lambda item: (item.priority_score, item.match_score), reverse=True)
+    recommended = _sort_review_candidates(recommended)
     decision_status = (
         "ambiguous"
         if intake_status != "complete" or any(match.status == "possible_match" for match in recommended)
@@ -118,7 +136,7 @@ def run_eligibility_and_prioritization(
 
     return EligibilityOutput(
         query_summary=", ".join(_intake_query_terms(profile)) or "no_retrieval_terms",
-        program_matches=sorted(program_matches, key=lambda item: (item.priority_score, item.match_score), reverse=True),
+        program_matches=_sort_review_candidates(program_matches),
         recommended_programs=[match.program_name for match in recommended],
         uncertainty_flags=uncertainty_flags,
         priority_order=[match.program_name for match in recommended],
@@ -504,6 +522,53 @@ def _dedupe(items: list[str]) -> list[str]:
         if item not in output:
             output.append(item)
     return output
+
+
+def _sort_review_candidates(matches: list[ProgramMatch]) -> list[ProgramMatch]:
+    # Review ordering is driven primarily by match likelihood and secondarily by
+    # program-specific hardship or urgency signals already reflected in
+    # priority_score. It is not a legal determination or benefit-value ranking.
+    return sorted(matches, key=lambda item: (item.priority_score, item.match_score), reverse=True)
+
+
+def _should_suppress_recommendations(
+    profile: UserIntake,
+    intake_status: str,
+    missing_fields: list[str],
+    contradictory_fields: list[str],
+) -> bool:
+    return (
+        _is_out_of_scope(profile)
+        or bool(contradictory_fields)
+        or intake_status == "insufficient_data"
+        or bool(missing_fields)
+    )
+
+
+def _is_out_of_scope(profile: UserIntake) -> bool:
+    county = (profile.county or "").strip().lower()
+    return bool(county) and county != "allegheny"
+
+
+def _safe_uncertainty_flags(
+    profile: UserIntake,
+    missing_fields: list[str],
+    contradictory_fields: list[str],
+) -> list[str]:
+    flags: list[str] = []
+    if _is_out_of_scope(profile):
+        flags.append(
+            "This prototype currently supports Allegheny County households only."
+        )
+    if contradictory_fields:
+        flags.append(
+            "Core intake details conflict, so recommendations are withheld until the contradiction is resolved."
+        )
+    if missing_fields:
+        flags.append(
+            f"Key intake details are still missing: {', '.join(missing_fields)}."
+        )
+    return flags
 
 
 def _merge_checklist_items(base_items: list[str], retrieved, document_lookup: dict) -> list[str]:

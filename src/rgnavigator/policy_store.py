@@ -463,6 +463,17 @@ def append_document_to_policy_index(
         or (new_embeddings.ndim == 2 and new_embeddings.shape[1] == LOCAL_EMBEDDING_DIM and embedding_model != LOCAL_EMBEDDING_MODEL)
     ) else embedding_model
 
+    if (
+        filtered_embeddings.ndim == 2
+        and new_embeddings.ndim == 2
+        and filtered_embeddings.size > 0
+        and filtered_embeddings.shape[1] != new_embeddings.shape[1]
+    ):
+        # If a local fallback produces a different embedding dimension than the
+        # existing index, rebuild the full index in one embedding space so
+        # uploads stay usable instead of failing on append.
+        return build_and_save_policy_index(output_dir=output_dir, embedding_model=used_model, batch_size=batch_size)
+
     if filtered_chunks and filtered_embeddings.size > 0:
         all_chunks = filtered_chunks + new_chunks
         all_embeddings = np.vstack([filtered_embeddings, new_embeddings])

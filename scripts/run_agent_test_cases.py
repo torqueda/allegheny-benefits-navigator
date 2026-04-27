@@ -287,11 +287,11 @@ def _build_reviewer_note(case_id: str, reviewer_case: dict, result: dict) -> str
         "AGENT_03": "Boundary pregnancy pathway case passed with Medicaid/CHIP as the only recommended program.",
         "AGENT_04": "Multi-turn crisis case passed. LIHEAP and SNAP appeared as required, and Medicaid/CHIP also surfaced as an allowed secondary match.",
         "AGENT_05": "Conflict-resolution case passed after the second turn. LIHEAP and SNAP appeared as required, and Medicaid/CHIP also surfaced as an allowed secondary match.",
-        "AGENT_06": "Failure-case evaluation passed: intake remained insufficient_data and no programs were recommended. Fallback guidance remains limited.",
+        "AGENT_06": "Failure-case evaluation passed: intake remained insufficient_data and no programs were recommended. Fallback guidance now points the user to the missing intake details that most affect the prescreen.",
         "AGENT_07": "Children's coverage case passed with Medicaid/CHIP prioritized ahead of SNAP.",
-        "AGENT_08": "Boundary case passed because contradiction detection triggered needs_clarification and needs_human_followup. Recommendations still appeared, which remains a documented prototype limitation.",
+        "AGENT_08": "Boundary case passed because contradiction detection triggered needs_clarification and needs_human_followup, and normal actionable recommendations were suppressed until the contradiction is resolved.",
         "AGENT_09": "Dual-need case passed. LIHEAP and SNAP appeared as required, and Medicaid/CHIP also surfaced as an allowed secondary match.",
-        "AGENT_10": "Boundary case passed because out-of-county intake was marked insufficient_data. The current prototype still continues into a caveated walkthrough, which remains a documented limitation.",
+        "AGENT_10": "Boundary case passed because out-of-county intake was marked insufficient_data and the system stopped before normal recommendation flow.",
     }
     return curated_notes.get(
         case_id,
