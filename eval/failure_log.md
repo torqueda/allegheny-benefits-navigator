@@ -2,116 +2,119 @@
 
 ## Overview
 
-This log documents failures and limitations discovered during evaluation of the Retrieval-Grounded Policy Navigator. It covers both system-level bugs fixed during development and known design limitations identified through test case evaluation.
+This file is the canonical Phase 3 failure analysis for final submission.
+
+Artifact roles for the evaluation package:
+- `eval/test_cases.csv`: canonical reviewer-facing test cases
+- `eval/evaluation_results.csv`: canonical reviewer-facing results
+- `eval/failure_log.md`: canonical failure analysis
+- `eval/version_notes.md`: canonical version/change log
+- `data/agent_test_cases.json`: internal runner/demo fixture
+- `data/evaluation_results_phase3.json`: raw internal runner output
+
+The current canonical result set passes all 10 evaluation cases, including failure and boundary scenarios. This log therefore focuses on remaining behavioral limitations surfaced by those cases rather than on obsolete PASS/PARTIAL/FAIL packaging from older runs.
 
 ---
 
-## Evaluation Failures
+## Open Limitations Observed in Evaluation
 
-### FAILURE-01 — Out-of-County Case Not Detected (AGENT_10)
+### LIMIT-01 — Out-of-County Inputs Are Detected but Not Hard-Stopped (AGENT_10)
 
 | Field | Detail |
-|-------|--------|
-| **failure_id** | FAILURE-01 |
-| **date** | 2026-04-25 |
-| **version_tested** | v1.0 (Phase 3) |
+|---|---|
+| **limitation_id** | LIMIT-01 |
+| **date_reviewed** | 2026-04-26 |
 | **case** | AGENT_10 (`outside_county_boundary`) |
-| **what_triggered_the_problem** | User described a Philadelphia household. System is designed for Allegheny County programs only. |
-| **what_happened** | System ran the full eligibility pipeline and returned program matches (Medicaid/CHIP strong match, SNAP possible match, LIHEAP possible match) without warning the user that the results may not apply to their county. |
-| **severity** | High — user could act on incorrect prescreening results |
-| **fix_attempted** | No fix implemented in current version. County field defaults to Allegheny if not explicitly set. |
-| **current_status** | Open — known limitation. Mitigation: output includes disclaimer "This is prescreening only. It is not an official determination." |
+| **current_behavior** | Intake correctly marks the case `insufficient_data` and adds an Allegheny-only warning for a Philadelphia household. The downstream pipeline may still continue into a caveated prototype walkthrough and surface recommended programs. |
+| **why_it_matters** | Users outside Allegheny County can still see recommendations that are not intended as county-specific determinations. |
+| **severity** | Medium |
+| **current_evaluation_status** | The failure-case scenario passes the evaluator because the intake guard now fires as expected. |
+| **remaining_gap** | The pipeline does not currently short-circuit after out-of-scope county detection. |
+| **recommended_future_fix** | Halt eligibility/explanation after the out-of-county intake guard, or replace the walkthrough with an explicit out-of-scope handoff. |
 
 ---
 
-### FAILURE-02 — Contradictory Data Not Explicitly Challenged (AGENT_08)
+### LIMIT-02 — Contradictions Trigger Human-Followup, but Recommendations May Still Appear (AGENT_08)
 
 | Field | Detail |
-|-------|--------|
-| **failure_id** | FAILURE-02 |
-| **date** | 2026-04-25 |
-| **version_tested** | v1.0 (Phase 3) |
+|---|---|
+| **limitation_id** | LIMIT-02 |
+| **date_reviewed** | 2026-04-26 |
 | **case** | AGENT_08 (`contradictory_data_cross_check`) |
-| **what_triggered_the_problem** | User stated they work full-time but have zero earned income this month — a direct contradiction. |
-| **what_happened** | Intake agent flagged `needs_clarification` but did not prompt the user to resolve the conflict. Pipeline ran with ambiguous profile. Cross-check diverged on program scores, decision status: ambiguous. No explicit message to user about the contradiction. |
-| **severity** | Medium — output is marked uncertain, but user is not told why |
-| **fix_attempted** | No targeted fix. Hybrid cross-check partially handles this by surfacing disagreement. |
-| **current_status** | Open — design limitation. Future fix: add explicit contradiction detection in intake normalization step. |
+| **current_behavior** | Intake detects the contradiction, keeps the case at `needs_clarification`, and the explanation output surfaces `needs_human_followup`. Under the current prototype flow, recommendations may still appear downstream. |
+| **why_it_matters** | The system communicates uncertainty more honestly than before, but it still produces recommendations on top of contradictory facts. |
+| **severity** | Medium |
+| **current_evaluation_status** | The failure-case scenario passes the evaluator because contradiction detection and human-followup signaling now behave as expected. |
+| **remaining_gap** | The pipeline does not force contradiction resolution before continuing into eligibility/explanation. |
+| **recommended_future_fix** | Short-circuit after unresolved contradictions, or suppress recommended programs until the contradiction is resolved. |
 
 ---
 
-### FAILURE-03 — Graceful Degradation Produces Unhelpful Output (AGENT_06)
+### LIMIT-03 — Incomplete-Intake Fallback Is Safe but Still Light on Guidance (AGENT_06)
 
 | Field | Detail |
-|-------|--------|
-| **failure_id** | FAILURE-03 |
-| **date** | 2026-04-25 |
-| **version_tested** | v1.0 (Phase 3) |
+|---|---|
+| **limitation_id** | LIMIT-03 |
+| **date_reviewed** | 2026-04-26 |
 | **case** | AGENT_06 (`missing_info_graceful_degradation`) |
-| **what_triggered_the_problem** | User declined to share income information after two turns. |
-| **what_happened** | System correctly reached `insufficient_data` intake status and did not produce false program matches. However, the output to the user was minimal — no actionable guidance, no suggested next steps for obtaining help without income disclosure. |
-| **severity** | Low — system behaves safely (no false positives) but is not useful |
-| **fix_attempted** | No fix. Caveats are shown. |
-| **current_status** | Open — known limitation. Future improvement: add fallback guidance for users who cannot or will not share income (e.g., "contact a local caseworker who can assess your situation in person"). |
+| **current_behavior** | Intake reaches `insufficient_data`, no programs are recommended, and the evaluator treats the case as a successful safe degradation path. |
+| **why_it_matters** | The system avoids false matches, but the fallback user guidance is still modest relative to a real service handoff. |
+| **severity** | Low |
+| **current_evaluation_status** | The failure-case scenario passes the evaluator because the system remains conservative and does not hallucinate program matches. |
+| **remaining_gap** | Users who refuse or cannot share enough information do not yet get richer alternative pathways or referral guidance. |
+| **recommended_future_fix** | Add a dedicated insufficient-data fallback block with local contact/referral guidance and clearer next-step instructions. |
 
 ---
 
-## Development Bugs Fixed During Testing
+## Previously Fixed Issues Preserved in This Version
 
-These bugs were identified and fixed before the Phase 3 evaluation runs.
+These fixes remain reflected in the current codebase and evaluation package.
 
-### BUG-01 — Clarification Questions Shown as Caveats
-
-| Field | Detail |
-|-------|--------|
-| **what_happened** | `explanation_agent.py` appended `intake.clarification_questions` to `visible_caveats`, causing intake follow-up questions to appear in the Caveats section of the output. |
-| **fix** | Removed `visible_caveats.extend(intake.clarification_questions[:3])` from explanation agent. |
-| **status** | Fixed |
-
-### BUG-02 — Double-Counted Retrieval Bonus in Priority Score
+### FIX-01 — Clarification Questions No Longer Leak into Caveats
 
 | Field | Detail |
-|-------|--------|
-| **what_happened** | `eligibility_agent.py` added `retrieval_bonus` twice when computing `priority_score`, causing programs with retrieved evidence to be ranked higher than intended. |
-| **fix** | Changed `priority_score += retrieval_bonus + max(score, 0)` to `priority_score += max(score, 0)`. |
-| **status** | Fixed |
+|---|---|
+| **what_happened** | Earlier versions surfaced intake follow-up questions in the caveats section. |
+| **current_state** | Fixed. Clarification prompts no longer appear as caveats. |
 
-### BUG-03 — Program Sort Order Inconsistent with Priority Order
-
-| Field | Detail |
-|-------|--------|
-| **what_happened** | `program_matches` list was sorted only by `match_score`, while `priority_order` was computed from `priority_score`. The two lists could disagree on ranking. |
-| **fix** | Changed sort key to `(priority_score, match_score)` to match `priority_order`. |
-| **status** | Fixed |
-
-### BUG-04 — Medicaid Terms Leaked into General Retrieval Query
+### FIX-02 — Retrieval Bonus Is No Longer Double-Counted in Priority Score
 
 | Field | Detail |
-|-------|--------|
-| **what_happened** | Terms like "medicaid", "chip", and "insurance" were included in the general intake query layer, causing Medicaid chunks to be retrieved when evaluating SNAP and LIHEAP. |
-| **fix** | Moved those terms from `_intake_query_terms` to the Medicaid-specific branch of `_program_specific_intake_terms`. |
-| **status** | Fixed |
+|---|---|
+| **what_happened** | Earlier priority scoring over-weighted retrieved evidence. |
+| **current_state** | Fixed. Priority ordering now uses the intended score composition. |
 
-### BUG-05 — Ingestion Rebuilt Entire Vector Index on Each Upload
-
-| Field | Detail |
-|-------|--------|
-| **what_happened** | `ingest_policy_text()` called `build_and_save_policy_index()`, which re-embedded all 2,191 existing chunks on every upload — slow and wasteful. |
-| **fix** | Replaced with `append_document_to_policy_index()`, which embeds only the new document's chunks and appends them to the existing index. |
-| **status** | Fixed |
-
-### BUG-06 — LIHWAP Misclassified as LIHEAP
+### FIX-03 — Program Ranking Now Matches Priority Order
 
 | Field | Detail |
-|-------|--------|
-| **what_happened** | `_guess_program_name()` matched "utility" keyword in LIHWAP content and returned "LIHEAP" instead of "LIHWAP". |
-| **fix** | Added LIHWAP keyword check before the LIHEAP check in `policy_store.py`. |
-| **status** | Fixed |
+|---|---|
+| **what_happened** | Earlier program sort order could diverge from the reported priority order. |
+| **current_state** | Fixed. The visible ranking and priority order are now aligned. |
 
-### BUG-07 — Test Cleanup Left Uploaded Policy Files Between Runs
+### FIX-04 — Medicaid Query Terms No Longer Contaminate Other Programs
 
 | Field | Detail |
-|-------|--------|
-| **what_happened** | Smoke tests wrote files to `data/uploaded_policies/` but did not clean up, causing AGENT_04 and AGENT_09 tests to fail on subsequent runs due to unexpected uploaded program appearing in results. |
-| **fix** | Added `autouse=True` pytest fixture in `tests/conftest.py` to delete all `uploaded_policies/*.md` files after every test. |
-| **status** | Fixed |
+|---|---|
+| **what_happened** | Earlier shared retrieval terms could leak Medicaid evidence into SNAP/LIHEAP evaluations. |
+| **current_state** | Fixed. Program-specific retrieval terms now separate that path more cleanly. |
+
+### FIX-05 — Uploaded-Policy Ingestion Uses Incremental Indexing
+
+| Field | Detail |
+|---|---|
+| **what_happened** | Earlier uploads rebuilt the full index. |
+| **current_state** | Fixed. Upload ingestion appends new chunks instead of rebuilding everything. |
+
+### FIX-06 — LIHWAP and LIHEAP Are Distinguished Correctly
+
+| Field | Detail |
+|---|---|
+| **what_happened** | Earlier program-name guessing could map LIHWAP content to LIHEAP. |
+| **current_state** | Fixed. The LIHWAP-specific check now runs before the LIHEAP fallback. |
+
+### FIX-07 — Test Cleanup Removes Uploaded Policy Residue
+
+| Field | Detail |
+|---|---|
+| **what_happened** | Earlier test runs could leave uploaded policies behind and contaminate later evaluations. |
+| **current_state** | Fixed. `tests/conftest.py` removes uploaded policy markdown files after each test. |

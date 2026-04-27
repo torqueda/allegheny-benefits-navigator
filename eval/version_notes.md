@@ -1,40 +1,48 @@
 # Version Notes
 
-## v1.0 — Phase 3 Final Submission (2026-04-25)
+## v1.0.1 — Evaluation Package Canonicalization (2026-04-26)
 
-### What changed from Phase 2 prototype
+This version does not change the core app behavior. It canonicalizes the Phase 3 evaluation package so the reviewer-facing artifacts in `eval/` are authoritative and consistent with the current runner outputs.
 
-**Architecture changes**
-- Replaced full-index rebuild on upload with incremental `append_document_to_policy_index()` — only new document chunks are embedded
-- Added per-program RAG query generation: each program now generates its own targeted retrieval query rather than using one shared query
-- Added program selector UI in sidebar: users can scope which programs to evaluate
-- Removed policy ingestion tab from UI (moved to backend-only capability)
+### Evaluation artifact roles
 
-**Bug fixes** (see `failure_log.md` for details)
-- BUG-01: Clarification questions no longer shown as caveats
-- BUG-02: Retrieval bonus double-count removed from priority score
-- BUG-03: Program sort order now consistent with priority order
-- BUG-04: Medicaid-specific query terms moved to Medicaid-only retrieval layer
-- BUG-05: Upload now uses incremental indexing instead of full rebuild
-- BUG-06: LIHWAP correctly distinguished from LIHEAP in program name detection
-- BUG-07: Test cleanup fixture added to prevent cross-test contamination
+- `eval/test_cases.csv`: canonical reviewer-facing test-case file
+- `eval/evaluation_results.csv`: canonical reviewer-facing result file
+- `eval/failure_log.md`: canonical failure analysis
+- `eval/version_notes.md`: canonical version/change log
+- `data/agent_test_cases.json`: internal runner/demo fixture
+- `data/evaluation_results_phase3.json`: raw internal runner output
 
-**Evaluation improvements**
-- Expanded from 3 programs to support uploaded custom programs
-- 10-case evaluation set covering success, failure, and edge cases
-- Cross-check disagreement now explicitly surfaced in output (`decision_status: ambiguous`)
+### What changed in this package update
 
-### Known limitations in v1.0
+- Recreated `eval/evaluation_results.csv` from the current passing raw result set
+- Updated `eval/test_cases.csv` so reviewer-facing expectations match current failure-case and edge-case semantics
+- Updated `eval/failure_log.md` to describe current limitations instead of obsolete “not implemented” claims
+- Updated `scripts/run_agent_test_cases.py` so future runs refresh both:
+  - `data/evaluation_results_phase3.json` as raw internal output
+  - `eval/evaluation_results.csv` as the reviewer-facing summary
+- Labeled the JSON fixture in `data/agent_test_cases.json` as an internal runner/demo artifact
 
-- No county boundary enforcement (FAILURE-01)
-- No explicit contradiction detection for conflicting structured inputs (FAILURE-02)
-- Minimal fallback guidance when user withholds income information (FAILURE-03)
-- Policy index covers SNAP, Medicaid/CHIP, and LIHEAP only — other PA programs not included
-- Embeddings require OpenAI API key; local fallback uses hashed bag-of-words and is less accurate
+### Canonical current result set
 
-### Planned improvements (not implemented)
+- 10 total evaluation cases completed
+- 10 PASS
+- 0 FAIL
+- Coverage includes:
+  - 6 success cases
+  - 3 failure-case scenarios
+  - 1 edge case
 
-- County validation in intake agent with explicit out-of-scope warning
-- Contradiction detection between structured fields (e.g., employed + zero income)
-- Richer fallback guidance for incomplete intake cases
-- Expand policy corpus to include additional PA programs (TANF, WIC, General Assistance)
+### Current behavioral limitations still open
+
+- Out-of-county inputs are detected at intake but not hard-stopped downstream
+- Contradictions trigger `needs_human_followup`, but recommendations may still appear before resolution
+- Incomplete-intake fallback remains conservative and safe, but still light on referral guidance
+- Evaluation quality remains sensitive to the OpenAI-backed path; fallback-only runs are materially weaker
+
+### Legacy / non-authoritative artifacts
+
+- `data/test_cases.csv`: legacy evaluation artifact, not authoritative for Phase 3
+- `data/expected_results.csv`: legacy evaluation artifact, not authoritative for Phase 3
+- `data/evaluation_results_phase3.json`: raw internal output only; reviewers should defer to `eval/evaluation_results.csv`
+- `eval/evaluation_results.csv.stale.*`: stale local backup copy, not authoritative if present

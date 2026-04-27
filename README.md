@@ -85,7 +85,7 @@ scripts/                        Corpus crawling and cleaning utilities
 
 ```bash
 pip install -r requirements.txt
-cp .env.example .env          # add your OpenAI API key
+cp .env          # add your OpenAI API key
 streamlit run app.py
 ```
 

@@ -29,3 +29,6 @@ data/uploaded_policies/
 
 # Generated diagrams (committed to docs/ instead)
 # pipeline_diagram.png
+
+# Just the docs from the assignment (instructions, reports, feedback)
+assignment-docs

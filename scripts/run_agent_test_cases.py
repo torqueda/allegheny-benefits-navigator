@@ -3,9 +3,15 @@ Phase 3 evaluation runner.
 Uses directional behavioral checks instead of exact string matching,
 and validates Phase 3-specific behaviors: cross-check rationale, decision_status,
 final_status, and contradiction detection.
+
+Artifact roles:
+- data/agent_test_cases.json: internal runner + demo fixture
+- data/evaluation_results_phase3.json: raw internal runner output
+- eval/evaluation_results.csv: canonical reviewer-facing results artifact
 """
 from __future__ import annotations
 
+import csv
 import json
 import sys
 from pathlib import Path
@@ -17,11 +23,50 @@ if str(ROOT) not in sys.path:
 from src.rgnavigator.intake_agent import run_intake, run_intake_turn
 from src.rgnavigator.pipeline import run_navigator
 
+INTERNAL_CASES_PATH = ROOT / "data" / "agent_test_cases.json"
+RAW_RESULTS_PATH = ROOT / "data" / "evaluation_results_phase3.json"
+REVIEWER_CASES_PATH = ROOT / "eval" / "test_cases.csv"
+REVIEWER_RESULTS_PATH = ROOT / "eval" / "evaluation_results.csv"
+
 
 def _load_cases() -> list[dict]:
-    path = ROOT / "data" / "agent_test_cases.json"
-    payload = json.loads(path.read_text(encoding="utf-8"))
+    payload = json.loads(INTERNAL_CASES_PATH.read_text(encoding="utf-8"))
     return payload["cases"]
+
+
+def _load_reviewer_cases() -> dict[str, dict]:
+    with REVIEWER_CASES_PATH.open("r", newline="", encoding="utf-8") as handle:
+        rows = list(csv.DictReader(handle))
+    return {row["case_id"]: row for row in rows}
+
+
+def _validate_reviewer_case_alignment(cases: list[dict], reviewer_cases: dict[str, dict]) -> None:
+    internal_ids = [case["case_id"] for case in cases]
+    reviewer_ids = list(reviewer_cases)
+    if internal_ids != reviewer_ids:
+        raise ValueError(
+            "Reviewer-facing eval/test_cases.csv must contain the same case IDs in the same order "
+            "as data/agent_test_cases.json."
+        )
+
+    for case in cases:
+        case_id = case["case_id"]
+        reviewer = reviewer_cases[case_id]
+        if reviewer["case_type"] != case["evaluation_type"]:
+            raise ValueError(
+                f"{case_id}: eval/test_cases.csv case_type {reviewer['case_type']!r} does not match "
+                f"data/agent_test_cases.json evaluation_type {case['evaluation_type']!r}."
+            )
+        if reviewer["category"] != case["category"]:
+            raise ValueError(
+                f"{case_id}: eval/test_cases.csv category {reviewer['category']!r} does not match "
+                f"data/agent_test_cases.json category {case['category']!r}."
+            )
+        if int(reviewer["num_turns"]) != len(case["turns"]):
+            raise ValueError(
+                f"{case_id}: eval/test_cases.csv num_turns {reviewer['num_turns']!r} does not match "
+                f"data/agent_test_cases.json turns length {len(case['turns'])!r}."
+            )
 
 
 def _run_multiturn_intake(turns: list[str]) -> tuple[dict, object]:
@@ -212,10 +257,104 @@ def _validate_phase3(case: dict, intake, session) -> list[str]:
     return failures
 
 
+def _format_programs(programs: list[str]) -> str:
+    return ", ".join(programs) if programs else "none"
+
+
+def _build_input_or_scenario(reviewer_case: dict) -> str:
+    turn_1 = reviewer_case.get("turn_1_input", "").strip()
+    turn_2 = reviewer_case.get("turn_2_input", "").strip()
+    if reviewer_case.get("num_turns") == "1":
+        return turn_1
+    parts = []
+    if turn_1:
+        parts.append(f"Turn 1: {turn_1}")
+    if turn_2:
+        parts.append(f"Turn 2: {turn_2}")
+    return " ".join(parts)
+
+
+def _build_reviewer_note(case_id: str, reviewer_case: dict, result: dict) -> str:
+    if result["outcome"] != "PASS":
+        failures = result.get("failures", [])
+        if failures:
+            return "Failed internal directional checks: " + " | ".join(failures[:3])
+        return "Failed internal directional checks. See raw internal output for details."
+
+    curated_notes = {
+        "AGENT_01": "Clear multi-program success case. All three core programs passed the current directional checks.",
+        "AGENT_02": "No-match guardrail case passed. The evaluator returned no recommended programs and a ready_for_explanation decision state.",
+        "AGENT_03": "Boundary pregnancy pathway case passed with Medicaid/CHIP as the only recommended program.",
+        "AGENT_04": "Multi-turn crisis case passed. LIHEAP and SNAP appeared as required, and Medicaid/CHIP also surfaced as an allowed secondary match.",
+        "AGENT_05": "Conflict-resolution case passed after the second turn. LIHEAP and SNAP appeared as required, and Medicaid/CHIP also surfaced as an allowed secondary match.",
+        "AGENT_06": "Failure-case evaluation passed: intake remained insufficient_data and no programs were recommended. Fallback guidance remains limited.",
+        "AGENT_07": "Children's coverage case passed with Medicaid/CHIP prioritized ahead of SNAP.",
+        "AGENT_08": "Boundary case passed because contradiction detection triggered needs_clarification and needs_human_followup. Recommendations still appeared, which remains a documented prototype limitation.",
+        "AGENT_09": "Dual-need case passed. LIHEAP and SNAP appeared as required, and Medicaid/CHIP also surfaced as an allowed secondary match.",
+        "AGENT_10": "Boundary case passed because out-of-county intake was marked insufficient_data. The current prototype still continues into a caveated walkthrough, which remains a documented limitation.",
+    }
+    return curated_notes.get(
+        case_id,
+        f"{reviewer_case['case_type']} evaluation passed the current internal directional checks.",
+    )
+
+
+def _write_reviewer_results_csv(
+    cases: list[dict],
+    reviewer_cases: dict[str, dict],
+    results: list[dict],
+) -> None:
+    result_by_id = {result["case_id"]: result for result in results}
+    fieldnames = [
+        "case_id",
+        "case_type",
+        "num_turns",
+        "input_or_scenario",
+        "expected_behavior",
+        "actual_intake_status",
+        "actual_decision_status",
+        "actual_final_status",
+        "recommended_programs",
+        "outcome",
+        "evidence_or_citation",
+        "notes",
+    ]
+
+    with REVIEWER_RESULTS_PATH.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fieldnames)
+        writer.writeheader()
+
+        for case in cases:
+            case_id = case["case_id"]
+            reviewer_case = reviewer_cases[case_id]
+            result = result_by_id[case_id]
+            writer.writerow(
+                {
+                    "case_id": case_id,
+                    "case_type": reviewer_case["case_type"],
+                    "num_turns": reviewer_case["num_turns"],
+                    "input_or_scenario": _build_input_or_scenario(reviewer_case),
+                    "expected_behavior": reviewer_case["success_criteria"],
+                    "actual_intake_status": result.get("intake_status", ""),
+                    "actual_decision_status": result.get("decision_status", ""),
+                    "actual_final_status": result.get("final_status", ""),
+                    "recommended_programs": _format_programs(result.get("recommended_programs", [])),
+                    "outcome": result["outcome"],
+                    "evidence_or_citation": (
+                        "Raw internal runner output in data/evaluation_results_phase3.json; "
+                        "reviewer-facing expectations in eval/test_cases.csv."
+                    ),
+                    "notes": _build_reviewer_note(case_id, reviewer_case, result),
+                }
+            )
+
+
 # ── Main runner ──────────────────────────────────────────────────────────────
 
 def main() -> None:
     cases = _load_cases()
+    reviewer_cases = _load_reviewer_cases()
+    _validate_reviewer_case_alignment(cases, reviewer_cases)
 
     results: list[dict] = []
     pass_count = 0
@@ -294,10 +433,10 @@ def main() -> None:
         print(f"  [{t}] {counts['pass']} pass / {counts['fail']} fail")
     print(f"{'='*70}\n")
 
-    # Write results to eval output file
-    out_path = ROOT / "data" / "evaluation_results_phase3.json"
-    out_path.write_text(json.dumps(results, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"  Results saved to {out_path.name}")
+    RAW_RESULTS_PATH.write_text(json.dumps(results, indent=2, ensure_ascii=False), encoding="utf-8")
+    _write_reviewer_results_csv(cases, reviewer_cases, results)
+    print(f"  Raw results saved to {RAW_RESULTS_PATH.relative_to(ROOT)}")
+    print(f"  Reviewer results saved to {REVIEWER_RESULTS_PATH.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":

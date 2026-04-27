@@ -1,6 +1,8 @@
 {
   "schema_version": "2.0",
-  "description": "Phase 3 agent test cases. Evaluation uses directional checks (not exact string match) to accommodate the RAG+LLM+cross-check pipeline.",
+  "artifact_role": "internal_runner_demo_fixture",
+  "canonical_reviewer_artifact": "eval/test_cases.csv",
+  "description": "Internal Phase 3 runner/demo fixture. Evaluation uses directional checks (not exact string match) to accommodate the RAG+LLM+cross-check pipeline. Reviewer-facing canonical test cases live in eval/test_cases.csv.",
   "case_format": {
     "case_id": "Stable identifier.",
     "category": "Scenario family.",
