@@ -4,11 +4,11 @@ This folder is the reviewer-facing evidence package for Allegheny County Benefit
 
 ## What to Read
 
-- [test_cases.csv](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/eval/test_cases.csv): canonical reviewer case list
-- [evaluation_results.csv](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/eval/evaluation_results.csv): latest checked-in reviewer results
-- [failure_log.md](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/eval/failure_log.md): status of professor-identified issues
-- [version_notes.md](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/eval/version_notes.md): handoff-by-handoff evidence history
-- [REVIEWER_TRACE_INDEX.md](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/REVIEWER_TRACE_INDEX.md): trace artifacts and how to inspect them
+- `test_cases.csv`: canonical reviewer case list
+- `evaluation_results.csv`: latest checked-in reviewer results
+- `failure_log.md`: status of professor-identified issues
+- `version_notes.md`: handoff-by-handoff evidence history
+- `../REVIEWER_TRACE_INDEX.md`: trace artifacts and how to inspect them
 
 ## Current Result
 
@@ -38,7 +38,7 @@ OPENAI_API_KEY='' .venv/bin/python scripts/run_agent_test_cases.py
 ```
 
 The raw internal runner output is written to:
-- [data/evaluation_results_phase3.json](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/data/evaluation_results_phase3.json)
+- `data/evaluation_results_phase3.json`
 
 ## Offline Review Note
 

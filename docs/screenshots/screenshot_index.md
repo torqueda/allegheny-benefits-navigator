@@ -4,9 +4,9 @@ These screenshots are supporting visuals from the Streamlit app. For current rev
 
 ## Current Reviewer Path
 
-- [eval/README.md](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/eval/README.md)
-- [REVIEWER_TRACE_INDEX.md](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/REVIEWER_TRACE_INDEX.md)
-- [eval/evaluation_results.csv](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/eval/evaluation_results.csv)
+- `eval/README.md`
+- `REVIEWER_TRACE_INDEX.md`
+- `eval/evaluation_results.csv`
 
 ## Supporting Images
 

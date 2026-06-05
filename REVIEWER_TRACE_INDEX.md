@@ -10,11 +10,11 @@ In the app:
 - Open the `Reviewer trace` expander after a screening run.
 
 Checked-in trace artifacts:
-- [outputs/sample_runs/agent_02_reviewer_trace.json](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/outputs/sample_runs/agent_02_reviewer_trace.json)
-- [outputs/sample_runs/agent_03_reviewer_trace.json](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/outputs/sample_runs/agent_03_reviewer_trace.json)
-- [outputs/sample_runs/agent_04_reviewer_trace.json](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/outputs/sample_runs/agent_04_reviewer_trace.json)
-- [outputs/sample_runs/agent_06_reviewer_trace.json](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/outputs/sample_runs/agent_06_reviewer_trace.json)
-- [outputs/sample_runs/agent_10_reviewer_trace.json](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/outputs/sample_runs/agent_10_reviewer_trace.json)
+- `outputs/sample_runs/agent_02_reviewer_trace.json`
+- `outputs/sample_runs/agent_03_reviewer_trace.json`
+- `outputs/sample_runs/agent_04_reviewer_trace.json`
+- `outputs/sample_runs/agent_06_reviewer_trace.json`
+- `outputs/sample_runs/agent_10_reviewer_trace.json`
 
 Markdown companions:
 - `outputs/sample_runs/*_reviewer_trace.md`

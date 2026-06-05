@@ -28,7 +28,7 @@ For the checked-in offline evaluation run:
 
 ## Where to Inspect It
 
-- [eval/evaluation_results.csv](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/eval/evaluation_results.csv)
-- [outputs/sample_runs/agent_04_reviewer_trace.json](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/outputs/sample_runs/agent_04_reviewer_trace.json)
-- [outputs/sample_runs/agent_04_reviewer_trace.md](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/outputs/sample_runs/agent_04_reviewer_trace.md)
-- [app.py](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/app.py)
+- `eval/evaluation_results.csv`
+- `outputs/sample_runs/agent_04_reviewer_trace.json`
+- `outputs/sample_runs/agent_04_reviewer_trace.md`
+- `app.py`

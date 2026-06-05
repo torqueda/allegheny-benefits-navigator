@@ -34,8 +34,8 @@ If you have five minutes:
 1. Run the app with `streamlit run app.py`.
 2. Load `AGENT_04` in the sidebar to see the multi-turn clarification flow.
 3. Open the `Reviewer trace` expander after a run.
-4. Review the evaluation package in [eval/README.md](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/eval/README.md).
-5. Review trace artifacts in [REVIEWER_TRACE_INDEX.md](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/REVIEWER_TRACE_INDEX.md).
+4. Review the evaluation package in `eval/README.md`.
+5. Review trace artifacts in `REVIEWER_TRACE_INDEX.md`.
 
 ## Architecture
 
@@ -48,9 +48,9 @@ Main flow:
 5. `traceability.py` builds the compact reviewer trace shown in the UI and exported to artifacts.
 
 Key supporting docs:
-- [docs/ARCHITECTURE.md](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/docs/ARCHITECTURE.md)
-- [docs/AGENTIC_COORDINATION_WALKTHROUGH.md](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/docs/AGENTIC_COORDINATION_WALKTHROUGH.md)
-- [docs/PRIVACY_SESSION_GOVERNANCE.md](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/docs/PRIVACY_SESSION_GOVERNANCE.md)
+- `docs/ARCHITECTURE.md`
+- `docs/AGENTIC_COORDINATION_WALKTHROUGH.md`
+- `docs/PRIVACY_SESSION_GOVERNANCE.md`
 
 ## Verification
 
@@ -83,22 +83,22 @@ OPENAI_API_KEY='' .venv/bin/python scripts/export_reviewer_trace.py AGENT_04
 ## Evidence Package
 
 Core reviewer-facing evidence:
-- [eval/README.md](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/eval/README.md)
-- [eval/test_cases.csv](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/eval/test_cases.csv)
-- [eval/evaluation_results.csv](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/eval/evaluation_results.csv)
-- [eval/failure_log.md](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/eval/failure_log.md)
-- [eval/version_notes.md](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/eval/version_notes.md)
-- [REVIEWER_TRACE_INDEX.md](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/REVIEWER_TRACE_INDEX.md)
-- [outputs/sample_runs](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/outputs/sample_runs)
-- [data/evaluation_results_phase3.json](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/data/evaluation_results_phase3.json)
+- `eval/README.md`
+- `eval/test_cases.csv`
+- `eval/evaluation_results.csv`
+- `eval/failure_log.md`
+- `eval/version_notes.md`
+- `REVIEWER_TRACE_INDEX.md`
+- `outputs/sample_runs/`
+- `data/evaluation_results_phase3.json`
 
 ## Repo Guide
 
-- [app.py](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/app.py): Streamlit entry point
-- [src/rgnavigator](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/src/rgnavigator): core package
-- [scripts](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/scripts): evaluation and export helpers
-- [tests](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/tests): regression suites
-- [assignment-docs](/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator-final/assignment-docs): course requirements, feedback, and saved prompt history
+- `app.py`: Streamlit entry point
+- `src/rgnavigator/`: core package
+- `scripts/`: evaluation and export helpers
+- `tests/`: regression suites
+- `assignment-docs/`: course requirements, feedback, and saved prompt history
 
 ## Current Scope and Limitations
 
