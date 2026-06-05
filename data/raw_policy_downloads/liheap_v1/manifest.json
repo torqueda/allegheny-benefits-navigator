@@ -1,0 +1,1197 @@
+{
+  "start_urls": [
+    "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/index.htm",
+    "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Title_Page.htm"
+  ],
+  "allowed_prefixes": [
+    "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/"
+  ],
+  "download_count": 169,
+  "failure_count": 0,
+  "records": [
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/index.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__index.htm.html",
+      "title": "LIHEAP Handbook",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634641.883897
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Title_Page.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Title_Page.htm.html",
+      "title": "Title Page",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634642.161072
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/whxdata/projectsettings.js",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__whxdata__projectsettings.js.html",
+      "title": "projectsettings.js",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634642.443709
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/whxdata/search_topics.js",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__whxdata__search_topics.js.html",
+      "title": "search_topics.js",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634642.810049
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/whxdata/search_db.js",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__whxdata__search_db.js.html",
+      "title": "search_db.js",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634643.159274
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/whxdata/whtagdata.js",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__whxdata__whtagdata.js.html",
+      "title": "whtagdata.js",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634643.412118
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/template/scripts/projectdata.js",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__template__scripts__projectdata.js.html",
+      "title": "projectdata.js",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634643.682217
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/csh-redirect.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__csh-redirect.htm.html",
+      "title": "LIHEAP Handbook",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634643.947979
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/604_Application/604.4_Reserved.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__604_Application__604.4_Reserved.htm.html",
+      "title": "604.4 Reserved",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634644.2147741
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/638_LIHEAP_Program_Benefits/Appendix_A__LIHEAP_Benefit_Table.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__638_LIHEAP_Program_Benefits__Appendix_A__LIHEAP_Benefit_Table.htm.html",
+      "title": "Appendix A: LIHEAP Benefit Table",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634644.482616
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/677_Notices/677.6_MyCOMPASSAccount_Notices.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__677_Notices__677.6_MyCOMPASSAccount_Notices.htm.html",
+      "title": "677.6 MyCOMPASSAccount Notices",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634644.7452328
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/668_Payment_Process/668.1_General_Policy_new.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__668_Payment_Process__668.1_General_Policy_new.htm.html",
+      "title": "668.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634645.023008
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/619_Heating_Responsibility/619.2.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__619_Heating_Responsibility__619.2.htm.html",
+      "title": "619.2 Shared Tank or Meter",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634645.291344
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/619_Heating_Responsibility/619.5.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__619_Heating_Responsibility__619.5.htm.html",
+      "title": "619.5 Non-Participating vendors",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634645.559547
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/619_Heating_Responsibility/619.3.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__619_Heating_Responsibility__619.3.htm.html",
+      "title": "619.3 Free Main Heating Source",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634645.826473
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/619_Heating_Responsibility/619.6_Automatic_Delivery.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__619_Heating_Responsibility__619.6_Automatic_Delivery.htm.html",
+      "title": "619.6 Automatic Delivery",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634646.095639
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/677_Notices/677.5_withdrawn_Applications.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__677_Notices__677.5_withdrawn_Applications.htm.html",
+      "title": "677.5 Withdrawn Applications",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634646.367746
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/619_Heating_Responsibility/619.8_Bill_Paid_by_Someone_Else.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__619_Heating_Responsibility__619.8_Bill_Paid_by_Someone_Else.htm.html",
+      "title": "619.8 Bill Paid by Someone Else",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634646.6369028
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/650_Income/650.8_Zero_Income.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__650_Income__650.8_Zero_Income.htm.html",
+      "title": "650.8 Zero Income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634646.9062269
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/619_Heating_Responsibility/619.4.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__619_Heating_Responsibility__619.4.htm.html",
+      "title": "619.4 Heating bill in another person'ss name",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634647.1753652
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/619_Heating_Responsibility/619.1.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__619_Heating_Responsibility__619.1.htm.html",
+      "title": "619.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634647.441185
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/609_LIHEAP_Crisis/609.2.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__609_LIHEAP_Crisis__609.2.htm.html",
+      "title": "609.2",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634647.7127428
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/609_LIHEAP_Crisis/609.4.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__609_LIHEAP_Crisis__609.4.htm.html",
+      "title": "609.4",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634647.9878159
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/638_LIHEAP_Program_Benefits/Appendix_B__Minimum_and_Maximum_Benefit_Levels.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__638_LIHEAP_Program_Benefits__Appendix_B__Minimum_and_Maximum_Benefit_Levels.htm.html",
+      "title": "Appendix B: Minimum and Maximum Benefit Levels",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634648.263755
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/619_Heating_Responsibility/619.7_Discountinued_Service.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__619_Heating_Responsibility__619.7_Discountinued_Service.htm.html",
+      "title": "619.7 Discountinued Service",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634648.537815
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/638_LIHEAP_Program_Benefits/638.2_Allowable_uses_for_LIHEAP_Grants.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__638_LIHEAP_Program_Benefits__638.2_Allowable_uses_for_LIHEAP_Grants.htm.html",
+      "title": "638.2 Allowable uses for LIHEAP Grants",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634648.883896
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/603_General_Information/Appendix_A__Season_Timeline.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__603_General_Information__Appendix_A__Season_Timeline.htm.html",
+      "title": "Appendix A: Season Timeline",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634649.162428
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/638_LIHEAP_Program_Benefits/638.3_Benefit_Calculation.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__638_LIHEAP_Program_Benefits__638.3_Benefit_Calculation.htm.html",
+      "title": "638.3 Benefit Calculation",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634649.464531
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/609_LIHEAP_Crisis/609.3.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__609_LIHEAP_Crisis__609.3.htm.html",
+      "title": "609.3",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634649.738718
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/678_Verification/LIHEAP_678_Title.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__678_Verification__LIHEAP_678_Title.htm.html",
+      "title": "678 LIHEAP Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634650.007512
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/650_Income/LIHEAP_650_Title.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__650_Income__LIHEAP_650_Title.htm.html",
+      "title": "650 LIHEAP Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634650.276405
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/677_Notices/LIHEAP_677_Title.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__677_Notices__LIHEAP_677_Title.htm.html",
+      "title": "677 LIHEAP Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634650.541111
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/619_Heating_Responsibility/Copy_of_603_LIHEAP_Title.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__619_Heating_Responsibility__Copy_of_603_LIHEAP_Title.htm.html",
+      "title": "619 LIHEAP Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634650.8063538
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/623_Residence/LIHEAP_623_Title.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__623_Residence__LIHEAP_623_Title.htm.html",
+      "title": "623 LIHEAP Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634651.069101
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/679_Appeals_and_Fair_Hearings/LIHEAP_679_Title.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__679_Appeals_and_Fair_Hearings__LIHEAP_679_Title.htm.html",
+      "title": "679 LIHEAP Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634651.3307672
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/614_Students/LIHEAP_614_Title.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__614_Students__LIHEAP_614_Title.htm.html",
+      "title": "614 LIHEAP Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634651.593204
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/640_Resources/LIHEAP_640_Title.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__640_Resources__LIHEAP_640_Title.htm.html",
+      "title": "640 LIHEAP Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634651.850834
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/610_Households/LIHEAP_610_Title.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__610_Households__LIHEAP_610_Title.htm.html",
+      "title": "610 LIHEAP Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634652.113697
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/603_General_Information/LIHEAP_603_Title.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__603_General_Information__LIHEAP_603_Title.htm.html",
+      "title": "603 LIHEAP Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634652.380876
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/604_Application/LIHEAP_604_Title.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__604_Application__LIHEAP_604_Title.htm.html",
+      "title": "604 LIHEAP Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634652.655293
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/698_Weatherization/LIHEAP_698_Title.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__698_Weatherization__LIHEAP_698_Title.htm.html",
+      "title": "698 LIHEAP Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634652.917015
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/668_Payment_Process/LIHEAP_668_Title.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__668_Payment_Process__LIHEAP_668_Title.htm.html",
+      "title": "LIHEAP 668 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634653.1847749
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/638_LIHEAP_Program_Benefits/Copy_of_LIHEAP_638_Title.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__638_LIHEAP_Program_Benefits__Copy_of_LIHEAP_638_Title.htm.html",
+      "title": "638 LIHEAP Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634653.44608
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/609_LIHEAP_Crisis/Copy_of_698_LIHEAP_Title.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__609_LIHEAP_Crisis__Copy_of_698_LIHEAP_Title.htm.html",
+      "title": "609 LIHEAP Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634653.705451
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/650_Income/650.4_Lump_Sum_Income.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__650_Income__650.4_Lump_Sum_Income.htm.html",
+      "title": "650.4 Lump Sum Income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634653.9740229
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/605_LIHEAP_Eligibility_Criteria/LIHEAP_605_Title.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__605_LIHEAP_Eligibility_Criteria__LIHEAP_605_Title.htm.html",
+      "title": "605 LIHEAP Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634654.239168
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/600_FormsPubs_OpsMemos_PolicyClarifications/600_LIHEAP_Forms_Title.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__600_FormsPubs_OpsMemos_PolicyClarifications__600_LIHEAP_Forms_Title.htm.html",
+      "title": "600 LIHEAP Forms Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634654.5503879
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/622_Citizen_Noncitizen/LIHEAP_622_Title.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__622_Citizen_Noncitizen__LIHEAP_622_Title.htm.html",
+      "title": "622 LIHEAP Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634654.814666
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/603_General_Information/603.4_Nondiscrimination.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__603_General_Information__603.4_Nondiscrimination.htm.html",
+      "title": "603.4 Nondiscrimination",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634655.074165
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/668_Payment_Process/668.7_Disputed_Payments.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__668_Payment_Process__668.7_Disputed_Payments.htm.html",
+      "title": "668.7 Disputed Payments",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634655.356705
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/603_General_Information/603.2_Program_Schedule.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__603_General_Information__603.2_Program_Schedule.htm.html",
+      "title": "603.2 Program Schedule",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634655.703439
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/677_Notices/677.4_Incomplete_Notice.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__677_Notices__677.4_Incomplete_Notice.htm.html",
+      "title": "677.4 Incomplete Notice",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634655.978814
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/668_Payment_Process/668.2_Prepayment_Process.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__668_Payment_Process__668.2_Prepayment_Process.htm.html",
+      "title": "668.2 Prepayment Process",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634656.266657
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/604_Application/604.5_Application_Retention.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__604_Application__604.5_Application_Retention.htm.html",
+      "title": "604.5 Application Retention",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634656.5319219
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/668_Payment_Process/668.5_Accounts_Receivable.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__668_Payment_Process__668.5_Accounts_Receivable.htm.html",
+      "title": "668.5 Accounts Receivable",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634656.798132
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/677_Notices/677.1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__677_Notices__677.1_General_Policy.htm.html",
+      "title": "677.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634657.062061
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/650_Income/650.5_Income_Deductions.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__650_Income__650.5_Income_Deductions.htm.html",
+      "title": "650.5 Income Deductions",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634657.332005
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/603_General_Information/603.5_Privacy.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__603_General_Information__603.5_Privacy.htm.html",
+      "title": "603.5 Privacy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634657.596148
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/679_Appeals_and_Fair_Hearings/679.1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__679_Appeals_and_Fair_Hearings__679.1_General_Policy.htm.html",
+      "title": "679.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634657.875394
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/698_Weatherization/698.1_Introduction.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__698_Weatherization__698.1_Introduction.htm.html",
+      "title": "698.1 Introduction",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634658.149097
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/668_Payment_Process/668.9_Other_Payment_Issues.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__668_Payment_Process__668.9_Other_Payment_Issues.htm.html",
+      "title": "668.9 Other Payment Issues",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634658.4212081
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/677_Notices/677.3_Ineligible_Notice.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__677_Notices__677.3_Ineligible_Notice.htm.html",
+      "title": "677.3 Ineligible Notice",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634658.693197
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/609_LIHEAP_Crisis/609.1.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__609_LIHEAP_Crisis__609.1.htm.html",
+      "title": "609.1",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634658.958636
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/668_Payment_Process/668.6_Dunning_Letters.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__668_Payment_Process__668.6_Dunning_Letters.htm.html",
+      "title": "668.6 Dunning Letters",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634659.224909
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/640_Resources/640.1_Resources.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__640_Resources__640.1_Resources.htm.html",
+      "title": "640.1 Resources",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634659.4870641
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/668_Payment_Process/668.3_Batch_Process.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__668_Payment_Process__668.3_Batch_Process.htm.html",
+      "title": "668.3 Batch Process",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634659.75316
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/614_Students/614.2_Ineligible_Students.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__614_Students__614.2_Ineligible_Students.htm.html",
+      "title": "614.2 Ineligible Students",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634660.0196722
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/678_Verification/678.1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__678_Verification__678.1_General_Policy.htm.html",
+      "title": "678.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634660.289352
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/677_Notices/677.2_Eligible_Notice.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__677_Notices__677.2_Eligible_Notice.htm.html",
+      "title": "677.2 Eligible Notice",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634660.562301
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/638_LIHEAP_Program_Benefits/638.1_LIHEAP_Program_Benefits.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__638_LIHEAP_Program_Benefits__638.1_LIHEAP_Program_Benefits.htm.html",
+      "title": "638.1 LIHEAP Program Benefits",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634660.845548
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/622_Citizen_Noncitizen/622.1_Citizen_Noncitizen.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__622_Citizen_Noncitizen__622.1_Citizen_Noncitizen.htm.html",
+      "title": "622.1 Citizen/Noncitizen",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634661.1116002
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/603_General_Information/603.1_Purpose_of_LIHEAP.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__603_General_Information__603.1_Purpose_of_LIHEAP.htm.html",
+      "title": "603.1 Purpose of LIHEAP",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634661.470379
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/650_Income/650_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__650_Income__650_Appendix_A.htm.html",
+      "title": "650 Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634661.739698
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/668_Payment_Process/668.4_Types_of_Payments.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__668_Payment_Process__668.4_Types_of_Payments.htm.html",
+      "title": "668.4 Types of Payments",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634662.045682
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/610_Households/610.2_Household_Members.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__610_Households__610.2_Household_Members.htm.html",
+      "title": "610.2 Household Members",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634662.3180811
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/622_Citizen_Noncitizen/622.2_Noncitizen_Eligibility.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__622_Citizen_Noncitizen__622.2_Noncitizen_Eligibility.htm.html",
+      "title": "622.2 Noncitizen Eligibility",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634662.596595
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/650_Income/650.3_Countable_Unearned_Income.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__650_Income__650.3_Countable_Unearned_Income.htm.html",
+      "title": "650.3 Countable Unearned Income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634662.89838
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/650_Income/650.7_Income_Computation.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__650_Income__650.7_Income_Computation.htm.html",
+      "title": "650.7 Income Computation",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634663.1758158
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/650_Income/650.1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__650_Income__650.1_General_Policy.htm.html",
+      "title": "650.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634663.458366
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/610_Households/610.1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__610_Households__610.1_General_Policy.htm.html",
+      "title": "610.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634663.7311978
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/604_Application/604.2_Application_Process.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__604_Application__604.2_Application_Process.htm.html",
+      "title": "604.2 Application Process",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634664.090365
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/623_Residence/623.1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__623_Residence__623.1_General_Policy.htm.html",
+      "title": "623.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634664.3637419
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/668_Payment_Process/668.8_Overpayment_Process.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__668_Payment_Process__668.8_Overpayment_Process.htm.html",
+      "title": "668.8 Overpayment Process",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634664.66834
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/678_Verification/678.2_Information_that_Must_Be_Verified.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__678_Verification__678.2_Information_that_Must_Be_Verified.htm.html",
+      "title": "678.2 Information that Must Be Verified",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634664.9536252
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/650_Income/650.6_Income_Exclusions.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__650_Income__650.6_Income_Exclusions.htm.html",
+      "title": "650.6 Income Exclusions",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634665.271085
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/614_Students/614.1_Eligible_Students.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__614_Students__614.1_Eligible_Students.htm.html",
+      "title": "614.1 Eligible Students",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634665.539885
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/600_FormsPubs_OpsMemos_PolicyClarifications/600_Forms_and_Publications.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__600_FormsPubs_OpsMemos_PolicyClarifications__600_Forms_and_Publications.htm.html",
+      "title": "600 Forms and Publications",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634665.8209379
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/678_Verification/678.3_Acceptable_Forms_of_Verification.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__678_Verification__678.3_Acceptable_Forms_of_Verification.htm.html",
+      "title": "678.3 Acceptable Forms of Verification",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634666.098347
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/610_Households/610.3_Individuals_Not_Counted_as_Household_Members.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__610_Households__610.3_Individuals_Not_Counted_as_Household_Members.htm.html",
+      "title": "610.3 Individuals Not Counted as Household Members",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634666.3711739
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/698_Weatherization/698.2_Types_of_Weatherization_Work_Performed.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__698_Weatherization__698.2_Types_of_Weatherization_Work_Performed.htm.html",
+      "title": "698.2 Weatherization Assistance Program",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634666.7215612
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/679_Appeals_and_Fair_Hearings/679.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__679_Appeals_and_Fair_Hearings__679.htm.html",
+      "title": "679.2 Reconsideration",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634667.0061991
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/603_General_Information/603.3_Rights_and_Responsibilities.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__603_General_Information__603.3_Rights_and_Responsibilities.htm.html",
+      "title": "603.3 Rights and Responsibilities",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634667.297632
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/605_LIHEAP_Eligibility_Criteria/605.1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__605_LIHEAP_Eligibility_Criteria__605.1_General_Policy.htm.html",
+      "title": "605.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634667.573314
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/698_Weatherization/698.3_Emergency_Services_Program.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__698_Weatherization__698.3_Emergency_Services_Program.htm.html",
+      "title": "698.3 Emergency Services Program",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634667.849909
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/600_FormsPubs_OpsMemos_PolicyClarifications/600_Operations_Memoranda.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__600_FormsPubs_OpsMemos_PolicyClarifications__600_Operations_Memoranda.htm.html",
+      "title": "600 Operations Memoranda",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634668.1251001
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/677_Notices/677_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__677_Notices__677_Appendix_A.htm.html",
+      "title": "677 Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634668.403892
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/604_Application/604.1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__604_Application__604.1_General_Policy.htm.html",
+      "title": "604.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634668.687619
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/650_Income/650.2_Countable_Earned_Income.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__650_Income__650.2_Countable_Earned_Income.htm.html",
+      "title": "650.2 Countable Earned Income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634668.981867
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/622_Citizen_Noncitizen/622_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__622_Citizen_Noncitizen__622_Appendix_A.htm.html",
+      "title": "622 Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634669.353332
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/604_Application/604.3_Crisis_Application_Process.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__604_Application__604.3_Crisis_Application_Process.htm.html",
+      "title": "604.3 Crisis Application Process",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634669.6385658
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/600_FormsPubs_OpsMemos_PolicyClarifications/600_Policy_Clarifications.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__600_FormsPubs_OpsMemos_PolicyClarifications__600_Policy_Clarifications.htm.html",
+      "title": "600 Policy Clarifications",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634669.919692
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/Department_of_Public_Welfare_(DPW).htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__Department_of_Public_Welfare__DPW_.htm.html",
+      "title": "Department of Human Services (DHS)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634670.201447
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/DPW.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__DPW.htm.html",
+      "title": "DPW",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634670.475421
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/Office_of_Inspector_General_(OIG).htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__Office_of_Inspector_General__OIG_.htm.html",
+      "title": "Office State of Inspector General (OSIG)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634670.7487402
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/board.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__board.htm.html",
+      "title": "board",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634671.0182889
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/SSN.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__SSN.htm.html",
+      "title": "SSN",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634671.294376
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/IRS.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__IRS.htm.html",
+      "title": "IRS",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634671.5923042
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/alien.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__alien.htm.html",
+      "title": "alien",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634671.950819
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/IEVS.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__IEVS.htm.html",
+      "title": "IEVS",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634672.222167
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/CIS.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__CIS.htm.html",
+      "title": "CIS",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634672.53406
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/DCED.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__DCED.htm.html",
+      "title": "DCED",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634672.806922
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/noncitizen.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__noncitizen.htm.html",
+      "title": "noncitizen",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634673.081595
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/SNAP.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__SNAP.htm.html",
+      "title": "SNAP",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634673.354608
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/payment_name.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__payment_name.htm.html",
+      "title": "payment name",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634673.627247
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/CAP.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__CAP.htm.html",
+      "title": "CAP",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634673.905451
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/allowable_costs.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__allowable_costs.htm.html",
+      "title": "allowable costs",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634674.176026
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/extraordinary_pay.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__extraordinary_pay.htm.html",
+      "title": "extraordinary pay",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634674.4508438
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/appeal.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__appeal.htm.html",
+      "title": "appeal",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634674.73176
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/treasury_pay_date.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__treasury_pay_date.htm.html",
+      "title": "treasury pay date",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634675.006516
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/Docushare.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__Docushare.htm.html",
+      "title": "Docushare",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634675.285301
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/depreciation.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__depreciation.htm.html",
+      "title": "depreciation",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634675.6279502
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/underpayment.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__underpayment.htm.html",
+      "title": "underpayment",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634675.911516
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/documentation.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__documentation.htm.html",
+      "title": "documentation",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634676.201139
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/educational_assistance.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__educational_assistance.htm.html",
+      "title": "educational assistance",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634676.4779992
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/remittance_advice_(RA).htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__remittance_advice__RA_.htm.html",
+      "title": "remittance advice (RA)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634676.747494
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/unearned_income.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__unearned_income.htm.html",
+      "title": "unearned income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634677.024657
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/work_expense_deduction.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__work_expense_deduction.htm.html",
+      "title": "work expense deduction",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634677.2927182
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/capital_assets.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__capital_assets.htm.html",
+      "title": "capital assets",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634677.557817
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/e-CIS.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__e-CIS.htm.html",
+      "title": "e-CIS",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634677.816823
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/recoupment.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__recoupment.htm.html",
+      "title": "recoupment",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634678.088028
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/special_allowance.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__special_allowance.htm.html",
+      "title": "special allowance",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634678.359513
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/immigrant.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__immigrant.htm.html",
+      "title": "immigrant",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634678.6328042
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/rejection_code.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__rejection_code.htm.html",
+      "title": "rejection code",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634678.904487
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/economic_unit.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__economic_unit.htm.html",
+      "title": "economic unit",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634679.1773162
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/self-employment.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__self-employment.htm.html",
+      "title": "self-employment",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634679.446163
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/guardian.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__guardian.htm.html",
+      "title": "guardian",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634679.722883
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/resource.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__resource.htm.html",
+      "title": "resource",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634679.990129
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/County_Assistance_Office_(CAO).htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__County_Assistance_Office__CAO_.htm.html",
+      "title": "County Assistance Office (CAO)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634680.344075
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/energy_provider.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__energy_provider.htm.html",
+      "title": "energy provider",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634680.622476
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/overpayment.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__overpayment.htm.html",
+      "title": "overpayment",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634680.922888
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/applicant.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__applicant.htm.html",
+      "title": "applicant",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634681.19264
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/Medicare.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__Medicare.htm.html",
+      "title": "Medicare",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634681.460904
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/reissue_payment.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__reissue_payment.htm.html",
+      "title": "reissue payment",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634681.765553
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/applicant_household.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__applicant_household.htm.html",
+      "title": "applicant household",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634682.035895
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/Medical_Assistance_(MA).htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__Medical_Assistance__MA_.htm.html",
+      "title": "Medical Assistance (MA)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634682.304105
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/disclosure.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__disclosure.htm.html",
+      "title": "disclosure",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634682.574888
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/voucher.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__voucher.htm.html",
+      "title": "voucher",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634682.8419251
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/administrative_error.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__administrative_error.htm.html",
+      "title": "administrative error",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634683.131247
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/verification.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__verification.htm.html",
+      "title": "verification",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634683.4870532
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/citizenship.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__citizenship.htm.html",
+      "title": "citizenship",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634683.769631
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/second_pay.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__second_pay.htm.html",
+      "title": "second pay",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634684.0694551
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/roomer.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__roomer.htm.html",
+      "title": "roomer",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634684.339162
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/date_of_application.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__date_of_application.htm.html",
+      "title": "date of application",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634684.61765
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/Income_Eligibility_Verification_System_(IEVS).htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__Income_Eligibility_Verification_System__IEVS_.htm.html",
+      "title": "Income Eligibility Verification System (IEVS)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634684.896018
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/common_residence.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__common_residence.htm.html",
+      "title": "common residence",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634685.166486
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/fair_hearing.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__fair_hearing.htm.html",
+      "title": "fair hearing",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634685.436865
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/accounts_receivable_(AR).htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__accounts_receivable__AR_.htm.html",
+      "title": "accounts receivable (AR)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634685.707135
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/earned_income.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__earned_income.htm.html",
+      "title": "earned income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634685.974773
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/residence.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__residence.htm.html",
+      "title": "residence",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634686.2428532
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/heating_cost.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__heating_cost.htm.html",
+      "title": "heating cost",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634686.52001
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/dunning_letter.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__dunning_letter.htm.html",
+      "title": "dunning letter",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634686.80621
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/household.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__household.htm.html",
+      "title": "household",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634687.162049
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/budget_group.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__budget_group.htm.html",
+      "title": "budget group",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634687.436884
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/Social_Security_number_(SSN).htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__Social_Security_number__SSN_.htm.html",
+      "title": "Social Security number (SSN)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634687.7372959
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/refugee.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__refugee.htm.html",
+      "title": "refugee",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634688.0051541
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/United_States_Citizenship_and_Immigration_Services_(USCIS).htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__United_States_Citizenship_and_Immigration_Services__USCIS_.htm.html",
+      "title": "United States Citizenship and Immigration Services (USCIS)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634688.2756531
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/asylee.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__asylee.htm.html",
+      "title": "asylee",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634688.5475252
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/vendor.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__vendor.htm.html",
+      "title": "vendor",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634688.815776
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/U.S._citizen.htm",
+      "local_path": "raw_policy_downloads/liheap_v1/oimpolicymanuals__liheap__Popups__U.S._citizen.htm.html",
+      "title": "U.S. citizen",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634689.0765219
+    }
+  ],
+  "failures": []
+}

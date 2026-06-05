@@ -1,0 +1,15 @@
+---
+program: Medicaid/CHIP
+source_type: official_handbook
+title: SAR
+chapter: unknown
+source_url: http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/SAR.htm
+accessed_date: 2026-04-19
+jurisdiction: Pennsylvania
+---
+
+# SAR
+
+SAR
+
+Semiannual reporting. See Cash Assistance Handbook Chapter 171.

@@ -1,0 +1,15 @@
+---
+program: SNAP
+source_type: official_handbook
+title: lien
+chapter: unknown
+source_url: http://services.dpw.state.pa.us/oimpolicymanuals/snap/Popups/lien.htm
+accessed_date: 2026-04-19
+jurisdiction: Pennsylvania
+---
+
+# lien
+
+lien A person who is 19 years of age or older or who is 18 years of age and not a full-time student in a secondary school or in the equivalent level of vocational or technical training.
+
+A judgment against real or personal property for the satisfaction or repayment of a debt.

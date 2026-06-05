@@ -1,0 +1,193 @@
+{
+  "trace_id": "4bb15c7f-ccb5-4c7b-bb21-c229aa123b43",
+  "case_id": "AGENT_02",
+  "llm_mode": "offline_or_rule_only_fallback",
+  "raw_input": {
+    "user_description": "I am a single adult in Pittsburgh with no children, staying with relatives after an eviction. I work full time and make about $3200 a month. I have insurance and my biggest need is help with housing and legal support, not food or heating."
+  },
+  "intake_object": {
+    "normalized_profile": {
+      "user_description": "I am a single adult in Pittsburgh with no children, staying with relatives after an eviction. I work full time and make about $3200 a month. I have insurance and my biggest need is help with housing and legal support, not food or heating.",
+      "county": "Allegheny",
+      "zip_code": null,
+      "num_adults": 1,
+      "num_children": 0,
+      "child_under_5": null,
+      "pregnant_household_member": null,
+      "elderly_or_disabled_member": null,
+      "employment_status": "full_time",
+      "monthly_earned_income": null,
+      "monthly_unearned_income": null,
+      "household_income_total": 3200.0,
+      "housing_cost": null,
+      "utility_burden": null,
+      "heating_assistance_need": null,
+      "insurance_status": "insured",
+      "recent_job_loss": null,
+      "food_insecurity_signal": null,
+      "language_or_stress_notes": null
+    },
+    "missing_fields": [],
+    "contradictory_fields": [],
+    "extracted_signals": [
+      "free_text_description_received"
+    ],
+    "intake_status": "complete",
+    "geography_status": "in_scope_geography",
+    "validation_reasons": [
+      "Core screening fields are complete enough to continue."
+    ],
+    "intake_summary": "User described the household as: I am a single adult in Pittsburgh with no children, staying with relatives after an eviction. I work full time and make about $3200 a month. I have insurance and my biggest need is help with housing and legal support, not food or heating. Household: 1 adult(s), 0 child(ren) in Allegheny. Reported household income: $3200 per month. Insurance status is reported as insured.",
+    "clarification_questions": []
+  },
+  "retrieved_chunks": [
+    {
+      "program_name": "SNAP",
+      "document_id": "snap_571_2_571_2_the_semiannual_reporting_system",
+      "title": "571.2 The Semiannual Reporting System",
+      "section_title": "571.21 County Assistance Office Responsibilities",
+      "score": 9.122,
+      "text": "The CAO must notify households of the SAR reporting requirement, including the consequences of failure to file a SAR form, at application and renewal . Before enrolling the household in SAR, the CAO must take the following actions: - Explain verbally and in writing how SAR works - Give the household a copy of the SAR form and explain how to complete and return the form. - Give the household information about SNAP income limits, Client Message (CM 430)(see Chapter 577, Appendix B ). - Explain that only the following changes must be reported during the SAR period, by the 10th of the month after the month of change (see Chapter 570 ): - Work hours of an able-bodied adult without dependents (ABAWD) fall below an average of 20 hours a week - Reported changes that affect the cash budget also affect the SNAP budget - Income exceeds 130% of the Federal Poverty Income Guideline (FPIG) limits NOTE: Any other changes are not required to be reported until SAR review. - Explain what information the household must verify and how they can verify it. - Give the household a toll-free telephone number it may call to ask questions or to get help completing the form. This may be a local number that accepts collect calls or an 800 number. Give special assistance to a household asking for help completing and returning the SAR form when the household's adult members have mental or physical disabilities, are non-English speaking, or lack reading or writing skills."
+    },
+    {
+      "program_name": "SNAP",
+      "document_id": "snap_550_3_550_3_unearned_income",
+      "title": "550.3 Unearned Income",
+      "section_title": "550.3 Unearned Income",
+      "score": 9.121,
+      "text": "- Delayed UC benefits are lump sum resources, not income. - A Claim Confirmation Letter or Notice of Financial Determination from the Department of Labor and Industry (DLI) is not confirmation of a paid UC claim. The initial UC payment will be received at least eight weeks after receipt of the Claim Confirmation Letter. Since the initial UC payment date cannot be reasonably anticipated, the CAO will not prospectively budget this income. - For announcements, alerts, or more information about UC, refer to the following DLI websites: For announcements or alerts: https://www.pa.gov/agencies/dli.html For information about Emergency Unemployment Compensation (EUC) and Extended Benefits (EB): https://www.pa.gov/agencies/dli/programs-services/unemployment.html - For announcements or alerts: https://www.pa.gov/agencies/dli.html - For information about Emergency Unemployment Compensation (EUC) and Extended Benefits (EB): https://www.pa.gov/agencies/dli/programs-services/unemployment.html - Veterans Administration (VA) benefits, including Aid and Attendance benefits NOTE: An individual may receive VA benefits under multiple claim numbers. The income from each claim must be counted and identified with the related claim number. - Sick benefits paid as wages by an employer when the employee does not expect to return to work - Sick benefits paid as part of the employer's benefit package (not as wages but as an insurance payment, for example), regardless of the personâs employment status - Strike benefits, including picket duty pay. - Support or alimony payments, including arrears and support pass-through payments (see Appendix A of this chapter and Section 550.5 ) Reminder: Workers should check the Pennsylvania Child Support Enforcement System (PACSES) for child support or alimony (even if listed as voluntary on the application). NOTE: Court-ordered support payments garnished from the earned or unearned income of a legally responsible relative (LRR) outside of or absent from the household are counted as unearned income. If the LRR returns to the household and continues to pay support due to the court order remaining in place, the CAO will count the full amount of the LRRâs earned or unearned income before the support is garnished but will no longer include the support payments as unearned income, to avoid counting the income twice."
+    },
+    {
+      "program_name": "SNAP",
+      "document_id": "snap_550_550_appendix_a",
+      "title": "550_Appendix A",
+      "section_title": "550_Appendix A",
+      "score": 9.112,
+      "text": "The Support Pass-Through (SPT) system compiles monthly support collection information and issues SPT checks to appropriate Temporary Assistance for Needy Families (TANF) recipients through the electronic Client Information System ( e CIS). After the initial month of TANF eligibility, an SPT check, not to exceed $50, is issued by e CIS based on the amount of support collected in the current support month and the percentage of that support payment that is determined to be the stateâs share. The stateâs share is calculated each September using a formula based on the stateâs Medical Assistance matching rates. Effective October 1, 2008, the SPT check is paid based on current support collections and increases for TANF families, up to $100 for a family with one child or up to $200 for a family with two or more children. The federal share is no longer deducted from current support to determine the SPT amount. eCIS determines whether the SPT payment is to be treated as income or a resource for Supplemental Nutrition Assistance Program (SNAP) purposes and generates two alerts to help County Assistance Office ( CAO) workers: - If the SPT is income and is a different amount than was received in the previous calendar month, alert 37 is set. - If the SPT is a resource and for the calendar month is greater than $99, alert 36 is set. Workers will review their alerts and take appropriate action to assure the household receives the proper SNAP allotments. Reminder: Workers should check the Pennsylvania Child Support Enforcement System (PACSES) for child support or alimony, even if listed as voluntary on the application."
+    },
+    {
+      "program_name": "Medicaid/CHIP",
+      "document_id": "medicaid_chip_312_1_312_1_general_policy",
+      "title": "312.1 General Policy",
+      "section_title": "312.12 Pregnant Women and Children under Age One",
+      "score": 12.129,
+      "text": "A pregnant woman or a qualified child up to age 1 can get MAGI-related MA if household income is equal to or less than 215 percent of the Federal Poverty Income Guideline (FPIG ) for the household size (See Appendix A ) . The pregnant woman, once approved, continues to be eligible for MA coverage through the end of the 12 th month when the12-month postpartum period ends, regardless of her income or a change in circumstances . ( See Chapter 338.42 ) The newborn whose mother was getting MA or CHIP at the time of birth can get MA coverage up to age one, regardless of the parentsâ income, per the Children's Health Insurance Program Reauthorization Act of 2009 (CHIPRA). Children under one who were not born to a mother on MA or CHIP at the time of birth are eligible for a 12-month continuous eligibility period (See Section 312.131 ). NOTE: If the CAO did not know about the pregnancy and learns that MA or SSI benefits were closed during the pregnancy, it must approve MA coverage from the date of the closing through the last day of the month in which the 12-month postpartum period ends. Newborns and pregnant/postpartum individuals can only be closed during their periods of continuous eligibility for the following reasons: - Permanent Move Out of State - If the CAO determines that the opening of benefits was incorrect due to fraud or abuse or agency error. When a provider or other outside source asks for MA benefits for a child under age one, the CAO must review the familyâs case record to see if MA , SSI, or CHIP benefits were open for the mother at any time during the pregnancy. If so, the CAO must authorize MA benefits for the child from the date of birth until the first birthday."
+    },
+    {
+      "program_name": "Medicaid/CHIP",
+      "document_id": "medicaid_chip_312_4_312_4_income",
+      "title": "312.4 Income",
+      "section_title": "312.43 Annualized Income",
+      "score": 10.206,
+      "text": "If a MAGI budget group's monthly income (earned and/or unearned) exceeds the monthly income limit and the income is expected to decrease or terminate, an annualized income calculation must be performed. The expected decrease or termination must be verified in accordance with Section 312. 6 1 Verification Requirements and Section 312. 6 2 Reasonable Compatibility . To determine annual household income, total the household's countable earned and unearned income from January 1 through December 31 of the year in which the eligibility is being determined and compare to the annual income limit. NOTE: The caseworker must manually calculate the annual income. If the income is within the limit, data enter the earned and unearned income respectively with a frequency code of â9-Annually.â The caseworker may need to create two income screens or complete a manual override if income annualization is not allowed for other budgets or programs on the case record. Example: Mary (37) is a single adult who applies for health care. Mary works part-time as a school bus driver. Mary's current monthly income of $2,000 exceeds the 133% monthly income limit (even with the 5% income disregard applied) for health care coverage (one - person 2026 household limit is $1,769 per month and the 5% disregard is $66.50 ). However, Mary indicates that they do not work at all for the months of June, July and August each year and has provided verification from her employer. Mary's annual income beginning January 1 and ending December 31 would be $18,000 ( $2,000 x 9 months). The 133% annual income limit for a one - person household for 2026 is $21,227 . When the income is annualized, it is under the 133% annual limit and Mary is eligible for health care coverage."
+    },
+    {
+      "program_name": "Medicaid/CHIP",
+      "document_id": "medicaid_chip_338_2_338_2_third_party_resources",
+      "title": "338.2 Third-Party Resources",
+      "section_title": "338.225 Failure to Cooperate with HIPP",
+      "score": 10.14,
+      "text": "See MEC Desk Guide for information about what insurance is MEC. If the box is checked for any other individuals, it will not affect their MA eligibility. However, it is important to check this box for all applying children aged 18 and under due to changes to category of eligibility that may occur. If health insurance coverage is reported on a new application, on a renewal, or through client reported changes, the CAO will update the MEC indicator on the Individual Attributes screen accordingly. The CAO will not require that the insurance question be answered on the application. The CAO will follow the existing verification policy in Chapter 378.3 to verify health insurance. NOTE: MA should not be delayed or terminated for an individual whose responsible relative fails to cooperate in identifying and verifying TPL information. Health insurance may also be systematically updated by TPL batch processes. Any time the CAO takes action on a case with an open MG 19 category, the CAO will review the TPL screens and ensure that the âMinimum Essential Coverage?â box is checked if the TPL screens list MEC insurance. For COMPASS Real-Time Eligibility, children aged 6-18 with household income between 100 and 133 percent FPL will now be authorized in the MG 00 category if any type of health insurance is reported on the application. Consistent with the existing import process, the reported health insurance and the MEC check box will not be populated in eCIS. The next time a CAO takes action on the case they will need to update the MEC indicator on the Individual Attributes screen. 338.232 1095-B Form and Reporting MA as MEC to the Internal Revenue Service (IRS)"
+    },
+    {
+      "program_name": "LIHEAP",
+      "document_id": "liheap_650_3_650_3_countable_unearned_income",
+      "title": "650.3 Countable Unearned Income",
+      "section_title": "650.3 Countable Unearned Income",
+      "score": 10.191,
+      "text": "The following types of unearned income are counted as income : 55 Pa. Code § 601.82(4) LIHEAP State Plan § 601.82(4) (1) Public assistance grants. NOTE : The CAO must not use a grant amount that is reduced because of noncooperation. It must use the full grant amount when deciding whether a household qualifies for LIHEAP. Example: Rita eceives cash assistance in Dauphin County for themselves and three children. Rita did not follow support requirements by getting a court order for support. Their monthly cash assistance grant of $497 is reduced by 25 percent. For LIHEAP, Ritaâs income is $497 â the cash assistance grant for four persons. (2) Social Security benefits / Supplemental Security Income. NOTE: Do not use grant amounts that are reduced because of recoupment. Use the full grant amount when determining if a household qualifies for LIHEAP. NOTE: If RSDI or SSI is received by a representative payee outside of the LIHEAP household, only the portion that is given to the household is countable for LIHEAP. NOTE: Do not use grant amounts that are reduced due to child support recoupment, taxes, etc. Use the full grant amount, after the 3.2% b enefit reduction, when determining if a household qualifies for LIHEAP. NOTE: If the payor is also in the LIHEAP household, support would not be counted. (6) Adoption and Subsidized Permanent Legal Custodian (SPLC) subsidy money Exception: Money paid by an approved child-placement agency to the client as adoption subsidy or a subsidy for a Subsidized Permanent Legal Custodian (SPLC) agreement for a child if the money is received through Title IV-E of the Adoption Assistance and Child Welfare Act of 1980 (P.L. 96-272). Money received through Article VII of the Public Welfare code (62 P.S. Sections 701 - 774)."
+    },
+    {
+      "program_name": "LIHEAP",
+      "document_id": "liheap_678_3_678_3_acceptable_forms_of_verification",
+      "title": "678.3 Acceptable Forms of Verification",
+      "section_title": "678.3 Acceptable Forms of Verification",
+      "score": 10.11,
+      "text": "The CAO has the discretion to use all available resources to establish verification of required information. - SSN's are verified through e-CIS directly with the Social Security Administration - Household members who do not provide a SSN must sign an Energy Assistance Affidavit ( HS EA-4 ) , or complete question #2 of the Certification section on the LIHEAP application ( HSEA-1) - Earned/Unearned Income- - Pay stubs, benefit award letters or photocopies of these documents - A letter from a person paying voluntary support that includes the person's address and telephone number, the amount of support paid and how often it is paid. - Automated sources such as CIS , e-CIS and exchanges 1,2,3, and 6 of the Income Eligibility Verification System (IEVS) . - Deliverable-fuel bills from January of the previous heating season and forward, utility bills dated two months or less from the date of application to verify heating responsibility, or a landlord statement (HSEA-36) to verify heat is included in the rent. NOTE : In certain situations, such as the death of a spouse or credit problems, the heating bill may be in the name of someone other than the applicant. The applicant must give written proof of address other than the heating bill and explain why the bill is in another person's name. If the landlordâs name is on the heating bill, the applicant must show the lease or a statement from the landlord saying that the applicant is responsible for paying heating costs directly to the fuel supplier. - A utility termination notice showing that service has been shut off or will be shut off within 60 days or a statement from the applicant that his or her deliverable fuel supply will run out within 15 days."
+    },
+    {
+      "program_name": "LIHEAP",
+      "document_id": "liheap_677_2_677_2_eligible_notice",
+      "title": "677.2 Eligible Notice",
+      "section_title": "677.2 Eligible Notice",
+      "score": 9.134,
+      "text": "When DHS approves an application, it must send the applicant a notice with the following information: 55 PA. Code § 601.22 LIHEAP State Plan § 601.22 - The amount of the benefit. - The householdâs reported income. - The yearly amount of reported income compared with the LIHEAP income limit based on household size. - A detailed explanation of the right to an appeal , how to ask for a hearing, how to prepare for a hearing and what happens at a hearing, and a fair hearing request form. Eligible notices for the cash program include the following text: - For benefits payable to utilities and deliverable fuel companies: âYou qualify for LIHEAP Cash Benefit: $______ will be sent to [vendor name]. This is a one-time only payment for the [program year] heating season.â - For benefits payable directly to LIHEAP applicants: âYou qualify for LIHEAP Cash Benefit: $______ will be sent to YOU. This is a one-time only payment for the [program year] heating season.â Eligible notices for the crisis program have the following text: âYou qualify for 20 xx -20 xx C risis energy assistance. On [ mm/dd/yy ] we approved $_____ to resolve your crisis. Your energy provider is [ name of utility or deliverable company ] for this benefit.â âYou qualify for 20 xx -20 xx Crisis energy assistance. On [ mm/dd/yy ] we approved $_____ to resolve your crisis. The payment for this benefit was sent to YOU. Please be aware that this money is to help you with your home heating cost and should be used to pay your heating bills.â Approval notices are generated on the weekend after the LIHEAP system processes the payments."
+    }
+  ],
+  "program_scores": [
+    {
+      "program_name": "SNAP",
+      "status": "no_clear_match",
+      "decision_state": "suppressed_high_income",
+      "match_score": -3.5,
+      "priority_score": 0.0,
+      "rule_match_score": -3.5,
+      "llm_match_score": null,
+      "cross_check_status": "rule_only_fallback",
+      "cross_check_summary": "Reported income appears above the screening band for this program.",
+      "suppression_reason": "high_income",
+      "priority_boost_reason": null
+    },
+    {
+      "program_name": "Medicaid/CHIP",
+      "status": "no_clear_match",
+      "decision_state": "suppressed_high_income",
+      "match_score": -3.5,
+      "priority_score": 0.0,
+      "rule_match_score": -3.5,
+      "llm_match_score": null,
+      "cross_check_status": "rule_only_fallback",
+      "cross_check_summary": "Reported income appears above the screening band for this program.",
+      "suppression_reason": "high_income",
+      "priority_boost_reason": null
+    },
+    {
+      "program_name": "LIHEAP",
+      "status": "no_clear_match",
+      "decision_state": "suppressed_high_income",
+      "match_score": -3.5,
+      "priority_score": 0.0,
+      "rule_match_score": -3.5,
+      "llm_match_score": null,
+      "cross_check_status": "rule_only_fallback",
+      "cross_check_summary": "Reported income appears above the screening band for this program.",
+      "suppression_reason": "high_income",
+      "priority_boost_reason": null
+    }
+  ],
+  "cross_check_result": [
+    {
+      "program_name": "SNAP",
+      "cross_check_status": "rule_only_fallback",
+      "cross_check_summary": "Reported income appears above the screening band for this program.",
+      "llm_rule_conflict": false
+    },
+    {
+      "program_name": "Medicaid/CHIP",
+      "cross_check_status": "rule_only_fallback",
+      "cross_check_summary": "Reported income appears above the screening band for this program.",
+      "llm_rule_conflict": false
+    },
+    {
+      "program_name": "LIHEAP",
+      "cross_check_status": "rule_only_fallback",
+      "cross_check_summary": "Reported income appears above the screening band for this program.",
+      "llm_rule_conflict": false
+    }
+  ],
+  "final_recommendations": [],
+  "final_decision": {
+    "intake_status": "complete",
+    "geography_status": "in_scope_geography",
+    "decision_status": "ready_for_explanation",
+    "final_status": "delivered"
+  },
+  "final_explanation": "This upgraded navigator turns the household description into structured intake fields, then ranks programs using retrieved local policy evidence. Based on the information provided, the system did not identify a likely benefit match. The main reason is that the reported household income appears above the screening bands for the programs reviewed. This is not an official denial, and benefits rules can still be complex, so you may want to verify with COMPASS, Allegheny County DHS, or a human benefits counselor.",
+  "human_followup_or_caveats": [
+    "This is prescreening only.",
+    "This is not an official determination.",
+    "SNAP: Reported income appears above the screening band for this program..",
+    "Medicaid/CHIP: Reported income appears above the screening band for this program..",
+    "LIHEAP: Reported income appears above the screening band for this program.."
+  ]
+}

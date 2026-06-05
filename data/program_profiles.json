@@ -1,0 +1,85 @@
+{
+  "programs": [
+    {
+      "program_name": "SNAP",
+      "category": "food assistance",
+      "description": "Food assistance for low-income households with limited resources and signs of food hardship.",
+      "retriever_terms": ["snap", "food", "groceries", "nutrition", "household income", "food hardship"],
+      "income_limits_by_household_size": {"1": 2610, "2": 3526, "3": 4442, "4": 5360, "5": 6276, "6": 7192},
+      "fit_signals": [
+        {"field": "food_insecurity_signal", "operator": "in", "value": ["clear"], "weight": 4, "reason": "Clear food hardship strongly supports SNAP review."},
+        {"field": "food_insecurity_signal", "operator": "in", "value": ["possible"], "weight": 2, "reason": "Possible food hardship still supports SNAP review."},
+        {"field": "recent_job_loss", "operator": "==", "value": true, "weight": 2, "reason": "Recent job loss can increase need for food support."},
+        {"field": "num_children", "operator": ">=", "value": 1, "weight": 1, "reason": "Households with children may benefit from early SNAP review."}
+      ],
+      "priority_signals": [
+        {"field": "food_insecurity_signal", "operator": "in", "value": ["clear"], "weight": 3, "reason": "Food hardship increases urgency."},
+        {"field": "recent_job_loss", "operator": "==", "value": true, "weight": 2, "reason": "Income disruption raises urgency."}
+      ],
+      "checklist_items": [
+        "Proof of household income for the last 30 days",
+        "Social Security numbers for household members applying for SNAP",
+        "Proof of household expenses if claiming deductions",
+        "Signed SNAP application or COMPASS submission confirmation"
+      ],
+      "base_caveats": [
+        "SNAP prescreening can change if income details are incomplete or inconsistent.",
+        "Work-related or exemption rules may require follow-up."
+      ]
+    },
+    {
+      "program_name": "Medicaid/CHIP",
+      "category": "health coverage",
+      "description": "Health coverage support for uninsured or underinsured adults, children, and pregnancy-related pathways.",
+      "retriever_terms": ["medicaid", "chip", "health coverage", "insurance", "pregnancy", "children"],
+      "income_limits_by_household_size": {"1": 1769, "2": 2392, "3": 3015, "4": 3638, "5": 4260, "6": 4883},
+      "fit_signals": [
+        {"field": "insurance_status", "operator": "in", "value": ["uninsured"], "weight": 4, "reason": "No current coverage strongly supports Medicaid review."},
+        {"field": "insurance_status", "operator": "in", "value": ["underinsured"], "weight": 2, "reason": "Underinsurance can still justify Medicaid or CHIP review."},
+        {"field": "pregnant_household_member", "operator": "==", "value": true, "weight": 4, "reason": "Pregnancy makes Medicaid review more important."},
+        {"field": "num_children", "operator": ">=", "value": 1, "weight": 2, "reason": "Children increase the relevance of Medicaid or CHIP review."}
+      ],
+      "priority_signals": [
+        {"field": "insurance_status", "operator": "in", "value": ["uninsured"], "weight": 3, "reason": "Lack of insurance raises urgency."},
+        {"field": "pregnant_household_member", "operator": "==", "value": true, "weight": 3, "reason": "Pregnancy raises urgency."}
+      ],
+      "checklist_items": [
+        "Employer and income information for everyone in the household",
+        "Policy numbers for current or recent health insurance",
+        "Proof of identity",
+        "Proof of U.S. citizenship or lawful non-citizen status"
+      ],
+      "base_caveats": [
+        "Pregnancy, age bands, and current coverage details can change the result.",
+        "Household-composition details may affect Medicaid or CHIP pathways."
+      ]
+    },
+    {
+      "program_name": "LIHEAP",
+      "category": "utility assistance",
+      "description": "Energy-assistance support for households struggling with heating costs or utility burden.",
+      "retriever_terms": ["liheap", "heating", "utility", "energy assistance", "gas bill", "shutoff"],
+      "income_limits_by_household_size": {"1": 2452, "2": 3207, "3": 3962, "4": 4717, "5": 5472, "6": 6227},
+      "fit_signals": [
+        {"field": "heating_assistance_need", "operator": "==", "value": true, "weight": 4, "reason": "A direct heating-assistance need strongly supports LIHEAP review."},
+        {"field": "utility_burden", "operator": "in", "value": ["high"], "weight": 3, "reason": "High utility burden strongly supports LIHEAP review."},
+        {"field": "utility_burden", "operator": "in", "value": ["medium"], "weight": 1, "reason": "Moderate utility burden can still support LIHEAP review."},
+        {"field": "recent_job_loss", "operator": "==", "value": true, "weight": 1, "reason": "Income disruption can make heating costs harder to manage."}
+      ],
+      "priority_signals": [
+        {"field": "heating_assistance_need", "operator": "==", "value": true, "weight": 4, "reason": "Heating crises should be addressed quickly."},
+        {"field": "utility_burden", "operator": "in", "value": ["high"], "weight": 3, "reason": "High utility burden raises urgency."}
+      ],
+      "checklist_items": [
+        "Recent bill from the main heating source",
+        "Proof of household income for each household member",
+        "Employer statements, pay stubs, or award letters for income verification",
+        "Lease or rent documentation if heating costs are included in rent"
+      ],
+      "base_caveats": [
+        "Heating-cost details and seasonal program rules may affect the result.",
+        "Some applicants may need extra documentation depending on rent and citizenship details."
+      ]
+    }
+  ]
+}

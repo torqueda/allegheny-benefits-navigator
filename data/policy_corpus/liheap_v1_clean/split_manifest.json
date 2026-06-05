@@ -1,0 +1,1184 @@
+{
+  "source_dir": "data/policy_corpus/liheap_v1_clean",
+  "handbook_dir": "data/policy_corpus/liheap_v1_handbook",
+  "glossary_dir": "data/policy_corpus/liheap_v1_glossary",
+  "handbook_count": 93,
+  "glossary_count": 68,
+  "excluded_count": 6,
+  "missing_files": [],
+  "handbook_records": [
+    {
+      "filename": "liheap_index.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/index.htm",
+      "source_title": "LIHEAP Handbook",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_index.md"
+    },
+    {
+      "filename": "liheap_title_page.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Title_Page.htm",
+      "source_title": "Title Page",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_title_page.md"
+    },
+    {
+      "filename": "liheap_604_4_604_4_reserved.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/604_Application/604.4_Reserved.htm",
+      "source_title": "604.4 Reserved",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_604_4_604_4_reserved.md"
+    },
+    {
+      "filename": "liheap_appendix_a_liheap_benefit_table.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/638_LIHEAP_Program_Benefits/Appendix_A__LIHEAP_Benefit_Table.htm",
+      "source_title": "Appendix A: LIHEAP Benefit Table",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_appendix_a_liheap_benefit_table.md"
+    },
+    {
+      "filename": "liheap_677_6_677_6_mycompassaccount_notices.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/677_Notices/677.6_MyCOMPASSAccount_Notices.htm",
+      "source_title": "677.6 MyCOMPASSAccount Notices",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_677_6_677_6_mycompassaccount_notices.md"
+    },
+    {
+      "filename": "liheap_668_1_668_1_general_policy_new.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/668_Payment_Process/668.1_General_Policy_new.htm",
+      "source_title": "668.1 General Policy",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_668_1_668_1_general_policy_new.md"
+    },
+    {
+      "filename": "liheap_619_2_619_2.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/619_Heating_Responsibility/619.2.htm",
+      "source_title": "619.2 Shared Tank or Meter",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_619_2_619_2.md"
+    },
+    {
+      "filename": "liheap_619_5_619_5.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/619_Heating_Responsibility/619.5.htm",
+      "source_title": "619.5 Non-Participating vendors",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_619_5_619_5.md"
+    },
+    {
+      "filename": "liheap_619_3_619_3.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/619_Heating_Responsibility/619.3.htm",
+      "source_title": "619.3 Free Main Heating Source",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_619_3_619_3.md"
+    },
+    {
+      "filename": "liheap_619_6_619_6_automatic_delivery.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/619_Heating_Responsibility/619.6_Automatic_Delivery.htm",
+      "source_title": "619.6 Automatic Delivery",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_619_6_619_6_automatic_delivery.md"
+    },
+    {
+      "filename": "liheap_677_5_677_5_withdrawn_applications.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/677_Notices/677.5_withdrawn_Applications.htm",
+      "source_title": "677.5 Withdrawn Applications",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_677_5_677_5_withdrawn_applications.md"
+    },
+    {
+      "filename": "liheap_619_8_619_8_bill_paid_by_someone_else.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/619_Heating_Responsibility/619.8_Bill_Paid_by_Someone_Else.htm",
+      "source_title": "619.8 Bill Paid by Someone Else",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_619_8_619_8_bill_paid_by_someone_else.md"
+    },
+    {
+      "filename": "liheap_650_8_650_8_zero_income.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/650_Income/650.8_Zero_Income.htm",
+      "source_title": "650.8 Zero Income",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_650_8_650_8_zero_income.md"
+    },
+    {
+      "filename": "liheap_619_4_619_4.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/619_Heating_Responsibility/619.4.htm",
+      "source_title": "619.4 Heating bill in another person'ss name",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_619_4_619_4.md"
+    },
+    {
+      "filename": "liheap_619_1_619_1.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/619_Heating_Responsibility/619.1.htm",
+      "source_title": "619.1 General Policy",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_619_1_619_1.md"
+    },
+    {
+      "filename": "liheap_609_2_609_2.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/609_LIHEAP_Crisis/609.2.htm",
+      "source_title": "609.2",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_609_2_609_2.md"
+    },
+    {
+      "filename": "liheap_609_4_609_4.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/609_LIHEAP_Crisis/609.4.htm",
+      "source_title": "609.4",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_609_4_609_4.md"
+    },
+    {
+      "filename": "liheap_appendix_b_minimum_and_maximum_benefit_levels.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/638_LIHEAP_Program_Benefits/Appendix_B__Minimum_and_Maximum_Benefit_Levels.htm",
+      "source_title": "Appendix B: Minimum and Maximum Benefit Levels",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_appendix_b_minimum_and_maximum_benefit_levels.md"
+    },
+    {
+      "filename": "liheap_619_7_619_7_discountinued_service.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/619_Heating_Responsibility/619.7_Discountinued_Service.htm",
+      "source_title": "619.7 Discountinued Service",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_619_7_619_7_discountinued_service.md"
+    },
+    {
+      "filename": "liheap_638_2_638_2_allowable_uses_for_liheap_grants.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/638_LIHEAP_Program_Benefits/638.2_Allowable_uses_for_LIHEAP_Grants.htm",
+      "source_title": "638.2 Allowable uses for LIHEAP Grants",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_638_2_638_2_allowable_uses_for_liheap_grants.md"
+    },
+    {
+      "filename": "liheap_appendix_a_season_timeline.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/603_General_Information/Appendix_A__Season_Timeline.htm",
+      "source_title": "Appendix A: Season Timeline",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_appendix_a_season_timeline.md"
+    },
+    {
+      "filename": "liheap_638_3_638_3_benefit_calculation.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/638_LIHEAP_Program_Benefits/638.3_Benefit_Calculation.htm",
+      "source_title": "638.3 Benefit Calculation",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_638_3_638_3_benefit_calculation.md"
+    },
+    {
+      "filename": "liheap_609_3_609_3.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/609_LIHEAP_Crisis/609.3.htm",
+      "source_title": "609.3",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_609_3_609_3.md"
+    },
+    {
+      "filename": "liheap_678_liheap_678_title.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/678_Verification/LIHEAP_678_Title.htm",
+      "source_title": "678 LIHEAP Title",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_678_liheap_678_title.md"
+    },
+    {
+      "filename": "liheap_650_liheap_650_title.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/650_Income/LIHEAP_650_Title.htm",
+      "source_title": "650 LIHEAP Title",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_650_liheap_650_title.md"
+    },
+    {
+      "filename": "liheap_677_liheap_677_title.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/677_Notices/LIHEAP_677_Title.htm",
+      "source_title": "677 LIHEAP Title",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_677_liheap_677_title.md"
+    },
+    {
+      "filename": "liheap_619_copy_of_603_liheap_title.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/619_Heating_Responsibility/Copy_of_603_LIHEAP_Title.htm",
+      "source_title": "619 LIHEAP Title",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_619_copy_of_603_liheap_title.md"
+    },
+    {
+      "filename": "liheap_623_liheap_623_title.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/623_Residence/LIHEAP_623_Title.htm",
+      "source_title": "623 LIHEAP Title",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_623_liheap_623_title.md"
+    },
+    {
+      "filename": "liheap_679_liheap_679_title.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/679_Appeals_and_Fair_Hearings/LIHEAP_679_Title.htm",
+      "source_title": "679 LIHEAP Title",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_679_liheap_679_title.md"
+    },
+    {
+      "filename": "liheap_614_liheap_614_title.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/614_Students/LIHEAP_614_Title.htm",
+      "source_title": "614 LIHEAP Title",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_614_liheap_614_title.md"
+    },
+    {
+      "filename": "liheap_640_liheap_640_title.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/640_Resources/LIHEAP_640_Title.htm",
+      "source_title": "640 LIHEAP Title",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_640_liheap_640_title.md"
+    },
+    {
+      "filename": "liheap_610_liheap_610_title.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/610_Households/LIHEAP_610_Title.htm",
+      "source_title": "610 LIHEAP Title",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_610_liheap_610_title.md"
+    },
+    {
+      "filename": "liheap_603_liheap_603_title.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/603_General_Information/LIHEAP_603_Title.htm",
+      "source_title": "603 LIHEAP Title",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_603_liheap_603_title.md"
+    },
+    {
+      "filename": "liheap_604_liheap_604_title.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/604_Application/LIHEAP_604_Title.htm",
+      "source_title": "604 LIHEAP Title",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_604_liheap_604_title.md"
+    },
+    {
+      "filename": "liheap_698_liheap_698_title.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/698_Weatherization/LIHEAP_698_Title.htm",
+      "source_title": "698 LIHEAP Title",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_698_liheap_698_title.md"
+    },
+    {
+      "filename": "liheap_668_liheap_668_title.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/668_Payment_Process/LIHEAP_668_Title.htm",
+      "source_title": "LIHEAP 668 Title",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_668_liheap_668_title.md"
+    },
+    {
+      "filename": "liheap_638_copy_of_liheap_638_title.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/638_LIHEAP_Program_Benefits/Copy_of_LIHEAP_638_Title.htm",
+      "source_title": "638 LIHEAP Title",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_638_copy_of_liheap_638_title.md"
+    },
+    {
+      "filename": "liheap_609_copy_of_698_liheap_title.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/609_LIHEAP_Crisis/Copy_of_698_LIHEAP_Title.htm",
+      "source_title": "609 LIHEAP Title",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_609_copy_of_698_liheap_title.md"
+    },
+    {
+      "filename": "liheap_650_4_650_4_lump_sum_income.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/650_Income/650.4_Lump_Sum_Income.htm",
+      "source_title": "650.4 Lump Sum Income",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_650_4_650_4_lump_sum_income.md"
+    },
+    {
+      "filename": "liheap_605_liheap_605_title.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/605_LIHEAP_Eligibility_Criteria/LIHEAP_605_Title.htm",
+      "source_title": "605 LIHEAP Title",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_605_liheap_605_title.md"
+    },
+    {
+      "filename": "liheap_600_600_liheap_forms_title.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/600_FormsPubs_OpsMemos_PolicyClarifications/600_LIHEAP_Forms_Title.htm",
+      "source_title": "600 LIHEAP Forms Title",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_600_600_liheap_forms_title.md"
+    },
+    {
+      "filename": "liheap_622_liheap_622_title.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/622_Citizen_Noncitizen/LIHEAP_622_Title.htm",
+      "source_title": "622 LIHEAP Title",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_622_liheap_622_title.md"
+    },
+    {
+      "filename": "liheap_603_4_603_4_nondiscrimination.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/603_General_Information/603.4_Nondiscrimination.htm",
+      "source_title": "603.4 Nondiscrimination",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_603_4_603_4_nondiscrimination.md"
+    },
+    {
+      "filename": "liheap_668_7_668_7_disputed_payments.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/668_Payment_Process/668.7_Disputed_Payments.htm",
+      "source_title": "668.7 Disputed Payments",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_668_7_668_7_disputed_payments.md"
+    },
+    {
+      "filename": "liheap_603_2_603_2_program_schedule.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/603_General_Information/603.2_Program_Schedule.htm",
+      "source_title": "603.2 Program Schedule",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_603_2_603_2_program_schedule.md"
+    },
+    {
+      "filename": "liheap_677_4_677_4_incomplete_notice.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/677_Notices/677.4_Incomplete_Notice.htm",
+      "source_title": "677.4 Incomplete Notice",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_677_4_677_4_incomplete_notice.md"
+    },
+    {
+      "filename": "liheap_668_2_668_2_prepayment_process.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/668_Payment_Process/668.2_Prepayment_Process.htm",
+      "source_title": "668.2 Prepayment Process",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_668_2_668_2_prepayment_process.md"
+    },
+    {
+      "filename": "liheap_604_5_604_5_application_retention.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/604_Application/604.5_Application_Retention.htm",
+      "source_title": "604.5 Application Retention",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_604_5_604_5_application_retention.md"
+    },
+    {
+      "filename": "liheap_668_5_668_5_accounts_receivable.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/668_Payment_Process/668.5_Accounts_Receivable.htm",
+      "source_title": "668.5 Accounts Receivable",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_668_5_668_5_accounts_receivable.md"
+    },
+    {
+      "filename": "liheap_677_1_677_1_general_policy.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/677_Notices/677.1_General_Policy.htm",
+      "source_title": "677.1 General Policy",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_677_1_677_1_general_policy.md"
+    },
+    {
+      "filename": "liheap_650_5_650_5_income_deductions.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/650_Income/650.5_Income_Deductions.htm",
+      "source_title": "650.5 Income Deductions",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_650_5_650_5_income_deductions.md"
+    },
+    {
+      "filename": "liheap_603_5_603_5_privacy.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/603_General_Information/603.5_Privacy.htm",
+      "source_title": "603.5 Privacy",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_603_5_603_5_privacy.md"
+    },
+    {
+      "filename": "liheap_679_1_679_1_general_policy.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/679_Appeals_and_Fair_Hearings/679.1_General_Policy.htm",
+      "source_title": "679.1 General Policy",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_679_1_679_1_general_policy.md"
+    },
+    {
+      "filename": "liheap_698_1_698_1_introduction.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/698_Weatherization/698.1_Introduction.htm",
+      "source_title": "698.1 Introduction",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_698_1_698_1_introduction.md"
+    },
+    {
+      "filename": "liheap_668_9_668_9_other_payment_issues.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/668_Payment_Process/668.9_Other_Payment_Issues.htm",
+      "source_title": "668.9 Other Payment Issues",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_668_9_668_9_other_payment_issues.md"
+    },
+    {
+      "filename": "liheap_677_3_677_3_ineligible_notice.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/677_Notices/677.3_Ineligible_Notice.htm",
+      "source_title": "677.3 Ineligible Notice",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_677_3_677_3_ineligible_notice.md"
+    },
+    {
+      "filename": "liheap_609_1_609_1.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/609_LIHEAP_Crisis/609.1.htm",
+      "source_title": "609.1",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_609_1_609_1.md"
+    },
+    {
+      "filename": "liheap_668_6_668_6_dunning_letters.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/668_Payment_Process/668.6_Dunning_Letters.htm",
+      "source_title": "668.6 Dunning Letters",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_668_6_668_6_dunning_letters.md"
+    },
+    {
+      "filename": "liheap_640_1_640_1_resources.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/640_Resources/640.1_Resources.htm",
+      "source_title": "640.1 Resources",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_640_1_640_1_resources.md"
+    },
+    {
+      "filename": "liheap_668_3_668_3_batch_process.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/668_Payment_Process/668.3_Batch_Process.htm",
+      "source_title": "668.3 Batch Process",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_668_3_668_3_batch_process.md"
+    },
+    {
+      "filename": "liheap_614_2_614_2_ineligible_students.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/614_Students/614.2_Ineligible_Students.htm",
+      "source_title": "614.2 Ineligible Students",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_614_2_614_2_ineligible_students.md"
+    },
+    {
+      "filename": "liheap_678_1_678_1_general_policy.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/678_Verification/678.1_General_Policy.htm",
+      "source_title": "678.1 General Policy",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_678_1_678_1_general_policy.md"
+    },
+    {
+      "filename": "liheap_677_2_677_2_eligible_notice.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/677_Notices/677.2_Eligible_Notice.htm",
+      "source_title": "677.2 Eligible Notice",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_677_2_677_2_eligible_notice.md"
+    },
+    {
+      "filename": "liheap_638_1_638_1_liheap_program_benefits.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/638_LIHEAP_Program_Benefits/638.1_LIHEAP_Program_Benefits.htm",
+      "source_title": "638.1 LIHEAP Program Benefits",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_638_1_638_1_liheap_program_benefits.md"
+    },
+    {
+      "filename": "liheap_622_1_622_1_citizen_noncitizen.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/622_Citizen_Noncitizen/622.1_Citizen_Noncitizen.htm",
+      "source_title": "622.1 Citizen/Noncitizen",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_622_1_622_1_citizen_noncitizen.md"
+    },
+    {
+      "filename": "liheap_603_1_603_1_purpose_of_liheap.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/603_General_Information/603.1_Purpose_of_LIHEAP.htm",
+      "source_title": "603.1 Purpose of LIHEAP",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_603_1_603_1_purpose_of_liheap.md"
+    },
+    {
+      "filename": "liheap_650_650_appendix_a.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/650_Income/650_Appendix_A.htm",
+      "source_title": "650 Appendix A",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_650_650_appendix_a.md"
+    },
+    {
+      "filename": "liheap_668_4_668_4_types_of_payments.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/668_Payment_Process/668.4_Types_of_Payments.htm",
+      "source_title": "668.4 Types of Payments",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_668_4_668_4_types_of_payments.md"
+    },
+    {
+      "filename": "liheap_610_2_610_2_household_members.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/610_Households/610.2_Household_Members.htm",
+      "source_title": "610.2 Household Members",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_610_2_610_2_household_members.md"
+    },
+    {
+      "filename": "liheap_622_2_622_2_noncitizen_eligibility.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/622_Citizen_Noncitizen/622.2_Noncitizen_Eligibility.htm",
+      "source_title": "622.2 Noncitizen Eligibility",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_622_2_622_2_noncitizen_eligibility.md"
+    },
+    {
+      "filename": "liheap_650_3_650_3_countable_unearned_income.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/650_Income/650.3_Countable_Unearned_Income.htm",
+      "source_title": "650.3 Countable Unearned Income",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_650_3_650_3_countable_unearned_income.md"
+    },
+    {
+      "filename": "liheap_650_7_650_7_income_computation.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/650_Income/650.7_Income_Computation.htm",
+      "source_title": "650.7 Income Computation",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_650_7_650_7_income_computation.md"
+    },
+    {
+      "filename": "liheap_650_1_650_1_general_policy.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/650_Income/650.1_General_Policy.htm",
+      "source_title": "650.1 General Policy",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_650_1_650_1_general_policy.md"
+    },
+    {
+      "filename": "liheap_610_1_610_1_general_policy.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/610_Households/610.1_General_Policy.htm",
+      "source_title": "610.1 General Policy",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_610_1_610_1_general_policy.md"
+    },
+    {
+      "filename": "liheap_604_2_604_2_application_process.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/604_Application/604.2_Application_Process.htm",
+      "source_title": "604.2 Application Process",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_604_2_604_2_application_process.md"
+    },
+    {
+      "filename": "liheap_623_1_623_1_general_policy.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/623_Residence/623.1_General_Policy.htm",
+      "source_title": "623.1 General Policy",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_623_1_623_1_general_policy.md"
+    },
+    {
+      "filename": "liheap_668_8_668_8_overpayment_process.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/668_Payment_Process/668.8_Overpayment_Process.htm",
+      "source_title": "668.8 Overpayment Process",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_668_8_668_8_overpayment_process.md"
+    },
+    {
+      "filename": "liheap_678_2_678_2_information_that_must_be_verified.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/678_Verification/678.2_Information_that_Must_Be_Verified.htm",
+      "source_title": "678.2 Information that Must Be Verified",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_678_2_678_2_information_that_must_be_verified.md"
+    },
+    {
+      "filename": "liheap_650_6_650_6_income_exclusions.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/650_Income/650.6_Income_Exclusions.htm",
+      "source_title": "650.6 Income Exclusions",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_650_6_650_6_income_exclusions.md"
+    },
+    {
+      "filename": "liheap_614_1_614_1_eligible_students.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/614_Students/614.1_Eligible_Students.htm",
+      "source_title": "614.1 Eligible Students",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_614_1_614_1_eligible_students.md"
+    },
+    {
+      "filename": "liheap_600_600_forms_and_publications.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/600_FormsPubs_OpsMemos_PolicyClarifications/600_Forms_and_Publications.htm",
+      "source_title": "600 Forms and Publications",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_600_600_forms_and_publications.md"
+    },
+    {
+      "filename": "liheap_678_3_678_3_acceptable_forms_of_verification.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/678_Verification/678.3_Acceptable_Forms_of_Verification.htm",
+      "source_title": "678.3 Acceptable Forms of Verification",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_678_3_678_3_acceptable_forms_of_verification.md"
+    },
+    {
+      "filename": "liheap_610_3_610_3_individuals_not_counted_as_household_members.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/610_Households/610.3_Individuals_Not_Counted_as_Household_Members.htm",
+      "source_title": "610.3 Individuals Not Counted as Household Members",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_610_3_610_3_individuals_not_counted_as_household_members.md"
+    },
+    {
+      "filename": "liheap_698_2_698_2_types_of_weatherization_work_performed.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/698_Weatherization/698.2_Types_of_Weatherization_Work_Performed.htm",
+      "source_title": "698.2 Weatherization Assistance Program",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_698_2_698_2_types_of_weatherization_work_performed.md"
+    },
+    {
+      "filename": "liheap_679_2_679.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/679_Appeals_and_Fair_Hearings/679.htm",
+      "source_title": "679.2 Reconsideration",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_679_2_679.md"
+    },
+    {
+      "filename": "liheap_603_3_603_3_rights_and_responsibilities.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/603_General_Information/603.3_Rights_and_Responsibilities.htm",
+      "source_title": "603.3 Rights and Responsibilities",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_603_3_603_3_rights_and_responsibilities.md"
+    },
+    {
+      "filename": "liheap_605_1_605_1_general_policy.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/605_LIHEAP_Eligibility_Criteria/605.1_General_Policy.htm",
+      "source_title": "605.1 General Policy",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_605_1_605_1_general_policy.md"
+    },
+    {
+      "filename": "liheap_698_3_698_3_emergency_services_program.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/698_Weatherization/698.3_Emergency_Services_Program.htm",
+      "source_title": "698.3 Emergency Services Program",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_698_3_698_3_emergency_services_program.md"
+    },
+    {
+      "filename": "liheap_677_677_appendix_a.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/677_Notices/677_Appendix_A.htm",
+      "source_title": "677 Appendix A",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_677_677_appendix_a.md"
+    },
+    {
+      "filename": "liheap_604_1_604_1_general_policy.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/604_Application/604.1_General_Policy.htm",
+      "source_title": "604.1 General Policy",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_604_1_604_1_general_policy.md"
+    },
+    {
+      "filename": "liheap_650_2_650_2_countable_earned_income.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/650_Income/650.2_Countable_Earned_Income.htm",
+      "source_title": "650.2 Countable Earned Income",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_650_2_650_2_countable_earned_income.md"
+    },
+    {
+      "filename": "liheap_622_622_appendix_a.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/622_Citizen_Noncitizen/622_Appendix_A.htm",
+      "source_title": "622 Appendix A",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_622_622_appendix_a.md"
+    },
+    {
+      "filename": "liheap_604_3_604_3_crisis_application_process.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/604_Application/604.3_Crisis_Application_Process.htm",
+      "source_title": "604.3 Crisis Application Process",
+      "category": "handbook",
+      "destination_path": "data/policy_corpus/liheap_v1_handbook/liheap_604_3_604_3_crisis_application_process.md"
+    }
+  ],
+  "glossary_records": [
+    {
+      "filename": "liheap_department_of_public_welfare_dpw.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/Department_of_Public_Welfare_(DPW).htm",
+      "source_title": "Department of Human Services (DHS)",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_department_of_public_welfare_dpw.md"
+    },
+    {
+      "filename": "liheap_dpw.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/DPW.htm",
+      "source_title": "DPW",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_dpw.md"
+    },
+    {
+      "filename": "liheap_office_of_inspector_general_oig.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/Office_of_Inspector_General_(OIG).htm",
+      "source_title": "Office State of Inspector General (OSIG)",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_office_of_inspector_general_oig.md"
+    },
+    {
+      "filename": "liheap_board.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/board.htm",
+      "source_title": "board",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_board.md"
+    },
+    {
+      "filename": "liheap_ssn.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/SSN.htm",
+      "source_title": "SSN",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_ssn.md"
+    },
+    {
+      "filename": "liheap_irs.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/IRS.htm",
+      "source_title": "IRS",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_irs.md"
+    },
+    {
+      "filename": "liheap_alien.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/alien.htm",
+      "source_title": "alien",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_alien.md"
+    },
+    {
+      "filename": "liheap_ievs.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/IEVS.htm",
+      "source_title": "IEVS",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_ievs.md"
+    },
+    {
+      "filename": "liheap_cis.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/CIS.htm",
+      "source_title": "CIS",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_cis.md"
+    },
+    {
+      "filename": "liheap_dced.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/DCED.htm",
+      "source_title": "DCED",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_dced.md"
+    },
+    {
+      "filename": "liheap_noncitizen.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/noncitizen.htm",
+      "source_title": "noncitizen",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_noncitizen.md"
+    },
+    {
+      "filename": "liheap_snap.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/SNAP.htm",
+      "source_title": "SNAP",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_snap.md"
+    },
+    {
+      "filename": "liheap_payment_name.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/payment_name.htm",
+      "source_title": "payment name",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_payment_name.md"
+    },
+    {
+      "filename": "liheap_cap.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/CAP.htm",
+      "source_title": "CAP",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_cap.md"
+    },
+    {
+      "filename": "liheap_allowable_costs.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/allowable_costs.htm",
+      "source_title": "allowable costs",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_allowable_costs.md"
+    },
+    {
+      "filename": "liheap_extraordinary_pay.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/extraordinary_pay.htm",
+      "source_title": "extraordinary pay",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_extraordinary_pay.md"
+    },
+    {
+      "filename": "liheap_appeal.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/appeal.htm",
+      "source_title": "appeal",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_appeal.md"
+    },
+    {
+      "filename": "liheap_treasury_pay_date.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/treasury_pay_date.htm",
+      "source_title": "treasury pay date",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_treasury_pay_date.md"
+    },
+    {
+      "filename": "liheap_docushare.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/Docushare.htm",
+      "source_title": "Docushare",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_docushare.md"
+    },
+    {
+      "filename": "liheap_depreciation.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/depreciation.htm",
+      "source_title": "depreciation",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_depreciation.md"
+    },
+    {
+      "filename": "liheap_underpayment.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/underpayment.htm",
+      "source_title": "underpayment",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_underpayment.md"
+    },
+    {
+      "filename": "liheap_documentation.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/documentation.htm",
+      "source_title": "documentation",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_documentation.md"
+    },
+    {
+      "filename": "liheap_educational_assistance.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/educational_assistance.htm",
+      "source_title": "educational assistance",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_educational_assistance.md"
+    },
+    {
+      "filename": "liheap_remittance_advice_ra.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/remittance_advice_(RA).htm",
+      "source_title": "remittance advice (RA)",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_remittance_advice_ra.md"
+    },
+    {
+      "filename": "liheap_unearned_income.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/unearned_income.htm",
+      "source_title": "unearned income",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_unearned_income.md"
+    },
+    {
+      "filename": "liheap_work_expense_deduction.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/work_expense_deduction.htm",
+      "source_title": "work expense deduction",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_work_expense_deduction.md"
+    },
+    {
+      "filename": "liheap_capital_assets.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/capital_assets.htm",
+      "source_title": "capital assets",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_capital_assets.md"
+    },
+    {
+      "filename": "liheap_e_cis.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/e-CIS.htm",
+      "source_title": "e-CIS",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_e_cis.md"
+    },
+    {
+      "filename": "liheap_recoupment.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/recoupment.htm",
+      "source_title": "recoupment",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_recoupment.md"
+    },
+    {
+      "filename": "liheap_special_allowance.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/special_allowance.htm",
+      "source_title": "special allowance",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_special_allowance.md"
+    },
+    {
+      "filename": "liheap_immigrant.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/immigrant.htm",
+      "source_title": "immigrant",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_immigrant.md"
+    },
+    {
+      "filename": "liheap_rejection_code.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/rejection_code.htm",
+      "source_title": "rejection code",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_rejection_code.md"
+    },
+    {
+      "filename": "liheap_economic_unit.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/economic_unit.htm",
+      "source_title": "economic unit",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_economic_unit.md"
+    },
+    {
+      "filename": "liheap_self_employment.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/self-employment.htm",
+      "source_title": "self-employment",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_self_employment.md"
+    },
+    {
+      "filename": "liheap_guardian.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/guardian.htm",
+      "source_title": "guardian",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_guardian.md"
+    },
+    {
+      "filename": "liheap_resource.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/resource.htm",
+      "source_title": "resource",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_resource.md"
+    },
+    {
+      "filename": "liheap_county_assistance_office_cao.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/County_Assistance_Office_(CAO).htm",
+      "source_title": "County Assistance Office (CAO)",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_county_assistance_office_cao.md"
+    },
+    {
+      "filename": "liheap_energy_provider.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/energy_provider.htm",
+      "source_title": "energy provider",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_energy_provider.md"
+    },
+    {
+      "filename": "liheap_overpayment.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/overpayment.htm",
+      "source_title": "overpayment",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_overpayment.md"
+    },
+    {
+      "filename": "liheap_applicant.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/applicant.htm",
+      "source_title": "applicant",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_applicant.md"
+    },
+    {
+      "filename": "liheap_medicare.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/Medicare.htm",
+      "source_title": "Medicare",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_medicare.md"
+    },
+    {
+      "filename": "liheap_reissue_payment.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/reissue_payment.htm",
+      "source_title": "reissue payment",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_reissue_payment.md"
+    },
+    {
+      "filename": "liheap_applicant_household.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/applicant_household.htm",
+      "source_title": "applicant household",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_applicant_household.md"
+    },
+    {
+      "filename": "liheap_medical_assistance_ma.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/Medical_Assistance_(MA).htm",
+      "source_title": "Medical Assistance (MA)",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_medical_assistance_ma.md"
+    },
+    {
+      "filename": "liheap_disclosure.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/disclosure.htm",
+      "source_title": "disclosure",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_disclosure.md"
+    },
+    {
+      "filename": "liheap_voucher.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/voucher.htm",
+      "source_title": "voucher",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_voucher.md"
+    },
+    {
+      "filename": "liheap_administrative_error.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/administrative_error.htm",
+      "source_title": "administrative error",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_administrative_error.md"
+    },
+    {
+      "filename": "liheap_verification.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/verification.htm",
+      "source_title": "verification",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_verification.md"
+    },
+    {
+      "filename": "liheap_citizenship.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/citizenship.htm",
+      "source_title": "citizenship",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_citizenship.md"
+    },
+    {
+      "filename": "liheap_second_pay.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/second_pay.htm",
+      "source_title": "second pay",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_second_pay.md"
+    },
+    {
+      "filename": "liheap_roomer.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/roomer.htm",
+      "source_title": "roomer",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_roomer.md"
+    },
+    {
+      "filename": "liheap_date_of_application.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/date_of_application.htm",
+      "source_title": "date of application",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_date_of_application.md"
+    },
+    {
+      "filename": "liheap_income_eligibility_verification_system_ievs.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/Income_Eligibility_Verification_System_(IEVS).htm",
+      "source_title": "Income Eligibility Verification System (IEVS)",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_income_eligibility_verification_system_ievs.md"
+    },
+    {
+      "filename": "liheap_common_residence.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/common_residence.htm",
+      "source_title": "common residence",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_common_residence.md"
+    },
+    {
+      "filename": "liheap_fair_hearing.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/fair_hearing.htm",
+      "source_title": "fair hearing",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_fair_hearing.md"
+    },
+    {
+      "filename": "liheap_accounts_receivable_ar.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/accounts_receivable_(AR).htm",
+      "source_title": "accounts receivable (AR)",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_accounts_receivable_ar.md"
+    },
+    {
+      "filename": "liheap_earned_income.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/earned_income.htm",
+      "source_title": "earned income",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_earned_income.md"
+    },
+    {
+      "filename": "liheap_residence.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/residence.htm",
+      "source_title": "residence",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_residence.md"
+    },
+    {
+      "filename": "liheap_heating_cost.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/heating_cost.htm",
+      "source_title": "heating cost",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_heating_cost.md"
+    },
+    {
+      "filename": "liheap_dunning_letter.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/dunning_letter.htm",
+      "source_title": "dunning letter",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_dunning_letter.md"
+    },
+    {
+      "filename": "liheap_household.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/household.htm",
+      "source_title": "household",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_household.md"
+    },
+    {
+      "filename": "liheap_budget_group.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/budget_group.htm",
+      "source_title": "budget group",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_budget_group.md"
+    },
+    {
+      "filename": "liheap_social_security_number_ssn.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/Social_Security_number_(SSN).htm",
+      "source_title": "Social Security number (SSN)",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_social_security_number_ssn.md"
+    },
+    {
+      "filename": "liheap_refugee.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/refugee.htm",
+      "source_title": "refugee",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_refugee.md"
+    },
+    {
+      "filename": "liheap_united_states_citizenship_and_immigration_services_uscis.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/United_States_Citizenship_and_Immigration_Services_(USCIS).htm",
+      "source_title": "United States Citizenship and Immigration Services (USCIS)",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_united_states_citizenship_and_immigration_services_uscis.md"
+    },
+    {
+      "filename": "liheap_asylee.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/asylee.htm",
+      "source_title": "asylee",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_asylee.md"
+    },
+    {
+      "filename": "liheap_vendor.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/vendor.htm",
+      "source_title": "vendor",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_vendor.md"
+    },
+    {
+      "filename": "liheap_u_s_citizen.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/Popups/U.S._citizen.htm",
+      "source_title": "U.S. citizen",
+      "category": "glossary",
+      "destination_path": "data/policy_corpus/liheap_v1_glossary/liheap_u_s_citizen.md"
+    }
+  ],
+  "excluded_records": [
+    {
+      "filename": "liheap_projectsettings.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/whxdata/projectsettings.js",
+      "source_title": "projectsettings.js",
+      "category": "excluded",
+      "destination_path": ""
+    },
+    {
+      "filename": "liheap_search_topics.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/whxdata/search_topics.js",
+      "source_title": "search_topics.js",
+      "category": "excluded",
+      "destination_path": ""
+    },
+    {
+      "filename": "liheap_search_db.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/whxdata/search_db.js",
+      "source_title": "search_db.js",
+      "category": "excluded",
+      "destination_path": ""
+    },
+    {
+      "filename": "liheap_whtagdata.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/whxdata/whtagdata.js",
+      "source_title": "whtagdata.js",
+      "category": "excluded",
+      "destination_path": ""
+    },
+    {
+      "filename": "liheap_projectdata.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/template/scripts/projectdata.js",
+      "source_title": "projectdata.js",
+      "category": "excluded",
+      "destination_path": ""
+    },
+    {
+      "filename": "liheap_csh_redirect.md",
+      "source_url": "http://services.dpw.state.pa.us/oimpolicymanuals/liheap/csh-redirect.htm",
+      "source_title": "LIHEAP Handbook",
+      "category": "excluded",
+      "destination_path": ""
+    }
+  ]
+}

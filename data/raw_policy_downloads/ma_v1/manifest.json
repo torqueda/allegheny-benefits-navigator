@@ -1,0 +1,3141 @@
+{
+  "start_urls": [
+    "http://services.dpw.state.pa.us/oimpolicymanuals/ma/index.htm",
+    "http://services.dpw.state.pa.us/oimpolicymanuals/ma/Title_Page.htm"
+  ],
+  "allowed_prefixes": [
+    "http://services.dpw.state.pa.us/oimpolicymanuals/ma/"
+  ],
+  "download_count": 446,
+  "failure_count": 1,
+  "records": [
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/index.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__index.htm.html",
+      "title": "Medical Assistance Eligibility Handbook",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634819.5421262
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/Title_Page.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__Title_Page.htm.html",
+      "title": "Medical Assistance Eligibility_Title_Page",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634819.88574
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/whxdata/projectsettings.js",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__whxdata__projectsettings.js.html",
+      "title": "projectsettings.js",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634820.19407
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/whxdata/search_topics.js",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__whxdata__search_topics.js.html",
+      "title": "search_topics.js",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634820.739776
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/whxdata/search_db.js",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__whxdata__search_db.js.html",
+      "title": "search_db.js",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634821.0155258
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/whxdata/whtagdata.js",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__whxdata__whtagdata.js.html",
+      "title": "whtagdata.js",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634821.26593
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/template/scripts/projectdata.js",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__template__scripts__projectdata.js.html",
+      "title": "projectdata.js",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634821.5743492
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/csh-redirect.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__csh-redirect.htm.html",
+      "title": "Medical Assistance Eligibility Handbook",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634821.90337
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/376_Renewal/376_Appendix_D.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__376_Renewal__376_Appendix_D.htm.html",
+      "title": "376 Appendix D",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634822.167663
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/339_Transitional_Medical_Assistance_(TMA)/339_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__339_Transitional_Medical_Assistance__TMA___339_Appendix_B.htm.html",
+      "title": "339 Appendix B:Transitional Medical Assistance (TMA) Notice Reason/Options",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634822.48056
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/376_Renewal/Appendix_C__Medical_Assistance_Closure_Checklist.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__376_Renewal__Appendix_C__Medical_Assistance_Closure_Checklist.htm.html",
+      "title": "376 Appendix C",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634822.7478242
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/315_Children_with_Special_Needs/315_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__315_Children_with_Special_Needs__315_Appendix_A.htm.html",
+      "title": "315 Appendix A: CHIP to PH-95 Referral",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634823.018015
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/379_Reconsidering_Denied_Applications_and_Reopening_Closed_Benefits/379_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__379_Reconsidering_Denied_Applications_and_Reopening_Closed_Benefits__379_Title.htm.html",
+      "title": "379 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634823.28769
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/368_Determining_Eligibility_for_NMP/368.1_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__368_Determining_Eligibility_for_NMP__368.1_Title.htm.html",
+      "title": "368 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634823.584189
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/312_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__312_ACA__312_Title.htm.html",
+      "title": "312 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634823.861175
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/300_Forms_Operations_Memoranda_and_Policy_Clarifications/300_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__300_Forms_Operations_Memoranda_and_Policy_Clarifications__300_Title.htm.html",
+      "title": "300_Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634824.132245
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/339_Transitional_Medical_Assistance_(TMA)/339_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__339_Transitional_Medical_Assistance__TMA___339_Title.htm.html",
+      "title": "339 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634824.401124
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/New_Topic.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__378_Verification__New_Topic.htm.html",
+      "title": "378 Appendix I",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634824.660259
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_Appendix_E.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__316_MAWD__316_Appendix_E.htm.html",
+      "title": "316 Appendix E",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634824.9243279
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/361_MNO_Deductions/361_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__361_MNO_Deductions__361_Title.htm.html",
+      "title": "361 Title Page",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634825.200813
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/391_Personal_Care_Supplement/391.5_Annual_Review_of_Functional_Disability.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__391_Personal_Care_Supplement__391.5_Annual_Review_of_Functional_Disability.htm.html",
+      "title": "391.5 Reserved",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634825.476424
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/392_Institutions/392_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__392_Institutions__392_Title.htm.html",
+      "title": "392_Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634825.753182
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/376_Renewal/376_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__376_Renewal__376_Title.htm.html",
+      "title": "376 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634826.1024551
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/320_Identity/320_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__320_Identity__320_Title.htm.html",
+      "title": "320 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634826.3957849
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/377_Notices/377_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__377_Notices__377_Title.htm.html",
+      "title": "377 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634826.679286
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/321_Age/321_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__321_Age__321_Title.htm.html",
+      "title": "321 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634826.954679
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/350_Income/350_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__350_Income__350_Title.htm.html",
+      "title": "350 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634827.23681
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/322_Citizen_Noncitizen/322_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__322_Citizen_Noncitizen__322_Title.htm.html",
+      "title": "322 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634827.518803
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/315_Children_with_Special_Needs/315_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__315_Children_with_Special_Needs__315_Title.htm.html",
+      "title": "315 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634827.791801
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/304_Application/304_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__304_Application__304_Title.htm.html",
+      "title": "304 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634828.0699232
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/317_BCCPT/317_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__317_BCCPT__317_Title.htm.html",
+      "title": "317 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634828.349879
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/372_Mass_Changes/372_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__372_Mass_Changes__372_Title.htm.html",
+      "title": "372 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634828.62625
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/388_Buy-In/388_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__388_Buy-In__388_Title.htm.html",
+      "title": "388 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634828.912226
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/329_Deprivation/329_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__329_Deprivation__329_Title.htm.html",
+      "title": "329 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634829.24454
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/327_Specified_Relatives/327_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__327_Specified_Relatives__327_Title.htm.html",
+      "title": "327 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634829.514028
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/391_Personal_Care_Supplement/391_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__391_Personal_Care_Supplement__391_Title.htm.html",
+      "title": "391 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634829.826287
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/323_Residence/323_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__323_Residence__323_Title.htm.html",
+      "title": "323 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634830.099216
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__378_Verification__378_Title.htm.html",
+      "title": "378 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634830.373545
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/352_Self-Employment/352_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__352_Self-Employment__352_Title.htm.html",
+      "title": "352 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634830.653676
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/337_Medicare/337_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__337_Medicare__337_Title.htm.html",
+      "title": "337 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634830.9207392
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/340_Resources/340_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__340_Resources__340_Title.htm.html",
+      "title": "340 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634831.190699
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/355_Deeming_Income_and_Resources/355_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__355_Deeming_Income_and_Resources__355_Title.htm.html",
+      "title": "355 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634831.461647
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/357_Lump_Sum/357_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__357_Lump_Sum__357_Title.htm.html",
+      "title": "357 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634831.731924
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/369_Determining_Eligibility_for_MNO/369_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__369_Determining_Eligibility_for_MNO__369_Title.htm.html",
+      "title": "369 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634832.00446
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/305_Category/305_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__305_Category__305_Title.htm.html",
+      "title": "305 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634832.282154
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/303_General_Information/303_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__303_General_Information__303_Title.htm.html",
+      "title": "303 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634832.556591
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/370_Reporting_Changes/370_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__370_Reporting_Changes__370_Title.htm.html",
+      "title": "370 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634832.917038
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/387_SSI/387_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__387_SSI__387_Title.htm.html",
+      "title": "387 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634833.197505
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/380_Issuing_the_ACCESS_Card/380_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__380_Issuing_the_ACCESS_Card__380_Title.htm.html",
+      "title": "380 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634833.498904
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/314_Students/314_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__314_Students__314_Title.htm.html",
+      "title": "314 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634833.780252
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/386_Medical_Assistance_Plan_Options/386_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__386_Medical_Assistance_Plan_Options__386_Title.htm.html",
+      "title": "386 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634834.045237
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__316_MAWD__316_Title.htm.html",
+      "title": "316 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634834.318899
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/309_Health_Care_Services_Benefits_for_Children/309_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__309_Health_Care_Services_Benefits_for_Children__309_Title.htm.html",
+      "title": "309 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634834.627075
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/310_Applicant_And_Recipient_Groups_Standard_Filing_Unit/310_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__310_Applicant_And_Recipient_Groups_Standard_Filing_Unit__310_Title.htm.html",
+      "title": "310 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634834.8953972
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/380_Issuing_the_ACCESS_Card/380_Appendix_D.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__380_Issuing_the_ACCESS_Card__380_Appendix_D.htm.html",
+      "title": "380 Appendix C",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634835.169185
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/388_Buy-In/388_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__388_Buy-In__388_Appendix_B.htm.html",
+      "title": "388 Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634835.4409258
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__338_Medical_Assistance_Benefits__338_Title.htm.html",
+      "title": "338 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634835.7183208
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/388_Buy-In/388_Appendix_C.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__388_Buy-In__388_Appendix_C.htm.html",
+      "title": "388 Appendix C",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634836.058816
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/319_Healthy_Horizons/319_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__319_Healthy_Horizons__319_Title.htm.html",
+      "title": "319 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634836.3382568
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/380_Issuing_the_ACCESS_Card/380_Appendix_C.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__380_Issuing_the_ACCESS_Card__380_Appendix_C.htm.html",
+      "title": "380 Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634836.6350951
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_Appendix_H.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__378_Verification__378_Appendix_H.htm.html",
+      "title": "378 Appendix H",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634836.901079
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/317_BCCPT/317_Appendix_C.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__317_BCCPT__317_Appendix_C.htm.html",
+      "title": "317 Appendix C",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634837.1690218
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_Appendix_J.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__338_Medical_Assistance_Benefits__338_Appendix_J.htm.html",
+      "title": "338 Appendix I",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634837.44165
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_Appendix_E.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__338_Medical_Assistance_Benefits__338_Appendix_E.htm.html",
+      "title": "338 Appendix E",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634837.7171168
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_Appendix_G.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__316_MAWD__316_Appendix_G.htm.html",
+      "title": "316 Appendix F",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634837.995212
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_Appendix_C.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__378_Verification__378_Appendix_C.htm.html",
+      "title": "378 Appendix C",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634838.272223
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/317_BCCPT/317_Appendix_D.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__317_BCCPT__317_Appendix_D.htm.html",
+      "title": "317 Appendix D",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634838.550816
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_3_Retroactive_Medical_Assistance_Eligibility.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__338_Medical_Assistance_Benefits__338_3_Retroactive_Medical_Assistance_Eligibility.htm.html",
+      "title": "338.3 Retroactive Medical Assistance Eligibility",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634838.8199732
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/303_General_Information/303_5_Confidentiality.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__303_General_Information__303_5_Confidentiality.htm.html",
+      "title": "303.5 Confidentiality",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634839.098111
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/337_Medicare/337_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__337_Medicare__337_Appendix_B.htm.html",
+      "title": "337 Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634839.3718011
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/360_NMP_Deductions/360_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__360_NMP_Deductions__360_Title.htm.html",
+      "title": "360_Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634839.728897
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/305_Category/305_Appendix_C.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__305_Category__305_Appendix_C.htm.html",
+      "title": "305 Appendix C",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634840.01163
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/317_BCCPT/317_5_Income.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__317_BCCPT__317_5_Income.htm.html",
+      "title": "317.5 Income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634840.313304
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/304_Application/304_Appendix_C.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__304_Application__304_Appendix_C.htm.html",
+      "title": "304 Appendix C",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634840.586842
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/318_Healthy_Beginnings_Reserved/318_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__318_Healthy_Beginnings_Reserved__318_Title.htm.html",
+      "title": "318 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634841.163359
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/317_BCCPT/317_4_Resources.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__317_BCCPT__317_4_Resources.htm.html",
+      "title": "317.4 Resources",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634841.447477
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/311_Reserved/311_Title.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__311_Reserved__311_Title.htm.html",
+      "title": "311 Title",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634841.726188
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/315_Children_with_Special_Needs/315_6_Reserved.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__315_Children_with_Special_Needs__315_6_Reserved.htm.html",
+      "title": "315.6 Reserved",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634842.117667
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/315_Children_with_Special_Needs/315_3_Resources.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__315_Children_with_Special_Needs__315_3_Resources.htm.html",
+      "title": "315.3 Resources",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634842.408405
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/317_BCCPT/317_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__317_BCCPT__317_Appendix_A.htm.html",
+      "title": "317 Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634842.683745
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/387_SSI/387_Appendix_C.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__387_SSI__387_Appendix_C.htm.html",
+      "title": "387 Appendix C",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634842.960196
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/317_BCCPT/317_Appendix_E.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__317_BCCPT__317_Appendix_E.htm.html",
+      "title": "317 Appendix E",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634843.234006
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/389_HCBS_MoveTo_LTC_489/389.1_Reserved.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__389_HCBS_MoveTo_LTC_489__389.1_Reserved.htm.html",
+      "title": "389.1 Reserved",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634843.504596
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__338_Medical_Assistance_Benefits__338_Appendix_A.htm.html",
+      "title": "338 Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634843.775018
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/372_Mass_Changes/372_5_Fair_Hearing.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__372_Mass_Changes__372_5_Fair_Hearing.htm.html",
+      "title": "372.5 Fair Hearing",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634844.0592341
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/370_Reporting_Changes/370_3_Reporting_Methods.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__370_Reporting_Changes__370_3_Reporting_Methods.htm.html",
+      "title": "370.3 Reporting Methods",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634844.323267
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/323_Residence/Appendix_A_Approved_Pediatric_Facilities.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__323_Residence__Appendix_A_Approved_Pediatric_Facilities.htm.html",
+      "title": "323 Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634844.583049
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_Appendix_G.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__338_Medical_Assistance_Benefits__338_Appendix_G.htm.html",
+      "title": "338 Appendix G",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634844.850993
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/387_SSI/387_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__387_SSI__387_Appendix_B.htm.html",
+      "title": "387 Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634845.12766
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/309_Health_Care_Services_Benefits_for_Children/309_7_Children_s_Services_under_PA_Blue_Cross_Blue_Shield.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__309_Health_Care_Services_Benefits_for_Children__309_7_Children_s_Services_under_PA_Blue_Cross_Blue_Shield.htm.html",
+      "title": "309.6 Children's Services under PA Blue Cross/Blue Shield",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634845.402889
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_05_Income_Deductions.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__316_MAWD__316_05_Income_Deductions.htm.html",
+      "title": "316.5 Income Deductions",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634845.6728551
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/355_Deeming_Income_and_Resources/355_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__355_Deeming_Income_and_Resources__355_Appendix_A.htm.html",
+      "title": "355 Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634846.0200572
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/377_Notices/377_6_Notice_Retention.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__377_Notices__377_6_Notice_Retention.htm.html",
+      "title": "377.6 Notice Retention",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634846.3116622
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/321_Age/321_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__321_Age__321_1_General_Policy.htm.html",
+      "title": "321.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634846.602008
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/309_Health_Care_Services_Benefits_for_Children/309_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__309_Health_Care_Services_Benefits_for_Children__309_Appendix_B.htm.html",
+      "title": "309 Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634846.876004
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/303_General_Information/303_3_Suspected_Child_Abuse.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__303_General_Information__303_3_Suspected_Child_Abuse.htm.html",
+      "title": "303.3 Suspected Child Abuse",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634847.150249
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/303_General_Information/303_7_State_Employee_Recipient_Match.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__303_General_Information__303_7_State_Employee_Recipient_Match.htm.html",
+      "title": "303.7 State Employee/Recipient Match",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634847.4205
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_03_Resources.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__316_MAWD__316_03_Resources.htm.html",
+      "title": "316.3 Resources",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634847.692163
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/377_Notices/377_5_Client_Verification_Request_Form.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__377_Notices__377_5_Client_Verification_Request_Form.htm.html",
+      "title": "377.5 Client Verification Request Form",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634847.969652
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/352_Self-Employment/352_5_Deductions_from_Profit.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__352_Self-Employment__352_5_Deductions_from_Profit.htm.html",
+      "title": "352.5 Deductions from Profit",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634848.2469919
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/309_Health_Care_Services_Benefits_for_Children/309_6_Children_s_Health_Insurance_Program_CHIP.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__309_Health_Care_Services_Benefits_for_Children__309_6_Children_s_Health_Insurance_Program_CHIP.htm.html",
+      "title": "309.5 Children's Health Insurance Program (CHIP)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634848.526727
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/317_BCCPT/317_2_Who_Is_the_BCCPT_Woman.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__317_BCCPT__317_2_Who_Is_the_BCCPT_Woman.htm.html",
+      "title": "317.2 Who is the BCCPT Individual?",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634848.801656
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/339_Transitional_Medical_Assistance_(TMA)/339.3.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__339_Transitional_Medical_Assistance__TMA___339.3.htm.html",
+      "title": "339.3 TMA Reviews",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634849.073493
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/305.7_Program_Status_Codes_and_Budget_Groups.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__305.7_Program_Status_Codes_and_Budget_Groups.htm.html",
+      "title": "305.7 Program Status Codes and Budget Groups",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634849.341355
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/309_Health_Care_Services_Benefits_for_Children/309_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__309_Health_Care_Services_Benefits_for_Children__309_1_General_Policy.htm.html",
+      "title": "309.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634849.697943
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/370_Reporting_Changes/370_4_Failure_to_Report_Changes.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__370_Reporting_Changes__370_4_Failure_to_Report_Changes.htm.html",
+      "title": "370.4 Failure to Report Changes",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634849.987658
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/317_BCCPT/317_Appendix_F.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__317_BCCPT__317_Appendix_F.htm.html",
+      "title": "317 Appendix F",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634850.268969
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/387_SSI/387_7_Eligibility_for_Other_Programs.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__387_SSI__387_7_Eligibility_for_Other_Programs.htm.html",
+      "title": "387.7 Eligibility for Other Programs",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634850.544759
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_5_Home_Visits.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__378_Verification__378_5_Home_Visits.htm.html",
+      "title": "378.5 Home Visits",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634850.830611
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/372_Mass_Changes/372_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__372_Mass_Changes__372_1_General_Policy.htm.html",
+      "title": "372.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634851.107195
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/323_Residence/323_3_Homeless_Persons.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__323_Residence__323_3_Homeless_Persons.htm.html",
+      "title": "323.3 Homeless Individuals",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634851.391725
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_Appendix_H.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__316_MAWD__316_Appendix_H.htm.html",
+      "title": "316 Appendix G",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634851.657534
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/392_Institutions/392_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__392_Institutions__392_Appendix_A.htm.html",
+      "title": "392_Appendix_A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634851.946665
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/360_NMP_Deductions/360.5_Monthly_Spend-Down_Deduction.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__360_NMP_Deductions__360.5_Monthly_Spend-Down_Deduction.htm.html",
+      "title": "360.5 Monthly Spend-Down Deduction",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634852.3123882
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/327_Specified_Relatives/327_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__327_Specified_Relatives__327_1_General_Policy.htm.html",
+      "title": "327.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634852.601505
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_9_Health_Insurance_Portability_and_Accountability_Act.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__338_Medical_Assistance_Benefits__338_9_Health_Insurance_Portability_and_Accountability_Act.htm.html",
+      "title": "338.9 Health Insurance Portability and Accountability Act",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634852.895884
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/303_General_Information/303_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__303_General_Information__303_1_General_Policy.htm.html",
+      "title": "303.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634853.1794298
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/314_Students/314_3_Excluded_Education_Assistance\u2014SSI_Related.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__314_Students__314_3_Excluded_Education_Assistance_SSI_Related.htm.html",
+      "title": "314.3 Excluded Education Assistance\u00e2\u0080\u0094SSI Related",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634853.458307
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/372_Mass_Changes/372_4_Notices.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__372_Mass_Changes__372_4_Notices.htm.html",
+      "title": "372.4 Notices",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634853.759103
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/368_Determining_Eligibility_for_NMP/Appendix_B__Supplemental_Security_Income_Benefit_Lefvels--SSI-Related.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__368_Determining_Eligibility_for_NMP__Appendix_B__Supplemental_Security_Income_Benefit_Lefvels--SSI-Related.htm.html",
+      "title": "Appendix B: Supplemental Security Income Benefit Lefvels--SSI-Related",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634854.035019
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/319_Healthy_Horizons/319_4_Period_of_Eligibility.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__319_Healthy_Horizons__319_4_Period_of_Eligibility.htm.html",
+      "title": "319.4 Period of Eligibility",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634854.313901
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/391_Personal_Care_Supplement/391_2_Eligibility_Requirements.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__391_Personal_Care_Supplement__391_2_Eligibility_Requirements.htm.html",
+      "title": "391.2 Eligibility Requirements",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634854.5903869
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/368_Determining_Eligibility_for_NMP/368.6_Renewal.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__368_Determining_Eligibility_for_NMP__368.6_Renewal.htm.html",
+      "title": "368.6 Renewal",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634854.9370701
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/361_MNO_Deductions/361_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__361_MNO_Deductions__361_Appendix_B.htm.html",
+      "title": "361 Appendix B Medical Expense Deductions",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634855.212895
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/392_Institutions/392_5_Institutional_Care_Contracts.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__392_Institutions__392_5_Institutional_Care_Contracts.htm.html",
+      "title": "392.5 Institutional Care Contracts",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634856.318839
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/314_Students/314_6_Countable_Educational_Assistance\u2014SSI_Related.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__314_Students__314_6_Countable_Educational_Assistance_SSI_Related.htm.html",
+      "title": "314.6 Countable Educational Assistance\u00e2\u0080\u0094SSI Related",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634856.616382
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/372_Mass_Changes/372_2_Effect_of_Changes_on_MA_Eligibility.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__372_Mass_Changes__372_2_Effect_of_Changes_on_MA_Eligibility.htm.html",
+      "title": "372.2 Effect of Changes on MA Eligibility",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634856.898039
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/314_Students/314_5_Countable_Educational_Assistance\u2014TANF_GA_Related.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__314_Students__314_5_Countable_Educational_Assistance_TANF_GA_Related.htm.html",
+      "title": "314.5 Countable Educational Assistance\u00e2\u0080\u0094TANF/GA Related",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634857.177372
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_Appendix_F.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__378_Verification__378_Appendix_F.htm.html",
+      "title": "378 Appendix F",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634857.456275
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/327_Specified_Relatives/327_5_Changes_in_Circumstances.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__327_Specified_Relatives__327_5_Changes_in_Circumstances.htm.html",
+      "title": "327.5 Changes in Circumstances",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634857.733175
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_07_Retroactive_Eligibility.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__316_MAWD__316_07_Retroactive_Eligibility.htm.html",
+      "title": "316.7 Retroactive Eligibility",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634858.08302
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/360_NMP_Deductions/360_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__360_NMP_Deductions__360_Appendix_B.htm.html",
+      "title": "360 Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634858.377284
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/314_Students/314_7_Verification.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__314_Students__314_7_Verification.htm.html",
+      "title": "314.7 Verification",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634858.692554
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/303_General_Information/303_6_Charges_of_Employee_Fraud.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__303_General_Information__303_6_Charges_of_Employee_Fraud.htm.html",
+      "title": "303.6 Charges of Employee Fraud",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634859.0011892
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/368_Determining_Eligibility_for_NMP/368.5_Change_of_Category.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__368_Determining_Eligibility_for_NMP__368.5_Change_of_Category.htm.html",
+      "title": "368.5 Change of Category",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634859.2872078
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/315_Children_with_Special_Needs/315_4_Income.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__315_Children_with_Special_Needs__315_4_Income.htm.html",
+      "title": "315.4 Income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634859.658423
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/304_Application/AppendixF__Procedures_for_the_Criminal_History_Inquiry_(GA-Related_Medical_AssistanceOnly).htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__304_Application__AppendixF__Procedures_for_the_Criminal_History_Inquiry__GA-Related_Medical_AssistanceOnly_.htm.html",
+      "title": "304 Appendix F",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634859.951519
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_09_MAWD_Closure.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__316_MAWD__316_09_MAWD_Closure.htm.html",
+      "title": "316.9 MAWD Closure",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634860.242997
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/370_Reporting_Changes/370_5_County_Assistance_Office_Duties.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__370_Reporting_Changes__370_5_County_Assistance_Office_Duties.htm.html",
+      "title": "370.5 County Assistance Office Duties",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634860.527914
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_08_Period_of_Eligibility.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__316_MAWD__316_08_Period_of_Eligibility.htm.html",
+      "title": "316.8 Period of Eligibility",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634860.80656
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/369_Determining_Eligibility_for_MNO/369_6_Renewal.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__369_Determining_Eligibility_for_MNO__369_6_Renewal.htm.html",
+      "title": "369.6 Renewal",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634861.0864189
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/303_General_Information/303_4_Nondiscrimination.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__303_General_Information__303_4_Nondiscrimination.htm.html",
+      "title": "303.4 Nondiscrimination",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634861.36433
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/327_Specified_Relatives/327_4_Temporary_Absence_of_the_Dependent_Child_or_Specified_.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__327_Specified_Relatives__327_4_Temporary_Absence_of_the_Dependent_Child_or_Specified_.htm.html",
+      "title": "327.4 Temporary Absence of the Dependent Child or Specified Relative",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634861.645351
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/312.3_Period_of_Eligibility.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__312_ACA__312.3_Period_of_Eligibility.htm.html",
+      "title": "312.3 Period of Eligibility",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634861.929695
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/379_Reconsidering_Denied_Applications_and_Reopening_Closed_Benefits/379.1.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__379_Reconsidering_Denied_Applications_and_Reopening_Closed_Benefits__379.1.htm.html",
+      "title": "379.1 Reconsidering Denied Applications",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634862.283621
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/314_Students/314_2_Excluded_Educational_Assistance\u2014TANF_GA_Related.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__314_Students__314_2_Excluded_Educational_Assistance_TANF_GA_Related.htm.html",
+      "title": "314.2 Excluded Educational Assistance\u00e2\u0080\u0094TANF/GA Related",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634862.570405
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/340_Resources/340_9_Disposition_of_Resources.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__340_Resources__340_9_Disposition_of_Resources.htm.html",
+      "title": "340.9 Disposition of Resources",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634862.858422
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/386_Medical_Assistance_Plan_Options/386_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__386_Medical_Assistance_Plan_Options__386_1_General_Policy.htm.html",
+      "title": "386.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634863.138332
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/355_Deeming_Income_and_Resources/355_3_Deeming_Resources\u2014GA-Related.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__355_Deeming_Income_and_Resources__355_3_Deeming_Resources_GA-Related.htm.html",
+      "title": "355.3 Deeming Resources\u00e2\u0080\u0094GA-Related",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634863.420694
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/337_Medicare/337_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__337_Medicare__337_1_General_Policy.htm.html",
+      "title": "337.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634863.71588
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/327_Specified_Relatives/327_3_Number_of_Specified_Relatives.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__327_Specified_Relatives__327_3_Number_of_Specified_Relatives.htm.html",
+      "title": "327.3 Number of Specified Relatives",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634864.0001879
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/323_Residence/323_5_Proof_of_Residence.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__323_Residence__323_5_Proof_of_Residence.htm.html",
+      "title": "323.5 Proof of Residence",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634864.279882
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/314_Students/314_4_Countable_Educational_Assistance.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__314_Students__314_4_Countable_Educational_Assistance.htm.html",
+      "title": "314.4 Countable Educational Assistance",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634864.557363
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/309_Health_Care_Services_Benefits_for_Children/309_4_MA_Service_Delivery.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__309_Health_Care_Services_Benefits_for_Children__309_4_MA_Service_Delivery.htm.html",
+      "title": "309.3 MA Service Delivery",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634864.8995452
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/370_Reporting_Changes/370_6_Changes_that_Result_in_Ineligibility.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__370_Reporting_Changes__370_6_Changes_that_Result_in_Ineligibility.htm.html",
+      "title": "370.6 Changes that Result in Ineligibility",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634865.173476
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/380_Issuing_the_ACCESS_Card/380_5_Replacement_of_ACCESS_Card.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__380_Issuing_the_ACCESS_Card__380_5_Replacement_of_ACCESS_Card.htm.html",
+      "title": "380.5 Replacement of ACCESS Card",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634865.484437
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/321_Age/321_4_Proof_of_Age.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__321_Age__321_4_Proof_of_Age.htm.html",
+      "title": "321.4 Proof of Age",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634865.77688
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/361_MNO_Deductions/361_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__361_MNO_Deductions__361_1_General_Policy.htm.html",
+      "title": "361.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634866.0639842
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/329_Deprivation/329_2_Continued_Absence.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__329_Deprivation__329_2_Continued_Absence.htm.html",
+      "title": "329.2 Unemployment/Underemployment",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634866.3475652
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/355_Deeming_Income_and_Resources/355_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__355_Deeming_Income_and_Resources__355_Appendix_B.htm.html",
+      "title": "355 Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634866.6317692
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/314_Students/314_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__314_Students__314_1_General_Policy.htm.html",
+      "title": "314.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634866.9971142
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/392_Institutions/392_6_Targeted_Case-Management_Services.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__392_Institutions__392_6_Targeted_Case-Management_Services.htm.html",
+      "title": "392.6 Targeted Case-Management Services",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634867.276835
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/392_Institutions/392_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__392_Institutions__392_1_General_Policy.htm.html",
+      "title": "392.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634867.5844579
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/323_Residence/323_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__323_Residence__323_1_General_Policy.htm.html",
+      "title": "323.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634867.860548
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/391_Personal_Care_Supplement/391_Appendix_C.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__391_Personal_Care_Supplement__391_Appendix_C.htm.html",
+      "title": "391 Appendix C",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634868.135869
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/350_Income/350_4_Rental_Property_Income.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__350_Income__350_4_Rental_Property_Income.htm.html",
+      "title": "350.4 Rental Property Income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634868.443715
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_Appendix_G.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__378_Verification__378_Appendix_G.htm.html",
+      "title": "378 Appendix G",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634868.725041
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/360_NMP_Deductions/360.1_General_Policy_.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__360_NMP_Deductions__360.1_General_Policy_.htm.html",
+      "title": "360.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634869.09477
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_Appendix_C.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__338_Medical_Assistance_Benefits__338_Appendix_C.htm.html",
+      "title": "338 Appendix C",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634869.382977
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/340_Resources/340_5_Motor_Vehicles.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__340_Resources__340_5_Motor_Vehicles.htm.html",
+      "title": "340.5 Motor Vehicles",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634869.679158
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/370_Reporting_Changes/370_2_Types_of_Changes_to_be_Reported.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__370_Reporting_Changes__370_2_Types_of_Changes_to_be_Reported.htm.html",
+      "title": "370.2 Types of Changes to be Reported",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634869.962379
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/379_Reconsidering_Denied_Applications_and_Reopening_Closed_Benefits/379.2.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__379_Reconsidering_Denied_Applications_and_Reopening_Closed_Benefits__379.2.htm.html",
+      "title": "379.2 Reopening Closed Benefits",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634870.233927
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/379_Reconsidering_Denied_Applications_and_Reopening_Closed_Benefits/379.3.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__379_Reconsidering_Denied_Applications_and_Reopening_Closed_Benefits__379.3.htm.html",
+      "title": "379.3 Reopening Benefits that were Closed at Renewal",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634870.507048
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_4_Collateral_Contacts.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__378_Verification__378_4_Collateral_Contacts.htm.html",
+      "title": "378.4 Collateral Contacts",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634870.8010309
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/319_Healthy_Horizons/319_3_What_Is_the_Healthy_Horizons_Family.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__319_Healthy_Horizons__319_3_What_Is_the_Healthy_Horizons_Family.htm.html",
+      "title": "319.3 What Is the Healthy Horizons Family?",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634871.092709
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/377_Notices/377.2_Notice_to_Applicant.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__377_Notices__377.2_Notice_to_Applicant.htm.html",
+      "title": "377.2 Notice to Applicant",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634871.38714
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/315_Children_with_Special_Needs/315_7_Renewals.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__315_Children_with_Special_Needs__315_7_Renewals.htm.html",
+      "title": "315.7 Renewals",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634871.7194738
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_Appendix_F.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__338_Medical_Assistance_Benefits__338_Appendix_F.htm.html",
+      "title": "338 Appendix F",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634872.001652
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/319_Healthy_Horizons/319_5_Resources.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__319_Healthy_Horizons__319_5_Resources.htm.html",
+      "title": "319.5 Resources",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634872.3075871
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/391_Personal_Care_Supplement/391_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__391_Personal_Care_Supplement__391_1_General_Policy.htm.html",
+      "title": "391.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634872.583126
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/380_Issuing_the_ACCESS_Card/380_4_Temporary_ACCESS_Card.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__380_Issuing_the_ACCESS_Card__380_4_Temporary_ACCESS_Card.htm.html",
+      "title": "380.4 Temporary ACCESS Card",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634872.862282
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/319_Healthy_Horizons/319_2_Who_Is_Considered_Disabled.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__319_Healthy_Horizons__319_2_Who_Is_Considered_Disabled.htm.html",
+      "title": "319.2 Determining Disiability",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634873.141176
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/339_Transitional_Medical_Assistance_(TMA)/Chapter_339.1.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__339_Transitional_Medical_Assistance__TMA___Chapter_339.1.htm.html",
+      "title": "339.1 General Policy for Transitional Medical Assistance (TMA)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634873.4465039
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/391_Personal_Care_Supplement/391_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__391_Personal_Care_Supplement__391_Appendix_B.htm.html",
+      "title": "391 Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634873.813486
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/368_Determining_Eligibility_for_NMP/Appendix_A__NMP_Income_Limits--TANF_GA-Related_Family_Size_Allowance.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__368_Determining_Eligibility_for_NMP__Appendix_A__NMP_Income_Limits--TANF_GA-Related_Family_Size_Allowance.htm.html",
+      "title": "Appendix A: NMP Income Limits--TANF/GA-Related Family Size Allowance",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634874.103914
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_2_Client_Responsibility.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__378_Verification__378_2_Client_Responsibility.htm.html",
+      "title": "378.2 Applicant/Recipient Responsibility",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634874.400474
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/361_MNO_Deductions/361_4_Deductions_Unearned_Rental_Income.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__361_MNO_Deductions__361_4_Deductions_Unearned_Rental_Income.htm.html",
+      "title": "361.4 Deductions from Unearned Rental Property",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634874.693818
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/317_BCCPT/317_3_Period_of_Eligibility.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__317_BCCPT__317_3_Period_of_Eligibility.htm.html",
+      "title": "317.3 Period of Eligibility",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634874.980017
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/Appendix_F__Filing_Requirements_for_Tax_Dependents.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__312_ACA__Appendix_F__Filing_Requirements_for_Tax_Dependents.htm.html",
+      "title": "Appendix F Categories Affected by FMAP Initiative",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634875.376178
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/370_Reporting_Changes/370_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__370_Reporting_Changes__370_1_General_Policy.htm.html",
+      "title": "370.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634875.654392
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/386_Medical_Assistance_Plan_Options/386_2_Client_Enrollment.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__386_Medical_Assistance_Plan_Options__386_2_Client_Enrollment.htm.html",
+      "title": "386.2 Plan Enrollment Process",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634875.987775
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/369_Determining_Eligibility_for_MNO/369_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__369_Determining_Eligibility_for_MNO__369_Appendix_A.htm.html",
+      "title": "369 Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634876.286968
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/391_Personal_Care_Supplement/391.6_Changes_in_Eligibility.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__391_Personal_Care_Supplement__391.6_Changes_in_Eligibility.htm.html",
+      "title": "391.6 Changes in Eligibility",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634876.564532
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/Appendix_H__Desk_Guide_for_MAGI_Household_Composition.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__312_ACA__Appendix_H__Desk_Guide_for_MAGI_Household_Composition.htm.html",
+      "title": "Appendix H Categories Not Eligible for Continuous Eligibility",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634876.840468
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/369_Determining_Eligibility_for_MNO/369_5_Change_of_Category.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__369_Determining_Eligibility_for_MNO__369_5_Change_of_Category.htm.html",
+      "title": "369.5 Change of Category",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634877.120755
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/392_Institutions/392_4_Other_Public_Institutions.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__392_Institutions__392_4_Other_Public_Institutions.htm.html",
+      "title": "392.4 Other Public Institutions",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634877.4883468
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_7_MA_Providers.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__338_Medical_Assistance_Benefits__338_7_MA_Providers.htm.html",
+      "title": "338.7 MA Providers",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634877.779403
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/355_Deeming_Income_and_Resources/355_2_Deeming_Resources\u2014SSI-Related.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__355_Deeming_Income_and_Resources__355_2_Deeming_Resources_SSI-Related.htm.html",
+      "title": "355.2 Deeming Resources\u00e2\u0080\u0094SSI-Related",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634878.071317
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/352_Self-Employment/352_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__352_Self-Employment__352_1_General_Policy.htm.html",
+      "title": "352.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634878.35118
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/304_Application/304_3_Screening_Interview.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__304_Application__304_3_Screening_Interview.htm.html",
+      "title": "304.3 Screening Interview",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634878.651034
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/310_Applicant_And_Recipient_Groups_Standard_Filing_Unit/310_3_Persons_Who_May_Be_Included_in_the_Same_or_Separate_Ap.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__310_Applicant_And_Recipient_Groups_Standard_Filing_Unit__310_3_Persons_Who_May_Be_Included_in_the_Same_or_Separate_Ap.htm.html",
+      "title": "310.3 Individuals Who May Be Included in the Same or Separate Applicant/Recipient Group",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634878.945656
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/319_Healthy_Horizons/319_9_Authorizing_Healthy_Horizons.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__319_Healthy_Horizons__319_9_Authorizing_Healthy_Horizons.htm.html",
+      "title": "319.9 Authorizing Healthy Horizons",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634879.226846
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/380_Issuing_the_ACCESS_Card/380_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__380_Issuing_the_ACCESS_Card__380_1_General_Policy.htm.html",
+      "title": "380.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634879.5828722
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/350_Income/350_2_Earned_Income.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__350_Income__350_2_Earned_Income.htm.html",
+      "title": "350.2 Earned Income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634879.871104
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/304_Application/304_Appendix_D.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__304_Application__304_Appendix_D.htm.html",
+      "title": "304 Appendix D",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634880.160727
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/357_Lump_Sum/357_3_Treatment_of_Lump_Sum_as_a_Resource.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__357_Lump_Sum__357_3_Treatment_of_Lump_Sum_as_a_Resource.htm.html",
+      "title": "357.3 Treatment of Lump Sum as a Resource",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634880.454915
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/Appendix_E_MAGI_Tax_Deductions_Maximum_Amounts.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__312_ACA__Appendix_E_MAGI_Tax_Deductions_Maximum_Amounts.htm.html",
+      "title": "Appendix E Desk Guide for MAGI Household Composition",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634880.737131
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/337_Medicare/337_3_Medicare_Part_B_-_Medical_Insurance.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__337_Medicare__337_3_Medicare_Part_B_-_Medical_Insurance.htm.html",
+      "title": "337.3 Medicare Part B - Medical Insurance",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634881.021663
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/357_Lump_Sum/357_2_Types_of_Lump_Sum.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__357_Lump_Sum__357_2_Types_of_Lump_Sum.htm.html",
+      "title": "357.2 Types of Lump Sum",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634881.311011
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/352_Self-Employment/352_2_Identifying_Self-Employment.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__352_Self-Employment__352_2_Identifying_Self-Employment.htm.html",
+      "title": "352.2 Identifying Self-Employment",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634881.6800508
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/372_Mass_Changes/372_3_Federal_Benefit_Changes.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__372_Mass_Changes__372_3_Federal_Benefit_Changes.htm.html",
+      "title": "372.3 Federal Benefit Changes",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634881.9683352
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/304_Application/304_Appendix_E.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__304_Application__304_Appendix_E.htm.html",
+      "title": "304 Appendix E",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634882.279669
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/340_Resources/340_2_Deciding_on_Ownership.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__340_Resources__340_2_Deciding_on_Ownership.htm.html",
+      "title": "340.2 Deciding on Ownership",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634882.560128
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/329_Deprivation/329_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__329_Deprivation__329_1_General_Policy.htm.html",
+      "title": "329.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634882.842601
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__338_Medical_Assistance_Benefits__338_Appendix_B.htm.html",
+      "title": "338 Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634883.120661
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/323_Residence/323_4_Place_of_Application.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__323_Residence__323_4_Place_of_Application.htm.html",
+      "title": "323.4 Place of Application",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634883.417589
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/304_Application/304_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__304_Application__304_Appendix_B.htm.html",
+      "title": "304 Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634883.802936
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/321_Age/321_3_Emancipation.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__321_Age__321_3_Emancipation.htm.html",
+      "title": "321.3 Emancipation",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634884.08581
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/310_Applicant_And_Recipient_Groups_Standard_Filing_Unit/310_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__310_Applicant_And_Recipient_Groups_Standard_Filing_Unit__310_1_General_Policy.htm.html",
+      "title": "310.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634884.367321
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/320_Identity/320_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__320_Identity__320_1_General_Policy.htm.html",
+      "title": "320.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634884.644738
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/315_Children_with_Special_Needs/315_8_Termination_of_Benefits.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__315_Children_with_Special_Needs__315_8_Termination_of_Benefits.htm.html",
+      "title": "315.8 Termination of Benefits",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634884.92622
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/368_Determining_Eligibility_for_NMP/368.8_Changes_in_Applicant_Recipient_Group_Members.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__368_Determining_Eligibility_for_NMP__368.8_Changes_in_Applicant_Recipient_Group_Members.htm.html",
+      "title": "368.8 Changes in Applicant/Recipient Group Members",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634885.2060359
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/315_Children_with_Special_Needs/315_2_Determining_Disability.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__315_Children_with_Special_Needs__315_2_Determining_Disability.htm.html",
+      "title": "315.2 Determining Disability",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634885.489301
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/360_NMP_Deductions/360_4_Deductions_from_Unearned_Rental_Income.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__360_NMP_Deductions__360_4_Deductions_from_Unearned_Rental_Income.htm.html",
+      "title": "360.4 Deductions from Unearned Rental Income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634885.762389
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/327_Specified_Relatives/327_6_Proof.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__327_Specified_Relatives__327_6_Proof.htm.html",
+      "title": "327.6 Proof",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634886.046506
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/337_Medicare/337_4_Medicare_Part_C_\u2013_Medicare_Advantage_Plans.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__337_Medicare__337_4_Medicare_Part_C___Medicare_Advantage_Plans.htm.html",
+      "title": "337.4 Medicare Part C \u00e2\u0080\u0093 Medicare Advantage Plans",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634886.3998568
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/337_Medicare/337_Appendix_C.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__337_Medicare__337_Appendix_C.htm.html",
+      "title": "337 Appendix C",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634886.672616
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/369_Determining_Eligibility_for_MNO/369_2_Gross_Income.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__369_Determining_Eligibility_for_MNO__369_2_Gross_Income.htm.html",
+      "title": "369.2 Gross Income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634886.9844449
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/380_Issuing_the_ACCESS_Card/380_3_NCE_Open_Issue_ACCESS_card.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__380_Issuing_the_ACCESS_Card__380_3_NCE_Open_Issue_ACCESS_card.htm.html",
+      "title": "380.3 Non-Continuous Eligibility (NCE) Opening and Issuing an ACCESS Card",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634887.318049
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__338_Medical_Assistance_Benefits__338_1_General_Policy.htm.html",
+      "title": "338.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634887.6036851
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/380_Issuing_the_ACCESS_Card/380_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__380_Issuing_the_ACCESS_Card__380_Appendix_A.htm.html",
+      "title": "380 Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634887.97221
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/340_Resources/340_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__340_Resources__340_Appendix_A.htm.html",
+      "title": "340 Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634888.26588
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/377_Notices/377_4_Confirming_Notice.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__377_Notices__377_4_Confirming_Notice.htm.html",
+      "title": "377.4 Confirming Notice",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634888.550743
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/368_Determining_Eligibility_for_NMP/368.1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__368_Determining_Eligibility_for_NMP__368.1_General_Policy.htm.html",
+      "title": "368.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634888.818827
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/309_Health_Care_Services_Benefits_for_Children/309_3_MA_Application_Process.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__309_Health_Care_Services_Benefits_for_Children__309_3_MA_Application_Process.htm.html",
+      "title": "309.2 Newborn Eligibility",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634889.111777
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/376_Renewal/376_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__376_Renewal__376_1_General_Policy.htm.html",
+      "title": "376.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634889.417662
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/339_Transitional_Medical_Assistance_(TMA)/339.2.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__339_Transitional_Medical_Assistance__TMA___339.2.htm.html",
+      "title": "339.2 TMA Eligibility",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634889.702736
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_8_Corrective_Action_Payment_Reimbursement_for_Paid_and_U.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__338_Medical_Assistance_Benefits__338_8_Corrective_Action_Payment_Reimbursement_for_Paid_and_U.htm.html",
+      "title": "338.8 Corrective Action Payment",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634890.072555
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/304_Application/304_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__304_Application__304_Appendix_A.htm.html",
+      "title": "304 Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634890.357548
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/317_BCCPT/317_6_Determining_Eligibility.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__317_BCCPT__317_6_Determining_Eligibility.htm.html",
+      "title": "317.6 Determining Eligibility",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634890.777637
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/377_Notices/377.1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__377_Notices__377.1_General_Policy.htm.html",
+      "title": "377.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634891.1152341
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/352_Self-Employment/352_3_Estimating_Self-Employment_Income.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__352_Self-Employment__352_3_Estimating_Self-Employment_Income.htm.html",
+      "title": "352.3 Estimating Self-Employment Income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634891.404075
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/392_Institutions/392_3_Medical_Institutions.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__392_Institutions__392_3_Medical_Institutions.htm.html",
+      "title": "392.3 Medical Institutions",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634891.709198
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/337_Medicare/337_2_Medicare_Part_A_-_Hospital_Insurance.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__337_Medicare__337_2_Medicare_Part_A_-_Hospital_Insurance.htm.html",
+      "title": "337.2 Medicare Part A - Hospital Insurance",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634891.99751
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_10_Restarting_MAWD.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__316_MAWD__316_10_Restarting_MAWD.htm.html",
+      "title": "316.10 Reauthorizing MAWD",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634892.278815
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__378_Verification__378_Appendix_A.htm.html",
+      "title": "378 Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634892.561176
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__316_MAWD__316_Appendix_A.htm.html",
+      "title": "316 Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634892.849483
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/368_Determining_Eligibility_for_NMP/368.7_Changes_in_Income.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__368_Determining_Eligibility_for_NMP__368.7_Changes_in_Income.htm.html",
+      "title": "368.7 Changes in Income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634893.215169
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/355_Deeming_Income_and_Resources/355_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__355_Deeming_Income_and_Resources__355_1_General_Policy.htm.html",
+      "title": "355.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634893.512326
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_Appendix_D.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__338_Medical_Assistance_Benefits__338_Appendix_D.htm.html",
+      "title": "338 Appendix D",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634893.800071
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/391_Personal_Care_Supplement/391_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__391_Personal_Care_Supplement__391_Appendix_A.htm.html",
+      "title": "391 Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634894.094573
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/377_Notices/377.3_Advance_Notice.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__377_Notices__377.3_Advance_Notice.htm.html",
+      "title": "377.3 Advance Notice",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634894.3848882
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/391_Personal_Care_Supplement/391.4_Approving_the_Supplement.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__391_Personal_Care_Supplement__391.4_Approving_the_Supplement.htm.html",
+      "title": "391.4 Approving the Supplement",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634894.684515
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_04_Income.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__316_MAWD__316_04_Income.htm.html",
+      "title": "316.4 Income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634894.972707
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/388_Buy-In/388_4_Start_of_Buy-In_Coverage.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__388_Buy-In__388_4_Start_of_Buy-In_Coverage.htm.html",
+      "title": "388.4 Buy-In Begins",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634895.317526
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/357_Lump_Sum/357_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__357_Lump_Sum__357_1_General_Policy.htm.html",
+      "title": "357.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634895.605084
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/317_BCCPT/317_7_Authorizing_BCCPT_and_Renewal.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__317_BCCPT__317_7_Authorizing_BCCPT_and_Renewal.htm.html",
+      "title": "317.7 Authorizing BCCPT and Renewal",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634895.9046578
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/387_SSI/387_2_SSI_Categories.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__387_SSI__387_2_SSI_Categories.htm.html",
+      "title": "387.2 SSI Categories",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634896.200503
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_Appendix_C.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__316_MAWD__316_Appendix_C.htm.html",
+      "title": "316 Appendix C",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634896.4959528
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/339_Transitional_Medical_Assistance_(TMA)/339_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__339_Transitional_Medical_Assistance__TMA___339_Appendix_A.htm.html",
+      "title": "339 Appendix A: Transitional Medical Assistance (TMA) Income Limits-MG71(Second Six Months)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634896.782922
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/310_Applicant_And_Recipient_Groups_Standard_Filing_Unit/310_4_Multiple_Applicant_Recipient_Groups.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__310_Applicant_And_Recipient_Groups_Standard_Filing_Unit__310_4_Multiple_Applicant_Recipient_Groups.htm.html",
+      "title": "310.4 Multiple Applicant/Recipient Groups",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634897.080402
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/388_Buy-In/388_5_End_of_Buy-In_Coverage.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__388_Buy-In__388_5_End_of_Buy-In_Coverage.htm.html",
+      "title": "388.5 Buy-In Ends",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634897.412504
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/360_NMP_Deductions/360_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__360_NMP_Deductions__360_Appendix_A.htm.html",
+      "title": "360 Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634897.706066
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/317_BCCPT/317_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__317_BCCPT__317_1_General_Policy.htm.html",
+      "title": "317.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634898.002814
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/340_Resources/340_3_Personal_Property.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__340_Resources__340_3_Personal_Property.htm.html",
+      "title": "340.3 Personal Property",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634898.316898
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/360_NMP_Deductions/360.6_Medical_Expense_Deductions.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__360_NMP_Deductions__360.6_Medical_Expense_Deductions.htm.html",
+      "title": "360.6 Medical Expense Deductions",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634898.621068
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_5_Using_Medical_Assistance.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__338_Medical_Assistance_Benefits__338_5_Using_Medical_Assistance.htm.html",
+      "title": "338.5 Using Medical Assistance",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634898.9861708
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/340_Resources/340_4_Life_Insurance.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__340_Resources__340_4_Life_Insurance.htm.html",
+      "title": "340.4 Life Insurance",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634899.30839
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/337_Medicare/337_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__337_Medicare__337_Appendix_A.htm.html",
+      "title": "337 Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634899.590636
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/361_MNO_Deductions/361_5_Medical_Expense_Deductions.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__361_MNO_Deductions__361_5_Medical_Expense_Deductions.htm.html",
+      "title": "361.5 Medical Expense Deductions",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634899.883381
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/361_MNO_Deductions/361_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__361_MNO_Deductions__361_Appendix_A.htm.html",
+      "title": "361 Appendix A Standard of Need",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634900.179348
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/388_Buy-In/388_2_Buy-In_of_Medicare_Part_A.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__388_Buy-In__388_2_Buy-In_of_Medicare_Part_A.htm.html",
+      "title": "388.2 Buy-In of Medicare Part A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634900.635124
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/312..7_Former_Foster_Care.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__312_ACA__312..7_Former_Foster_Care.htm.html",
+      "title": "312.7 Former Foster Care",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634900.936494
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/310_Applicant_And_Recipient_Groups_Standard_Filing_Unit/310_5_Determining_Eligibility_for_Multiple_Applicant_Recipie.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__310_Applicant_And_Recipient_Groups_Standard_Filing_Unit__310_5_Determining_Eligibility_for_Multiple_Applicant_Recipie.htm.html",
+      "title": "310.5 Determining Eligibility for Multiple Applicant/Recipient Groups",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634901.2323022
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/327_Specified_Relatives/327_2_Conditions_for_a_Specified_Relative.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__327_Specified_Relatives__327_2_Conditions_for_a_Specified_Relative.htm.html",
+      "title": "327.2 Conditions for a Specified Relative",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634901.603159
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/387_SSI/387_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__387_SSI__387_1_General_Policy.htm.html",
+      "title": "387.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634901.9244318
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/350_Income/350_5_Income_of_a_Child.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__350_Income__350_5_Income_of_a_Child.htm.html",
+      "title": "350.5 Income of a Child",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634902.24095
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/376_Renewal/376_4_Semiannual_Reporting.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__376_Renewal__376_4_Semiannual_Reporting.htm.html",
+      "title": "376.3 Semiannual Reporting",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634902.55875
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/380_Issuing_the_ACCESS_Card/380_2_Access_Card_Issue_Replace.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__380_Issuing_the_ACCESS_Card__380_2_Access_Card_Issue_Replace.htm.html",
+      "title": "380.2 ACCESS Card Issuance and Replacement",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634902.863436
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__378_Verification__378_Appendix_B.htm.html",
+      "title": "378 Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634903.2352052
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/309_Health_Care_Services_Benefits_for_Children/309_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__309_Health_Care_Services_Benefits_for_Children__309_Appendix_A.htm.html",
+      "title": "309 Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634903.696568
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/315_Children_with_Special_Needs/315_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__315_Children_with_Special_Needs__315_1_General_Policy.htm.html",
+      "title": "315.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634904.0177128
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/340_Resources/340_7_Burial_Resources.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__340_Resources__340_7_Burial_Resources.htm.html",
+      "title": "340.7 Burial Resources",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634904.325993
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/Appendix_B_MAGI_Income_Limits_133__of_the_2014_Federal_Poverty_Income_Guidelines.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__312_ACA__Appendix_B_MAGI_Income_Limits_133__of_the_2014_Federal_Poverty_Income_Guidelines.htm.html",
+      "title": "Appendix B MAGI Tax Deductions Maximum Amounts",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634904.6166332
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/391_Personal_Care_Supplement/391_3_Application_for_the_Supplement.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__391_Personal_Care_Supplement__391_3_Application_for_the_Supplement.htm.html",
+      "title": "391.3 Application for the Supplement",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634904.918485
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/309_Health_Care_Services_Benefits_for_Children/309_5_MA_Services_for_Children.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__309_Health_Care_Services_Benefits_for_Children__309_5_MA_Services_for_Children.htm.html",
+      "title": "309.4 MA Services for Children",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634905.27934
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/376_Renewal/376_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__376_Renewal__376_Appendix_A.htm.html",
+      "title": "376 Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634905.579189
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/377_Notices/377_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__377_Notices__377_Appendix_B.htm.html",
+      "title": "377 Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634905.8939672
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/Appendix_D_MAGI_Income_Limits_215__of_the_2014_federal_Poverty_Income_Guidelines_Pregnant_Women_and_Infants_less_than_one_year_old.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__312_ACA__Appendix_D_MAGI_Income_Limits_215__of_the_2014_federal_Poverty_Income_Guidelines_Pregnant_Women_and_Infants_less_than_one_year_old.htm.html",
+      "title": "Appendix D Tax Dependent Criteria",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634906.204309
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/392_Institutions/392_2_Correctional_Institutions.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__392_Institutions__392_2_Correctional_Institutions.htm.html",
+      "title": "392.2 Correctional Institutions",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634906.520229
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/369_Determining_Eligibility_for_MNO/369_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__369_Determining_Eligibility_for_MNO__369_1_General_Policy.htm.html",
+      "title": "369.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634906.848531
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/321_Age/321_2_Assigning_Categories_by_Age.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__321_Age__321_2_Assigning_Categories_by_Age.htm.html",
+      "title": "321.2 Assigning Categories by Age",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634907.190027
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/369_Determining_Eligibility_for_MNO/369_8_Changes_in_Applicant_Recipient_Group_Members.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__369_Determining_Eligibility_for_MNO__369_8_Changes_in_Applicant_Recipient_Group_Members.htm.html",
+      "title": "369.8 Changes in Applicant/Recipient Group Members",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634907.52009
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/Appendix_C_MAGI_Income_Limits_157__of_the_2014_Federal_Poverty_Income_Guidelines_Children_age_1-5.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__312_ACA__Appendix_C_MAGI_Income_Limits_157__of_the_2014_Federal_Poverty_Income_Guidelines_Children_age_1-5.htm.html",
+      "title": "Appendix C Filing Requirements for Tax Dependents",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634907.904303
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/352_Self-Employment/352_4_Computing_Monthly_Profit.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__352_Self-Employment__352_4_Computing_Monthly_Profit.htm.html",
+      "title": "352.4 Computing Monthly Profit",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634908.2406259
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__316_MAWD__316_Appendix_B.htm.html",
+      "title": "316 Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634908.5766132
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/387_SSI/387_3_SSI_Benefits.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__387_SSI__387_3_SSI_Benefits.htm.html",
+      "title": "387.3 SSI Benefits",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634908.9456892
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/340_Resources/340_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__340_Resources__340_Appendix_B.htm.html",
+      "title": "340 Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634909.242948
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/372_Mass_Changes/372_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__372_Mass_Changes__372_Appendix_A.htm.html",
+      "title": "372 Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634909.707393
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/312.5_Income_Deductions_and_Disregard.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__312_ACA__312.5_Income_Deductions_and_Disregard.htm.html",
+      "title": "312.5 Income Deductions and Disregard",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634910.099045
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/368_Determining_Eligibility_for_NMP/368.4_NMP_Spend-Down.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__368_Determining_Eligibility_for_NMP__368.4_NMP_Spend-Down.htm.html",
+      "title": "368.4 NMP Spend-Down",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634910.518096
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_6_Special_MA_Services.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__338_Medical_Assistance_Benefits__338_6_Special_MA_Services.htm.html",
+      "title": "338.6 Special MA Services",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634910.811682
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/305_Category/305_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__305_Category__305_1_General_Policy.htm.html",
+      "title": "305.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634911.2486541
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/309_Health_Care_Services_Benefits_for_Children/309_9_Children_s_Health_Services_under_the_Department_of_Edu.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__309_Health_Care_Services_Benefits_for_Children__309_9_Children_s_Health_Services_under_the_Department_of_Edu.htm.html",
+      "title": "309.8 Children's Health Services under the Department of Education",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634911.692707
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_Appendix_D.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__378_Verification__378_Appendix_D.htm.html",
+      "title": "378 Appendix D",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634912.079733
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/323_Residence/323_7_Person_Whose_Location_Is_Unknown.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__323_Residence__323_7_Person_Whose_Location_Is_Unknown.htm.html",
+      "title": "323.7 Individual Whose Location Is Unknown",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634912.44007
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/388_Buy-In/388_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__388_Buy-In__388_Appendix_A.htm.html",
+      "title": "388 Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634912.7443829
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/369_Determining_Eligibility_for_MNO/369.7_Changes_in_Income.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__369_Determining_Eligibility_for_MNO__369.7_Changes_in_Income.htm.html",
+      "title": "369.7 Changes in Income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634913.03273
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_4_Automatic_Medical_Assistance_Coverage_Extensions.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__338_Medical_Assistance_Benefits__338_4_Automatic_Medical_Assistance_Coverage_Extensions.htm.html",
+      "title": "338.4 Automatic Medical Assistance Coverage Extensions",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634913.332321
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/310_Applicant_And_Recipient_Groups_Standard_Filing_Unit/310_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__310_Applicant_And_Recipient_Groups_Standard_Filing_Unit__310_Appendix_B.htm.html",
+      "title": "310 Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634913.672461
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/392_Institutions/Appendic_C__Pediatric_Care_Facilities.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__392_Institutions__Appendic_C__Pediatric_Care_Facilities.htm.html",
+      "title": "392 Appendix C",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634913.958039
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/304_Application/304_4_Application_Interview.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__304_Application__304_4_Application_Interview.htm.html",
+      "title": "304.4 Application Interview",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634914.2509701
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/303_General_Information/303_2_Rights_and_Responsibilities.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__303_General_Information__303_2_Rights_and_Responsibilities.htm.html",
+      "title": "303.2 Rights and Responsibilities",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634914.536656
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/310_Applicant_And_Recipient_Groups_Standard_Filing_Unit/310_2_Establishing_an_Applicant_Recipient_Group_\u2013_Who_Goes_i.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__310_Applicant_And_Recipient_Groups_Standard_Filing_Unit__310_2_Establishing_an_Applicant_Recipient_Group___Who_Goes_i.htm.html",
+      "title": "310.2 Establishing an Applicant/Recipient Group \u00e2\u0080\u0093 Who Goes in Which Group?",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634914.817177
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/388_Buy-In/388_3_Buy-In_of_Medicare_Part_B.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__388_Buy-In__388_3_Buy-In_of_Medicare_Part_B.htm.html",
+      "title": "388.3 Buy-In of Medicare Part B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634915.0938659
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/320_Identity/320_2_Proof_of_Identity.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__320_Identity__320_2_Proof_of_Identity.htm.html",
+      "title": "320.2 Proof of Identity",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634915.372159
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/304_Application/304_5_Processing_an_Application.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__304_Application__304_5_Processing_an_Application.htm.html",
+      "title": "304.5 Processing an Application",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634915.669131
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/Appendix_G__Tax_Dependent_Criteria.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__312_ACA__Appendix_G__Tax_Dependent_Criteria.htm.html",
+      "title": "Appendix G Scenarios for Authorizing Categories Affected by the FMAP Initiative",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634916.147767
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/368_Determining_Eligibility_for_NMP/368.2_Retroactive_NMP.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__368_Determining_Eligibility_for_NMP__368.2_Retroactive_NMP.htm.html",
+      "title": "368.2 Retroactive NMP",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634916.4928179
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/305_Category/305_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__305_Category__305_Appendix_A.htm.html",
+      "title": "305 Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634916.925529
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/309_Health_Care_Services_Benefits_for_Children/309_8_Children_s_Health_Services_under_the_Department_of_Hea.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__309_Health_Care_Services_Benefits_for_Children__309_8_Children_s_Health_Services_under_the_Department_of_Hea.htm.html",
+      "title": "309.7 Children's Health Services under the Department of Health",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634917.2165718
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/361_MNO_Deductions/361_3_Deductions_SSI_Related.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__361_MNO_Deductions__361_3_Deductions_SSI_Related.htm.html",
+      "title": "361.3 Deductions---SSI Related",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634917.674143
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/340_Resources/340_6_Real_Property.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__340_Resources__340_6_Real_Property.htm.html",
+      "title": "340.6 Real Property",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634918.0204349
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/350_Income/350_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__350_Income__350_1_General_Policy.htm.html",
+      "title": "350.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634918.389753
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/387_SSI/387_4_SSI\u2014State_Data_Exchange_SDX_System.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__387_SSI__387_4_SSI_State_Data_Exchange_SDX_System.htm.html",
+      "title": "387.4 SSI\u00e2\u0080\u0094State Data Exchange (SDX) System",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634918.698229
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/312.2_Who_is_in_the_MAGI_Household.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__312_ACA__312.2_Who_is_in_the_MAGI_Household.htm.html",
+      "title": "312.2 Who is in the MAGI Household?",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634918.995776
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/369_Determining_Eligibility_for_MNO/369.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__369_Determining_Eligibility_for_MNO__369.htm.html",
+      "title": "369.3 Retroactive MNO",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634919.4374778
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_Appendix_D.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__316_MAWD__316_Appendix_D.htm.html",
+      "title": "316 Appendix D",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634919.732713
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/323_Residence/323_6_Changes_in_Residence.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__323_Residence__323_6_Changes_in_Residence.htm.html",
+      "title": "323.6 Changes in Residence",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634920.174119
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/360_NMP_Deductions/360_3_Deductions\u2014SSI-Related.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__360_NMP_Deductions__360_3_Deductions_SSI-Related.htm.html",
+      "title": "360.3 Deductions\u00e2\u0080\u0094SSI-Related",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634920.5878222
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/319_Healthy_Horizons/319_8_Determining_Eligibility.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__319_Healthy_Horizons__319_8_Determining_Eligibility.htm.html",
+      "title": "319.8 Determining Eligibility",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634921.003608
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/337_Medicare/337_5_Medicare_Part_D_-_Prescription_Drug_Coverage.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__337_Medicare__337_5_Medicare_Part_D_-_Prescription_Drug_Coverage.htm.html",
+      "title": "337.5 Medicare Part D - Prescription Drug Coverage",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634921.323475
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/322_Citizen_Noncitizen/322_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__322_Citizen_Noncitizen__322_1_General_Policy.htm.html",
+      "title": "322.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634921.628303
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_01_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__316_MAWD__316_01_General_Policy.htm.html",
+      "title": "316.1 General Policy for MAWD and MAWD/HCBS",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634921.9673789
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/372_Mass_Changes/372_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__372_Mass_Changes__372_Appendix_B.htm.html",
+      "title": "372 Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634922.305023
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/340_Resources/340_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__340_Resources__340_1_General_Policy.htm.html",
+      "title": "340.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634922.6482491
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/312.6_Deciding_on_Eligibility.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__312_ACA__312.6_Deciding_on_Eligibility.htm.html",
+      "title": "312.6 Deciding on Eligibility",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634922.948329
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/319_Healthy_Horizons/319_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__319_Healthy_Horizons__319_1_General_Policy.htm.html",
+      "title": "319.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634923.2646248
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/323_Residence/323_2_Who_Is_a_Resident.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__323_Residence__323_2_Who_Is_a_Resident.htm.html",
+      "title": "323.2 Who Is a Resident",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634923.680424
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/368_Determining_Eligibility_for_NMP/368.3_Continuing_NMP.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__368_Determining_Eligibility_for_NMP__368.3_Continuing_NMP.htm.html",
+      "title": "368.3 Continuing NMP",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634923.985237
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_2_Third-Party_Resources.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__338_Medical_Assistance_Benefits__338_2_Third-Party_Resources.htm.html",
+      "title": "338.2 Third-Party Resources",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634924.340656
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_02_Deciding_on_Eligibility.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__316_MAWD__316_02_Deciding_on_Eligibility.htm.html",
+      "title": "316.2 Determining Eligibility",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634924.7405162
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/350_Income/350_3_Unearned_Income.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__350_Income__350_3_Unearned_Income.htm.html",
+      "title": "350.3 Unearned Income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634925.2296379
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/360_NMP_Deductions/360_2_Deductions\u2014TANF_GA-Related.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__360_NMP_Deductions__360_2_Deductions_TANF_GA-Related.htm.html",
+      "title": "360.2 Deductions\u00e2\u0080\u0094TANF/GA-Related",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634925.5776699
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/338_Medical_Assistance_Benefits/338_Appendix_H.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__338_Medical_Assistance_Benefits__338_Appendix_H.htm.html",
+      "title": "338 Appendix H",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634925.965524
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/312.8_Authorizing_Presumptive_Eligibility.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__312_ACA__312.8_Authorizing_Presumptive_Eligibility.htm.html",
+      "title": "312.8 Authorizing Presumptive Eligibility",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634926.340054
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/304_Application/304_2_Application_Process.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__304_Application__304_2_Application_Process.htm.html",
+      "title": "304.2 Application Process",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634926.783347
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/304_Application/304_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__304_Application__304_1_General_Policy.htm.html",
+      "title": "304.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634927.0998368
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/319_Healthy_Horizons/319_7_Income_Deductions.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__319_Healthy_Horizons__319_7_Income_Deductions.htm.html",
+      "title": "319.7 Income Deductions",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634927.426757
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/305_Category/305_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__305_Category__305_Appendix_B.htm.html",
+      "title": "305 Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634927.823501
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/388_Buy-In/388_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__388_Buy-In__388_1_General_Policy.htm.html",
+      "title": "388.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634928.158562
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/388_Buy-In/388_6_Approving_Buy-In.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__388_Buy-In__388_6_Approving_Buy-In.htm.html",
+      "title": "388.6 Authorizing Buy-In",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634928.484067
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/316_MAWD/316_06_Premiums.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__316_MAWD__316_06_Premiums.htm.html",
+      "title": "316.6 Premiums",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634928.9931479
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/322_Citizen_Noncitizen/322_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__322_Citizen_Noncitizen__322_Appendix_B.htm.html",
+      "title": "322 Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634929.414091
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/322_Citizen_Noncitizen/322_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__322_Citizen_Noncitizen__322_Appendix_A.htm.html",
+      "title": "322 Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634929.7420769
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/322_Citizen_Noncitizen/322_2_Citizenship.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__322_Citizen_Noncitizen__322_2_Citizenship.htm.html",
+      "title": "322.2 Citizenship",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634930.073046
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/300_Forms_Operations_Memoranda_and_Policy_Clarifications/Forms.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__300_Forms_Operations_Memoranda_and_Policy_Clarifications__Forms.htm.html",
+      "title": "Forms",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634930.5135229
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__378_Verification__378_1_General_Policy.htm.html",
+      "title": "378.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634930.829438
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/312.1_General_Policy.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__312_ACA__312.1_General_Policy.htm.html",
+      "title": "312.1 General Policy",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634931.1614568
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_6_Automated_Sources.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__378_Verification__378_6_Automated_Sources.htm.html",
+      "title": "378.6 Automated Sources",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634931.589569
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/305_Category/305_3_TANF-Related_Categories\u2014NMP_and_MNO.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__305_Category__305_3_TANF-Related_Categories_NMP_and_MNO.htm.html",
+      "title": "305.3 TANF-Related Categories\u00e2\u0080\u0094NMP and MNO",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634931.9205399
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/387_SSI/387_5_MA_Coverage_for_SSI_Recipients.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__387_SSI__387_5_MA_Coverage_for_SSI_Recipients.htm.html",
+      "title": "387.5 MA Coverage for SSI Recipients",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634932.2629619
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/376_Renewal/376_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__376_Renewal__376_Appendix_B.htm.html",
+      "title": "376 Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634932.619518
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/319_Healthy_Horizons/319_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__319_Healthy_Horizons__319_Appendix_A.htm.html",
+      "title": "319 Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634932.962429
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/369_Determining_Eligibility_for_MNO/369_4_Continuing_MNO.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__369_Determining_Eligibility_for_MNO__369_4_Continuing_MNO.htm.html",
+      "title": "369.4 Continuing MNO",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634933.268168
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/355_Deeming_Income_and_Resources/355_5_Deeming_Income\u2014TANF_GA-Related.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__355_Deeming_Income_and_Resources__355_5_Deeming_Income_TANF_GA-Related.htm.html",
+      "title": "355.5 Deeming Income\u00e2\u0080\u0094TANF/GA-Related",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634933.6536279
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/355_Deeming_Income_and_Resources/355_4_Deeming_Income\u2014SSI-Related.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__355_Deeming_Income_and_Resources__355_4_Deeming_Income_SSI-Related.htm.html",
+      "title": "355.4 Deeming Income\u00e2\u0080\u0094SSI-Related",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634933.9786081
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/319_Healthy_Horizons/319_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__319_Healthy_Horizons__319_Appendix_B.htm.html",
+      "title": "319 Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634934.317049
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/361_MNO_Deductions/361_2_Deductions_TANF_GA_Related.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__361_MNO_Deductions__361_2_Deductions_TANF_GA_Related.htm.html",
+      "title": "361.2 Deductions-TANF/GA Related",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634934.750357
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/312.4_Income.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__312_ACA__312.4_Income.htm.html",
+      "title": "312.4 Income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634935.184818
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/315_Children_with_Special_Needs/315_5_Determining_Eligibility.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__315_Children_with_Special_Needs__315_5_Determining_Eligibility.htm.html",
+      "title": "315.5 Determining Eligibility",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634935.735512
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/319_Healthy_Horizons/319_Appendix_C.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__319_Healthy_Horizons__319_Appendix_C.htm.html",
+      "title": "319 Appendix C",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634936.113374
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_Appendix_E.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__378_Verification__378_Appendix_E.htm.html",
+      "title": "378 Appendix E",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634936.486316
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/392_Institutions/392_Appendix_B.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__392_Institutions__392_Appendix_B.htm.html",
+      "title": "392 Appendix B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634936.834105
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/387_SSI/387_Appendix_D.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__387_SSI__387_Appendix_D.htm.html",
+      "title": "387 Appendix D",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634937.293222
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/357_Lump_Sum/357_4_Treatment_of_Lump_Sum_as_Income.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__357_Lump_Sum__357_4_Treatment_of_Lump_Sum_as_Income.htm.html",
+      "title": "357.4 Treatment of Lump Sum as Income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634937.682243
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/378_Verification/378_3_County_Assistance_Office_Responsibility.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__378_Verification__378_3_County_Assistance_Office_Responsibility.htm.html",
+      "title": "378.3 County Assistance Office Responsibility",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634938.039735
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/319_Healthy_Horizons/319_6_Income.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__319_Healthy_Horizons__319_6_Income.htm.html",
+      "title": "319.6 Income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634938.562366
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/340_Resources/340_8_Resource_Exclusions.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__340_Resources__340_8_Resource_Exclusions.htm.html",
+      "title": "340.8 Resource Exclusions",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634938.9358568
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/322_Citizen_Noncitizen/322_3_Alien_Status.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__322_Citizen_Noncitizen__322_3_Alien_Status.htm.html",
+      "title": "322.3 Non-Citizen Status",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634939.434687
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/387_SSI/387_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__387_SSI__387_Appendix_A.htm.html",
+      "title": "387 Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634939.907701
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/310_Applicant_And_Recipient_Groups_Standard_Filing_Unit/310_Appendix_A.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__310_Applicant_And_Recipient_Groups_Standard_Filing_Unit__310_Appendix_A.htm.html",
+      "title": "310 Appendix A",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634940.263058
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/300_Forms_Operations_Memoranda_and_Policy_Clarifications/300_Operations_Memoranda.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__300_Forms_Operations_Memoranda_and_Policy_Clarifications__300_Operations_Memoranda.htm.html",
+      "title": "300_OperationsMemoranda",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634940.637464
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/376_Renewal/376.2_Renewal.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__376_Renewal__376.2_Renewal.htm.html",
+      "title": "376.2 Renewal",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634941.0702899
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/350_Income/350_6_Income_Exclusions.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__350_Income__350_6_Income_Exclusions.htm.html",
+      "title": "350.6 Income Exclusions",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634941.4834912
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/387_SSI/387_6_Extended_NMP\u2014Special_Situations.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__387_SSI__387_6_Extended_NMP_Special_Situations.htm.html",
+      "title": "387.6 Continued MA\u00e2\u0080\u0094\"Special SSI MA\" Categories",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634941.890205
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/305_Category/305_4_GA-Related_PD_Category\u2014NMP.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__305_Category__305_4_GA-Related_PD_Category_NMP.htm.html",
+      "title": "305.4 General Assistance (GA)-Related Categories",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634942.332462
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/305_Category/305_6_Program_Status_Codes_and_Budget_Groups.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__305_Category__305_6_Program_Status_Codes_and_Budget_Groups.htm.html",
+      "title": "305.6 Other Categories",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634942.66474
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/305_Category/305_5_TD_GA-Related_Category\u2014MNO.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__305_Category__305_5_TD_GA-Related_Category_MNO.htm.html",
+      "title": "305.5 Modified Adjusted Gross Income (MAGI)-Related Categories",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634943.146473
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/300_Forms_Operations_Memoranda_and_Policy_Clarifications/300_Policy_Clarifications.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__300_Forms_Operations_Memoranda_and_Policy_Clarifications__300_Policy_Clarifications.htm.html",
+      "title": "300_PolicyClarifications",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634943.6058528
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/305_Category/305_2_SSI-Related_Categories\u2014NMP_and_MNO.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__305_Category__305_2_SSI-Related_Categories_NMP_and_MNO.htm.html",
+      "title": "305.2 Supplemental Security Income (SSI)-Related Categories",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634944.2365172
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/312_ACA/Appendix_A_MAGI_Income_Limits_33__of_the_2014_Federal_Poverty_Income_Guidelines.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma__312_ACA__Appendix_A_MAGI_Income_Limits_33__of_the_2014_Federal_Poverty_Income_Guidelines.htm.html",
+      "title": "Appendix A MAGI Income Limits",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634944.807486
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/MNO.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__MNO.htm.html",
+      "title": "MNO",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634945.168771
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/capital_expenditure.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__capital_expenditure.htm.html",
+      "title": "capital expenditure",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634945.4264588
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/MRT.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__MRT.htm.html",
+      "title": "MRT",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634945.7693598
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/Data_Exchanges_(DX).htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__Data_Exchanges__DX_.htm.html",
+      "title": "Data Exchanges (DX)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634946.0320709
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/category.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__category.htm.html",
+      "title": "category",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634946.2962198
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/CAO.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__CAO.htm.html",
+      "title": "CAO",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634946.565032
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/SSI.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__SSI.htm.html",
+      "title": "SSI",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634946.832788
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/department_of_Human_Services_(DHS).htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__department_of_Human_Services__DHS_.htm.html",
+      "title": "Department of Human Services (DHS)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634947.0954182
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/recipient.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__recipient.htm.html",
+      "title": "recipient",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634947.365375
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/child.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__child.htm.html",
+      "title": "child",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634947.6313019
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/Home_and_Community-Based_Services.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__Home_and_Community-Based_Services.htm.html",
+      "title": "home and community-based services",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634947.8985422
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/GA.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__GA.htm.html",
+      "title": "GA",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634948.262756
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/cost-of-living_adjustment_(cola).htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__cost-of-living_adjustment__cola_.htm.html",
+      "title": "cost-of-living adjustment (COLA)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634948.52647
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/VA.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__VA.htm.html",
+      "title": "VA",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634948.8387468
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/disabled.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__disabled.htm.html",
+      "title": "disabled",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634949.11089
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/LTC.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__LTC.htm.html",
+      "title": "LTC",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634949.390666
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/Medicare_Part_B.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__Medicare_Part_B.htm.html",
+      "title": "Medicare Part B",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634949.653013
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/NMP.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__NMP.htm.html",
+      "title": "NMP",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634949.931901
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/MA.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__MA.htm.html",
+      "title": "MA",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634950.2019231
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/LRR.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__LRR.htm.html",
+      "title": "LRR",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634950.466639
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/noncitizen.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__noncitizen.htm.html",
+      "title": "noncitizen",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634950.741128
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/real_property.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__real_property.htm.html",
+      "title": "real property",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634951.0113
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/SSA.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__SSA.htm.html",
+      "title": "SSA",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634951.297919
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/alimony.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__alimony.htm.html",
+      "title": "alimony",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634951.56895
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/personal_property.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__personal_property.htm.html",
+      "title": "personal property",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634951.9316502
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/calendar_month.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__calendar_month.htm.html",
+      "title": "calendar month",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634952.1996338
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/work_expense_deduction.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__work_expense_deduction.htm.html",
+      "title": "work expense deduction",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634952.508631
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/stepparent.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__stepparent.htm.html",
+      "title": "stepparent",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634952.783535
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/unearned_income.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__unearned_income.htm.html",
+      "title": "unearned income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634953.0517278
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/SAR.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__SAR.htm.html",
+      "title": "SAR",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634953.32533
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/self-employment.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__self-employment.htm.html",
+      "title": "self-employment",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634953.5945091
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/income.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__income.htm.html",
+      "title": "income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634953.8667798
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/work_incentive_deduction.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__work_incentive_deduction.htm.html",
+      "title": "work incentive deduction",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634954.1393878
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/Renewal.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__Renewal.htm.html",
+      "title": "renewal",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634954.423539
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/retroactive_period.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__retroactive_period.htm.html",
+      "title": "retroactive period",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634954.690631
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/applicant.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__applicant.htm.html",
+      "title": "applicant",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634954.955989
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/alert.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__alert.htm.html",
+      "title": "alert",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634955.221028
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/attendant.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__attendant.htm.html",
+      "title": "attendant",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634955.494163
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/Healthy_Beginnings.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__Healthy_Beginnings.htm.html",
+      "title": "Healthy Beginnings",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634955.763751
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/earned_income_incentive.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__earned_income_incentive.htm.html",
+      "title": "earned income incentive",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634956.124471
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/earned_income_deduction.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__earned_income_deduction.htm.html",
+      "title": "earned income deduction",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634956.396599
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/nonmoney_payment_(NMP).htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__nonmoney_payment__NMP_.htm.html",
+      "title": "nonmoney payment (NMP)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634956.699788
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/applicant_recipient_group.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__applicant_recipient_group.htm.html",
+      "title": "applicant/recipient group",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634956.965697
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/Income_Eligibility_Verification_System_(IEVS).htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__Income_Eligibility_Verification_System__IEVS_.htm.html",
+      "title": "Income Eligibility Verification System (IEVS)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634957.233535
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/provider.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__provider.htm.html",
+      "title": "provider",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634957.503568
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/third-party_resources_(TPR).htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__third-party_resources__TPR_.htm.html",
+      "title": "third-party resources (TPR)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634957.777855
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/paternity.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__paternity.htm.html",
+      "title": "paternity",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634958.054555
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/standard_of_need.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__standard_of_need.htm.html",
+      "title": "standard of need",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634958.324647
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/long-term_care_(ltc).htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__long-term_care__ltc_.htm.html",
+      "title": "long-term care (LTC)",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634958.5937788
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/attendant_care.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__attendant_care.htm.html",
+      "title": "attendant care",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634958.8630211
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/earned_income.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__earned_income.htm.html",
+      "title": "earned income",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634959.132417
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/lump_sum_payment.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__lump_sum_payment.htm.html",
+      "title": "lump sum payment",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634959.407171
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/fair_hearing.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__fair_hearing.htm.html",
+      "title": "fair hearing",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634959.679729
+    },
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/_Popups/parent.htm",
+      "local_path": "raw_policy_downloads/ma_v1/oimpolicymanuals__ma___Popups__parent.htm.html",
+      "title": "parent",
+      "status_code": 200,
+      "downloaded_at_epoch": 1776634959.948995
+    }
+  ],
+  "failures": [
+    {
+      "url": "http://services.dpw.state.pa.us/oimpolicymanuals/ma/317_BCCPT/317_Appendix_B.htm",
+      "error": "attempt 2/2: (\"Connection broken: ConnectionResetError(54, 'Connection reset by peer')\", ConnectionResetError(54, 'Connection reset by peer'))"
+    }
+  ]
+}

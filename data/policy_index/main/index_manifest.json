@@ -1,0 +1,13 @@
+{
+  "chunk_count": 2191,
+  "embedding_dim": 768,
+  "embedding_model": "hashed-bow-v1",
+  "program_counts": {
+    "LIHEAP": 146,
+    "Medicaid/CHIP": 1344,
+    "SNAP": 700,
+    "Transit Relief Pilot": 1
+  },
+  "chunks_path": "/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator/data/policy_index/main/chunks.jsonl",
+  "embeddings_path": "/Users/tomasorqueda/Downloads/CMU/Agentic Technologies/Github Repo/allegheny-benefits-navigator/data/policy_index/main/embeddings.npy"
+}
