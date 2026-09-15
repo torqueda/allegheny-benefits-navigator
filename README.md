@@ -98,7 +98,6 @@ Core reviewer-facing evidence:
 - `src/rgnavigator/`: core package
 - `scripts/`: evaluation and export helpers
 - `tests/`: regression suites
-- `assignment-docs/`: course requirements, feedback, and saved prompt history
 
 ## Current Scope and Limitations
 
@@ -106,3 +105,5 @@ Core reviewer-facing evidence:
 - The app is Allegheny County-specific and suppresses normal recommendations for out-of-scope geography.
 - Offline mode is honest about missing live LLM cross-check evidence and trace fields.
 - The upload/embedding smoke test remains environment-dependent and intentionally excluded in offline review runs.
+
+Credits: Built by Yuhan Ouyang and Tomas Orqueda
